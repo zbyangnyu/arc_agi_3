@@ -1,0 +1,29 @@
+{
+  "evaluation": {
+    "bootstrap_resamples": 2000,
+    "budget": 12,
+    "gate_threshold": 0.25,
+    "repeats": 8,
+    "seed": 0,
+    "trials": 1000
+  },
+  "expected_result_sha256": "77dc5eaded9b3d98b03dddd79cf731e00e4d67076a1a42e12b1e155304fc7c7d",
+  "experiment_id": "prp-wm-stage0a-v1",
+  "manifest_path": "results/stage0a_manifest.json",
+  "python_version": "3.12.3",
+  "result_path": "results/gate0_seed0.json",
+  "runtime_files": [
+    ".python-version",
+    "pyproject.toml",
+    "prp_wm/__init__.py",
+    "prp_wm/evaluation.py",
+    "prp_wm/gf2.py",
+    "prp_wm/reproducibility.py",
+    "prp_wm/schema.py",
+    "scripts/run_gate0.py",
+    "scripts/verify_stage0a.py",
+    "tests/test_gf2.py",
+    "tests/test_reproducibility.py"
+  ],
+  "schema_version": "prp-wm.stage0a.config.v1"
+}

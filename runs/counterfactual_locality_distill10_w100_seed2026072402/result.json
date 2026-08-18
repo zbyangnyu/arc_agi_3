@@ -1,0 +1,322 @@
+{
+  "active_prefix_executor_gate": {
+    "diagnostic_exact": false,
+    "passed": false,
+    "requirements": {
+      "each_stage_neural_symbolic_set_equality_task_rate_gte": 0.99,
+      "each_stage_true_rule_map_exact_task_rate_eq": 1.0,
+      "single_pair_heldout_triple_diagnostic_exact_task_accuracy_eq": 1.0
+    },
+    "stage_checks": {
+      "t0_support": {
+        "set_equality_gte_0_99": true,
+        "true_rule_exact_eq_1": true
+      },
+      "t1_partial": {
+        "set_equality_gte_0_99": false,
+        "true_rule_exact_eq_1": false
+      },
+      "t2_neutral": {
+        "set_equality_gte_0_99": false,
+        "true_rule_exact_eq_1": false
+      },
+      "t3_strong": {
+        "set_equality_gte_0_99": false,
+        "true_rule_exact_eq_1": false
+      }
+    }
+  },
+  "active_replay_loss_weights": {
+    "diagnostic_nontriple": 0.4,
+    "t0_support": 0.1,
+    "t1_partial": 0.15,
+    "t2_neutral": 0.1,
+    "t3_strong": 0.25
+  },
+  "active_replay_tasks_seen": 80,
+  "balanced_weight": 1.0,
+  "batch_size": 8,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/counterfactual_locality_distill10_w100_seed2026072402/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.counterfactual-locality-finetune.v3",
+  "checkpoint_sha256": "589dbeb483b97b7b9e7355ac70b2a536c7a0aa0da38012646ea74742692c4778",
+  "codes_per_task": 8,
+  "data_master_seed": 2026071601,
+  "eval_batch_size": 8,
+  "eval_split": "counterfactual-locality-active-prefix-heldout",
+  "eval_tasks": 192,
+  "experiment": "counterfactual_singleton_locality_finetune",
+  "geometry_seed_streams_disjoint": true,
+  "geometry_train_seed_stream": {
+    "base": 20000000,
+    "count": 10,
+    "end_exclusive": 20000010
+  },
+  "geometry_weight": 0.1,
+  "heldout_active_prefix_evaluation": {
+    "all_64_factor_codes_scored_per_task": true,
+    "stages": {
+      "t0_support": {
+        "mean_false_negative_codes": 0.0,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 1.0,
+        "neural_map_exact_bank_size_histogram": {
+          "4": 192
+        },
+        "observed_transitions": 6,
+        "symbolic_version_space_size_histogram": {
+          "4": 192
+        },
+        "tasks": 192,
+        "true_rule_map_exact_task_rate": 1.0
+      },
+      "t1_partial": {
+        "mean_false_negative_codes": 0.125,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 0.875,
+        "neural_map_exact_bank_size_histogram": {
+          "1": 48,
+          "2": 24,
+          "3": 120
+        },
+        "observed_transitions": 7,
+        "symbolic_version_space_size_histogram": {
+          "1": 48,
+          "3": 144
+        },
+        "tasks": 192,
+        "true_rule_map_exact_task_rate": 0.9583333333333334
+      },
+      "t2_neutral": {
+        "mean_false_negative_codes": 0.125,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 0.875,
+        "neural_map_exact_bank_size_histogram": {
+          "1": 48,
+          "2": 24,
+          "3": 120
+        },
+        "observed_transitions": 8,
+        "symbolic_version_space_size_histogram": {
+          "1": 48,
+          "3": 144
+        },
+        "tasks": 192,
+        "true_rule_map_exact_task_rate": 0.9583333333333334
+      },
+      "t3_strong": {
+        "mean_false_negative_codes": 0.140625,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 0.859375,
+        "neural_map_exact_bank_size_histogram": {
+          "0": 27,
+          "1": 165
+        },
+        "observed_transitions": 9,
+        "symbolic_version_space_size_histogram": {
+          "1": 192
+        },
+        "tasks": 192,
+        "true_rule_map_exact_task_rate": 0.859375
+      }
+    },
+    "tasks": 192
+  },
+  "heldout_singleton_evaluation": {
+    "all_64_codes_exact_panel_rate": 0.0,
+    "all_64_factor_codes_per_panel": true,
+    "exact_map_grid_accuracy": 0.19401041666666666,
+    "examples": 1536,
+    "fiber_dispersion": {
+      "definition": "full-grid true-target log likelihood centered within each same-acted-axis-value 16-code nuisance fiber",
+      "fiber_count": 96,
+      "huber_beta": 1.0,
+      "max_within_fiber_range": 108.26441192626953,
+      "mean_absolute_deviation": 7.002959410349528,
+      "mean_huber": 6.561775843302409,
+      "mean_within_fiber_range": 28.430953433717757,
+      "root_mean_square_deviation": 10.762713108175523,
+      "scores_per_fiber": 16
+    },
+    "geometry_scope": "heldout-randomized-singletons",
+    "geometry_seed_base": 30000000,
+    "geometry_seed_count": 8,
+    "panels": 24,
+    "per_axis": {
+      "collision": {
+        "all_64_codes_exact_panel_rate": 0.0,
+        "exact_map_grid_accuracy": 0.13671875,
+        "examples": 512,
+        "panels": 8
+      },
+      "relation": {
+        "all_64_codes_exact_panel_rate": 0.0,
+        "exact_map_grid_accuracy": 0.13671875,
+        "examples": 512,
+        "panels": 8
+      },
+      "trigger": {
+        "all_64_codes_exact_panel_rate": 0.0,
+        "exact_map_grid_accuracy": 0.30859375,
+        "examples": 512,
+        "panels": 8
+      }
+    },
+    "proper_nll_per_cell": 0.5470964709917704
+  },
+  "heldout_singleton_seed_stream": {
+    "base": 30000000,
+    "count": 8,
+    "end_exclusive": 30000008
+  },
+  "heldout_triple_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 36864,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.0703125,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 576,
+    "proper_nll_per_cell": 0.00021140495240009236,
+    "tasks": 192,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "initial_checkpoint_provenance": {
+    "path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/active_support_calibrated_executor_cont300_seed20260731/checkpoint_last.pt",
+    "schema_version": "prp-wm.active-support-calibrated-factor-executor.v1",
+    "sha256": "b0227834cbcc2e3fd30c513d6dc2234446a5ae851a00608ca001ac2344a72483"
+  },
+  "interpretation": "Compare matched locality continuations with teacher_distillation_weight=0 versus a positive weight. Lower held-out singleton fiber dispersion without loss of the active-prefix/triple gate supports frozen-teacher output distillation as a trust region. This remains an oracle-axis, oracle-code, oracle-palette executor diagnostic.",
+  "latest_training_metrics": {
+    "effective_locality_weight": 0.1,
+    "gradient_norm": 14.926823616027832,
+    "loss_active_prefix_replay": 0.0007510233932407573,
+    "loss_geometry_balanced_nll": 9.10612964630127,
+    "loss_geometry_proper_nll": 0.6920651793479919,
+    "loss_geometry_supervision": 9.798194885253906,
+    "loss_locality_fiber_huber": 6.029478073120117,
+    "loss_replay_diagnostic_nontriple": 0.0009037413401529193,
+    "loss_replay_t0_support": 0.0001081978261936456,
+    "loss_replay_t1_partial": 0.0005495405057445168,
+    "loss_replay_t2_neutral": 0.0004809346282854676,
+    "loss_replay_t3_strong": 0.0009927301434800029,
+    "loss_total": 1.6223516640369782,
+    "teacher_categorical_kl_replay": 0.0003883334480633494,
+    "teacher_kl_diagnostic_nontriple": 0.0004410748661030084,
+    "teacher_kl_t0_support": 6.605919770663604e-05,
+    "teacher_kl_t1_partial": 0.00034401501761749387,
+    "teacher_kl_t2_neutral": 0.0003010760119650513,
+    "teacher_kl_t3_strong": 0.0004943509120494127
+  },
+  "learning_rate": 0.0001,
+  "locality_huber_beta": 1.0,
+  "locality_ramp_steps": 10,
+  "locality_weight": 0.1,
+  "max_grad_norm": 1.0,
+  "model_config": {
+    "action_embedding": 16,
+    "attention_ffn": 64,
+    "attention_heads": 4,
+    "beta": 1.0,
+    "color_embedding": 16,
+    "decoder_resblocks": 1,
+    "encoder_channels": 16,
+    "encoder_resblocks": 1,
+    "grid_size": 8,
+    "lambda_assign": 0.5,
+    "lambda_joint": 1.0,
+    "normalization_groups": 4,
+    "num_action_kinds": 4,
+    "num_colors": 16,
+    "num_directions": 5,
+    "particles": 4,
+    "position_embedding": 16,
+    "rule_dim": 32
+  },
+  "model_parameters": 17177,
+  "model_seed": 2026072402,
+  "model_type": "OracleFactorExecutor",
+  "objective": {
+    "active_prefix_replay_domains": [
+      "diagnostic_nontriple",
+      "t0_support",
+      "t1_partial",
+      "t2_neutral",
+      "t3_strong"
+    ],
+    "formula": "active_prefix_replay + geometry_weight * (proper_nll + balanced_weight * balanced_nll) + ramped_locality_weight * fiber_huber + teacher_distillation_weight * replay_teacher_categorical_kl",
+    "geometry_factor_codes_per_panel": 64,
+    "geometry_scope": "three randomized singletons per step, one per axis",
+    "locality_scope": "full-grid true-target log-likelihood dispersion over each same-acted-axis-value 16-code nuisance fiber",
+    "teacher_distillation_scope": "frozen initial executor categorical next-cell distribution on the five original active replay domains only",
+    "teacher_reads_new_geometry": false,
+    "teacher_used_at_inference": false
+  },
+  "pair_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 110592,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.046875,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 1728,
+    "proper_nll_per_cell": 0.00010763988878655557,
+    "tasks": 192,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "palette_input": "oracle-canonical",
+  "privileged_palette_canonicalization": true,
+  "privileged_true_rule_factors_are_model_inputs": true,
+  "random_geometry_protocol_version": "prp-wm-random-geometry-executor-v1",
+  "result_kind": "privileged_geometry_supervision_and_locality_ablation",
+  "runtime_identity": {
+    "cuda_available": false,
+    "device": "cpu",
+    "python_version": "3.12.7",
+    "torch_version": "2.13.0"
+  },
+  "single_evaluation": {
+    "cell_accuracy": 0.99969482421875,
+    "cells": 147456,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.0234375,
+    "exact_grid_accuracy": 0.98046875,
+    "exact_task_accuracy": 0.765625,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 2304,
+    "proper_nll_per_cell": 0.0005945149508382505,
+    "tasks": 192,
+    "unchanged_cell_accuracy": 0.9996875
+  },
+  "singleton_factor_examples_seen": 1920,
+  "singleton_panels_seen": 30,
+  "source_sha256": {
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/random_geometry_protocol.py": "ac80ebc5b554e7c59aee4fc5c60ad41fa4a3905d504eb91068b3d90bd481f5bf",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_active_support_calibrated_executor.py": "0459c228a670eb6d1fd973ac2ee1ec31ec97906ff64e50978d38d093e4af6db9",
+    "scripts/run_causal_mechanism_coverage.py": "3c18d831583e9c562578d4feb5e21153daee91f319294b5f26498ac4989a6755",
+    "scripts/run_counterfactual_locality_finetune.py": "08a347e910019ea020a34043308aa421b2a18b857a27648547951132d0b300b8",
+    "scripts/run_rulegrid_executor_ceiling.py": "bfbc269d3140ed28cbe5a8d0d7ceeed900103382ec5f1f0356aad2d2dee4a011"
+  },
+  "steps": 10,
+  "teacher_distillation_weight": 100.0,
+  "train_split": "counterfactual-locality-active-replay-train",
+  "training_seconds": 12.573969,
+  "weight_decay": 0.0001
+}

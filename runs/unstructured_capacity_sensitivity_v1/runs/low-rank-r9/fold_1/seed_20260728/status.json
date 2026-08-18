@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "attempt": {
+      "path": "runs/low-rank-r9/fold_1/seed_20260728/attempts/001/attempt.json",
+      "sha256": "8bd2892b1d3ba0c108ad46346d6d9b09d0b694f65b31173c4c2af926a9513f43"
+    },
+    "checkpoint": {
+      "path": "runs/low-rank-r9/fold_1/seed_20260728/attempts/001/output/checkpoint_last.pt",
+      "sha256": "37ea1fe1c6ad1e957f135411754a6ed2cdfe568f5a32292a2e5e1e1bffb3c05b"
+    },
+    "progress": {
+      "path": "runs/low-rank-r9/fold_1/seed_20260728/attempts/001/output/progress.jsonl",
+      "sha256": "6004f4486b7f6a4f360ffea9881a9d0039af533b38d819b6fdfe85d223258a49"
+    },
+    "result": {
+      "path": "runs/low-rank-r9/fold_1/seed_20260728/attempts/001/output/result.json",
+      "sha256": "e5f64be9a21a519d90a282b3197dc91b9b63abe61cebc58d1055e33894e3a29c"
+    },
+    "run_spec": {
+      "path": "runs/low-rank-r9/fold_1/seed_20260728/run_spec.json",
+      "sha256": "e59b3b79f676f31e45fc7f1c0daa6f79c4cfed65b989bd50bfa8020da619427c"
+    },
+    "stderr": {
+      "path": "runs/low-rank-r9/fold_1/seed_20260728/attempts/001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "path": "runs/low-rank-r9/fold_1/seed_20260728/attempts/001/stdout.log",
+      "sha256": "e2a6fe84aadb560711fd8e4fcdb8c2efaee2190f675efda6762be3453e669608"
+    }
+  },
+  "attempt_index": 1,
+  "run_id": "low-rank-r9__fold1__seed20260728",
+  "run_spec_sha256": "e59b3b79f676f31e45fc7f1c0daa6f79c4cfed65b989bd50bfa8020da619427c",
+  "schema_version": "prp-wm.unstructured-capacity-status.v1",
+  "state": "succeeded",
+  "updated_at_utc": "2026-07-22T09:05:08.061590+00:00"
+}

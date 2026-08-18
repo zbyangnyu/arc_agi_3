@@ -1,0 +1,99 @@
+{
+  "checkpoint": {
+    "config_sha256": "2564086e961e7b5c7c04dffc451091115b389a590645ff19653c64fd0bc16e09",
+    "object_bytes": 72345781,
+    "object_path": "/root/autodl-tmp/lewm_pusht_tier1_5090_20260724/stablewm/checkpoints/pusht/lewm_object.ckpt",
+    "object_sha256": "a7f1ae0cfbfad8aca613f737d66d12220fa2a8e345c5b46de8b89496c44ced62",
+    "source_repo": "quentinll/lewm-pusht",
+    "source_revision": "22b330c28c27ead4bfd1888615af1340e3fe9052",
+    "weights_bytes": 72290721,
+    "weights_path": "/root/autodl-tmp/lewm_pusht_tier1_5090_20260724/stablewm/hf_pusht/weights.pt",
+    "weights_sha256": "48938400ae3464c9680731287f583a9cb516f55a8ec64ea13a91be47fb15b607"
+  },
+  "conversion": {
+    "action_encoder_config_keys": [
+      "_target_",
+      "emb_dim",
+      "input_dim"
+    ],
+    "config_top_level_keys": [
+      "_target_",
+      "action_encoder",
+      "encoder",
+      "pred_proj",
+      "predictor",
+      "projector"
+    ],
+    "hydra_metadata_keys_ignored": {
+      "action_encoder": [
+        "_target_"
+      ],
+      "predictor": [
+        "_target_"
+      ]
+    },
+    "predictor_config_keys": [
+      "_target_",
+      "depth",
+      "dim_head",
+      "dropout",
+      "emb_dropout",
+      "heads",
+      "hidden_dim",
+      "input_dim",
+      "mlp_dim",
+      "num_frames",
+      "output_dim"
+    ],
+    "state_dict_entries": 303,
+    "state_dict_strict": true
+  },
+  "model": {
+    "encoder_forward": {
+      "output": {
+        "last_hidden_state": {
+          "dtype": "torch.float32",
+          "kind": "tensor",
+          "shape": [
+            1,
+            257,
+            192
+          ]
+        }
+      },
+      "seconds": 0.21798517182469368,
+      "status": "ok"
+    },
+    "load_to_cuda_seconds": 0.0726526789367199,
+    "parameter_count": 18034478,
+    "trainable_parameter_count_after_load": 0,
+    "training_mode_after_eval": false
+  },
+  "repo": {
+    "commit": "8edfeb336732b5f3ce7b8b210d0ba370a09e2cac",
+    "dirty": true,
+    "url": "https://github.com/lucas-maes/le-wm.git"
+  },
+  "runtime": {
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "nvidia_smi": "NVIDIA GeForce RTX 5090, 32607, 31408, 580.105.08",
+    "packages": {
+      "huggingface-hub": "0.36.2",
+      "stable-pretraining": "0.1.8",
+      "stable-worldmodel": "0.1.1",
+      "torchvision": "0.23.0+cu128",
+      "transformers": "4.57.6"
+    },
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "torch_cuda": "12.8"
+  },
+  "schema_version": "lewm-pusht-tier1-5090-v1",
+  "scope": {
+    "dataset_downloaded": false,
+    "mpc_run": false
+  },
+  "status": "ok",
+  "timestamp_utc": "2026-07-24T04:28:26.009067+00:00"
+}

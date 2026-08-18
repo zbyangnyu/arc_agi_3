@@ -1,0 +1,775 @@
+{
+  "all_64_integer_codes_evaluated_for_training": true,
+  "behavior_set_source": "simulator outputs for all four rule behaviors compatible with public support",
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/gram_causal_screen600_fold0_seed20260728/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.gram-factorized-causal-k4.v1",
+  "checkpoint_sha256": "f2504860fe060ed7cc4700cde5f571a6df6f9d453fe391c1a037aec325fabc20",
+  "cli_arguments": {
+    "attention_layers": 2,
+    "balanced_weight": 1.0,
+    "batch_size": 8,
+    "context_fold": 0,
+    "data_master_seed": 2026071601,
+    "deep_supervision_decay": 1.0,
+    "device": "cpu",
+    "diversity_weight": 0.1,
+    "eval_batch_size": 16,
+    "eval_split": "gram-causal-composition",
+    "eval_tasks": 48,
+    "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+    "factor_temperature_end": 1.0,
+    "factor_temperature_start": 1.0,
+    "guidance_dim": 8,
+    "guidance_mode": "stochastic",
+    "inference_widths": [
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "kl_balance": 0.8,
+    "kl_warmup_steps": 100,
+    "kl_weight": 0.01,
+    "learning_rate": 0.001,
+    "log_every": 100,
+    "max_grad_norm": 1.0,
+    "nll_threshold": 0.05,
+    "output": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/gram_causal_screen600_fold0_seed20260728",
+    "proper_weight": 1.0,
+    "recursive_steps": 4,
+    "seed": 20260728,
+    "seen_eval_tasks": 144,
+    "sharpening_weight": 0.0,
+    "steps": 600,
+    "tail_learning_rate": 0.0005,
+    "tail_steps": 100,
+    "train_pool_tasks": 144,
+    "train_split": "gram-causal-train",
+    "validity_weight": 0.1,
+    "weight_decay": 0.0001
+  },
+  "context_fold": 0,
+  "context_split_kind": "latin_modulo_4",
+  "data_master_seed": 2026071601,
+  "device": "cpu",
+  "discrete_cost_table_detached": true,
+  "eval_support_contexts": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      3,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      3,
+      1
+    ]
+  ],
+  "evaluation_gates": {
+    "heldout": {
+      "checks": {
+        "all_classes_covered_task_rate": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.0
+        },
+        "all_particles_support_exact_task_rate": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.0625
+        },
+        "coverage_at_4_mass_weighted": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.13541666666666666
+        },
+        "factor_tuple_coverage_at_4": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.13541666666666666
+        }
+      },
+      "passed": false
+    },
+    "seen": {
+      "checks": {
+        "all_classes_covered_task_rate": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.0
+        },
+        "all_particles_support_exact_task_rate": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.041666666666666664
+        },
+        "coverage_at_4_mass_weighted": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.1701388888888889
+        },
+        "factor_tuple_coverage_at_4": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.1701388888888889
+        }
+      },
+      "passed": false
+    },
+    "shuffled_support_control": {
+      "checks": {
+        "all_classes_covered_task_rate": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.0
+        },
+        "all_particles_support_exact_task_rate": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.0
+        },
+        "coverage_at_4_mass_weighted": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.0625
+        },
+        "factor_tuple_coverage_at_4": {
+          "passed": false,
+          "threshold_gte": 0.9,
+          "value": 0.0625
+        }
+      },
+      "passed": false
+    }
+  },
+  "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+  "executor_checkpoint_schema_version": "prp-wm.support-calibrated-factor-executor.v1",
+  "executor_checkpoint_sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254",
+  "executor_frozen_and_eval": true,
+  "executor_support_calibrated": true,
+  "experiment": "gram_factorized_causal_rule_screen",
+  "guidance_dim": 8,
+  "guidance_log_variance_bounds": [
+    -8.0,
+    4.0
+  ],
+  "guidance_mode": "stochastic",
+  "heldout_triple_coverage": {
+    "all_classes_covered_task_rate": 0.0,
+    "all_four_factor_tuples_recovered_task_rate": 0.0,
+    "all_particles_support_exact_task_rate": 0.0625,
+    "behavior_classes": 192,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.171875,
+        "tasks": 16
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.125,
+        "tasks": 16
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.109375,
+        "tasks": 16
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.13541666666666666,
+    "coverage_at_4_unweighted": 0.13541666666666666,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 26,
+    "factor_tuple_coverage_at_4": 0.13541666666666666,
+    "factor_value_usage": [
+      [
+        0,
+        17,
+        101,
+        74
+      ],
+      [
+        52,
+        34,
+        63,
+        43
+      ],
+      [
+        70,
+        47,
+        71,
+        4
+      ]
+    ],
+    "map_exact_class_recall": 0.13541666666666666,
+    "mean_factor_logit_margin": 5.103209813435872,
+    "mean_unique_factor_tuples": 3.3958333333333335,
+    "mean_unique_map_signatures": 3.3958333333333335,
+    "mean_worst_particle_support_nll_per_cell": 0.12339331209659576,
+    "nll_threshold_class_recall": 0.13541666666666666,
+    "support_ablation": "none",
+    "support_exact_particle_rate": 0.1875,
+    "tasks": 48,
+    "valid_particle_rate": 0.1875
+  },
+  "individual_true_program_query_target_used_for_training": false,
+  "inference_width_curve": {
+    "candidate_deduplication": "exact integer factor tuple",
+    "compatible_rules_per_task": 4,
+    "coupon_collector_reference": "ideal iid draws uniformly distributed over exactly the four valid rules; e.g. width=4 has 68.36% expected recall but only 9.375% probability of collecting all four",
+    "guidance_mode": "stochastic",
+    "iid_trajectory_sampling": true,
+    "points": [
+      {
+        "all_version_space_coverage_task_rate": 0.0,
+        "compatible_rule_recall": 0.041666666666666664,
+        "mean_raw_compatible_unique_candidates": 0.16666666666666666,
+        "mean_raw_unique_candidates": 1.0,
+        "mean_support_ranked_top4_size": 1.0,
+        "raw_trajectory_compatible_rate": 0.16666666666666666,
+        "support_ranked_top4_all_version_space_coverage_task_rate": 0.0,
+        "support_ranked_top4_compatible_rule_recall": 0.041666666666666664,
+        "tasks": 48,
+        "uniform_four_mode_oracle_all_version_space_coverage_task_rate": 0.0,
+        "uniform_four_mode_oracle_compatible_rule_recall": 0.25,
+        "width_total_trajectories": 1
+      },
+      {
+        "all_version_space_coverage_task_rate": 0.0,
+        "compatible_rule_recall": 0.13541666666666666,
+        "mean_raw_compatible_unique_candidates": 0.5416666666666666,
+        "mean_raw_unique_candidates": 3.3958333333333335,
+        "mean_support_ranked_top4_size": 3.3958333333333335,
+        "raw_trajectory_compatible_rate": 0.18229166666666666,
+        "support_ranked_top4_all_version_space_coverage_task_rate": 0.0,
+        "support_ranked_top4_compatible_rule_recall": 0.13541666666666666,
+        "tasks": 48,
+        "uniform_four_mode_oracle_all_version_space_coverage_task_rate": 0.09375,
+        "uniform_four_mode_oracle_compatible_rule_recall": 0.68359375,
+        "width_total_trajectories": 4
+      },
+      {
+        "all_version_space_coverage_task_rate": 0.0,
+        "compatible_rule_recall": 0.19270833333333334,
+        "mean_raw_compatible_unique_candidates": 0.7708333333333334,
+        "mean_raw_unique_candidates": 5.833333333333333,
+        "mean_support_ranked_top4_size": 3.9375,
+        "raw_trajectory_compatible_rate": 0.18489583333333334,
+        "support_ranked_top4_all_version_space_coverage_task_rate": 0.0,
+        "support_ranked_top4_compatible_rule_recall": 0.19270833333333334,
+        "tasks": 48,
+        "uniform_four_mode_oracle_all_version_space_coverage_task_rate": 0.6229248046875,
+        "uniform_four_mode_oracle_compatible_rule_recall": 0.8998870849609375,
+        "width_total_trajectories": 8
+      },
+      {
+        "all_version_space_coverage_task_rate": 0.0,
+        "compatible_rule_recall": 0.24479166666666666,
+        "mean_raw_compatible_unique_candidates": 0.9791666666666666,
+        "mean_raw_unique_candidates": 8.354166666666666,
+        "mean_support_ranked_top4_size": 3.9583333333333335,
+        "raw_trajectory_compatible_rate": 0.16536458333333334,
+        "support_ranked_top4_all_version_space_coverage_task_rate": 0.0,
+        "support_ranked_top4_compatible_rule_recall": 0.24479166666666666,
+        "tasks": 48,
+        "uniform_four_mode_oracle_all_version_space_coverage_task_rate": 0.9600011687725782,
+        "uniform_four_mode_oracle_compatible_rule_recall": 0.9899774042423815,
+        "width_total_trajectories": 16
+      },
+      {
+        "all_version_space_coverage_task_rate": 0.0,
+        "compatible_rule_recall": 0.28125,
+        "mean_raw_compatible_unique_candidates": 1.125,
+        "mean_raw_unique_candidates": 11.708333333333334,
+        "mean_support_ranked_top4_size": 4.0,
+        "raw_trajectory_compatible_rate": 0.169921875,
+        "support_ranked_top4_all_version_space_coverage_task_rate": 0.0,
+        "support_ranked_top4_compatible_rule_recall": 0.28125,
+        "tasks": 48,
+        "uniform_four_mode_oracle_all_version_space_coverage_task_rate": 0.9995981916941014,
+        "uniform_four_mode_oracle_compatible_rule_recall": 0.9998995475742793,
+        "width_total_trajectories": 32
+      }
+    ],
+    "ranking": "sampled unique candidates only, ascending detached executor cost on the six public support transitions; deterministic tuple tie break",
+    "top_k": 4,
+    "width_semantics": "W is the total number of trajectories sampled iid in one prior call; it is not W repeats of K=4"
+  },
+  "inference_widths_total_trajectories": [
+    1,
+    4,
+    8,
+    16,
+    32
+  ],
+  "initial_guidance_log_variance": -2.0,
+  "interpretation": "This screen tests whether stochastic recursive prior trajectories can recover the four public-support-compatible factor tuples and whether public replay cost can select them. A pass does not establish discovery of the privileged mechanism axes, factor values, or palette roles.",
+  "latest_training_metrics": {
+    "deep_supervision_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "factor_temperature": 1.0,
+    "gradient_norm": 0.7144929766654968,
+    "guidance_mode": "stochastic",
+    "joint_entropy_nats": 0.3586158752441406,
+    "kl_weight": 0.01,
+    "learning_rate": 0.0005,
+    "loss_diversity_barrier": 0.21331056952476501,
+    "loss_kl": 5.321038246154785,
+    "loss_reconstruction": 0.2741897702217102,
+    "loss_set_cost": 0.24550893902778625,
+    "loss_total": 0.3274001479148865,
+    "loss_validity_cost": 0.07349800318479538,
+    "mean_top_rule_probability": 0.8809217214584351,
+    "mean_unique_factor_tuples": 3.375,
+    "recursive_step_kls": [
+      14.078892707824707,
+      3.3020458221435547,
+      2.0185914039611816,
+      1.88462233543396
+    ],
+    "recursive_step_objectives": [
+      0.2825727164745331,
+      0.2742019593715668,
+      0.2709413170814514,
+      0.2690431475639343
+    ]
+  },
+  "mechanism_axes_given": [
+    "collision",
+    "trigger",
+    "relation"
+  ],
+  "mechanism_value_labels_used_for_training": false,
+  "model_config": {
+    "action_embedding": 16,
+    "attention_ffn": 64,
+    "attention_heads": 4,
+    "beta": 1.0,
+    "color_embedding": 16,
+    "decoder_resblocks": 1,
+    "encoder_channels": 16,
+    "encoder_resblocks": 1,
+    "grid_size": 8,
+    "lambda_assign": 0.5,
+    "lambda_joint": 1.0,
+    "normalization_groups": 4,
+    "num_action_kinds": 4,
+    "num_colors": 16,
+    "num_directions": 5,
+    "particles": 4,
+    "position_embedding": 16,
+    "rule_dim": 32
+  },
+  "model_parameters": 73223,
+  "model_seed": 20260728,
+  "model_type": "GRAMFactorizedCausalK4",
+  "privileged_palette_canonicalization": true,
+  "privileged_unordered_behavior_set_supervision": true,
+  "program_labels_used_for_training": false,
+  "recursive_steps": 4,
+  "result_kind": "privileged_recursive_stochastic_rule_proposer_screen",
+  "sample_noise": true,
+  "seen_context_triple_coverage": {
+    "all_classes_covered_task_rate": 0.0,
+    "all_four_factor_tuples_recovered_task_rate": 0.0,
+    "all_particles_support_exact_task_rate": 0.041666666666666664,
+    "behavior_classes": 576,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.22395833333333334,
+        "tasks": 48
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.17708333333333334,
+        "tasks": 48
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.109375,
+        "tasks": 48
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.1701388888888889,
+    "coverage_at_4_unweighted": 0.1701388888888889,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 98,
+    "factor_tuple_coverage_at_4": 0.1701388888888889,
+    "factor_value_usage": [
+      [
+        0,
+        74,
+        299,
+        203
+      ],
+      [
+        171,
+        105,
+        163,
+        137
+      ],
+      [
+        229,
+        116,
+        212,
+        19
+      ]
+    ],
+    "map_exact_class_recall": 0.1701388888888889,
+    "mean_factor_logit_margin": 5.0535604159037275,
+    "mean_unique_factor_tuples": 3.388888888888889,
+    "mean_unique_map_signatures": 3.388888888888889,
+    "mean_worst_particle_support_nll_per_cell": 0.11305712742937936,
+    "nll_threshold_class_recall": 0.1701388888888889,
+    "support_ablation": "none",
+    "support_exact_particle_rate": 0.22916666666666666,
+    "tasks": 144,
+    "valid_particle_rate": 0.22916666666666666
+  },
+  "shuffled_support_target_control": {
+    "all_classes_covered_task_rate": 0.0,
+    "all_four_factor_tuples_recovered_task_rate": 0.0,
+    "all_particles_support_exact_task_rate": 0.0,
+    "behavior_classes": 192,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.078125,
+        "tasks": 16
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.03125,
+        "tasks": 16
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.078125,
+        "tasks": 16
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.0625,
+    "coverage_at_4_unweighted": 0.0625,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 12,
+    "factor_tuple_coverage_at_4": 0.0625,
+    "factor_value_usage": [
+      [
+        0,
+        11,
+        71,
+        110
+      ],
+      [
+        23,
+        7,
+        95,
+        67
+      ],
+      [
+        20,
+        15,
+        145,
+        12
+      ]
+    ],
+    "map_exact_class_recall": 0.0625,
+    "mean_factor_logit_margin": 5.451420307159424,
+    "mean_unique_factor_tuples": 3.0416666666666665,
+    "mean_unique_map_signatures": 3.0416666666666665,
+    "mean_worst_particle_support_nll_per_cell": 0.14508517583211264,
+    "nll_threshold_class_recall": 0.0625,
+    "support_ablation": "shuffle-targets",
+    "support_exact_particle_rate": 0.07291666666666667,
+    "tasks": 48,
+    "valid_particle_rate": 0.07291666666666667
+  },
+  "source_sha256": {
+    "prp_wm/causal_filter.py": "13363f6d9d0b253439c8c4bb90e9c9c8003bbf7c8151176b7bb645716f682e09",
+    "prp_wm/causal_rules.py": "05d1bbf7962e6fc80e50809807598a20d041a97ca1aa12948caf6f6ccd00ba65",
+    "prp_wm/discrete_causal_rules.py": "0093d34353777b56a01f6e3453b2a33dc5151df6c48b66d8ecd5f307e0528716",
+    "prp_wm/gram_causal_rules.py": "d97a29d5259186f1294e4546abad55496831de0a7c7836d835dfdd98cf923d59",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_causal_mechanism_coverage.py": "3c18d831583e9c562578d4feb5e21153daee91f319294b5f26498ac4989a6755",
+    "scripts/run_expected_discrete_causal_coverage.py": "a8d1b811fdb9e58f1512e48bb07332c4686a78fee0d61592212af158c12eb63f",
+    "scripts/run_gram_causal_screen.py": "e47c6d6d0bca2cc631944f01a2489c3b6032a18110f51805d95f562473ff1f70",
+    "scripts/run_support_calibrated_executor.py": "fcfd7f6b2134033bf2731b3183f02260c510cc63f9c197b824bab73762d6f567"
+  },
+  "static_gate": {
+    "checks": {
+      "all_classes_covered_task_rate": {
+        "passed": false,
+        "threshold_gte": 0.9,
+        "value": 0.0
+      },
+      "all_particles_support_exact_task_rate": {
+        "passed": false,
+        "threshold_gte": 0.9,
+        "value": 0.0625
+      },
+      "coverage_at_4_mass_weighted": {
+        "passed": false,
+        "threshold_gte": 0.9,
+        "value": 0.13541666666666666
+      },
+      "factor_tuple_coverage_at_4": {
+        "passed": false,
+        "threshold_gte": 0.9,
+        "value": 0.13541666666666666
+      }
+    },
+    "passed": false
+  },
+  "steps": 600,
+  "tasks_seen": 4800,
+  "torch_version": "2.13.0",
+  "train_eval_contexts_disjoint": true,
+  "train_support_contexts": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      3
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      3,
+      2
+    ],
+    [
+      0,
+      3,
+      3
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      3
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      3,
+      2
+    ],
+    [
+      1,
+      3,
+      3
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      0,
+      3
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      3,
+      2
+    ],
+    [
+      2,
+      3,
+      3
+    ]
+  ],
+  "trainable_parameters": 56046,
+  "training_seconds": 225.228235,
+  "training_trajectory_width": 4,
+  "training_width_reason": "one posterior trajectory per unordered behavior class",
+  "truncate_between_recursive_steps": true,
+  "unique_eval_support_contexts": 12,
+  "unique_train_support_contexts": 36
+}

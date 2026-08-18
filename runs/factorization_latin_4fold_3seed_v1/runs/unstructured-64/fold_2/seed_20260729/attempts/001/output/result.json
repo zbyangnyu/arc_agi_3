@@ -1,0 +1,577 @@
+{
+  "all_64_integer_codes_evaluated_for_training": true,
+  "assignment_temperature": 0.0,
+  "attention_layers": 2,
+  "balanced_weight": 1.0,
+  "batch_size": 8,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/factorization_latin_4fold_3seed_v1/runs/unstructured-64/fold_2/seed_20260729/attempts/001/output/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.expected-discrete-causal-k4.v1",
+  "checkpoint_sha256": "eae29c433f0925d4bc38cc5dfc7149fee9ee33f16e816c9897b856cf7f4cc359",
+  "comparison_note": "Historical baselines used all 48 canonical contexts during training; their coverage is contextual reference only, not an apples-to-apples unseen-context result.",
+  "comparisons": {},
+  "context_fold": 2,
+  "context_generalization_split": "hold-out observed-axis value pairs satisfying (value_1 + value_2) % 4 == 2; all individual axis values remain in training",
+  "context_split_kind": "latin_modulo_4",
+  "cumulative_tasks_seen": 4800,
+  "cumulative_training_steps": 600,
+  "data_master_seed": 2026071601,
+  "device": "cpu",
+  "discrete_cost_table_detached": true,
+  "diversity_weight": 0.1,
+  "eval_batch_size": 16,
+  "eval_split": "expected-discrete-causal-composition",
+  "eval_support_contexts": [
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      3,
+      3
+    ],
+    [
+      1,
+      0,
+      2
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      1,
+      3,
+      3
+    ],
+    [
+      2,
+      0,
+      2
+    ],
+    [
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      0
+    ],
+    [
+      2,
+      3,
+      3
+    ]
+  ],
+  "eval_tasks": 48,
+  "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+  "executor_checkpoint_schema_version": "prp-wm.support-calibrated-factor-executor.v1",
+  "executor_checkpoint_sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254",
+  "executor_frozen_and_eval": true,
+  "executor_support_calibrated": true,
+  "experiment": "expected_discrete_unstructured_64way_causal_k4",
+  "factor_temperature_end": 1.0,
+  "factor_temperature_start": 1.0,
+  "full_panel_bijective_assignment": true,
+  "head_kind": "low-rank",
+  "head_rank": 5,
+  "heldout_triple_coverage": {
+    "all_classes_covered_task_rate": 0.0,
+    "all_four_factor_tuples_recovered_task_rate": 0.0,
+    "all_particles_support_exact_task_rate": 0.08333333333333333,
+    "behavior_classes": 192,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0,
+        "tasks": 16
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.125,
+        "tasks": 16
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0625,
+        "tasks": 16
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.0625,
+    "coverage_at_4_unweighted": 0.0625,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 12,
+    "factor_tuple_coverage_at_4": 0.0625,
+    "factor_value_usage": [
+      [
+        0,
+        0,
+        132,
+        60
+      ],
+      [
+        96,
+        0,
+        96,
+        0
+      ],
+      [
+        36,
+        156,
+        0,
+        0
+      ]
+    ],
+    "map_exact_class_recall": 0.0625,
+    "mean_factor_logit_margin": 3.0203194618225098,
+    "mean_unique_factor_tuples": 2.0833333333333335,
+    "mean_unique_map_signatures": 2.0833333333333335,
+    "mean_worst_particle_support_nll_per_cell": 0.10543930033842723,
+    "nll_threshold_class_recall": 0.0625,
+    "support_ablation": "none",
+    "support_exact_particle_rate": 0.125,
+    "tasks": 48,
+    "valid_particle_rate": 0.125
+  },
+  "heldout_triple_indices": [
+    21,
+    22,
+    23
+  ],
+  "initial_checkpoint": null,
+  "initial_checkpoint_sha256": null,
+  "initial_training_steps": 0,
+  "interpretation": "A pass shows that the explicit discrete rule search can be amortized into support-only inference when credit assignment uses detached costs at exact mechanism codes. It does not establish autonomous discovery of the mechanism axes or palette roles.",
+  "latest_training_metrics": {
+    "factor_temperature": 1.0,
+    "gradient_norm": 0.8019904494285583,
+    "joint_entropy_nats": 0.36662760376930237,
+    "learning_rate": 0.0005,
+    "loss_diversity_barrier": 0.6374824047088623,
+    "loss_set_cost": 2.132676601409912,
+    "loss_total": 2.2422633171081543,
+    "loss_validity_cost": 0.4583837687969208,
+    "mean_top_rule_probability": 0.8742773532867432,
+    "mean_unique_factor_tuples": 2.25,
+    "sharpening_weight": 0.0
+  },
+  "learning_rate": 0.001,
+  "log_every": 100,
+  "max_grad_norm": 1.0,
+  "mechanism_axes_given": [
+    "collision",
+    "trigger",
+    "relation"
+  ],
+  "mechanism_value_labels_used_for_training": false,
+  "model": "unstructured-64",
+  "model_config": {
+    "action_embedding": 16,
+    "attention_ffn": 64,
+    "attention_heads": 4,
+    "beta": 1.0,
+    "color_embedding": 16,
+    "decoder_resblocks": 1,
+    "encoder_channels": 16,
+    "encoder_resblocks": 1,
+    "grid_size": 8,
+    "lambda_assign": 0.5,
+    "lambda_joint": 1.0,
+    "normalization_groups": 4,
+    "num_action_kinds": 4,
+    "num_colors": 16,
+    "num_directions": 5,
+    "particles": 4,
+    "position_embedding": 16,
+    "rule_dim": 32
+  },
+  "model_parameters": 52256,
+  "model_seed": 20260729,
+  "nll_threshold": 0.05,
+  "posterior_parameterization": "single_categorical_64_rules",
+  "privileged_palette_canonicalization": true,
+  "program_labels_used_for_training": false,
+  "proper_weight": 1.0,
+  "requested_unstructured_head_kind": "low-rank",
+  "requested_unstructured_head_rank": null,
+  "result_kind": "privileged_amortized_discrete_mechanism_ceiling",
+  "seen_context_triple_coverage": {
+    "all_classes_covered_task_rate": 0.0,
+    "all_four_factor_tuples_recovered_task_rate": 0.0,
+    "all_particles_support_exact_task_rate": 0.05555555555555555,
+    "behavior_classes": 576,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.08333333333333333,
+        "tasks": 48
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.041666666666666664,
+        "tasks": 48
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0625,
+        "tasks": 48
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.0625,
+    "coverage_at_4_unweighted": 0.0625,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 36,
+    "factor_tuple_coverage_at_4": 0.0625,
+    "factor_value_usage": [
+      [
+        0,
+        0,
+        436,
+        140
+      ],
+      [
+        300,
+        0,
+        276,
+        0
+      ],
+      [
+        144,
+        432,
+        0,
+        0
+      ]
+    ],
+    "map_exact_class_recall": 0.0625,
+    "mean_factor_logit_margin": 3.178317493862576,
+    "mean_unique_factor_tuples": 2.1944444444444446,
+    "mean_unique_map_signatures": 2.1944444444444446,
+    "mean_worst_particle_support_nll_per_cell": 0.11393147624201244,
+    "nll_threshold_class_recall": 0.0625,
+    "support_ablation": "none",
+    "support_exact_particle_rate": 0.1527777777777778,
+    "tasks": 144,
+    "valid_particle_rate": 0.1527777777777778
+  },
+  "sharpening_start_fraction": 0.8,
+  "sharpening_weight_end": 0.0,
+  "shuffled_support_target_control": {
+    "all_classes_covered_task_rate": 0.0,
+    "all_four_factor_tuples_recovered_task_rate": 0.0,
+    "all_particles_support_exact_task_rate": 0.0,
+    "behavior_classes": 192,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0,
+        "tasks": 16
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0,
+        "tasks": 16
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0,
+        "tasks": 16
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.0,
+    "coverage_at_4_unweighted": 0.0,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 0,
+    "factor_tuple_coverage_at_4": 0.0,
+    "factor_value_usage": [
+      [
+        0,
+        0,
+        59,
+        133
+      ],
+      [
+        33,
+        0,
+        159,
+        0
+      ],
+      [
+        15,
+        177,
+        0,
+        0
+      ]
+    ],
+    "map_exact_class_recall": 0.0,
+    "mean_factor_logit_margin": 2.019384781519572,
+    "mean_unique_factor_tuples": 1.5625,
+    "mean_unique_map_signatures": 1.5625,
+    "mean_worst_particle_support_nll_per_cell": 0.13741875191529593,
+    "nll_threshold_class_recall": 0.0,
+    "support_ablation": "shuffle-targets",
+    "support_exact_particle_rate": 0.0,
+    "tasks": 48,
+    "valid_particle_rate": 0.0
+  },
+  "source_sha256": {
+    "prp_wm/causal_filter.py": "13363f6d9d0b253439c8c4bb90e9c9c8003bbf7c8151176b7bb645716f682e09",
+    "prp_wm/causal_rules.py": "05d1bbf7962e6fc80e50809807598a20d041a97ca1aa12948caf6f6ccd00ba65",
+    "prp_wm/discrete_causal_rules.py": "0093d34353777b56a01f6e3453b2a33dc5151df6c48b66d8ecd5f307e0528716",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "prp_wm/unstructured_causal_rules.py": "2c2e9507a93784dc19bae1e9122220e0944f48d93302ef5a04980dc8157fd3f0",
+    "scripts/run_expected_discrete_causal_coverage.py": "a8d1b811fdb9e58f1512e48bb07332c4686a78fee0d61592212af158c12eb63f",
+    "scripts/run_support_calibrated_executor.py": "fcfd7f6b2134033bf2731b3183f02260c510cc63f9c197b824bab73762d6f567"
+  },
+  "static_gate": {
+    "all_classes_covered_task_rate_gte": 0.9,
+    "all_particles_support_exact_task_rate_gte": 0.9,
+    "coverage_at_4_gte": 0.9,
+    "factor_tuple_coverage_at_4_gte": 0.9,
+    "passed": false
+  },
+  "steps": 600,
+  "straight_through_decoder_gradient_used": false,
+  "support_derived_unordered_behavior_set_supervision": true,
+  "tail_learning_rate": 0.0005,
+  "tail_start_step": 500,
+  "tail_steps": 100,
+  "tasks_seen": 4800,
+  "torch_version": "2.13.0",
+  "train_diagnostic_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "train_eval_contexts_disjoint": true,
+  "train_pool_tasks": 144,
+  "train_split": "expected-discrete-causal-train",
+  "train_support_contexts": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      3
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      2
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      2,
+      1
+    ],
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      2,
+      3
+    ],
+    [
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      3,
+      1
+    ],
+    [
+      0,
+      3,
+      2
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      3
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      2
+    ],
+    [
+      1,
+      1,
+      3
+    ],
+    [
+      1,
+      2,
+      1
+    ],
+    [
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      1,
+      3,
+      0
+    ],
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      1,
+      3,
+      2
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      3
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      2,
+      1,
+      3
+    ],
+    [
+      2,
+      2,
+      1
+    ],
+    [
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      2,
+      3
+    ],
+    [
+      2,
+      3,
+      0
+    ],
+    [
+      2,
+      3,
+      1
+    ],
+    [
+      2,
+      3,
+      2
+    ]
+  ],
+  "trainable_parameters": 35079,
+  "training_seconds": 277.945295,
+  "true_query_targets_used_for_training": false,
+  "unique_eval_support_contexts": 12,
+  "unique_train_support_contexts": 36,
+  "validity_weight": 0.1,
+  "weight_decay": 0.0001
+}

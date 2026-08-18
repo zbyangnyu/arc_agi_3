@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "attempt": {
+      "path": "runs/unstructured-64/fold_1/seed_20260727/attempts/001/attempt.json",
+      "sha256": "42cf8930195db83daf42e9eebd1a255e41c098482e277c9815171ed0a2272aab"
+    },
+    "checkpoint": {
+      "path": "runs/unstructured-64/fold_1/seed_20260727/attempts/001/output/checkpoint_last.pt",
+      "sha256": "b192dddfe7bcbdc95b29a03e818eaeaae8a435b956d76c02debf65f5dc8d45ab"
+    },
+    "progress": {
+      "path": "runs/unstructured-64/fold_1/seed_20260727/attempts/001/output/progress.jsonl",
+      "sha256": "3d37f4262bf0bfc79dbe813f05edfe1dbba32c50263b6eb38c01e35918defe0f"
+    },
+    "result": {
+      "path": "runs/unstructured-64/fold_1/seed_20260727/attempts/001/output/result.json",
+      "sha256": "b757a04f4e2f07927035bb92663d81e6df206ac252d87658e8a56d97cf21cef2"
+    },
+    "run_spec": {
+      "path": "runs/unstructured-64/fold_1/seed_20260727/run_spec.json",
+      "sha256": "86e3443c35106bc5ecd88afe8d622249740cdc9c6bbf71ddbcbb709c6dd5913e"
+    },
+    "stderr": {
+      "path": "runs/unstructured-64/fold_1/seed_20260727/attempts/001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "path": "runs/unstructured-64/fold_1/seed_20260727/attempts/001/stdout.log",
+      "sha256": "38f65032013087a3dc11c6038a58e8c3c4bcbd6a0519c2b15eeebcaaf090681c"
+    }
+  },
+  "attempt_index": 1,
+  "last_action": "executed",
+  "run_id": "unstructured-64__fold1__seed20260727",
+  "run_spec_sha256": "86e3443c35106bc5ecd88afe8d622249740cdc9c6bbf71ddbcbb709c6dd5913e",
+  "schema_version": "prp-wm.factorization-latin-run-status.v1",
+  "state": "succeeded",
+  "updated_at_utc": "2026-07-22T08:11:24.938512+00:00"
+}

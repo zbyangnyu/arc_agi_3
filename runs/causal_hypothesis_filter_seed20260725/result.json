@@ -1,0 +1,231 @@
+{
+  "comparisons": {
+    "amortized_causal_slots": {
+      "absolute_gain": 0.890625,
+      "coverage_at_4": 0.109375,
+      "result_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/causal_mechanism_k4_seed20260723/result.json",
+      "result_sha256": "b6051346c6880e92f33354a234ae0c42f2942e36e65287483041b0ee021a76bc"
+    },
+    "continuous_latent_k4": {
+      "absolute_gain": 0.5625,
+      "coverage_at_4": 0.4375,
+      "result_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/canonical_latent_k4_seed20260722/result.json",
+      "result_sha256": "fc73066e75e7d0d1c08c2e59569df0bbebe794f9547dff531aae537e5fa8bafd"
+    }
+  },
+  "data_master_seed": 2026071601,
+  "device": "cpu",
+  "eval_batch_size": 16,
+  "eval_split": "causal-filter-composition",
+  "eval_tasks": 192,
+  "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+  "executor_checkpoint_schema_version": "prp-wm.support-calibrated-factor-executor.v1",
+  "executor_checkpoint_sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254",
+  "executor_support_version_space_supervised_during_pretraining": true,
+  "experiment": "explicit_latent_causal_hypothesis_filter_k4",
+  "heldout_triple_coverage": {
+    "all_classes_covered_task_rate": 1.0,
+    "all_four_factor_tuples_recovered_task_rate": 1.0,
+    "all_particles_support_exact_task_rate": 1.0,
+    "behavior_classes": 768,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 1.0,
+        "coverage": 1.0,
+        "tasks": 64
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 1.0,
+        "coverage": 1.0,
+        "tasks": 64
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 1.0,
+        "coverage": 1.0,
+        "tasks": 64
+      }
+    },
+    "coverage_at_4_mass_weighted": 1.0,
+    "coverage_at_4_unweighted": 1.0,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 768,
+    "factor_tuple_coverage_at_4": 1.0,
+    "factor_value_usage": [
+      [
+        192,
+        192,
+        192,
+        192
+      ],
+      [
+        192,
+        192,
+        192,
+        192
+      ],
+      [
+        192,
+        192,
+        192,
+        192
+      ]
+    ],
+    "mean_balanced_nll_gap_fifth_minus_fourth": 0.1758583833773931,
+    "mean_max_conditional_mass_within_compatible_set": 0.2504247638086478,
+    "mean_normalized_entropy_within_compatible_set": 0.9999970744053522,
+    "mean_posterior_mass_on_symbolic_version_space": 0.999970988680919,
+    "mean_unique_factor_tuples": 4.0,
+    "mean_unique_map_signatures": 4.0,
+    "support_ablation": "none",
+    "support_exact_particle_rate": 1.0,
+    "tasks": 192,
+    "valid_particle_rate": 1.0
+  },
+  "hypothesis_bank_size": 64,
+  "inference_evidence": "public-support-transitions-only",
+  "interpretation": "A pass shows that explicit latent hypothesis generation plus world-model consistency can recover an underdetermined mechanism set when the factor space and calibrated executor are given. It does not show autonomous discovery of that factor space.",
+  "mechanism_axes_given": [
+    "collision",
+    "trigger",
+    "relation"
+  ],
+  "mechanism_values_enumerated": true,
+  "privileged_palette_canonicalization": true,
+  "program_labels_used_for_inference": false,
+  "query_targets_used_for_inference": false,
+  "result_kind": "privileged_mechanism_bank_hypothesize_and_test_ceiling",
+  "retained_hypotheses": 4,
+  "seed": 20260725,
+  "selection_method": "map_then_balanced_nll",
+  "sequential_identification": [
+    {
+      "compatible_recall_at_4": 0.25,
+      "exact_version_space_task_rate_when_size_lte_4": 0.0,
+      "mean_symbolic_version_space_size": 16.0,
+      "neural_map_exact_bank_equals_symbolic_task_rate": 1.0,
+      "prefix_length": 1,
+      "tasks": 192,
+      "true_rule_top4_rate": 0.25
+    },
+    {
+      "compatible_recall_at_4": 1.0,
+      "exact_version_space_task_rate_when_size_lte_4": 1.0,
+      "mean_symbolic_version_space_size": 4.0,
+      "neural_map_exact_bank_equals_symbolic_task_rate": 1.0,
+      "prefix_length": 2,
+      "tasks": 192,
+      "true_rule_top4_rate": 1.0
+    },
+    {
+      "compatible_recall_at_4": 1.0,
+      "exact_version_space_task_rate_when_size_lte_4": 1.0,
+      "mean_symbolic_version_space_size": 4.0,
+      "neural_map_exact_bank_equals_symbolic_task_rate": 1.0,
+      "prefix_length": 3,
+      "tasks": 192,
+      "true_rule_top4_rate": 1.0
+    },
+    {
+      "compatible_recall_at_4": 1.0,
+      "exact_version_space_task_rate_when_size_lte_4": 1.0,
+      "mean_symbolic_version_space_size": 4.0,
+      "neural_map_exact_bank_equals_symbolic_task_rate": 1.0,
+      "prefix_length": 4,
+      "tasks": 192,
+      "true_rule_top4_rate": 1.0
+    },
+    {
+      "compatible_recall_at_4": 1.0,
+      "exact_version_space_task_rate_when_size_lte_4": 1.0,
+      "mean_symbolic_version_space_size": 4.0,
+      "neural_map_exact_bank_equals_symbolic_task_rate": 1.0,
+      "prefix_length": 5,
+      "tasks": 192,
+      "true_rule_top4_rate": 1.0
+    },
+    {
+      "compatible_recall_at_4": 1.0,
+      "exact_version_space_task_rate_when_size_lte_4": 1.0,
+      "mean_symbolic_version_space_size": 4.0,
+      "neural_map_exact_bank_equals_symbolic_task_rate": 1.0,
+      "prefix_length": 6,
+      "tasks": 192,
+      "true_rule_top4_rate": 1.0
+    }
+  ],
+  "shuffled_support_target_control": {
+    "all_classes_covered_task_rate": 0.020833333333333332,
+    "all_four_factor_tuples_recovered_task_rate": 0.020833333333333332,
+    "all_particles_support_exact_task_rate": 0.125,
+    "behavior_classes": 768,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0,
+        "tasks": 64
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0625,
+        "coverage": 0.109375,
+        "tasks": 64
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.12109375,
+        "tasks": 64
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.07682291666666667,
+    "coverage_at_4_unweighted": 0.07682291666666667,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 59,
+    "factor_tuple_coverage_at_4": 0.07682291666666667,
+    "factor_value_usage": [
+      [
+        124,
+        184,
+        132,
+        328
+      ],
+      [
+        12,
+        502,
+        208,
+        46
+      ],
+      [
+        95,
+        192,
+        300,
+        181
+      ]
+    ],
+    "mean_balanced_nll_gap_fifth_minus_fourth": 0.23699297880132994,
+    "mean_max_conditional_mass_within_compatible_set": 0.08366303488904984,
+    "mean_normalized_entropy_within_compatible_set": 0.0007448968986373893,
+    "mean_posterior_mass_on_symbolic_version_space": 0.06771020208224159,
+    "mean_unique_factor_tuples": 4.0,
+    "mean_unique_map_signatures": 4.0,
+    "support_ablation": "shuffle-targets",
+    "support_exact_particle_rate": 0.125,
+    "tasks": 192,
+    "valid_particle_rate": 0.07682291666666667
+  },
+  "source_sha256": {
+    "prp_wm/causal_filter.py": "13363f6d9d0b253439c8c4bb90e9c9c8003bbf7c8151176b7bb645716f682e09",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_causal_hypothesis_filter.py": "1e9b66a436b7d38fef542896733ac4a715ec0d2e769fdfe77d8c555f83a7b924",
+    "scripts/run_support_calibrated_executor.py": "fcfd7f6b2134033bf2731b3183f02260c510cc63f9c197b824bab73762d6f567"
+  },
+  "static_gate": {
+    "all_classes_covered_task_rate_gte": 0.9,
+    "all_particles_support_exact_task_rate_gte": 0.9,
+    "coverage_at_4_gte": 0.9,
+    "factor_tuple_coverage_at_4_gte": 0.9,
+    "passed": true
+  },
+  "torch_version": "2.13.0"
+}

@@ -1,0 +1,6 @@
+# Keep broad text/file searches focused on source and curated results.
+/runs/
+**/__pycache__/
+*.py[cod]
+/.pytest_cache/
+/.coverage

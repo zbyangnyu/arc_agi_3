@@ -1,0 +1,149 @@
+{
+  "assertions": {
+    "action_range_is_0_through_39": true,
+    "final_timestep_is_last": true,
+    "non_noop_changed_observation": true,
+    "non_noop_same_seed_transition_matches": true,
+    "noop_reward_is_zero": true,
+    "noop_steps_match_protocol": true,
+    "observation_shape_is_39": true,
+    "same_seed_full_sequence_matches": true,
+    "same_seed_total_reward_matches": true
+  },
+  "dependencies": {
+    "absl-py": "2.5.0",
+    "dataclasses": "0.6",
+    "dm-alchemy": "1.0.0",
+    "dm-env": "1.6",
+    "dm-env-rpc": "1.1.7",
+    "dm-tree": "0.1.10",
+    "docker": "7.2.0",
+    "frozendict": "2.4.7",
+    "grpcio": "1.83.0",
+    "grpcio-tools": "1.83.0",
+    "numpy": "1.26.4",
+    "portpicker": "1.6.0",
+    "protobuf": "7.35.1",
+    "scipy": "1.17.1",
+    "setuptools": "69.5.1",
+    "wheel": "0.47.0"
+  },
+  "dependency_constraints": {
+    "description": "Minimal compatibility envelope for the unmodified archived setup.py; exact resolved versions above are the run record.",
+    "numpy": ">=1.26,<2",
+    "python": ">=3.11,<3.12",
+    "setuptools": ">=65,<70"
+  },
+  "environment": {
+    "machine": "arm64",
+    "platform": "macOS-15.6.1-arm64-arm-64bit",
+    "python_executable": "/private/tmp/arc_agi3_alchemy_venv_20260724/bin/python",
+    "python_implementation": "CPython",
+    "python_version": "3.11.8"
+  },
+  "experiment": "official_symbolic_alchemy_docker_free_smoke",
+  "non_noop_probe": {
+    "action": 2,
+    "action_semantics": {
+      "potion_slot": 0,
+      "stone_slot": 0
+    },
+    "after_observation_sha256": "d1f1b5e972a6c4c9a2795713985627eb36d5ff63ea849f1974d6b69a77cd1b7b",
+    "before_observation_sha256": "a9585f983bef79268665efd3fce76b95a43dcc263eac11da9adefcf38677554c",
+    "changed_feature_count": 4,
+    "changed_feature_indices": [
+      1,
+      3,
+      15,
+      16
+    ],
+    "deterministic_peer_match": true,
+    "reward": 0.0,
+    "step_type": "MID",
+    "timing_seconds": 0.1051279999082908,
+    "transition_sha256": "5057ac84be2355103bd7c99f4bd95045a7345541cb0ae16dc27678bd004eb32a"
+  },
+  "noop_episode": {
+    "action": 0,
+    "entries_hashed_including_reset": 201,
+    "expected_steps": 200,
+    "final_step_type": "LAST",
+    "sequence_sha256": "7215c153b78fe43017e50910cfb3158a7467fd1bd3eaa801535d6d9711b01fd9",
+    "sequence_sha256_peer": "7215c153b78fe43017e50910cfb3158a7467fd1bd3eaa801535d6d9711b01fd9",
+    "step_count": 200,
+    "timing_seconds": {
+      "dual_environment_build": 0.0005530840717256069,
+      "dual_rollout": 0.34699383296538144,
+      "dual_rollout_per_environment_step": 0.0008674845824134536
+    },
+    "total_reward": 0.0,
+    "total_reward_peer": 0.0,
+    "trial_boundaries": 10
+  },
+  "protocol": {
+    "end_trial_action": false,
+    "level_name": "alchemy/perceptual_mapping_randomized_with_rotation_and_random_bottleneck",
+    "max_steps_per_trial": 20,
+    "num_potions_per_trial": 12,
+    "num_stones_per_trial": 3,
+    "num_trials": 10,
+    "observe_used": true,
+    "seed": 123
+  },
+  "source": {
+    "commit": "68a26254b5c0f15e84fa0c15d66bf0c626ede8e0",
+    "expected_commit": "68a26254b5c0f15e84fa0c15d66bf0c626ede8e0",
+    "generated_proto_sha256": {
+      "dm_alchemy/encode/chemistries_pb2.py": "23d23484924732040421d2759337ff70d9ae80296abddd559a4980fa69bd6808",
+      "dm_alchemy/encode/chemistries_pb2_grpc.py": "79fcab987de5f842d5ecf2d8c387356a2f2f06f2e86c53727ddf60497c569c0a",
+      "dm_alchemy/encode/precomputed_maps_pb2.py": "e1f6936350a85d9ca85a88258a8e522646822435b7a7bc4dfc1971993e6a0f5a",
+      "dm_alchemy/encode/precomputed_maps_pb2_grpc.py": "ec978a86420083d2160eb8281536d5e303337d8079eb848e79303588ef48e356",
+      "dm_alchemy/encode/symbolic_actions_pb2.py": "bfaea0a2ba88102e3c6e94fb6579c88650b92ee4c868990e68a9bf2ca6b87974",
+      "dm_alchemy/encode/symbolic_actions_pb2_grpc.py": "ebf8d9e71c049732d1d5d0ef47a6cd9dd4df4a916d0312e31470e66ae92fb00c",
+      "dm_alchemy/protos/alchemy_pb2.py": "8a65086b467bb2b8bcc8f3a073a6bab3d0740ba28d0b8af278699afe196d2a44",
+      "dm_alchemy/protos/alchemy_pb2_grpc.py": "344238edc3864b1f024dd9e99c70429d129e5a87d3968bb82ac3837632406bc7",
+      "dm_alchemy/protos/color_info_pb2.py": "fadaffeaac9bd113bfca0f0b6c615258539ef663c398af26045f0a8e53d7d343",
+      "dm_alchemy/protos/color_info_pb2_grpc.py": "9a166ecac5f4d021dfc1cc6a45c741aa0e1aaed1587abe367143cc2e4bddf8ab",
+      "dm_alchemy/protos/episode_info_pb2.py": "6ae02eb305988bce9b3d235276c34d33ee10d19f1cb1dc21ce6fe10d844a10c7",
+      "dm_alchemy/protos/episode_info_pb2_grpc.py": "0519c19291125ebf086cfb3179f66a9de40e8141875aefad4961f22b24c59ef4",
+      "dm_alchemy/protos/events_pb2.py": "6cd18036650c79aff38c0db39148ea045ba33ede95939de111a5c822e7e0451d",
+      "dm_alchemy/protos/events_pb2_grpc.py": "28d012a00499e66cea16f1e335ba9a05852716edc3c39dd14745b0370ec0e20f",
+      "dm_alchemy/protos/hypercube_pb2.py": "8dd524da42623fd0e46541916575612f7464a92ef6d8c2d7ac731c57dadb3e28",
+      "dm_alchemy/protos/hypercube_pb2_grpc.py": "96c7f97b5157824c6255aa0ee085523333a808a8e5a50dc065ce79c9b9f457be",
+      "dm_alchemy/protos/trial_pb2.py": "7384057bd42014caf92fe7d90b7b54a3c98ad980ba4b8bce657ac7c556ebb8e5",
+      "dm_alchemy/protos/trial_pb2_grpc.py": "eb0926dd1f0f61e94c75cf311d6c40837d7176053f95b1a9a54c3462f170772e",
+      "dm_alchemy/protos/unity_types_pb2.py": "40c7f5289510ac06eee062f30f578151c35fb4dcd58ec145be86a5150ebcdd4d",
+      "dm_alchemy/protos/unity_types_pb2_grpc.py": "3e509147e73bf2d90e27833d8e15685265f482c3dd300c4f7f4ee12b635a3053"
+    },
+    "installed_package_path": "/private/tmp/arc_agi3_dm_alchemy_20260724/dm_alchemy/__init__.py",
+    "official_repository": "https://github.com/google-deepmind/dm_alchemy.git",
+    "script_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/scripts/run_symbolic_alchemy_smoke.py",
+    "script_sha256": "d9a965fbb755146d994fedc5628466c16f1895cc27a5d6092c6c7097aac2cd0d",
+    "source_root": "/private/tmp/arc_agi3_dm_alchemy_20260724",
+    "tracked_worktree_clean": true
+  },
+  "specs": {
+    "action": {
+      "class": "BoundedArray",
+      "dtype": "int64",
+      "maximum": 39,
+      "minimum": 0,
+      "name": "action",
+      "shape": []
+    },
+    "observation": {
+      "symbolic_obs": {
+        "class": "Array",
+        "dtype": "float32",
+        "name": "symbolic_obs",
+        "shape": [
+          39
+        ]
+      }
+    }
+  },
+  "status": "PASS",
+  "timing_seconds": {
+    "total": 0.8720241249538958
+  }
+}

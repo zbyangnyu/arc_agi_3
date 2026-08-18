@@ -1,0 +1,1097 @@
+{
+  "ambiguous_tasks_with_public_active_break_probe": 16,
+  "conclusion": "named latent programs are not identifiable at t0 from raw observations; a factorized hypothesis set can retain the symmetry and an active probe that reuses the observed trigger output color separates the pair",
+  "context_fold": 0,
+  "controller_observation": "raw support state/action/observed next_state",
+  "k4_joint_enumeration_sufficient_for_all_tasks": false,
+  "maximum_joint_hypotheses_after_symmetry_expansion": 8,
+  "non_identifiable_t0_task_rate": 0.3333333333333333,
+  "non_identifiable_t0_tasks": 16,
+  "oracle_to_symmetry_expanded_cardinality_histogram": {
+    "4->4": 32,
+    "4->8": 16
+  },
+  "records": [
+    {
+      "factor_value_sets": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P40/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P49/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P58/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        3,
+        0
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P29/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P19/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P46/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P55/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        0,
+        3
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P00/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P26/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P42/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P23/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        3,
+        0
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P31/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        0,
+        3
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P03/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P12/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        3,
+        0
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P30/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        0,
+        3
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P48/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        0,
+        3
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P02/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        3,
+        0
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P29/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P38/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        0,
+        3
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P01/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        3,
+        0
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P28/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P55/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        0,
+        3
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P00/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        3,
+        0
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P45/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P54/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P08/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P53/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        0,
+        3
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P16/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P34/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          3
+        ],
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P52/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P61/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P42/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P04/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        3,
+        0
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P13/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P31/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P39/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P57/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P10/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P00/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P27/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P53/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          1
+        ],
+        [
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P07/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P43/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        3,
+        0
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P61/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P42/H2/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P23/H1/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0
+        ]
+      ],
+      "observed-output-reuse_probe_breaks_symmetry": true,
+      "oracle_palette_version_space_size": 4,
+      "paired_trigger_codes": [
+        0,
+        3
+      ],
+      "payload_name_swap_version_space_size": 8,
+      "public_history_identical_under_pair": true,
+      "requires_more_than_k4_joint_hypotheses": true,
+      "task_id": "gram-causal-composition/P32/H0/N3799240518763807281"
+    },
+    {
+      "factor_value_sets": [
+        [
+          2
+        ],
+        [
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "oracle_palette_version_space_size": 4,
+      "payload_name_swap_version_space_size": 4,
+      "requires_more_than_k4_joint_hypotheses": false,
+      "task_id": "gram-causal-composition/P41/H2/N3799240518763807281"
+    }
+  ],
+  "schema_version": "prp-wm.raw-palette-identifiability-audit.v1",
+  "source_sha256": {
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/audit_raw_palette_identifiability.py": "d0b660679b626c86dbd4938151b09619e45a32f52f6e4354ec1d403da84890e4"
+  },
+  "status": "complete",
+  "tasks": 48,
+  "tested_symmetry": "swap simulator payload_p1 and payload_p2 role names"
+}

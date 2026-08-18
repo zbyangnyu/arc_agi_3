@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "attempt": {
+      "path": "runs/unstructured-64/fold_0/seed_20260729/attempts/001/attempt.json",
+      "sha256": "905b50ff25adb20adbe812ab3fa088404496814496ecf7a03485f8a910b9ec9c"
+    },
+    "checkpoint": {
+      "path": "runs/unstructured-64/fold_0/seed_20260729/attempts/001/output/checkpoint_last.pt",
+      "sha256": "f50c32b3f0b541c2b19f8ac4a2d58755f1cd1ec86dbedd98bb55567e5f482f2d"
+    },
+    "progress": {
+      "path": "runs/unstructured-64/fold_0/seed_20260729/attempts/001/output/progress.jsonl",
+      "sha256": "d8496bc7aec3afcabd01f27c8e3add5df40e2382c7aa6a0de8c4323996f975f3"
+    },
+    "result": {
+      "path": "runs/unstructured-64/fold_0/seed_20260729/attempts/001/output/result.json",
+      "sha256": "ed3d6a4fddb700e3cc1d14561f981890d3b3f16ce9fef049e86d1252a265ae6c"
+    },
+    "run_spec": {
+      "path": "runs/unstructured-64/fold_0/seed_20260729/run_spec.json",
+      "sha256": "65b3a464f087351f1d92a57fa6cae4807fb53db6fbae1ef5b9a9485d02bc0c51"
+    },
+    "stderr": {
+      "path": "runs/unstructured-64/fold_0/seed_20260729/attempts/001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "path": "runs/unstructured-64/fold_0/seed_20260729/attempts/001/stdout.log",
+      "sha256": "7009366e36c9e802ab5848fdef56d7406ab9796e732e9c5a54293f8e71561404"
+    }
+  },
+  "attempt_index": 1,
+  "last_action": "executed",
+  "run_id": "unstructured-64__fold0__seed20260729",
+  "run_spec_sha256": "65b3a464f087351f1d92a57fa6cae4807fb53db6fbae1ef5b9a9485d02bc0c51",
+  "schema_version": "prp-wm.factorization-latin-run-status.v1",
+  "state": "succeeded",
+  "updated_at_utc": "2026-07-22T08:06:37.950896+00:00"
+}

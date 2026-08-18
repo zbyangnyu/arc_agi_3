@@ -1,0 +1,21 @@
+{
+  "artifact_hashes": {
+    "results/gate0_seed0.json": "77dc5eaded9b3d98b03dddd79cf731e00e4d67076a1a42e12b1e155304fc7c7d"
+  },
+  "config_sha256": "d23e21701de8e97b12dca843c1d33014ac37b8b8ea4bbea33eea9fc5a8e4db0a",
+  "experiment_id": "prp-wm-stage0a-v1",
+  "file_hashes": {
+    ".python-version": "fa682ae9d943f5c8076e68335c9ba3ab4d063ad035c07ac6928653dd4ac50af7",
+    "prp_wm/__init__.py": "aa33fe970bc389ee68111938fc86fe41234dd24b115f4608fd5b3c384f011fde",
+    "prp_wm/evaluation.py": "58b74bc06ed1d32e47c032e236d6f7b73354ace0150d6b953e10fb16c651a594",
+    "prp_wm/gf2.py": "2e0098cb96ddab2ce75951cfce4ece06c1be1b92c7555d39b10cae873d654bd2",
+    "prp_wm/reproducibility.py": "fe64b698851d3f327ef25981619a67151bc54c50d530805d2c499417ef09a4ac",
+    "prp_wm/schema.py": "26ad4701ea46de473f5eb923fcfb5c7035775fe15008748737197e2b1c9ce702",
+    "pyproject.toml": "77377454fab705569203e36b344ec15ba89e7ff994402e0ea606fc46ad91b1f5",
+    "scripts/run_gate0.py": "7da608932c9ebed3d7bbfb7c5357f6c734900c01f5a035fbfbb7c17486ad43ac",
+    "scripts/verify_stage0a.py": "156b194983cf4a979c42dd304a45f13eb62d61d666870834dc5eb744a5d4de09",
+    "tests/test_gf2.py": "5b357edc55b4e206a1aafee7929a39560c41d7c197faa6075e1910d0281fe8c0",
+    "tests/test_reproducibility.py": "2d54cd802e1b9859102f0f448f5f1f07ba2b71d626503a2c657e2ae3a35d9a17"
+  },
+  "manifest_version": "prp-wm.stage0a.manifest.v1"
+}

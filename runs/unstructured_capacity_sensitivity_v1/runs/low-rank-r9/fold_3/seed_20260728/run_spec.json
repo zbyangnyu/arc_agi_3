@@ -1,0 +1,14 @@
+{
+  "capacity_label": "DOF9",
+  "context_fold": 3,
+  "data_master_seed": 2026071601,
+  "expected_trainable_parameters": 35467,
+  "head_kind": "low-rank",
+  "head_rank": 9,
+  "model": "unstructured-64",
+  "model_seed": 20260728,
+  "run_id": "low-rank-r9__fold3__seed20260728",
+  "schema_version": "prp-wm.unstructured-capacity-run-spec.v1",
+  "suite_config_sha256": "114f4a698f5719d7a91860b16c22378a070eddf73d998ce59010726b973fe2d5",
+  "variant": "low-rank-r9"
+}

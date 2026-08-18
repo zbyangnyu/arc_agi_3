@@ -1,0 +1,33 @@
+{
+  "algorithm": "ppo",
+  "base_tasks_seen": 19200,
+  "batch_size": 64,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/rulegame_ppo_smoke_seed20260716/checkpoint_last.pt",
+  "final_train_batch": {
+    "entropy": 0.032807886600494385,
+    "loss": 0.020791921764612198,
+    "policy_loss": -0.012920754961669445,
+    "probe_rate": 1.0,
+    "value_loss": 0.06808151304721832,
+    "win_rate": 0.890625
+  },
+  "group_size": null,
+  "intermediate_reward": false,
+  "memory_reset_validation": {
+    "probe_rate": 1.0,
+    "tasks": 256,
+    "win_rate": 0.25
+  },
+  "model_parameters": 305047,
+  "reward": "terminal_win_only",
+  "steps": 300,
+  "trajectories_seen": 19200,
+  "uses_identification_reward": false,
+  "uses_reconstruction_loss": false,
+  "uses_rule_label": false,
+  "validation": {
+    "probe_rate": 1.0,
+    "tasks": 256,
+    "win_rate": 0.98046875
+  }
+}

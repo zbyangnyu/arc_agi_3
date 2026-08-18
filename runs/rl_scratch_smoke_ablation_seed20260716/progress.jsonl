@@ -1,0 +1,5 @@
+{"actor_loss": 0.048121970146894455, "entropy": 1.931967854499817, "loss": 0.368232786655426, "mean_actions": 2.40625, "step": 1, "success_rate": 0.8125, "tasks_seen": 32, "value_loss": 0.6788610219955444}
+{"actor_loss": -0.4183768332004547, "entropy": 1.8215795755386353, "loss": -0.42805323004722595, "mean_actions": 1.5625, "step": 25, "success_rate": 1.0, "tasks_seen": 800, "value_loss": 0.01707884669303894}
+{"actor_loss": -0.010691285133361816, "entropy": 0.06648343056440353, "loss": -0.011181684210896492, "mean_actions": 1.0, "step": 50, "success_rate": 1.0, "tasks_seen": 1600, "value_loss": 0.00034887000219896436}
+{"actor_loss": -0.00906250812113285, "entropy": 0.0649806335568428, "loss": -0.009542586281895638, "mean_actions": 1.0, "step": 75, "success_rate": 1.0, "tasks_seen": 2400, "value_loss": 0.00033945596078410745}
+{"actor_loss": 0.12372080981731415, "entropy": 0.16334618628025055, "loss": 0.12214729934930801, "mean_actions": 1.0, "step": 100, "success_rate": 1.0, "tasks_seen": 3200, "value_loss": 0.00011990604980383068}

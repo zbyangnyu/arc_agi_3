@@ -1,0 +1,33 @@
+{
+  "algorithm": "grpo",
+  "base_tasks_seen": 2400,
+  "batch_size": 32,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/rulegame_grpo_equal_trajectories_seed20260716/checkpoint_last.pt",
+  "final_train_batch": {
+    "entropy": 0.4543790817260742,
+    "loss": -0.005489323753863573,
+    "policy_loss": -0.0009455333347432315,
+    "probe_rate": 1.0,
+    "value_loss": 0.0,
+    "win_rate": 0.2421875
+  },
+  "group_size": 8,
+  "intermediate_reward": false,
+  "memory_reset_validation": {
+    "probe_rate": 1.0,
+    "tasks": 256,
+    "win_rate": 0.25
+  },
+  "model_parameters": 305047,
+  "reward": "terminal_win_only",
+  "steps": 75,
+  "trajectories_seen": 19200,
+  "uses_identification_reward": false,
+  "uses_reconstruction_loss": false,
+  "uses_rule_label": false,
+  "validation": {
+    "probe_rate": 1.0,
+    "tasks": 256,
+    "win_rate": 0.25
+  }
+}

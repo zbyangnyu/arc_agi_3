@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "attempt": {
+      "path": "runs/direct-linear/fold_3/seed_20260727/attempts/001/attempt.json",
+      "sha256": "5c1cd27aa32c3e04932e4722938683d9014f616f4b27380d6483dd0a3d5157bc"
+    },
+    "checkpoint": {
+      "path": "runs/direct-linear/fold_3/seed_20260727/attempts/001/output/checkpoint_last.pt",
+      "sha256": "8036fe24f5bcb4322c6a6ffcb8b9de1846fbdf1e30a9b77ce5ff3fafa500d2d9"
+    },
+    "progress": {
+      "path": "runs/direct-linear/fold_3/seed_20260727/attempts/001/output/progress.jsonl",
+      "sha256": "ce8ca3cc8cb897610a8c506af6357377763691ac606205d477dc5f96fde19ee6"
+    },
+    "result": {
+      "path": "runs/direct-linear/fold_3/seed_20260727/attempts/001/output/result.json",
+      "sha256": "27bfecfc5026d20fb378bef9f383e9da993fdaf85ec25f743b8577c00bac1a5d"
+    },
+    "run_spec": {
+      "path": "runs/direct-linear/fold_3/seed_20260727/run_spec.json",
+      "sha256": "9c8bb30df05f4ba0f6579cbf0dfd32ffd85a47adf9723b62f9bc98b089d06777"
+    },
+    "stderr": {
+      "path": "runs/direct-linear/fold_3/seed_20260727/attempts/001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "path": "runs/direct-linear/fold_3/seed_20260727/attempts/001/stdout.log",
+      "sha256": "5ec1c687a986bc2f3160ada29743191bf6702bbe78f45f08b5edcf1065395b69"
+    }
+  },
+  "attempt_index": 1,
+  "run_id": "direct-linear__fold3__seed20260727",
+  "run_spec_sha256": "9c8bb30df05f4ba0f6579cbf0dfd32ffd85a47adf9723b62f9bc98b089d06777",
+  "schema_version": "prp-wm.unstructured-capacity-status.v1",
+  "state": "succeeded",
+  "updated_at_utc": "2026-07-22T09:19:51.907790+00:00"
+}

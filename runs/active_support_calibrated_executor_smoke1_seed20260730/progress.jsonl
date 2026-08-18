@@ -1,0 +1,1 @@
+{"gradient_norm": 0.886812150478363, "loss_diagnostic_nontriple": 0.00010313560778740793, "loss_t0_support": 1.385872110404307e-05, "loss_t1_partial": 0.10807311534881592, "loss_t2_neutral": 0.09625712037086487, "loss_t3_strong": 0.08935916423797607, "loss_total": 0.04821911051412826, "program_conditioned_transition_examples_seen": 408, "step": 1, "tasks_seen": 2}

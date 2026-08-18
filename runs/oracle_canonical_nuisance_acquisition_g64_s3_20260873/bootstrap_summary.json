@@ -1,0 +1,269 @@
+{
+  "analysis_schema_version": "prp-wm.nuisance-acquisition-cluster-bootstrap.v1",
+  "analysis_source": "/Users/yangzhenbang/Developer/project/arc-agi-3/scripts/analyze_nuisance_acquisition_bootstrap.py",
+  "analysis_source_sha256": "d22c4df5cecf58018afb540dd846bf8f634d002df2dae7a5b04b3872485e2b4a",
+  "bootstrap_replicates": 20000,
+  "bootstrap_seed": 20260876,
+  "confidence_level": 0.95,
+  "estimates": {
+    "0": {
+      "paired_difference_95_percentile_ci": {
+        "global-information-gain_minus_uniform": {
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "query-conditioned_minus_global-information-gain": {
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "query-conditioned_minus_uniform": {
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      },
+      "paired_differences": {
+        "global-information-gain_minus_uniform": 0.0,
+        "query-conditioned_minus_global-information-gain": 0.0,
+        "query-conditioned_minus_uniform": 0.0
+      },
+      "policies": {
+        "global-information-gain": 0.3333333333333333,
+        "query-conditioned": 0.3333333333333333,
+        "uniform": 0.3333333333333333
+      },
+      "policy_95_percentile_ci": {
+        "global-information-gain": {
+          "lower": 0.3333333333333333,
+          "upper": 0.3333333333333333
+        },
+        "query-conditioned": {
+          "lower": 0.3333333333333333,
+          "upper": 0.3333333333333333
+        },
+        "uniform": {
+          "lower": 0.3333333333333333,
+          "upper": 0.3333333333333333
+        }
+      }
+    },
+    "1": {
+      "paired_difference_95_percentile_ci": {
+        "global-information-gain_minus_uniform": {
+          "lower": -0.1736111111111111,
+          "upper": -0.12962962962962965
+        },
+        "query-conditioned_minus_global-information-gain": {
+          "lower": 0.6666666666666667,
+          "upper": 0.6666666666666667
+        },
+        "query-conditioned_minus_uniform": {
+          "lower": 0.4930555555555556,
+          "upper": 0.537037037037037
+        }
+      },
+      "paired_differences": {
+        "global-information-gain_minus_uniform": -0.1516203703703704,
+        "query-conditioned_minus_global-information-gain": 0.6666666666666667,
+        "query-conditioned_minus_uniform": 0.5150462962962963
+      },
+      "policies": {
+        "global-information-gain": 0.3333333333333333,
+        "query-conditioned": 1.0,
+        "uniform": 0.4849537037037037
+      },
+      "policy_95_percentile_ci": {
+        "global-information-gain": {
+          "lower": 0.3333333333333333,
+          "upper": 0.3333333333333333
+        },
+        "query-conditioned": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "uniform": {
+          "lower": 0.46296296296296297,
+          "upper": 0.5069444444444444
+        }
+      }
+    },
+    "2": {
+      "paired_difference_95_percentile_ci": {
+        "global-information-gain_minus_uniform": {
+          "lower": -0.3136574074074075,
+          "upper": -0.2581018518518519
+        },
+        "query-conditioned_minus_global-information-gain": {
+          "lower": 0.6666666666666667,
+          "upper": 0.6666666666666667
+        },
+        "query-conditioned_minus_uniform": {
+          "lower": 0.3530092592592592,
+          "upper": 0.40856481481481477
+        }
+      },
+      "paired_differences": {
+        "global-information-gain_minus_uniform": -0.2858796296296296,
+        "query-conditioned_minus_global-information-gain": 0.6666666666666667,
+        "query-conditioned_minus_uniform": 0.3807870370370371
+      },
+      "policies": {
+        "global-information-gain": 0.3333333333333333,
+        "query-conditioned": 1.0,
+        "uniform": 0.6192129629629629
+      },
+      "policy_95_percentile_ci": {
+        "global-information-gain": {
+          "lower": 0.3333333333333333,
+          "upper": 0.3333333333333333
+        },
+        "query-conditioned": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "uniform": {
+          "lower": 0.5914351851851852,
+          "upper": 0.6469907407407408
+        }
+      }
+    },
+    "3": {
+      "paired_difference_95_percentile_ci": {
+        "global-information-gain_minus_uniform": {
+          "lower": 0.22106481481481477,
+          "upper": 0.2719907407407408
+        },
+        "query-conditioned_minus_global-information-gain": {
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "query-conditioned_minus_uniform": {
+          "lower": 0.22106481481481477,
+          "upper": 0.2719907407407408
+        }
+      },
+      "paired_differences": {
+        "global-information-gain_minus_uniform": 0.2465277777777778,
+        "query-conditioned_minus_global-information-gain": 0.0,
+        "query-conditioned_minus_uniform": 0.2465277777777778
+      },
+      "policies": {
+        "global-information-gain": 1.0,
+        "query-conditioned": 1.0,
+        "uniform": 0.7534722222222222
+      },
+      "policy_95_percentile_ci": {
+        "global-information-gain": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "query-conditioned": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "uniform": {
+          "lower": 0.7280092592592592,
+          "upper": 0.7789351851851852
+        }
+      }
+    },
+    "4": {
+      "paired_difference_95_percentile_ci": {
+        "global-information-gain_minus_uniform": {
+          "lower": 0.12152777777777779,
+          "upper": 0.16435185185185175
+        },
+        "query-conditioned_minus_global-information-gain": {
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "query-conditioned_minus_uniform": {
+          "lower": 0.12152777777777779,
+          "upper": 0.16435185185185175
+        }
+      },
+      "paired_differences": {
+        "global-information-gain_minus_uniform": 0.14236111111111116,
+        "query-conditioned_minus_global-information-gain": 0.0,
+        "query-conditioned_minus_uniform": 0.14236111111111116
+      },
+      "policies": {
+        "global-information-gain": 1.0,
+        "query-conditioned": 1.0,
+        "uniform": 0.8576388888888888
+      },
+      "policy_95_percentile_ci": {
+        "global-information-gain": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "query-conditioned": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "uniform": {
+          "lower": 0.8356481481481483,
+          "upper": 0.8784722222222222
+        }
+      }
+    },
+    "8": {
+      "paired_difference_95_percentile_ci": {
+        "global-information-gain_minus_uniform": {
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "query-conditioned_minus_global-information-gain": {
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "query-conditioned_minus_uniform": {
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      },
+      "paired_differences": {
+        "global-information-gain_minus_uniform": 0.0,
+        "query-conditioned_minus_global-information-gain": 0.0,
+        "query-conditioned_minus_uniform": 0.0
+      },
+      "policies": {
+        "global-information-gain": 1.0,
+        "query-conditioned": 1.0,
+        "uniform": 1.0
+      },
+      "policy_95_percentile_ci": {
+        "global-information-gain": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "query-conditioned": {
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "uniform": {
+          "lower": 1.0,
+          "upper": 1.0
+        }
+      }
+    }
+  },
+  "groups_per_axis": {
+    "collision": 64,
+    "relation": 64,
+    "trigger": 64
+  },
+  "input": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/oracle_canonical_nuisance_acquisition_g64_s3_20260873/result.json",
+  "input_result_schema_version": "prp-wm.oracle-canonical-nuisance-acquisition-ceiling.v1",
+  "input_sha256": "33b171d436084aa41e5aa91a4761d779a3caec5671a7a51a9eb6d68a94b2740f",
+  "interval": "percentile",
+  "query_axes": [
+    "collision",
+    "relation",
+    "trigger"
+  ],
+  "repeated_measure_aggregation": "mean over all candidate-order seeds and hidden query slots before environment resampling",
+  "repeated_rows_per_environment_policy_budget": 9,
+  "resampling_unit": "(query_axis, group_index)",
+  "status": "complete",
+  "stratification": "query_axis"
+}

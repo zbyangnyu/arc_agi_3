@@ -1,0 +1,4 @@
+{"base_tasks_seen": 32, "entropy": 0.6738584637641907, "loss": -0.02339811623096466, "policy_loss": -0.016659531742334366, "probe_rate": 0.47265625, "step": 1, "trajectories_seen": 256, "value_loss": 0.0, "win_rate": 0.12109375}
+{"base_tasks_seen": 800, "entropy": 0.4654998481273651, "loss": -0.004441447556018829, "policy_loss": 0.0002135510294465348, "probe_rate": 1.0, "step": 25, "trajectories_seen": 6400, "value_loss": 0.0, "win_rate": 0.2578125}
+{"base_tasks_seen": 1600, "entropy": 0.45437297224998474, "loss": -0.0047685434110462666, "policy_loss": -0.0002248138189315796, "probe_rate": 1.0, "step": 50, "trajectories_seen": 12800, "value_loss": 0.0, "win_rate": 0.21875}
+{"base_tasks_seen": 2400, "entropy": 0.4543790817260742, "loss": -0.005489323753863573, "policy_loss": -0.0009455333347432315, "probe_rate": 1.0, "step": 75, "trajectories_seen": 19200, "value_loss": 0.0, "win_rate": 0.2421875}

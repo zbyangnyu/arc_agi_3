@@ -1,0 +1,17 @@
+{
+  "baseline": "deterministic_copy_input_grid",
+  "benchmark_version": "prp-rulegrid-v0.2.0",
+  "cell_accuracy": 0.9296875,
+  "changed_cell_fraction": 0.0703125,
+  "data_master_seed": 2026071601,
+  "diagnostic_indices": [
+    21,
+    22,
+    23
+  ],
+  "exact_grid_accuracy": 0.0,
+  "scored_grids": 576,
+  "scored_tasks": 192,
+  "split": "pilot-composition",
+  "summary_kind": "evaluation_only_sparse_grid_copy_baseline"
+}

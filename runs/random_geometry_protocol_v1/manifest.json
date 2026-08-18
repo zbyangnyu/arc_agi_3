@@ -1,0 +1,4705 @@
+{
+  "checkpoint_written": false,
+  "dataset_audit": {
+    "eval_behavior_class_count_histogram": {
+      "16": 0,
+      "4": 0,
+      "64": 32
+    },
+    "eval_example_count": 2048,
+    "eval_layout_coverage": {
+      "collision": {
+        "directions": [
+          "E",
+          "N",
+          "S",
+          "W"
+        ],
+        "shapes": [
+          "domino-perpendicular",
+          "single-cell"
+        ],
+        "unique_anchor_count": 22
+      },
+      "relation": {
+        "directions": [
+          "E",
+          "N",
+          "S",
+          "W"
+        ],
+        "shapes": [
+          "domino-perpendicular",
+          "single-cell"
+        ],
+        "unique_anchor_count": 26
+      },
+      "trigger": {
+        "directions": [],
+        "shapes": [
+          "trigger-payload-socket"
+        ],
+        "unique_anchor_count": 25
+      }
+    },
+    "eval_panel_count": 32,
+    "eval_panel_kind_counts": {
+      "pair": 0,
+      "singleton": 0,
+      "triple": 32
+    },
+    "eval_panels": [
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200000,
+        "geometry_sha256": "9c645b9e4da53f536b8c3e728372cb9a58f697f4c12b830d23181cdac4bade3f",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200001,
+        "geometry_sha256": "a52ad598df1e5c2900793543b58cfd0c72461a0e02c228475b650fa9957fc608",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200002,
+        "geometry_sha256": "3f8458dae78ba04cc174f9fcedaeec07c2e5c4df2fed8325c4243142888bfbaf",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200003,
+        "geometry_sha256": "ef3e679e851fed89b4857074b50103acca86c90810cb4f8b5620f74429cb13a3",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200004,
+        "geometry_sha256": "7afaa722b6c60cf8ad5557c68cfd5ecb5621db08826af0695da287de876efc9b",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200005,
+        "geometry_sha256": "9d79fa79b28e8a3d60ed9a4227a2a3ef49d1fff0e4209d3ace390b6574557f4a",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200006,
+        "geometry_sha256": "e2f8ce10be964d5dde8ccee421a497bc80c4f6de801ce9ca1c8f4a8997f42465",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200007,
+        "geometry_sha256": "0d038ee02d9619b2dd0aa3ec85fd1f2157c839b7003061cadeb7117e5ee947e4",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200008,
+        "geometry_sha256": "51cabbc1d25a96109d8be49b1c681d649d46fb8d186cc263c6b04a38ec266fe9",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200009,
+        "geometry_sha256": "0047f40efad41c272b3091a72799461afbc66009ad859153634c75331c6e8406",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200010,
+        "geometry_sha256": "e3fbdd58d196a8ff74416e3ecba0e3d4e823843f1c47df98e38ab93ad62405e1",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200011,
+        "geometry_sha256": "c64660489341ffacf455cc7ed3801bb452ff80a8b299bc22f8e6e7bdb2937b30",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200012,
+        "geometry_sha256": "e0934ce99b06ee3461e2a879bd199dbbc8809ca5add9d94b1a25068e76619f9c",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200013,
+        "geometry_sha256": "3944d54ee96e0e850079cd35c840e0a4a0c239b9e2e9c3ef8d8451ba49cd6e08",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200014,
+        "geometry_sha256": "2e3cfc36fb16acc0dd512af28a85476f77c5a9a79ff8a113d698bbe5a2cbd240",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200015,
+        "geometry_sha256": "3d1d34dd56569ff3b3c4f861df28a3b25b8e9de57da685ee2e5bb956be951029",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200016,
+        "geometry_sha256": "9c24d16921be9870d0648d495db3a1ac1d995ab1801b39f6b5a800d3a3575b2b",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200017,
+        "geometry_sha256": "0a9bb62a13ffa39a9a5e376b2b63312fa3d1ece0a4f16480bd0e55a5c16c4baa",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200018,
+        "geometry_sha256": "b42ce63ef8e7cc17faf9efb7dc4273046fb1336c4836cab18c51fbcac7781a6e",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200019,
+        "geometry_sha256": "fc198ae06c66ac018e05be997e31c362cc3571ea50eb2d46a23689ad86fe6261",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200020,
+        "geometry_sha256": "fccd6d8737a5d312b4f155944dfff95c33ffa4844fbbcf54cd2180ac85ad5ea1",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200021,
+        "geometry_sha256": "13a07fc5efb2d9ec03a00ef0d7f5cc89c1524c1517bd127db5ecfa20fc4aebb6",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200022,
+        "geometry_sha256": "38f6c7dcd32cd25f303dae3f9a03eac5c6f50004aea9839ad796cd81d37ddc85",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200023,
+        "geometry_sha256": "7bd55c45da5d36bc5756d46882a8d84d5122ef2994be2d8454b3d0dccdc4e26f",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200024,
+        "geometry_sha256": "ec19c54c35ac49aae48b31a32ff3bdec75cac827cab63b24538daf1eb306e622",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200025,
+        "geometry_sha256": "c652b697bf575140385e67a1554501e96ed5e056c691c780e37b6e2a71ddadb9",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200026,
+        "geometry_sha256": "179eae5284f2383928d554be6c1125311334792f642722c5f780a09f4d282aa9",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200027,
+        "geometry_sha256": "47b6261a0b81d2e5867bd9b5a8d25d85168933a5bbd15d1f2221f910c808ba72",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200028,
+        "geometry_sha256": "9dacdc60c2961016ee9b7128216f612cb0adbc89eda127772b5b22e60ad0b16b",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200029,
+        "geometry_sha256": "7b9924011c0aa31aedbb6a6a1bde25e401c1c45a44abb8fcb9cb7ae3a68c4b52",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200030,
+        "geometry_sha256": "854a43bf5c2a63d744e7d4ad90d0813c805173b2c4d4bab1784c6c0df373ef62",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      },
+      {
+        "action_atom_count": 3,
+        "axes": [
+          "collision",
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 200031,
+        "geometry_sha256": "a3deee775eec6db312d792b42ca149408a8844ccb0b96037a3b2e05a284e140f",
+        "geometry_variant": 0,
+        "panel_kind": "triple"
+      }
+    ],
+    "eval_unique_geometry_hash_count": 32,
+    "explicit_identifier_fields_in_model_input": [],
+    "model_input_keys": [
+      "action",
+      "factor_code",
+      "state"
+    ],
+    "schema_version": "prp-wm-random-geometry-executor-v1",
+    "static_gates": {
+      "all_64_factor_codes_materialized_per_panel": true,
+      "all_axes_covered_in_both_splits": true,
+      "all_panels_write_disjoint": true,
+      "all_selected_values_distinguishable": true,
+      "eval_contains_only_triples": true,
+      "eval_geometry_hashes_unique": true,
+      "model_input_has_no_explicit_identifier_field": true,
+      "passed": true,
+      "train_contains_only_singletons_and_pairs": true,
+      "train_eval_geometry_hash_intersection_empty": true,
+      "train_geometry_hashes_unique": true
+    },
+    "train_behavior_class_count_histogram": {
+      "16": 192,
+      "4": 192,
+      "64": 0
+    },
+    "train_eval_geometry_hash_intersection": [],
+    "train_example_count": 24576,
+    "train_layout_coverage": {
+      "collision": {
+        "directions": [
+          "E",
+          "N",
+          "S",
+          "W"
+        ],
+        "shapes": [
+          "domino-perpendicular",
+          "single-cell"
+        ],
+        "unique_anchor_count": 52
+      },
+      "relation": {
+        "directions": [
+          "E",
+          "N",
+          "S",
+          "W"
+        ],
+        "shapes": [
+          "domino-perpendicular",
+          "single-cell"
+        ],
+        "unique_anchor_count": 59
+      },
+      "trigger": {
+        "directions": [],
+        "shapes": [
+          "trigger-payload-socket"
+        ],
+        "unique_anchor_count": 48
+      }
+    },
+    "train_panel_count": 384,
+    "train_panel_kind_counts": {
+      "pair": 192,
+      "singleton": 192,
+      "triple": 0
+    },
+    "train_panels": [
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100000,
+        "geometry_sha256": "43ca94ec8367207c3fee80571969a2f86dbe06bea9bd870b207698b9345a6b30",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100000,
+        "geometry_sha256": "b47ffe2511aa1ac61e61ac6c1e5432b2d126282493893d22e5b0b622344e363b",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100000,
+        "geometry_sha256": "45c0793fb95a564cfe5fffd7d483163af280463449acba06b9ae137de4a95851",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100000,
+        "geometry_sha256": "e7b6b8cd5076c17a2891bec8c8ec58566dfbb95f62a45b512b6dfc6b6303d694",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100000,
+        "geometry_sha256": "73c54cecb60f21bb528faa48b4fe88e00ebd96d6b1c6d228247796de6906bb69",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100000,
+        "geometry_sha256": "0557295ae83e5c8ecb9b41060e17eea03d94005eccd8423f139e6076603008bb",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100001,
+        "geometry_sha256": "2fb2259a85f40a8622643f45799cf968cbaf683fd34636f6e6c37ee2d2ea1daf",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100001,
+        "geometry_sha256": "033b216ee9063d7e36c70e36ee874130bd2e178893f2b34279529ef27e7732a9",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100001,
+        "geometry_sha256": "f91dd348febc0edc4e35425ccfe1976674c449a69935ca965a84450504dd888a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100001,
+        "geometry_sha256": "38d7abad799d7a8b0b3a052032cc56a717102154c450190952040ff5f3357d25",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100001,
+        "geometry_sha256": "bd0056e2f665ae0c2021828fb4e845b2c7d88afdaf22ea3d37bc1ba5e1469bff",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100001,
+        "geometry_sha256": "6e66c64a876914021329547030e5419dfc8d2779bd9bc5524fd7df8e013569c3",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100002,
+        "geometry_sha256": "5e57f95dbc2006c069a26875eb964fabc6093b00c4bb03b9a8c590c4b9d22ff1",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100002,
+        "geometry_sha256": "cb610f8fdf5812583ae22f5df65cc6a96724aa388ab67737b332e795718999c9",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100002,
+        "geometry_sha256": "3fe2b61e259a59d9d17335abe28a99633ab98d2489b2c2a460bb26742a164561",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100002,
+        "geometry_sha256": "f3b81281e7943067ac01fbccaa82c80c48876b7b5de036d9566ec3ad1d8b112e",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100002,
+        "geometry_sha256": "e8dc141e93eb70b5836776526fe3fac79db4d2f0ac648f46193b4a9c311438a1",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100002,
+        "geometry_sha256": "2b520f3695798dba56ca36474e4f7e547cbc1944812a22a196d54a98faded289",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100003,
+        "geometry_sha256": "3c872397d696852ef5a34a1b9cb42bae41963610a20ba913394a8a65410b1dd7",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100003,
+        "geometry_sha256": "140f6acd4414c46e0771be9747b9141e6326b2bcbe3d9767c6f6e6daa03d0c79",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100003,
+        "geometry_sha256": "c3d6a70ba274530f4b64eca9671862f5ea6a1b375337d2d5a15a322ee633df52",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100003,
+        "geometry_sha256": "be513c2c6820873b4fe8e78d2a29e93d728551f812bfafa7ecfc2c8aed8bab6d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100003,
+        "geometry_sha256": "a95ece19415294dd25593e0130cb294a6316568eff029f064c3b56cce223a4f2",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100003,
+        "geometry_sha256": "bb447d023028f2975083f597b508940f023ce32142f964038d88f6b442b97171",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100004,
+        "geometry_sha256": "b644f68dfbca2544b0bf1749ad7ed2e6f8fb87103cec83ec5891d163d7a529e2",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100004,
+        "geometry_sha256": "8ff3018a223698d6b3353cee687eeecbaa03dc446d3023e01c962ee5c30e25f2",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100004,
+        "geometry_sha256": "84189feebadd0668966eb8ed87b862efdf1ee70bdf2bd15fee0afc7f31f76492",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100004,
+        "geometry_sha256": "598e0f649e8d1d17fde423e0f93e3c85a671ff3d614e9332f5d02f70206a36bf",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100004,
+        "geometry_sha256": "db2e7383c341d08afafaa4e249db448abe338b3b958b8def4945280d2b96813b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100004,
+        "geometry_sha256": "587016402d3749556099d8d96d8add24e028d04503da673f9e4be4f9e909e96c",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100005,
+        "geometry_sha256": "9606d67ba320f1f044bd94518364625085e9a3bee240b8dfdb30b5a5e24c0abd",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100005,
+        "geometry_sha256": "afb44c7be40b638b754dc581426298b8c06c120d6b7d692160616f3d475067d5",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100005,
+        "geometry_sha256": "e1ab5a6ab912e94e4819d580a97317b7f9b06674d34090d4eb8ce0967a56ae5f",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100005,
+        "geometry_sha256": "a9812763ed0b5f19931626070947e3e6c529f2acd88a3215d748da71342e8266",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100005,
+        "geometry_sha256": "0edd0acb96185732cca46b6d83aae3a751f2c9b20669cd5ab9ddd266402297a9",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100005,
+        "geometry_sha256": "058ac35994f0adb4cf6fde3b43c9e002cb5dc2ff7ebd28a45f7d9dadcf067f86",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100006,
+        "geometry_sha256": "83ccb4b9ea6e521f4840b3feb6f7493d13033a05cd6b0136bbbe7427717efe84",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100006,
+        "geometry_sha256": "d8ccc88fd71491a91827bca865eca30bf100d3c8c1fab76525a86b3c300ef94b",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100006,
+        "geometry_sha256": "5cdc6bde883468ca206045e2149f70c6ae20eb96a4271fcbd20f01b80397a48c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100006,
+        "geometry_sha256": "2038f37c13be14bd7115f1c136679494d6563377c96c6c15cd6cc309a9c8079d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100006,
+        "geometry_sha256": "3bdb4217df066c6365a3a4253ec39aeb6908b626c25b3e9f3245fe3bc9d74942",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100006,
+        "geometry_sha256": "36c5a361b99ef1454a6527bc273bbb8735c3b95b00deb870e78fa9146a7228d7",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100007,
+        "geometry_sha256": "3256646d0137776e45167965fe98f17b5ce1ee49b82ea78153ab0519e9afbd67",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100007,
+        "geometry_sha256": "c41f7929df5e75dadf90de099eb7753a6c7bc44c8e5a425166738e7aa7fbd63d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100007,
+        "geometry_sha256": "8b2036dbf95df7fc17cec4d2d1f0c2a3ad9ce7fb210a565b1b7967718a97dba0",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100007,
+        "geometry_sha256": "f6e414911c270464f649b28816dae83bd95496ab8a081699c8825bb3ffc5429f",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100007,
+        "geometry_sha256": "99427eae37eb851f7c03799717dc92502a2210dde36a1da3fc7963e6692ebf22",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100007,
+        "geometry_sha256": "aaa2024974f15afd298883b2cfc2f9dabfa09a7079b2a2f896aba2e856eb096e",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100008,
+        "geometry_sha256": "03627c3ebaf3fbe33df617539fdc3403ad7c97353ae67e1e338610c0f7566aa3",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100008,
+        "geometry_sha256": "1157bc334b8833b31b2e4573a4c4e40935a52c453eee035772b119de5078c424",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100008,
+        "geometry_sha256": "e5ca9b2911f1fa746da02b630ccf17904b1db41d8415c5e6a0dea038679a88c9",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100008,
+        "geometry_sha256": "fe8716420e7ef154f3aeea10b4e27f404aa6b2f1a51d7e7b30db70bca6e6d775",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100008,
+        "geometry_sha256": "382362d667acb3bbace3a66370b9636fd359a5fc9436be5c3545d88c5c741c94",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100008,
+        "geometry_sha256": "384f776f4708f92f8ef0cab8d103bcd5c4ef037641c5428984844725a67205be",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100009,
+        "geometry_sha256": "481069b6913ff5cb9be62c7d31af00fac71685059ac433551da87d8bd3a2991a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100009,
+        "geometry_sha256": "99744eacd6274238125f6da2b8235971b00da48cb8ca688b52ea5c492441c3f5",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100009,
+        "geometry_sha256": "04b939e770c173da5f6c1c454f48b5fad2f10b6aacb0fdc5eac2614558b526f6",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100009,
+        "geometry_sha256": "552ee8505678334ffe1e439b6fb32a8b813d92e811b33ed3fbc74665d0ace167",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100009,
+        "geometry_sha256": "a8e646c87fdd7f5244862e84ccf94ca1c08ea9ffb89c21c235235820aea5fd4c",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100009,
+        "geometry_sha256": "8c8f51987091320c8866f41f49c8f0b90df9a6b578cb58d8261d701535fa7dbf",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100010,
+        "geometry_sha256": "675bc25993a2f01e14a07cb6320f06561d7a4284740a46c79adcd2a347d398c1",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100010,
+        "geometry_sha256": "804c152dcb6e6363d6fc566a90c2253e8d94f97870afdb8c172cce2e0033f14c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100010,
+        "geometry_sha256": "95621a836f0ad6c0da28562b1ff17592d3afe164eccc237055b588238a3ebc19",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100010,
+        "geometry_sha256": "e999eab7a6c0f05b9977b42e0622d6aeac01b5733ead22b9fec2b4bea9b7d667",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100010,
+        "geometry_sha256": "0bfc03e96ba3be0302184ce358e2c4b9cab6afebc672a0d7a91bec3af7729355",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100010,
+        "geometry_sha256": "e54b99969562c9fba399ce2511e84ca0341b602c4c7d44715dbb81cc91a6e1ed",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100011,
+        "geometry_sha256": "2f157ee15baf65b06ce989d9a62caa08324b51381ba80839d79b42de8ccf831d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100011,
+        "geometry_sha256": "475dd9c74ea2b4dffd0e3f0dbf98b8377563d0f4406614796cb67f7dc9715c63",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100011,
+        "geometry_sha256": "a155b4de478a880c58fb77612c3543b132f04cad65d73dd9173e23e51b18719c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100011,
+        "geometry_sha256": "38bd01158f3c0e967047b003e1acaa2084242450bc539764322fd66766a04ffe",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100011,
+        "geometry_sha256": "7a0447b0fc440f6bc3a8a7143d93dca8bfbbf3df40c0e0752d52a0c503d2293f",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100011,
+        "geometry_sha256": "e06b2551953ff73a155e99ffc9cc44554a5b6486cebf2eb639b638827c9562fa",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100012,
+        "geometry_sha256": "15c153a58d06075ef5b6ff72ed6bf67298dfab208fd3477e140012fd9cc86fa7",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100012,
+        "geometry_sha256": "84b3c2129e6a474ca66fb4661d2d3be410322bb2422e69ea66233213d242a7c8",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100012,
+        "geometry_sha256": "cbe72802b51795085e7be60221bfbca1160de6d4353cc9123856e7410d8b3f4d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100012,
+        "geometry_sha256": "8a88422bcfe5285bc076b25a5b925cfcc73ae134e045a951a1e3f50a2055a872",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100012,
+        "geometry_sha256": "c9078e449493300a4c249b0501f6c1ec81b5a1b5f39361b8e1c47d98240b2a38",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100012,
+        "geometry_sha256": "b1d0acb59b6263ad0dddbd5f7fa13b85f1c56be244362b4ba274a20df2580c1b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100013,
+        "geometry_sha256": "b6ac4a04c2df9b0abee1579c9b1c4e30b12890e5e1429d1fa51d5bf349232f7c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100013,
+        "geometry_sha256": "8cccfa3f56cc71dee9831880a5b08da31099d7cf3c4c0f9e8da301466466f842",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100013,
+        "geometry_sha256": "dca23f6bbeb01afa57ec0de4ed817210a3c73342fc6d30c0493ab0b3a4433ed3",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100013,
+        "geometry_sha256": "7400c2b39e2eaf235c2688262378d2c481ef2854467ac5923594c5702906d29b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100013,
+        "geometry_sha256": "c035e5cc129b2791ac62b1b73c5293cd0da22d0cb3ca130824493b28ea5f5b45",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100013,
+        "geometry_sha256": "1236ae9a6c8876e1b14636e6b3c3890087c23ccfa055ba9c8fc0f03cfd70f654",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100014,
+        "geometry_sha256": "7f62f17bc353f5049d7c06fe3a3e991794ecec97467a6e9346d8aba91787dc76",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100014,
+        "geometry_sha256": "62d43a21ceb89ff93dad6ff5fc47fd31b783e3f2b28d9bc178392c48dbc0d0c4",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100014,
+        "geometry_sha256": "16c33af7c0b62620e5cb22e5f78fef9101dc097ed008d581ef8c7aca6691fddc",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100014,
+        "geometry_sha256": "b191952707b857d73941c94f214c40e76e75eb1bd037e33db430095a54b169a8",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100014,
+        "geometry_sha256": "b8f78c8409f69b2621016b195be3fe591c8d835e195b0b3d649cbb5594738913",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100014,
+        "geometry_sha256": "8c469e1b652fcfd684312485198072fac28093dd156b4e389c370fdea029112b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100015,
+        "geometry_sha256": "88296757e26f64c6c245f70c2ada26bd80acdb2af5c2db41240be6b51c9261e3",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100015,
+        "geometry_sha256": "ea89e723526204234cd5251fd0175de6363f2f548b0c0152f89c798a241e9b86",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100015,
+        "geometry_sha256": "c7b42bc2c6a3a5e423274ce9d0bf81d9db94ef5ced2f750590239629d00013eb",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100015,
+        "geometry_sha256": "30620fc0c89c20ece277326215eda7c28c0ebb57635f967e7edd8ebf7e697f05",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100015,
+        "geometry_sha256": "c12bb0e46a752a70441a67dbe7cb1dc1caed409b1650df2b430e88467368f171",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100015,
+        "geometry_sha256": "ddcacbc24788925e8e714e7117635153616f2e6f8fb88185caade91f9cf6db9b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100016,
+        "geometry_sha256": "dcdfd8cf3444d2c7a60b7e07fc9082e60245ee81dc420e3e021f0ba8c15e03b4",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100016,
+        "geometry_sha256": "758eaf87cc75f1cac1a1d874f3ee7a515aad817fe0f270e5bfa7bec4255550a2",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100016,
+        "geometry_sha256": "f9e70473e0c8f8c5fa153903929ed0908d979df8f67111fc18f71dcda064eae7",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100016,
+        "geometry_sha256": "9143ccc41f7734f81788dcba2c40863df400c48ab9c63637c2cdf3bb68679927",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100016,
+        "geometry_sha256": "5b8f7b661e0c45f23149a654086b6ce14f88aceabc25085af930cd8f0d39044e",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100016,
+        "geometry_sha256": "49ef31fc403c258295665ab1837c75f2783399da79ad22b67076bdb8b2fad627",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100017,
+        "geometry_sha256": "e666f280efe7be0ce73163ea3d0716da1ff9f17617558fb7973de06c4c21f79f",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100017,
+        "geometry_sha256": "572823055319c8da1867cf8a907b4408befce56952551247bae5377df4fd29d0",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100017,
+        "geometry_sha256": "570f14a4b5adb4b6c90f36d3de78ebb343c78fb695ac9a74720002b720772324",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100017,
+        "geometry_sha256": "822e504503a1f796a926829869b6fe074ff1e460ceedcf0e16e3803f2c5a90a7",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100017,
+        "geometry_sha256": "ed5833acadc6b113d11d3af58b07c7ad8027244edb43482dd8aa48224d632662",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100017,
+        "geometry_sha256": "42ad8f16d1ac511b0b4dcd3d71091282707942f9653d9c56a24d400ec18124d9",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100018,
+        "geometry_sha256": "65b5b49f842c3855591c5d45eefdbaeba40b53922dcb94b40893b693494f7094",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100018,
+        "geometry_sha256": "23e087195fd09081c8d612c39a9d0bc7cc29f763a5f6b130038dceaa2da575c2",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100018,
+        "geometry_sha256": "4095e760da4f275c01bcef05a661d6055732cbc29078dbbe3a39c0e1ad3a2737",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100018,
+        "geometry_sha256": "4a759b23bb7b0663b2dfb303597cc3dae5aef53e71ec188666fb040918d7b133",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100018,
+        "geometry_sha256": "0ec4092b606a9ec379a3d2f263bc0499c77208bf164a3565f7920821b71e4118",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100018,
+        "geometry_sha256": "dc1aa8d1985c3fdfe1d59232339461d5e4a9f850e55c10347a7ec4c87fe30451",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100019,
+        "geometry_sha256": "a75630de6c3f157e465b2625e0e79fbf4540c4374eb61385f2c32654b65c5a28",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100019,
+        "geometry_sha256": "ad411f058f743425cdc0e78ec4725a8b5465222a4df1cdecf23fdcadb271cf47",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100019,
+        "geometry_sha256": "1001044d73f7bb82874162bc3a36168c98d9ce0814a03e9bf4b4f953d4dcb2ae",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100019,
+        "geometry_sha256": "df998ff6779b1d1bcec35b8de827ff7d1c20c404b9525be58b37a40f76ed6725",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100019,
+        "geometry_sha256": "f24d43e9a02df0e863c827d2dfbedccc281ae1133c4f9b2ae2c4ffee753d1f92",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100019,
+        "geometry_sha256": "c2bd4e6a9673bd165a8bf854cdbff8c3e86a5e579823a01e2b6152483c8054b0",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100020,
+        "geometry_sha256": "0b07d6bdc04c8ae53880534d8af5fad9496884288e815167688c81a0ff017d66",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100020,
+        "geometry_sha256": "b2d4db058999a9c0562b5e315e378e6bb59de28704ffec768ae514e1cf116fce",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100020,
+        "geometry_sha256": "a08d88813afe3172089bca335cfc973131a9ea69483009ee04cca6ac2cb6b663",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100020,
+        "geometry_sha256": "db4db1c7c4003ad2bdc28e1835a42429783882b2d19403ade9c2160823ef2c8d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100020,
+        "geometry_sha256": "b2598d7e672ade5733ae51a719c77877921cf4b4820c2f1d37d245f2cca1c40c",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100020,
+        "geometry_sha256": "4cbf6c10faef05d282b7728ab250217658454c3f0b5004d605e370a4cd4938e3",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100021,
+        "geometry_sha256": "17987ff369c123eb0bce6c891a4538ac7feb8e130a0ecb72b5715410daf3f131",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100021,
+        "geometry_sha256": "0c559fbd70ba2d52d96502e187c35692952915128b9ca4629bdbc5dcda3030bd",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100021,
+        "geometry_sha256": "4872ef4dcdd172ad5c2e749e80adc7176386ff3e897bc528ccb3d25dd957438c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100021,
+        "geometry_sha256": "92a9dc3eafd6bf2c9b498ba4273909745e216a832bc9e7eb27df7f2d307fd6a4",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100021,
+        "geometry_sha256": "af5f809141c0fcbaac88ba9c1398721f5de39f71bc96f58f52f63f2f67e3e3b1",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100021,
+        "geometry_sha256": "8c782b27a9d438a7e6634de68aee61fe8d5bff49a5f8f8b614aa0875c110819b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100022,
+        "geometry_sha256": "3a70a03affff8af1a8a36a5f67be1c1d84064c3502359236966d2f21d956506b",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100022,
+        "geometry_sha256": "2f55770afce4c09164d4bd5d51a597a944d3d5463fef8f7af85c3004975cf8b8",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100022,
+        "geometry_sha256": "637f882826330511bfa3bbe48bc318abf705543673081ae27548fd66931a17fb",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100022,
+        "geometry_sha256": "16e8eccd6d1ffa438a615cb115e7f1cc8f36afd29eeb84227e1f894e54a1bc8b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100022,
+        "geometry_sha256": "6a669a29af5fcba857b212684f4ac72dceec79e7864126f83362eade0b80ee41",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100022,
+        "geometry_sha256": "28cfecf0fe50ea08c47df50ff33d5a785f9a1e9a667bfd95521c6911261ce2b1",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100023,
+        "geometry_sha256": "cdfb8bbb30733e4d74b33b5f61e812dc223351ed6aeb8108b84b06465ce6f57a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100023,
+        "geometry_sha256": "838d03544541b0e88a3407ba7838e8cc6b6efbdcebf28e18140b3d6364318d51",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100023,
+        "geometry_sha256": "d8f177e4c5e05c8f5135e6b624ad3c1006dff5be46f8c2def5ec515379b83165",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100023,
+        "geometry_sha256": "9f629c2bd37b45110d650b48debc85757c9db0752d5c15b66594c5316708ea06",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100023,
+        "geometry_sha256": "2e524cc4836ee9fc3a3961a817bed605b8997698573671b9dcc595aa1025f9a5",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100023,
+        "geometry_sha256": "6f9a4edc6495347dcf1fbeec7a851f0067d436e60d170c5c3018cb2d29429c75",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100024,
+        "geometry_sha256": "5cafee206cdae492c161aa2b2415ddb15ef18b32336850994346e17aae8c1268",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100024,
+        "geometry_sha256": "1f7e55f94958e51359f5455a347f9a8d67860e3bc577be19e85d2f379f17c994",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100024,
+        "geometry_sha256": "6fef59a3cf64e243d0a88293cb08309648752d27d6f5b7989e959ea4dd320139",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100024,
+        "geometry_sha256": "59c7dc111250a64ba634997a075f7c6cbcbc156b64d2a378d14dfd0461cc05de",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100024,
+        "geometry_sha256": "59106786d683325856377acddded0b48a99c6dffd43c24c2cc10ec986db27897",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100024,
+        "geometry_sha256": "32fb522c0b8f170d8b182e8f9503b0c2379782aff891355d32d93a27b55f0893",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100025,
+        "geometry_sha256": "1a5301017cebc228d78e1e1116c551ea48d1987b0789498e55dcc5bbcd48181a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100025,
+        "geometry_sha256": "be57a7ba9bb9e86bbc4acdb53206312bcc84f6f0265208ff801074dcea45ba80",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100025,
+        "geometry_sha256": "fffd8d3ff942c84d08b438a4e90daf6d1a57c840ee479636f003e27f52dc8842",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100025,
+        "geometry_sha256": "05663d7f00c2be33d25c8f3ca6ebf519027b78f980d040df23e422a868b07162",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100025,
+        "geometry_sha256": "8cefb2771da6e722cdf087dcead2f072ef816cd604cadc168d5dfc2e0bdf5690",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100025,
+        "geometry_sha256": "b8d9d5fc92c0bb1355acbec0e9292b7f089b61306e487c7e2ad297c66428a253",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100026,
+        "geometry_sha256": "beb9e45e5170666d3f57b793b315f6ba21bafa4c158af45395784e0f718a6ed6",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100026,
+        "geometry_sha256": "56e87e673ba6b4ded35f5763c346b0c4620cb454fd8a8f13ddeab63b69e9f6c8",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100026,
+        "geometry_sha256": "b32e460a32805dbe8ed2a8eeb5dba8780671751fa6f4189b36504bd21b9ce690",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100026,
+        "geometry_sha256": "5c2530f164783c1e51496280cda29997ac26c419250d5e977d6c18b90d20d692",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100026,
+        "geometry_sha256": "3d915b780f533b346fc6ef8e87f6875fba87cb8625e2f1cbc5dcec348e6c9139",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100026,
+        "geometry_sha256": "005e9a8523d1676a157a7f5e7ff452ae907bf0c9357145f301ed5b7a19b34e51",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100027,
+        "geometry_sha256": "fb91b3bd0c68a05c3be3bf837a92b6b7f4dd0b01468fbc2f27b9dee482fa69ef",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100027,
+        "geometry_sha256": "f30980b2878f3abdd8a22362f8f6c00e17d304f0f9e5233be7d51c8663d71a5b",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100027,
+        "geometry_sha256": "4e78963b5185ca0e05224b8110f60a1e1c81b79cbc9eb07d1320b570a9dd475e",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100027,
+        "geometry_sha256": "eeca6177dd824907a0470b2068ee6941ebbe0f9066fea06afaad242bb1c99923",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100027,
+        "geometry_sha256": "05e515f4cc461854f34ad07c24bcd6d0d64e4a88e1553a45438ce11d8f05fa82",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100027,
+        "geometry_sha256": "c81e281b39beff005810ab46399dce9ad769a8f051dfdffbf6497074a8e44a4d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100028,
+        "geometry_sha256": "741b4c7fe6e19a2420fcd5ea1e47e534a0c0a3a9befb9cb4ecea8815a4987fdd",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100028,
+        "geometry_sha256": "db928b346372f4a619f1bcff8bcb2ad4649335d2f5440474e92a9c9bca6c4fd3",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100028,
+        "geometry_sha256": "bf17bae335a4f09951c3abe9a209f62c93bd7bdeff47fb2224fd291109f1ad8c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100028,
+        "geometry_sha256": "f08294dc3cba5f4c11fc470de8300d10b0d7074587285864766ea16fd6c30368",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100028,
+        "geometry_sha256": "3d9df29f952611aa9453e8b05522c936e64eb65d8c5342072e374683d30997d7",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100028,
+        "geometry_sha256": "c0b4335a3319a0c288c357201d3cf9ed24af50442dcea0e809db2c1fdccc93f1",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100029,
+        "geometry_sha256": "e9eb836c92672e0fd66506710eceae70bcc6b435b7a905e35fe91cce2a03819e",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100029,
+        "geometry_sha256": "fbdb07a63f7bae1a1ac5806f8b188b151d555ea4e5841bf0d638dc2e4ba1c943",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100029,
+        "geometry_sha256": "057aa594da4f7d684e56c93b9eb6e3c69f751b4a8baa452c45476639b47abbb6",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100029,
+        "geometry_sha256": "d5ff64361ac938ad97350fd4505faaee7aac81c83e6bbf1af36264e32e6e30d1",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100029,
+        "geometry_sha256": "2fb51c53c9fcfd71186f90e1a6224a1eccd8e84e6599c7a82857bab1b8fcefc9",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100029,
+        "geometry_sha256": "f117360c43e24838d8f02ca248efc28d080459f9a463136024961a4619840834",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100030,
+        "geometry_sha256": "0d5f851ce6849cb529e9adda5a9727f95618e86b50fd2a713e80c15b1859b4c4",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100030,
+        "geometry_sha256": "433e4e7d5932c50c3f62e0601c215e41aa0fe1551df3f6a82668aecdf0432e0a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100030,
+        "geometry_sha256": "8405d9b515fec3b7772f874409b81dde685d75ebbae240314e5b121ffa20d27c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100030,
+        "geometry_sha256": "28fae29dbbc6d8efc20494e3a042927a2256325386bd7dee518fcf8ec680c9c0",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100030,
+        "geometry_sha256": "3bd3d3fe94d885a937bfcc5ef4d0c8f6372dceae7d8b04842ab7312e6939bab8",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100030,
+        "geometry_sha256": "21eae5393cb3e6c9a0c3f44eab5409a35029053804bef8725bfe65c8007a81f6",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100031,
+        "geometry_sha256": "e1a5435ada6a5cd1d4762cbc2db072db510e30446a320b2798556de610ad9cd3",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100031,
+        "geometry_sha256": "6d49eef5b625199d0aed757fb0363ee61b9c5d6cdd7836886823f548f477ac6d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100031,
+        "geometry_sha256": "98c709205d60f57dd034a79b04f497a32be1eff788c3191ec402cce4d845a35a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100031,
+        "geometry_sha256": "55780228e9b37180da41a91ba20f7e2a75b778112fda0c4efb5256ab06c5d9fd",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100031,
+        "geometry_sha256": "3ddced0cfd74e89f67046bddda322ceac96cc52e285202af8782a45f731d3b28",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100031,
+        "geometry_sha256": "5f0ed9dd8b0641a746b45b48ff7e51da648c40a81acde30a87cde000658fe4a2",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100032,
+        "geometry_sha256": "dcc178f87c6cd2e553790870f6c3fbfa0356c861c83917c3af0b5ca9e3fe8b0e",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100032,
+        "geometry_sha256": "966b5958db0288744db976e876719d81bfdb2056cf8b1cb891e686877102167f",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100032,
+        "geometry_sha256": "c34617014d35bd8dcc7002ef589b0bfb02618a73a8f182975232c5708a40aa9e",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100032,
+        "geometry_sha256": "441447552f6dc6caa3b6b33c0b6fdd15f10480e8d0a7454764a61e1b434a05d7",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100032,
+        "geometry_sha256": "d4a821d6628ac9fffa4075f0f9b4963cae83caf23d7c5f99cbf7293e80bcaaee",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100032,
+        "geometry_sha256": "c3249c487d7655a73c4981d238390c41c80f6fd0c2f47981dcf4617a7b642992",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100033,
+        "geometry_sha256": "334ad45743f0c235391a60c0c650590aa06521742a1a8342673a93a608033af5",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100033,
+        "geometry_sha256": "663f8614efceba1b408e0d7c91f7e82a2a73f31acd04673db867b7e9abbb6a01",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100033,
+        "geometry_sha256": "dd81eaf643ca344fa02cc3c212233e3662596d80ac39f41f2d452db7b56c81c1",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100033,
+        "geometry_sha256": "60894ffd914052afba70f73992a0c15f8cb9082c72a11d751ca3f8b1b1e50d74",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100033,
+        "geometry_sha256": "612a0e7136b71259de641e9bf79d55cd26ee759ad4364c89419ffbb4a30787fe",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100033,
+        "geometry_sha256": "0f3ace3007e9fae74ccefbedbeb7246e9d58d949f9acfe71730c1cabdf85f4bf",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100034,
+        "geometry_sha256": "fcf3cb3a5b373990f975a8d3f6ae441ad21b73796e14d142767f284edb37ba13",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100034,
+        "geometry_sha256": "a3cd47fe19db6096d05eadb739cb37cb7758a8c8d2879dfeff3c2c162a65447a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100034,
+        "geometry_sha256": "2633ba714d65eb2f0a24950553ecc58c060696f0aabee222de563b3702faeb19",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100034,
+        "geometry_sha256": "7462ccc9d6103a9e707a02d9eba8af99c947d83a41e1d3ae7205eadab58a17f0",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100034,
+        "geometry_sha256": "bb62445d49e33a721df886cc830a74b6bec53f7fc9e93c5018e4235473f9e860",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100034,
+        "geometry_sha256": "c9866bc0fcaa8b05f19196ccccc006481f3450cd6b09952beaba27647585ecce",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100035,
+        "geometry_sha256": "c50918c72686c40473afa6ae2cc40b5b662865e0a551a6391560038ee32e6a67",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100035,
+        "geometry_sha256": "e039e4c9a41b7f3556234fbf015d344980fedbb51a1bc536c0821c19ce5ab653",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100035,
+        "geometry_sha256": "a82aa10211fb2e473017e671d0eeb098c689fadc4c30a28fa56c262d103682cf",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100035,
+        "geometry_sha256": "648a79152cc9d11f94ec41ea0b2b18fa2ba076e3e0200a91104f8608776f9108",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100035,
+        "geometry_sha256": "2c2f327bba6ee41c84c734dd97693899273e23171122d703c44f2032ce35d078",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100035,
+        "geometry_sha256": "7df53629cd944ce8c740fc669474756ab32e4def16da9525e07f682909837b6d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100036,
+        "geometry_sha256": "e65f500b32ad8102137df2c909524c5f8e9a3c7351da4c0c8cd31e7c2e1f4c62",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100036,
+        "geometry_sha256": "215c0eb3185c45dd63984996d1c32644e48681deebbbaee04ed1b00c190c4c17",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100036,
+        "geometry_sha256": "46e8d77056acf756fb495c96a1cffc9481cb5eedbcd1063484c5872151e41f3a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100036,
+        "geometry_sha256": "0d395c6ec658f4066089226544c1027eed33f90150b6f92235ded742c844cf02",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100036,
+        "geometry_sha256": "b8300bdd7b33a352f238fdc651a5c7c8c5610b1c5ff2fa60f879b5b87c126cda",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100036,
+        "geometry_sha256": "0582e2747939cdc181347f4ff3cc8a51146fb0a339749635b32f8bb2f034e5cb",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100037,
+        "geometry_sha256": "4d1432f9bc511899dfaf31ebd29431465c7fc21e0820120f89a895fd5db242df",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100037,
+        "geometry_sha256": "881ae3c5adcc4b31dc1642ba92b1e75b2cadc8f5223829cec75d22efdcbf0c75",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100037,
+        "geometry_sha256": "8839ff4ba458710caf2ed9ceba8c60dc44cb96335f1f54f9293c9c28eb438a4c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100037,
+        "geometry_sha256": "cd43b0ae6654a395ab72d8e0c817af6c4c4f331a08986c4e9cbdda86da9cbbb2",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100037,
+        "geometry_sha256": "97e8f56e852ed749908c3af758aac62254b3172d63c3f3e88482c60f1c2b6c75",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100037,
+        "geometry_sha256": "57abcb0a528cc0209b1d7ddc0d47e50f0c7c8d98787bda34130bf281e1205a50",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100038,
+        "geometry_sha256": "9c568928ba10e35f39b9805b9791b34cbcf07f60a544344aebfc0beddc47c907",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100038,
+        "geometry_sha256": "c5d40ed9746585ceec6e4f9879fa2cde742800c3f674c8021898117353c652da",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100038,
+        "geometry_sha256": "1e0681443ed2a6840fe7605699bd5b332a8a2a988ebcd58ad3729c434d60c0f2",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100038,
+        "geometry_sha256": "ce1358e52752827631aee4e0fc05cf86e98972415772c7500ad870d210f6c18d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100038,
+        "geometry_sha256": "c8112c1a22907305205d700cf99c867a5846ad34de2ce2aa2440a2d26b37eef0",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100038,
+        "geometry_sha256": "0788d04ef1964bccc4fab063666b2dbb9f116b4b661e0e83aede93127ebe4dbd",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100039,
+        "geometry_sha256": "76d9295c651b5a77c0d306a27858abc7d6863b09dd8e8518acfc9f1cf42547c7",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100039,
+        "geometry_sha256": "a91eee4cfe209032dc3bbc03b907e5d2f3e5e4043b19def486e7d5597c4be5fe",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100039,
+        "geometry_sha256": "f15c56260622fe339ab8f74c354e5f33079d616f9bd9887e4fd37e8a970d13a7",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100039,
+        "geometry_sha256": "d41d3926edfba7bcbf6aa49c3923fe1774d764ce6590b3a0388bb934eaa27bf0",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100039,
+        "geometry_sha256": "931f35fa036cebc52d43fa5fbf2859b7ea94b411b03092248c1b608964d6fa48",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100039,
+        "geometry_sha256": "a97a8b125fecab835f3378053e5cd1d0e4b3e9d433d722de22de036f102a9f28",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100040,
+        "geometry_sha256": "2fcf056a6b7496f7630ffbc0e6e18ad2ad8986645424d53ae9c06ddbcce2eea0",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100040,
+        "geometry_sha256": "e977943c11ed1e4fc83470ab10a33c46d9978369db0f2b5c5ee424656fdaaf8d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100040,
+        "geometry_sha256": "9c492914095a2e20212fb69f0c592bb1755254988741ade1c21d2055684125ad",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100040,
+        "geometry_sha256": "fa4c742b702cf56183418c3253c623420dc685c69cc1d9b1e137f9658c61b384",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100040,
+        "geometry_sha256": "036f61752caf8316e3566155859b17d73a888681a713527252671d0d944dfc48",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100040,
+        "geometry_sha256": "bcf70abb3a601979275c990adbbef9baae9b5fc27b4f9a1120dca29754283b2f",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100041,
+        "geometry_sha256": "eb27a070672a164cb2336d53c9071c4050c6889607b0fd9ae2a018c0d4a4d1da",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100041,
+        "geometry_sha256": "de597b6cb799bb06d0c6ba060dfc730d6a0f5ed1f8f092299c5b37857154d8ab",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100041,
+        "geometry_sha256": "aa98563f042d5b1fbea53870bdb38ad31456e13f485f60ec156c6b9c417067b9",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100041,
+        "geometry_sha256": "3f418abb8f701ce18679369fd000ac7cfc0015ecba9ab931070ee27b86642627",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100041,
+        "geometry_sha256": "8c9f93ddfa00f15120fd742c8fce24486b370e9ebf7464055a6c11e53c264e7b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100041,
+        "geometry_sha256": "b6d94c44a6d8b1d0b01ec74d709f57329775a77f70b291044b62fd05050e32e4",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100042,
+        "geometry_sha256": "535bf2c7fa2d55ab1254427bb5a3bfd783d66fb2b2160a26f7c423fa7c112e3b",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100042,
+        "geometry_sha256": "ffebc2e83d47a47faac43625f486507e4452d3c5948e5a447de890016e09d7c0",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100042,
+        "geometry_sha256": "08fc7a9809d0b1b7c5cf55b60c4b5f87db15e1cb82eb30ad79c707d3d19ac2ac",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100042,
+        "geometry_sha256": "6774c2d83ce1e0e523c51fb0d89ce458a2c00d9d24f9b4a8c24a38bd9ee51505",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100042,
+        "geometry_sha256": "62e26b82fc4537a4e72308357d05a7802a579054e765c733416652690dea69d7",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100042,
+        "geometry_sha256": "e9a74bc8bc0f31bf0e70d1e32a3af4f4f0189c70bb8bba648c04e23034069b4d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100043,
+        "geometry_sha256": "fbd3dcde05c40c2386c0eb312d7dce542e52825888e67c346bce94a7adc5786b",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100043,
+        "geometry_sha256": "0d6b6fca68a7c87616b0296de323b9f82655896093ff22ab3b9fcf42f8768718",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100043,
+        "geometry_sha256": "3f415757235600a8821ac7300bdc722261ecb26ac523d34679f2e2de9824195b",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100043,
+        "geometry_sha256": "97a136370a3df00750c4a80106d4ea8ed106ac5967f42316a31bdedbb71b6636",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100043,
+        "geometry_sha256": "f6453e351660f06dbc1f996e549f40bbdd207314b89bb7140be403ae95c151c6",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100043,
+        "geometry_sha256": "d5255104616e3659ddc53710dd34a9590d927f580498017004db0375594872ef",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100044,
+        "geometry_sha256": "f97742e5fa7c315090b1f59309604b4928915c23dd8e9487afccac3f8411b898",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100044,
+        "geometry_sha256": "16596da981cb6f813b386acd4c55e5349c316ba8bdb4aa013f18979e9a1bc2b4",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100044,
+        "geometry_sha256": "9e91f62aee33bd64d95eb136285716e374d70dfdb6fd6878117f4dc72fae4f94",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100044,
+        "geometry_sha256": "dbd76acd29ea7b150fa015a7b4864a6aaf2cee3ff498202e31d6bb1c286ead70",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100044,
+        "geometry_sha256": "b1de6caaf395b3509f1178202e82690cf4285be4dabf992090727c6be3b35a12",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100044,
+        "geometry_sha256": "4b2dc41cc9b1ae8eecbcc2eb7c74cd3e2a02d11b93b5855eb6efecb97df8331b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100045,
+        "geometry_sha256": "5c3992e7f5771252d85951c44bfd9801d01413a714a731c60599cc094d359f1d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100045,
+        "geometry_sha256": "eb90f6ad1d31e067db142141952229ecd6cce9b88446d30c503d34b7d3e3bda2",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100045,
+        "geometry_sha256": "38bc3e65d42c1f611a7719e0e4965b42550daa5d0fcf2a54e430b6b5d5db8802",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100045,
+        "geometry_sha256": "341c9d96068463e56b1fa67cffe6f5503563487dd527a497652d41daf428387d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100045,
+        "geometry_sha256": "cace5a3da4abcc13551df8771ae16b7e7214fbbc80cae49e555190addef15571",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100045,
+        "geometry_sha256": "6de821bd4dd49dc6a0b0161fe04fd2ad9a369915e7832894a4e60784b59d7eb2",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100046,
+        "geometry_sha256": "3371101feb35b43f62a843921788173663650aad6bcfe8eb5db9bbfabe3c4255",
+        "geometry_variant": 1,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100046,
+        "geometry_sha256": "f7d5ec0d81ece97e53c3e11dfb973044ff10dd701341ff90ea269df91bdd7a30",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100046,
+        "geometry_sha256": "f0196de6b6bdc1fdc8afc538bc0e1c1d3aa24e05e409945b2d957ecdeee23a95",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100046,
+        "geometry_sha256": "93b5bbce963d2a678be067adaef9d7762119340162c41d2387685642a2d85f67",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100046,
+        "geometry_sha256": "46e3061c12483ce259ed595fdc7884d686bc16bb6cddd3010e3f947343e282c4",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100046,
+        "geometry_sha256": "fe49d9d651a5b2fca3c7d45ca8c76ec4b966bd0bf4ad08baa9bd9ba53f0f1b30",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100047,
+        "geometry_sha256": "eca80a6c467807bc4db8037bb43a42fcb205f7493f4b703c2b6e87066bbcb076",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100047,
+        "geometry_sha256": "e6186c261b5f4c7b6819c6dbca85b569993918148f14defb02f9226b6a7b47d8",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100047,
+        "geometry_sha256": "892aec3d6f3e70f5e76c737327273750183a61abf906f202847842aed6ac3d00",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100047,
+        "geometry_sha256": "60431605922b37491d07f88b02fabfceb49f392f0b78f8e2f6cd7926a7d9eb53",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100047,
+        "geometry_sha256": "6372c9a10870d40b33c747057a2a17ec8e1e175626cd2f5c3a39e44c8289331e",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100047,
+        "geometry_sha256": "55e738a2b876fc5374270f0a8326edf7fe45a3a0a86d5a57eb7c8bea6fb4faf9",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100048,
+        "geometry_sha256": "e31a200b943ef24c1d79213add902ad7efaf3f2ffa756494dce54055adb1ac39",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100048,
+        "geometry_sha256": "506009ede832f4ccec0b9b08ff58b1833797738ac9cb13b678f4afd6a99eea4c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100048,
+        "geometry_sha256": "572c3ccebf5dd9127a4896fe7bc04de22280e9cbfc70b56163d1fc9f8e79c1d0",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100048,
+        "geometry_sha256": "ca1d5d5ff1b2bfbb2e70379d0b298ee3a5668f9994b5f74d980babe335b78c95",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100048,
+        "geometry_sha256": "95b275d3fd5ca64e48032863421c7e3f0a27620c5050c36aea6d26e61d3838cf",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100048,
+        "geometry_sha256": "5f0157c4567c5bed44d8e1e017ede3977b93b59620f070e31c43f29b4c9c31b7",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100049,
+        "geometry_sha256": "7ae0a554097541e0bd7284fe835d704aa0e05cd0f3db2373beb841822c624a1c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100049,
+        "geometry_sha256": "b89e368c080778bdf9a762b842587083d1007ed5f21094fd5f11b193ed6bcc74",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100049,
+        "geometry_sha256": "13c093d0aec2c5bfc02cb0aead2ad25b937baf7b65da8f8b5413a32f067e2963",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100049,
+        "geometry_sha256": "2293374861bba6e30da813728afbd971756c534eac0c6cf8d3937ae74a06e0f5",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100049,
+        "geometry_sha256": "c55b940aca40bdf772daf38bca4261c33216da18f603c17a2cb58e6fa5c6f053",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100049,
+        "geometry_sha256": "1ca9b5c22ffd6b4344bc3714fd0816909f122bc92da8edeca34dfce4090ec66a",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100050,
+        "geometry_sha256": "17a20fb3d1951d07f59b8935382f0c03c58647189fdf5467a61a9eb75ed967e3",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100050,
+        "geometry_sha256": "15a3139639c740cb3236e65ae9608410f2d1839d3502903e85f9c883a7695196",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100050,
+        "geometry_sha256": "a8047c2481a2bf03c3410cdf87d670dc501d8901c9bb369a566b529526ae11e4",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100050,
+        "geometry_sha256": "58d784b4b8552f4cc0abb8b03c28991d53a3fdb5b43fb2237f9453826f3e5880",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100050,
+        "geometry_sha256": "5c87bcf1e0f3e225577360f33a638238eec071229af12c667ba3a78af8809c59",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100050,
+        "geometry_sha256": "7da39d8fc7beaaf4260de904e64142361fabcd714f00d8047096d285d1e5f21d",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100051,
+        "geometry_sha256": "94cd694d327d23305e654aeac4d7b53f7f2487cb584d38e40c451c1fc6736e7c",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100051,
+        "geometry_sha256": "f143f711de441dadb0e19a158a6f2dd380e8f565c3f75d3cb8dfa09e1cda334a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100051,
+        "geometry_sha256": "46d8cb5f29fcc09ab760d79901834220edb8c5180f7ebbd524047978adabd5d1",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100051,
+        "geometry_sha256": "86a21dadd976f0cb760948f325e7b869dc66182296e727e8cf7d8a8e92e5773f",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100051,
+        "geometry_sha256": "3ac1ccd5bb64ecd8efcec23de53c27dab2ea9e75945bbc803c1f5cdae73da173",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100051,
+        "geometry_sha256": "2ea83d9b1f288eacadc1ffaf95aa703f7cf43a413cf916192bb8d74eed4fb4a6",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100052,
+        "geometry_sha256": "0ceb5081998e4a7005806c4d965e6d0904157b2eef64b69bd17fa109fcb2dc4d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100052,
+        "geometry_sha256": "9c1c09a53efe665396bcbbf9c2ebd47bc1e977b1f843e2116a3c75ae09d29eb6",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100052,
+        "geometry_sha256": "f882679f820679008bc4c00f3c5aed105d65f72cde0b7d022a3127c769bb223a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100052,
+        "geometry_sha256": "d599a35c1999d03774711a9ceee36c9a6fe17d9bee1ff13a928b69be8dbd7ed2",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100052,
+        "geometry_sha256": "b925df348bf1e07f383ac8129e0b59d695885f549745e9d0758472b7ba1318a4",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100052,
+        "geometry_sha256": "8a7d1bddb8cfb8d80c2391f2224690eb740990f7075c23c1587e138168492cf7",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100053,
+        "geometry_sha256": "7eb87ff6f9eb97186b5e1d5ee8b3411ba3b77531eceba59847d70b36d4cf471d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100053,
+        "geometry_sha256": "d1fd5f68beee325cdf6db3216b1aa3e8e58f929944928b86e9db1672b5d1f429",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100053,
+        "geometry_sha256": "3a9d662b7013e89d4165b12b017837bf7ff58dab1b0457b7162c0ed373ceaa08",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100053,
+        "geometry_sha256": "a35183b8667ec785f3df811627e7667bc1543fdf1319cc9347ba07eeed9307cf",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100053,
+        "geometry_sha256": "c85216da2ddfcea053f2031f787cf33a552f1fd971898a3b22d92fa364a2604c",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100053,
+        "geometry_sha256": "8105d12a2f90debd0068770e35ae3b2e0d2329c23002fcaff7e82560f3387de5",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100054,
+        "geometry_sha256": "4bb2cca1d8c53d8628a55c0a36cbbb1528b05ed2cf64e71db1c7a38a69717232",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100054,
+        "geometry_sha256": "4ec8be44898ca329f7d6806b513e3b3ff286f21d4c512946d77ebe9b28caa6f3",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100054,
+        "geometry_sha256": "309813126e3b4d1980b38d4fc6d075375c661e1c20678faabe9c8403c63a2a7b",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100054,
+        "geometry_sha256": "dc23d7a876761f8cf84f4512a2b0807f50c2f60c4c9beb07819abfbd1ff4115a",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100054,
+        "geometry_sha256": "b30fc4b3bd83bd6026a9f8c3ec4c545ea9feb0385d29d5d0c51669ff23d5d6cb",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100054,
+        "geometry_sha256": "8df09b2baa4ac1ebec71ce5962b1f014909df6363ac96a3da7bd7d3a0ba6509c",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100055,
+        "geometry_sha256": "a81c826471644e216d740ce785019aef3b1a9cf1307bb8a172533bd16c46fe38",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100055,
+        "geometry_sha256": "7b4f9ae40847265162d6ee5ee4764faa10a3fb9ac4e5de869001772c2600c2ed",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100055,
+        "geometry_sha256": "4a3f4cc97652665fd6e09caf1b6c36a915cd26d7d62a157c02f500f40f6f57c7",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100055,
+        "geometry_sha256": "0c3de66761c76ceb7f61bf675f32aa7dbdf1ae8aada1545c6b9448e491a624e0",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100055,
+        "geometry_sha256": "b4942227c70efd7a0e0d5f1f5d0a5a95490621cdadabff20eeb91a98c62adffe",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100055,
+        "geometry_sha256": "31875e80dd1389a81792450a71a45dcffc5464d4783657235832bc920174ec32",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100056,
+        "geometry_sha256": "a11e069a0cff107a185863d7efbe395b529314c6b292caba0dbe33a3ee9436a6",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100056,
+        "geometry_sha256": "689e580f56d1fab97129fa1df9bb849448ffd4893af08f718e95b049a63f5071",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100056,
+        "geometry_sha256": "891d63b65bf4fc9fa5a2ec6d22280004054d388e61718d92c8d8b4e682ee5b46",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100056,
+        "geometry_sha256": "49944457da2f50019fea4dc924731b72a062badf5c0f82801b5299fad4ffb002",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100056,
+        "geometry_sha256": "0a0d2d3f42b02c2c9880d2ac1a69c89ff8fb6e130e715bc44df3a20a05ecb895",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100056,
+        "geometry_sha256": "1ceae79c3e12131d2943716c6b38b4c87477982a296e7f4fd59a99ac923d395b",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100057,
+        "geometry_sha256": "c8115e34fd731d740cbe4d946960fcc528e31bc759d23e251848663820005097",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100057,
+        "geometry_sha256": "bdc99ebb7144d62f472af15af3709bd0552b864d41118ab6d8d009304c75353e",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100057,
+        "geometry_sha256": "8bcd48192897954f5422c6ba3d1b970e4f1fe6fa4c3ed28f3fd0c0917172ae27",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100057,
+        "geometry_sha256": "545f70a5e19d481dffce4acdac984298dd912c2acdad81e8f778c2649feab6fd",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100057,
+        "geometry_sha256": "829d17d7d64907f58a65a5f49f5585c377413f214fcc74379be173b4361e9a8c",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100057,
+        "geometry_sha256": "68c4ce76e7802e1c67b79a408559d6432e3eddc5e9156b622396db777cb38b5e",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100058,
+        "geometry_sha256": "23198bed349a72251ca3f5f60218ffba3a33348776c88da2e76b2b2e7e37da29",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100058,
+        "geometry_sha256": "8365fb2e8e65bab31fc895680968d3a7f27107e90946c439f81a7ed8be9bbc34",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100058,
+        "geometry_sha256": "ded1e71e84402731d06fbc02f8358a88cb48419546d2b48fd83535ebb28afd14",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100058,
+        "geometry_sha256": "45a5383788b71b0229d431f702fe7e7d653920ec418d15dfdad7889687c01064",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100058,
+        "geometry_sha256": "b2cdd61206a5f1c7c92b72ec8d8ee895e47be4feaf4134340534dd3342901732",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100058,
+        "geometry_sha256": "6defa804f24247666e8a721a331adce3c41541385f2bd33c6d76060223c67e53",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100059,
+        "geometry_sha256": "f1a30907edc2ad5aeb950d5a159a9b95f0d07f1acdd86e8d7f54b915151b494d",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100059,
+        "geometry_sha256": "19f6596bab1d869443d19ae00d8d8e9d69a44330a2023a51f8d888c47b0e82f2",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100059,
+        "geometry_sha256": "4cd22adc59c4d59bdd17b94ba659f3c1dc33f517501e5e46070a25631ff603d2",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100059,
+        "geometry_sha256": "4f9bd0ab9c96f7e2fadccc54f7869458439f150d693ab3b27d178c9bbe4aaa77",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100059,
+        "geometry_sha256": "d6ab5b815080d48d8a8dcb9beca75699445a4fa05e275b4f72651d0063db9748",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100059,
+        "geometry_sha256": "a7afb583a571be1c874cbeedd801495db9ce292b918ac18caf94ea314226a109",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100060,
+        "geometry_sha256": "1d7de16f34cdc69585fae9ac901729020ce22333189f6760195e0469125cbe84",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100060,
+        "geometry_sha256": "b447a36fe479db9eece2222bcc2a68b40c9a985685791b2c765e029bea193b47",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100060,
+        "geometry_sha256": "d725462428fcbd26b9036f6528c051890dd84c929767cf8be3408f0981aae247",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100060,
+        "geometry_sha256": "e83978c5d886deb9369d37d0dbb0d626e31bd2ef2589fb1e021fd9c548232962",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100060,
+        "geometry_sha256": "818f3a0665970e844639eda8eeda73bd2054fc9550b6a04ebf1f66f046e975a2",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100060,
+        "geometry_sha256": "1aa0888a371ec61bc24a1b36cc1686f64c68da4d4d00c79d02eedca858df2523",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100061,
+        "geometry_sha256": "b05cf2157bf9f726c3c05a6a52412408cb1e1e6d8b43f12cbdd77019000607a5",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100061,
+        "geometry_sha256": "462961d7030874237c20e5c4ce0e9bd390d9e41c58370632505b863849795759",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100061,
+        "geometry_sha256": "40eb1a5cc1886fe24ba97810ed27d51a38a8808b08750b60289fd5cd2e2bc01a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100061,
+        "geometry_sha256": "17c5c96be4544445e276640896f55910e9581e18916a4848360abad6681f2041",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100061,
+        "geometry_sha256": "0d86584c38cff9e8f4d0bfd0f28768411c02c0f43292b1912fbcc5d19971b808",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100061,
+        "geometry_sha256": "70bf888fbe1b6973114b7a02a3c7af6dbcdce34ef358db9d38daf82428ab933e",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100062,
+        "geometry_sha256": "765d3385494cca0d856ddc97838cc420684b6157a73af1fb8c04ec3c93ebfcd4",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100062,
+        "geometry_sha256": "ea49b4b36866afa833031e2856e52522429f47c40d6c3abab891d09d7b9351f0",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100062,
+        "geometry_sha256": "915c2f360c4f41ded98bcb8c5786130b6344d75deedd35cc85fad667793db06a",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100062,
+        "geometry_sha256": "4699a78eab7c146bacd1c2ae57b6d6641095bcaebcfb2b38f4bef1bcb3c455a9",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100062,
+        "geometry_sha256": "ab41e7c00abae59410b4b9bdcd0a14a737b74da373a2f45f636ddde823e6449c",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100062,
+        "geometry_sha256": "c65c8f28894ffea5b96803988106e5dceaa174bc39432feee668f1a5b21df5e6",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "collision"
+        ],
+        "geometry_seed": 100063,
+        "geometry_sha256": "2cdfa8fbfd59940d3b0bad98272f8619c92c9052b33173b01580a1cb31fd3075",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "trigger"
+        ],
+        "geometry_seed": 100063,
+        "geometry_sha256": "62ba0219786d7198484b5140e6c83d52c932515ccbfafe72051cb17de0c38970",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 1,
+        "axes": [
+          "relation"
+        ],
+        "geometry_seed": 100063,
+        "geometry_sha256": "794400d52c429978fa161598d925c6c192c42b9107364fcecbc7bda547fbae59",
+        "geometry_variant": 0,
+        "panel_kind": "singleton"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "trigger"
+        ],
+        "geometry_seed": 100063,
+        "geometry_sha256": "e44c7e0c501015dbd52ec1d3058bd09b2bbcb4ced3155bf84dfa4b656ef30c1f",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "collision",
+          "relation"
+        ],
+        "geometry_seed": 100063,
+        "geometry_sha256": "e2a5ce92158b6eb29dcd6d3cb6bfda7a1fbc35c93c32e656279a60f77105720c",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      },
+      {
+        "action_atom_count": 2,
+        "axes": [
+          "trigger",
+          "relation"
+        ],
+        "geometry_seed": 100063,
+        "geometry_sha256": "f1318b8b0856c41f506d1135b95eb204b5d64764e4cab7882ade73010109ba08",
+        "geometry_variant": 0,
+        "panel_kind": "pair"
+      }
+    ],
+    "train_unique_geometry_hash_count": 384
+  },
+  "eval_geometry_seed_count": 32,
+  "eval_geometry_seed_start": 200000,
+  "eval_target_scope": "triple_composition_only",
+  "existing_audited_runtime_modified": false,
+  "experiment": "geometry_randomized_executor_dataset_protocol_audit",
+  "factor_axes_and_value_codebook_given": true,
+  "geometry_hash_metadata_exposed_to_model": false,
+  "geometry_seed_metadata_exposed_to_model": false,
+  "interpretation": "A pass certifies an ID-free, split-exclusive public geometry stream with singleton/pair train targets and triple-only evaluation targets. It does not certify executor learning or causal-variable discovery.",
+  "layout_coverage_gate": {
+    "passed": true,
+    "splits": {
+      "eval": {
+        "collision": {
+          "expected_directions": [
+            "E",
+            "N",
+            "S",
+            "W"
+          ],
+          "expected_shapes": [
+            "domino-perpendicular",
+            "single-cell"
+          ],
+          "minimum_unique_anchor_count": 4,
+          "observed_directions": [
+            "E",
+            "N",
+            "S",
+            "W"
+          ],
+          "observed_shapes": [
+            "domino-perpendicular",
+            "single-cell"
+          ],
+          "observed_unique_anchor_count": 22,
+          "passed": true
+        },
+        "relation": {
+          "expected_directions": [
+            "E",
+            "N",
+            "S",
+            "W"
+          ],
+          "expected_shapes": [
+            "domino-perpendicular",
+            "single-cell"
+          ],
+          "minimum_unique_anchor_count": 4,
+          "observed_directions": [
+            "E",
+            "N",
+            "S",
+            "W"
+          ],
+          "observed_shapes": [
+            "domino-perpendicular",
+            "single-cell"
+          ],
+          "observed_unique_anchor_count": 26,
+          "passed": true
+        },
+        "trigger": {
+          "expected_directions": [],
+          "expected_shapes": [
+            "trigger-payload-socket"
+          ],
+          "minimum_unique_anchor_count": 4,
+          "observed_directions": [],
+          "observed_shapes": [
+            "trigger-payload-socket"
+          ],
+          "observed_unique_anchor_count": 25,
+          "passed": true
+        }
+      },
+      "train": {
+        "collision": {
+          "expected_directions": [
+            "E",
+            "N",
+            "S",
+            "W"
+          ],
+          "expected_shapes": [
+            "domino-perpendicular",
+            "single-cell"
+          ],
+          "minimum_unique_anchor_count": 4,
+          "observed_directions": [
+            "E",
+            "N",
+            "S",
+            "W"
+          ],
+          "observed_shapes": [
+            "domino-perpendicular",
+            "single-cell"
+          ],
+          "observed_unique_anchor_count": 52,
+          "passed": true
+        },
+        "relation": {
+          "expected_directions": [
+            "E",
+            "N",
+            "S",
+            "W"
+          ],
+          "expected_shapes": [
+            "domino-perpendicular",
+            "single-cell"
+          ],
+          "minimum_unique_anchor_count": 4,
+          "observed_directions": [
+            "E",
+            "N",
+            "S",
+            "W"
+          ],
+          "observed_shapes": [
+            "domino-perpendicular",
+            "single-cell"
+          ],
+          "observed_unique_anchor_count": 59,
+          "passed": true
+        },
+        "trigger": {
+          "expected_directions": [],
+          "expected_shapes": [
+            "trigger-payload-socket"
+          ],
+          "minimum_unique_anchor_count": 4,
+          "observed_directions": [],
+          "observed_shapes": [
+            "trigger-payload-socket"
+          ],
+          "observed_unique_anchor_count": 48,
+          "passed": true
+        }
+      }
+    }
+  },
+  "overall_protocol_gate": {
+    "passed": true,
+    "requires": [
+      "dataset_audit.static_gates",
+      "layout_coverage_gate"
+    ]
+  },
+  "palette_mode": "privileged_default_role_canonicalized",
+  "schema_version": "prp-wm.random-geometry-protocol-audit.v1",
+  "source_sha256": {
+    "prp_wm/random_geometry_protocol.py": "ac80ebc5b554e7c59aee4fc5c60ad41fa4a3905d504eb91068b3d90bd481f5bf",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/audit_random_geometry_executor_protocol.py": "9b9d101ab1a9ff391b250b1d2fbcc2d79bb97ad7a5e6b50c563c5117c22c2d73"
+  },
+  "split_metadata_exposed_to_model": false,
+  "train_geometry_seed_count": 64,
+  "train_geometry_seed_start": 100000,
+  "train_target_scope": "singleton_and_pair_mechanism_events_only",
+  "training_started": false
+}

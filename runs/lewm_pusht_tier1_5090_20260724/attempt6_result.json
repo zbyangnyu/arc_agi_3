@@ -1,0 +1,9 @@
+{
+  "error": "Checkpoint path does not exist: /root/autodl-tmp/lewm_pusht_tier1_5090_20260724/stablewm/checkpoints/pusht/lewm_object.ckpt. Launch pretraining first.",
+  "error_type": "AssertionError",
+  "failed_stage": "checkpoint_convert_and_load",
+  "schema_version": "lewm-pusht-tier1-5090-v1",
+  "status": "error",
+  "timestamp_utc": "2026-07-24T04:27:22.892253+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 103, in <module>\n  File \"/root/autodl-tmp/lewm_pusht_tier1_5090_20260724/venv/lib/python3.12/site-packages/stable_worldmodel/policy.py\", line 537, in AutoCostModel\n    return _load_model_with_attribute(run_name, 'get_cost', cache_dir)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/root/autodl-tmp/lewm_pusht_tier1_5090_20260724/venv/lib/python3.12/site-packages/stable_worldmodel/policy.py\", line 472, in _load_model_with_attribute\n    assert path.exists(), (\n           ^^^^^^^^^^^^^\nAssertionError: Checkpoint path does not exist: /root/autodl-tmp/lewm_pusht_tier1_5090_20260724/stablewm/checkpoints/pusht/lewm_object.ckpt. Launch pretraining first.\n"
+}

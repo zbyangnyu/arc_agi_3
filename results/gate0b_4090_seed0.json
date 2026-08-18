@@ -1,0 +1,26 @@
+{
+  "all_calibration_version_spaces_are_four": true,
+  "all_diagnostic_signatures_unique": true,
+  "all_neutral_change_requirements_hold": true,
+  "all_neutral_supports_preserve_version_space": true,
+  "benchmark_version": "prp-rulegrid-v0.2.0",
+  "bootstrap_resamples": 2000,
+  "budget": 4,
+  "candidate_partition_counts": {
+    "neutral-large-change": 19200,
+    "partial": 9600,
+    "strong": 9600
+  },
+  "gate_eligible": true,
+  "gate_threshold": 0.25,
+  "oracle_rmst4": 1.0,
+  "passes": true,
+  "relative_rmst_reduction": 0.5882352941176471,
+  "repeats_per_program_axis": 25,
+  "tasks": 4800,
+  "uniform_exact_rmst4": 2.4285714285714284,
+  "uniform_minus_oracle_rmst4_ci95": [
+    1.4285714285714282,
+    1.4285714285714282
+  ]
+}

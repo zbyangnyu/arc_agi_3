@@ -1,0 +1,4475 @@
+{
+  "budgets": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    8
+  ],
+  "candidate_selection": "uniform_without_replacement",
+  "checkpoint_model_type": "PaletteInvariantAtomMatchedCompositeEventHistoryProbeFactorBeliefCausalK4",
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/public_belief_active_sequence_ft800_fold0_seed20260871/checkpoint_last.pt",
+  "checkpoint_sha256": "c044d2e7a35ccce5c316a8df9bf9c85ff3072ce27a7c9b5635e7ba6d0ffa2330",
+  "checkpoint_version_head": "palette-invariant-atom-matched-composite-event-history-probe-factor-belief",
+  "data_master_seed": 2026071601,
+  "episode_traces": [
+    {
+      "axis": "collision",
+      "hidden_door_materialized_after_play": 0,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999985,
+            0.24999945,
+            0.25000048,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A04"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999984,
+            0.24999939,
+            0.25000057,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A03"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25005078,
+            0.24994612,
+            0.24999568,
+            0.25000739
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25005212,
+            0.24994408,
+            0.24999583,
+            0.25000799
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A05"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.2500529,
+            0.24994309,
+            0.24999592,
+            0.25000811
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A02"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25008678,
+            0.24991323,
+            0.24999118,
+            0.25000885
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A01"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25043359,
+            0.24963704,
+            0.24992071,
+            0.2500087
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25048336,
+            0.24960136,
+            0.24991086,
+            0.25000438
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A06"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25048631,
+            0.24959813,
+            0.24991098,
+            0.25000459
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P00/H0/N0000"
+    },
+    {
+      "axis": "collision",
+      "hidden_door_materialized_after_play": 1,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999985,
+            0.24999945,
+            0.25000048,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A04"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999984,
+            0.24999939,
+            0.25000057,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A03"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.1773534,
+            0.4940275,
+            0.16282232,
+            0.16579683
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.17732115,
+            0.49414843,
+            0.16277611,
+            0.16575427
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A05"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.17729351,
+            0.4942432,
+            0.16274211,
+            0.16572116
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A02"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.01338499,
+            0.9623509,
+            0.01207347,
+            0.01219066
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A01"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.00017768,
+            0.99979717,
+            7.34e-06,
+            1.79e-05
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            8.02e-06,
+            0.99999142,
+            3.8e-07,
+            2.6e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A06"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 1,
+          "door_probabilities": [
+            8.02e-06,
+            0.99999142,
+            3.8e-07,
+            2.6e-07
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P16/H0/N0000"
+    },
+    {
+      "axis": "collision",
+      "hidden_door_materialized_after_play": 2,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999985,
+            0.24999945,
+            0.25000048,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A04"
+          },
+          "probes_used": 0,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999984,
+            0.24999939,
+            0.25000057,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A03"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25005078,
+            0.24994612,
+            0.24999568,
+            0.25000739
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 2,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25005212,
+            0.24994408,
+            0.24999583,
+            0.25000799
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A05"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.2500529,
+            0.24994309,
+            0.24999592,
+            0.25000811
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A02"
+          },
+          "probes_used": 4,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25008678,
+            0.24991323,
+            0.24999118,
+            0.25000885
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A01"
+          },
+          "probes_used": 5,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25011316,
+            0.24987645,
+            0.25002027,
+            0.24999015
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 6,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.12957871,
+            0.15808395,
+            0.58536524,
+            0.12697211
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A06"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 2,
+          "door_probabilities": [
+            0.12954479,
+            0.15804943,
+            0.58546823,
+            0.12693758
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P32/H0/N0000"
+    },
+    {
+      "axis": "collision",
+      "hidden_door_materialized_after_play": 3,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999985,
+            0.24999945,
+            0.25000048,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A04"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999984,
+            0.24999939,
+            0.25000057,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A03"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25005078,
+            0.24994612,
+            0.24999568,
+            0.25000739
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 2,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25005212,
+            0.24994408,
+            0.24999583,
+            0.25000799
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A05"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.2500529,
+            0.24994309,
+            0.24999592,
+            0.25000811
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A02"
+          },
+          "probes_used": 4,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25008678,
+            0.24991323,
+            0.24999118,
+            0.25000885
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A01"
+          },
+          "probes_used": 5,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25009394,
+            0.2499022,
+            0.24998598,
+            0.25001788
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 6,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25011039,
+            0.24982318,
+            0.24995863,
+            0.25010782
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A06"
+          },
+          "probes_used": 7,
+          "would_win": false
+        },
+        {
+          "door_guess": 0,
+          "door_probabilities": [
+            0.25011128,
+            0.24982113,
+            0.24995887,
+            0.25010872
+          ],
+          "probes_used": 8,
+          "would_win": false
+        }
+      ],
+      "task_id": "public-belief-door-validation/P48/H0/N0000"
+    },
+    {
+      "axis": "collision",
+      "hidden_door_materialized_after_play": 0,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999985,
+            0.24999945,
+            0.25000048,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A04"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999934,
+            0.24999985,
+            0.25000098,
+            0.24999984
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A03"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27465332,
+            0.10813444,
+            0.25977778,
+            0.35743439
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 2,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27464402,
+            0.10798609,
+            0.25983205,
+            0.35753787
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A05"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27464813,
+            0.10782728,
+            0.2599225,
+            0.35760206
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A02"
+          },
+          "probes_used": 4,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27036738,
+            0.00614893,
+            0.27852604,
+            0.4449577
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A01"
+          },
+          "probes_used": 5,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.93040907,
+            6.161e-05,
+            0.02148984,
+            0.04803949
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.97319305,
+            9.03e-06,
+            0.0088942,
+            0.01790368
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A06"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 0,
+          "door_probabilities": [
+            0.97319102,
+            9.03e-06,
+            0.00889814,
+            0.01790185
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P00/H0/N0000"
+    },
+    {
+      "axis": "collision",
+      "hidden_door_materialized_after_play": 1,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999985,
+            0.24999945,
+            0.25000048,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A04"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999934,
+            0.24999985,
+            0.25000098,
+            0.24999984
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A03"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.11718187,
+            0.66669142,
+            0.10671238,
+            0.10941427
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.11705659,
+            0.66707879,
+            0.10658045,
+            0.10928421
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A05"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.116894,
+            0.66756952,
+            0.10641693,
+            0.10911956
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A02"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.00111781,
+            0.99860376,
+            6.42e-05,
+            0.00021425
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A01"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 1,
+          "door_probabilities": [
+            3.738e-05,
+            0.9999572,
+            7.4e-07,
+            4.66e-06
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            1.15e-06,
+            0.99999881,
+            3e-08,
+            5e-08
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A06"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 1,
+          "door_probabilities": [
+            1.15e-06,
+            0.99999881,
+            3e-08,
+            5e-08
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P16/H0/N0000"
+    },
+    {
+      "axis": "collision",
+      "hidden_door_materialized_after_play": 2,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999985,
+            0.24999945,
+            0.25000048,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A04"
+          },
+          "probes_used": 0,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999934,
+            0.24999985,
+            0.25000098,
+            0.24999984
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A03"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27465332,
+            0.10813444,
+            0.25977778,
+            0.35743439
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 2,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27464402,
+            0.10798609,
+            0.25983205,
+            0.35753787
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A05"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27464813,
+            0.10782728,
+            0.2599225,
+            0.35760206
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A02"
+          },
+          "probes_used": 4,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27036738,
+            0.00614893,
+            0.27852604,
+            0.4449577
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A01"
+          },
+          "probes_used": 5,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.01999127,
+            0.00044138,
+            0.94059634,
+            0.03897097
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            2.536e-05,
+            1.102e-05,
+            0.99989367,
+            6.995e-05
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A06"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 2,
+          "door_probabilities": [
+            2.535e-05,
+            1.102e-05,
+            0.99989367,
+            6.991e-05
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P32/H0/N0000"
+    },
+    {
+      "axis": "collision",
+      "hidden_door_materialized_after_play": 3,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999985,
+            0.24999945,
+            0.25000048,
+            0.25000024
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A04"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.24999934,
+            0.24999985,
+            0.25000098,
+            0.24999984
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A03"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27465332,
+            0.10813444,
+            0.25977778,
+            0.35743439
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27464402,
+            0.10798609,
+            0.25983205,
+            0.35753787
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A05"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27464813,
+            0.10782728,
+            0.2599225,
+            0.35760206
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A02"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.27036738,
+            0.00614893,
+            0.27852604,
+            0.4449577
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A01"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.03863668,
+            0.00146046,
+            0.0539726,
+            0.90593028
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.00446335,
+            0.00031247,
+            0.01077897,
+            0.98444515
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A06"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 3,
+          "door_probabilities": [
+            0.00446361,
+            0.0003126,
+            0.01078442,
+            0.98443931
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P48/H0/N0000"
+    },
+    {
+      "axis": "trigger",
+      "hidden_door_materialized_after_play": 0,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24999034,
+            0.2500039,
+            0.24999765,
+            0.25000808
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A03"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.52386153,
+            0.00017832,
+            0.00038224,
+            0.47557792
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A04"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.52505881,
+            0.00017651,
+            0.00038556,
+            0.47437915
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.42759058,
+            1.7e-07,
+            3.1e-07,
+            0.57240891
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.36107308,
+            0.0,
+            0.0,
+            0.63892692
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 4,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.36690712,
+            0.0,
+            0.0,
+            0.63309288
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 5,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.36914694,
+            0.0,
+            0.0,
+            0.63085306
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A01"
+          },
+          "probes_used": 6,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.29962465,
+            0.0,
+            0.0,
+            0.70037532
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A05"
+          },
+          "probes_used": 7,
+          "would_win": false
+        },
+        {
+          "door_guess": 3,
+          "door_probabilities": [
+            0.3014265,
+            0.0,
+            0.0,
+            0.69857347
+          ],
+          "probes_used": 8,
+          "would_win": false
+        }
+      ],
+      "task_id": "public-belief-door-validation/P00/H1/N0000"
+    },
+    {
+      "axis": "trigger",
+      "hidden_door_materialized_after_play": 1,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24999034,
+            0.2500039,
+            0.24999765,
+            0.25000808
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A03"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24994873,
+            0.24995445,
+            0.25000578,
+            0.25009105
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A04"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24994639,
+            0.24988517,
+            0.25005889,
+            0.25010955
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24986169,
+            0.2498316,
+            0.25010675,
+            0.25019994
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.03186981,
+            0.90281707,
+            0.03200446,
+            0.0333086
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.0270647,
+            0.91720116,
+            0.02722323,
+            0.0285109
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.02494846,
+            0.92352253,
+            0.02512531,
+            0.02640366
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A01"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            7.38e-06,
+            0.99994779,
+            2.205e-05,
+            2.271e-05
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A05"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 1,
+          "door_probabilities": [
+            7.48e-06,
+            0.99994707,
+            2.255e-05,
+            2.285e-05
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P04/H1/N0000"
+    },
+    {
+      "axis": "trigger",
+      "hidden_door_materialized_after_play": 2,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24999034,
+            0.2500039,
+            0.24999765,
+            0.25000808
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A03"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24994873,
+            0.24995445,
+            0.25000578,
+            0.25009105
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A04"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24994639,
+            0.24988517,
+            0.25005889,
+            0.25010955
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24986169,
+            0.2498316,
+            0.25010675,
+            0.25019994
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.01087808,
+            0.0114754,
+            0.96691275,
+            0.01073383
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.00599564,
+            0.00654972,
+            0.98162216,
+            0.00583246
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.00383836,
+            0.0043695,
+            0.9881236,
+            0.00366851
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A01"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            8.1e-07,
+            5.91e-06,
+            0.99999273,
+            5.3e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A05"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 2,
+          "door_probabilities": [
+            8.1e-07,
+            5.78e-06,
+            0.99999285,
+            5.2e-07
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P08/H1/N0000"
+    },
+    {
+      "axis": "trigger",
+      "hidden_door_materialized_after_play": 3,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24999034,
+            0.2500039,
+            0.24999765,
+            0.25000808
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A03"
+          },
+          "probes_used": 0,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24994873,
+            0.24995445,
+            0.25000578,
+            0.25009105
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A04"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24994639,
+            0.24988517,
+            0.25005889,
+            0.25010955
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24986169,
+            0.2498316,
+            0.25010675,
+            0.25019994
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.37343085,
+            0.00930582,
+            0.00625123,
+            0.61101198
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.38182238,
+            0.0044158,
+            0.00138779,
+            0.61237401
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.38449869,
+            0.00364206,
+            0.0006541,
+            0.61120516
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A01"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.28617182,
+            0.00010422,
+            1.059e-05,
+            0.71371329
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A05"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 3,
+          "door_probabilities": [
+            0.28792578,
+            0.00010335,
+            1.074e-05,
+            0.71196002
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P12/H1/N0000"
+    },
+    {
+      "axis": "trigger",
+      "hidden_door_materialized_after_play": 0,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24999034,
+            0.2500039,
+            0.24999765,
+            0.25000808
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A03"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.96862495,
+            0.00324301,
+            0.00440718,
+            0.02372473
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A04"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.96878892,
+            0.00318743,
+            0.00435313,
+            0.02367061
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99256694,
+            7.5e-07,
+            3.5e-06,
+            0.00742872
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99696892,
+            1e-08,
+            4e-08,
+            0.00303112
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99697018,
+            1e-08,
+            4e-08,
+            0.00302979
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99697089,
+            1e-08,
+            4e-08,
+            0.00302904
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A01"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99838281,
+            0.0,
+            0.0,
+            0.00161721
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A05"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99838305,
+            0.0,
+            0.0,
+            0.00161695
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P00/H1/N0000"
+    },
+    {
+      "axis": "trigger",
+      "hidden_door_materialized_after_play": 1,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24999034,
+            0.2500039,
+            0.24999765,
+            0.25000808
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A03"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24998675,
+            0.25000089,
+            0.24999981,
+            0.25001258
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A04"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24998589,
+            0.25000054,
+            0.25000152,
+            0.25001207
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24997479,
+            0.24999361,
+            0.25000805,
+            0.2500236
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.0377236,
+            0.88880813,
+            0.03592296,
+            0.03754533
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.0376153,
+            0.88913238,
+            0.03581741,
+            0.03743489
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.0375436,
+            0.88934696,
+            0.03574744,
+            0.03736203
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A01"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            1.363e-05,
+            0.99996364,
+            1.302e-05,
+            9.71e-06
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A05"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 1,
+          "door_probabilities": [
+            1.363e-05,
+            0.99996364,
+            1.302e-05,
+            9.7e-06
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P04/H1/N0000"
+    },
+    {
+      "axis": "trigger",
+      "hidden_door_materialized_after_play": 2,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24999034,
+            0.2500039,
+            0.24999765,
+            0.25000808
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A03"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24998675,
+            0.25000089,
+            0.24999981,
+            0.25001258
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A04"
+          },
+          "probes_used": 1,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24998589,
+            0.25000054,
+            0.25000152,
+            0.25001207
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24997479,
+            0.24999361,
+            0.25000805,
+            0.2500236
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.01654866,
+            0.01466201,
+            0.95565832,
+            0.01313097
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.01643682,
+            0.01455288,
+            0.95598823,
+            0.01302202
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.01636146,
+            0.01447916,
+            0.95621061,
+            0.01294878
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A01"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            1.582e-05,
+            9.87e-06,
+            0.99997377,
+            4.5e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A05"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 2,
+          "door_probabilities": [
+            1.581e-05,
+            9.86e-06,
+            0.99997389,
+            4.5e-07
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P08/H1/N0000"
+    },
+    {
+      "axis": "trigger",
+      "hidden_door_materialized_after_play": 3,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24999034,
+            0.2500039,
+            0.24999765,
+            0.25000808
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A03"
+          },
+          "probes_used": 0,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24998675,
+            0.25000089,
+            0.24999981,
+            0.25001258
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A04"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24998589,
+            0.25000054,
+            0.25000152,
+            0.25001207
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.24997479,
+            0.24999361,
+            0.25000805,
+            0.2500236
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.53008628,
+            0.0834463,
+            0.07796556,
+            0.30850184
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A07"
+          },
+          "probes_used": 4,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.53031617,
+            0.08335918,
+            0.07787868,
+            0.30844593
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 5,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.53046089,
+            0.08329904,
+            0.07782034,
+            0.30841964
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A01"
+          },
+          "probes_used": 6,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.76851809,
+            0.00078571,
+            0.00050582,
+            0.23019035
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A05"
+          },
+          "probes_used": 7,
+          "would_win": false
+        },
+        {
+          "door_guess": 0,
+          "door_probabilities": [
+            0.76855057,
+            0.0007859,
+            0.00050622,
+            0.23015736
+          ],
+          "probes_used": 8,
+          "would_win": false
+        }
+      ],
+      "task_id": "public-belief-door-validation/P12/H1/N0000"
+    },
+    {
+      "axis": "relation",
+      "hidden_door_materialized_after_play": 0,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.25000027,
+            0.24999972,
+            0.24999933,
+            0.25000066
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A01"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.86768568,
+            0.0501403,
+            0.03754842,
+            0.04462556
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A07"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.86776286,
+            0.05011434,
+            0.03752154,
+            0.04460135
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99960738,
+            0.00025324,
+            1.043e-05,
+            0.00012888
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999964,
+            8e-08,
+            1e-08,
+            3.1e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A04"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999964,
+            8e-08,
+            1e-08,
+            3.1e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A05"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999964,
+            8e-08,
+            1e-08,
+            3.1e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999964,
+            8e-08,
+            1e-08,
+            3.1e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A03"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 0,
+          "door_probabilities": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P00/H2/N0000"
+    },
+    {
+      "axis": "relation",
+      "hidden_door_materialized_after_play": 1,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.25000027,
+            0.24999972,
+            0.24999933,
+            0.25000066
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A01"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.01168559,
+            0.90487623,
+            0.02083753,
+            0.06260064
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A07"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.01166063,
+            0.90493488,
+            0.02080861,
+            0.06259595
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.00020967,
+            0.27509752,
+            0.01651728,
+            0.70817548
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            3.09e-06,
+            0.65071696,
+            0.00024025,
+            0.3490397
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A04"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            3.1e-06,
+            0.65030116,
+            0.00023971,
+            0.34945607
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A05"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            3.1e-06,
+            0.65021735,
+            0.0002396,
+            0.34954002
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 1,
+          "door_probabilities": [
+            3.1e-06,
+            0.65005344,
+            0.00023941,
+            0.34970409
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A03"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 3,
+          "door_probabilities": [
+            5e-08,
+            0.11254748,
+            6.754e-05,
+            0.88738495
+          ],
+          "probes_used": 8,
+          "would_win": false
+        }
+      ],
+      "task_id": "public-belief-door-validation/P01/H2/N0000"
+    },
+    {
+      "axis": "relation",
+      "hidden_door_materialized_after_play": 2,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.25000027,
+            0.24999972,
+            0.24999933,
+            0.25000066
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A01"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.00092328,
+            0.00248682,
+            0.97360855,
+            0.02298131
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A07"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.00089679,
+            0.00246076,
+            0.97367519,
+            0.02296732
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 2,
+          "door_probabilities": [
+            1.109e-05,
+            0.000625,
+            0.75451005,
+            0.24485388
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.0,
+            5e-07,
+            0.99896681,
+            0.00103264
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A04"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.0,
+            5e-07,
+            0.99896336,
+            0.00103619
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A05"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.0,
+            5e-07,
+            0.99896252,
+            0.00103692
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.0,
+            5e-07,
+            0.99896121,
+            0.00103824
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A03"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 2,
+          "door_probabilities": [
+            0.0,
+            3e-07,
+            0.99073857,
+            0.00926117
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P02/H2/N0000"
+    },
+    {
+      "axis": "relation",
+      "hidden_door_materialized_after_play": 3,
+      "probe_context": "unmarked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.25000027,
+            0.24999972,
+            0.24999933,
+            0.25000066
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A01"
+          },
+          "probes_used": 0,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.0134386,
+            0.0132187,
+            0.01280659,
+            0.96053612
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A07"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.01341176,
+            0.01319182,
+            0.01277968,
+            0.96061677
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            1.94e-06,
+            2.465e-05,
+            3.537e-05,
+            0.99993801
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.0,
+            8e-08,
+            1.8e-07,
+            0.99999976
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A04"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.0,
+            7e-08,
+            1.8e-07,
+            0.99999976
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A05"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.0,
+            7e-08,
+            1.8e-07,
+            0.99999976
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.0,
+            7e-08,
+            1.8e-07,
+            0.99999976
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A03"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 3,
+          "door_probabilities": [
+            0.0,
+            1e-08,
+            2e-08,
+            1.0
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P03/H2/N0000"
+    },
+    {
+      "axis": "relation",
+      "hidden_door_materialized_after_play": 0,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.25000027,
+            0.24999972,
+            0.24999933,
+            0.25000066
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A01"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.85560638,
+            0.05318627,
+            0.04486584,
+            0.04634147
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A07"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.85589021,
+            0.05309401,
+            0.04476854,
+            0.04624713
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99778843,
+            0.00180956,
+            8.657e-05,
+            0.00031538
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999774,
+            1.52e-06,
+            1e-07,
+            6.6e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A04"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999774,
+            1.51e-06,
+            9e-08,
+            6.6e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A05"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999774,
+            1.51e-06,
+            9e-08,
+            6.6e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999774,
+            1.51e-06,
+            9e-08,
+            6.6e-07
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A03"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 0,
+          "door_probabilities": [
+            0.99999976,
+            1.4e-07,
+            1e-08,
+            5e-08
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P00/H2/N0000"
+    },
+    {
+      "axis": "relation",
+      "hidden_door_materialized_after_play": 1,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.25000027,
+            0.24999972,
+            0.24999933,
+            0.25000066
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A01"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.01323886,
+            0.94785261,
+            0.02558708,
+            0.01332146
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A07"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.01314194,
+            0.94814998,
+            0.02548074,
+            0.01322736
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 1,
+          "door_probabilities": [
+            0.00068185,
+            0.981682,
+            0.01366534,
+            0.00397076
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            1.144e-05,
+            0.99923849,
+            0.00039743,
+            0.0003527
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A04"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            1.148e-05,
+            0.99923849,
+            0.00039639,
+            0.00035362
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A05"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 1,
+          "door_probabilities": [
+            1.149e-05,
+            0.99923861,
+            0.00039592,
+            0.000354
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 1,
+          "door_probabilities": [
+            1.15e-05,
+            0.99923873,
+            0.00039535,
+            0.00035449
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A03"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 1,
+          "door_probabilities": [
+            8.32e-06,
+            0.99924684,
+            0.00037393,
+            0.00037092
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P01/H2/N0000"
+    },
+    {
+      "axis": "relation",
+      "hidden_door_materialized_after_play": 2,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.25000027,
+            0.24999972,
+            0.24999933,
+            0.25000066
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A01"
+          },
+          "probes_used": 0,
+          "would_win": false
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.01076925,
+            0.01641492,
+            0.95596898,
+            0.01684685
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A07"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.0106732,
+            0.01632656,
+            0.95623595,
+            0.01676431
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 2,
+          "door_probabilities": [
+            0.00012093,
+            0.0074779,
+            0.98280442,
+            0.00959674
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            2.5e-07,
+            5.647e-05,
+            0.99984491,
+            9.837e-05
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A04"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            2.5e-07,
+            5.661e-05,
+            0.99984431,
+            9.883e-05
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A05"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 2,
+          "door_probabilities": [
+            2.5e-07,
+            5.667e-05,
+            0.99984407,
+            9.903e-05
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 2,
+          "door_probabilities": [
+            2.5e-07,
+            5.674e-05,
+            0.99984372,
+            9.929e-05
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A03"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 2,
+          "door_probabilities": [
+            2.2e-07,
+            5.92e-05,
+            0.9998337,
+            0.0001068
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P02/H2/N0000"
+    },
+    {
+      "axis": "relation",
+      "hidden_door_materialized_after_play": 3,
+      "probe_context": "marked",
+      "steps": [
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.25000027,
+            0.24999972,
+            0.24999933,
+            0.25000066
+          ],
+          "next_public_probe": {
+            "candidate_index": 3,
+            "probe_id": "A01"
+          },
+          "probes_used": 0,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.05023576,
+            0.05009393,
+            0.04754493,
+            0.85212529
+          ],
+          "next_public_probe": {
+            "candidate_index": 4,
+            "probe_id": "A07"
+          },
+          "probes_used": 1,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.05013166,
+            0.04999044,
+            0.04743908,
+            0.85243893
+          ],
+          "next_public_probe": {
+            "candidate_index": 1,
+            "probe_id": "A02"
+          },
+          "probes_used": 2,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "strong",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.0014042,
+            0.00602976,
+            0.00272416,
+            0.98984188
+          ],
+          "next_public_probe": {
+            "candidate_index": 2,
+            "probe_id": "A00"
+          },
+          "probes_used": 3,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.00019593,
+            0.00207455,
+            0.0007693,
+            0.99696016
+          ],
+          "next_public_probe": {
+            "candidate_index": 6,
+            "probe_id": "A04"
+          },
+          "probes_used": 4,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.00019612,
+            0.00206961,
+            0.0007655,
+            0.99696881
+          ],
+          "next_public_probe": {
+            "candidate_index": 5,
+            "probe_id": "A05"
+          },
+          "probes_used": 5,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "neutral-large-change",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.00019601,
+            0.00206749,
+            0.00076381,
+            0.99697268
+          ],
+          "next_public_probe": {
+            "candidate_index": 7,
+            "probe_id": "A06"
+          },
+          "probes_used": 6,
+          "would_win": true
+        },
+        {
+          "audit_only_candidate_kind": "partial",
+          "door_guess": 3,
+          "door_probabilities": [
+            0.00019593,
+            0.00206477,
+            0.00076171,
+            0.99697757
+          ],
+          "next_public_probe": {
+            "candidate_index": 0,
+            "probe_id": "A03"
+          },
+          "probes_used": 7,
+          "would_win": true
+        },
+        {
+          "door_guess": 3,
+          "door_probabilities": [
+            0.00014947,
+            0.0020064,
+            0.00070169,
+            0.99714237
+          ],
+          "probes_used": 8,
+          "would_win": true
+        }
+      ],
+      "task_id": "public-belief-door-validation/P03/H2/N0000"
+    }
+  ],
+  "evaluations": [
+    {
+      "axis": "collision",
+      "budget": 0,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.25000107288360596,
+      "mean_door_entropy": 1.3862946033477783,
+      "mean_public_equivalence_class_nll": 3.725290298461914e-09,
+      "mean_public_equivalence_class_probability": 1.0,
+      "mean_public_equivalence_class_size": 4.0,
+      "mean_true_door_probability": 0.25,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.0,
+      "public_symmetry_axis_identified_rate": 0.0,
+      "selected_probe_kinds": {},
+      "simulator_axis_identified_rate": 0.0,
+      "singleton_only_exact_win_rate": null,
+      "tasks": 256,
+      "terminal_win_rate": 0.25,
+      "uniform_equivalence_class_exact_door_ceiling": 0.25
+    },
+    {
+      "axis": "collision",
+      "budget": 1,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.27948012948036194,
+      "mean_door_entropy": 1.3670458793640137,
+      "mean_public_equivalence_class_nll": 0.345943808555603,
+      "mean_public_equivalence_class_probability": 0.7833858728408813,
+      "mean_public_equivalence_class_size": 3.015625,
+      "mean_true_door_probability": 0.2794751226902008,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.9921875,
+      "public_identified_and_correct_rate": 0.265625,
+      "public_symmetry_axis_identified_rate": 0.2734375,
+      "selected_probe_kinds": {
+        "neutral-large-change": 144,
+        "partial": 56,
+        "strong": 56
+      },
+      "simulator_axis_identified_rate": 0.2734375,
+      "singleton_only_exact_win_rate": 0.9714285731315613,
+      "tasks": 256,
+      "terminal_win_rate": 0.4609375,
+      "uniform_equivalence_class_exact_door_ceiling": 0.4687500596046448
+    },
+    {
+      "axis": "collision",
+      "budget": 2,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.3398404121398926,
+      "mean_door_entropy": 1.3063175678253174,
+      "mean_public_equivalence_class_nll": 0.6511198282241821,
+      "mean_public_equivalence_class_probability": 0.5917925834655762,
+      "mean_public_equivalence_class_size": 2.0078125,
+      "mean_true_door_probability": 0.3398326635360718,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.95703125,
+      "public_identified_and_correct_rate": 0.53125,
+      "public_symmetry_axis_identified_rate": 0.57421875,
+      "selected_probe_kinds": {
+        "neutral-large-change": 252,
+        "partial": 128,
+        "strong": 132
+      },
+      "simulator_axis_identified_rate": 0.57421875,
+      "singleton_only_exact_win_rate": 0.9251700639724731,
+      "tasks": 256,
+      "terminal_win_rate": 0.66015625,
+      "uniform_equivalence_class_exact_door_ceiling": 0.7031250596046448
+    },
+    {
+      "axis": "collision",
+      "budget": 4,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.41182252764701843,
+      "mean_door_entropy": 1.1812314987182617,
+      "mean_public_equivalence_class_nll": 0.8259797096252441,
+      "mean_public_equivalence_class_probability": 0.5055671334266663,
+      "mean_public_equivalence_class_size": 1.375,
+      "mean_true_door_probability": 0.41180962324142456,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.87890625,
+      "public_identified_and_correct_rate": 0.69140625,
+      "public_symmetry_axis_identified_rate": 0.8125,
+      "selected_probe_kinds": {
+        "neutral-large-change": 528,
+        "partial": 248,
+        "strong": 248
+      },
+      "simulator_axis_identified_rate": 0.8125,
+      "singleton_only_exact_win_rate": 0.8509615659713745,
+      "tasks": 256,
+      "terminal_win_rate": 0.75390625,
+      "uniform_equivalence_class_exact_door_ceiling": 0.875
+    },
+    {
+      "axis": "collision",
+      "budget": 6,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.48419737815856934,
+      "mean_door_entropy": 1.0412187576293945,
+      "mean_public_equivalence_class_nll": 0.9031937122344971,
+      "mean_public_equivalence_class_probability": 0.48418548703193665,
+      "mean_public_equivalence_class_size": 1.0,
+      "mean_true_door_probability": 0.48418548703193665,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.8046875,
+      "public_identified_and_correct_rate": 0.8046875,
+      "public_symmetry_axis_identified_rate": 1.0,
+      "selected_probe_kinds": {
+        "neutral-large-change": 756,
+        "partial": 372,
+        "strong": 408
+      },
+      "simulator_axis_identified_rate": 1.0,
+      "singleton_only_exact_win_rate": 0.8046875,
+      "tasks": 256,
+      "terminal_win_rate": 0.8046875,
+      "uniform_equivalence_class_exact_door_ceiling": 1.0
+    },
+    {
+      "axis": "collision",
+      "budget": 8,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.5221630334854126,
+      "mean_door_entropy": 0.9712226986885071,
+      "mean_public_equivalence_class_nll": 0.8286004066467285,
+      "mean_public_equivalence_class_probability": 0.522158145904541,
+      "mean_public_equivalence_class_size": 1.0,
+      "mean_true_door_probability": 0.522158145904541,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.87109375,
+      "public_identified_and_correct_rate": 0.87109375,
+      "public_symmetry_axis_identified_rate": 1.0,
+      "selected_probe_kinds": {
+        "neutral-large-change": 1024,
+        "partial": 512,
+        "strong": 512
+      },
+      "simulator_axis_identified_rate": 1.0,
+      "singleton_only_exact_win_rate": 0.87109375,
+      "tasks": 256,
+      "terminal_win_rate": 0.87109375,
+      "uniform_equivalence_class_exact_door_ceiling": 1.0
+    },
+    {
+      "axis": "collision",
+      "budget": 0,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.25000107288360596,
+      "mean_door_entropy": 1.3862946033477783,
+      "mean_public_equivalence_class_nll": 3.725290298461914e-09,
+      "mean_public_equivalence_class_probability": 1.0,
+      "mean_public_equivalence_class_size": 4.0,
+      "mean_true_door_probability": 0.25,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.0,
+      "public_symmetry_axis_identified_rate": 0.0,
+      "selected_probe_kinds": {},
+      "simulator_axis_identified_rate": 0.0,
+      "singleton_only_exact_win_rate": null,
+      "tasks": 256,
+      "terminal_win_rate": 0.25,
+      "uniform_equivalence_class_exact_door_ceiling": 0.25
+    },
+    {
+      "axis": "collision",
+      "budget": 1,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.4195760488510132,
+      "mean_door_entropy": 1.164374828338623,
+      "mean_public_equivalence_class_nll": 0.07854239642620087,
+      "mean_public_equivalence_class_probability": 0.9324637651443481,
+      "mean_public_equivalence_class_size": 3.015625,
+      "mean_true_door_probability": 0.4121241569519043,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.2734375,
+      "public_symmetry_axis_identified_rate": 0.2734375,
+      "selected_probe_kinds": {
+        "neutral-large-change": 144,
+        "partial": 56,
+        "strong": 56
+      },
+      "simulator_axis_identified_rate": 0.2734375,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.46875,
+      "uniform_equivalence_class_exact_door_ceiling": 0.4687500596046448
+    },
+    {
+      "axis": "collision",
+      "budget": 2,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.6105532646179199,
+      "mean_door_entropy": 0.8823947310447693,
+      "mean_public_equivalence_class_nll": 0.1425006091594696,
+      "mean_public_equivalence_class_probability": 0.8779192566871643,
+      "mean_public_equivalence_class_size": 2.0078125,
+      "mean_true_door_probability": 0.5980454087257385,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.57421875,
+      "public_symmetry_axis_identified_rate": 0.57421875,
+      "selected_probe_kinds": {
+        "neutral-large-change": 252,
+        "partial": 128,
+        "strong": 132
+      },
+      "simulator_axis_identified_rate": 0.57421875,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.703125,
+      "uniform_equivalence_class_exact_door_ceiling": 0.7031250596046448
+    },
+    {
+      "axis": "collision",
+      "budget": 4,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.8130328059196472,
+      "mean_door_entropy": 0.46211984753608704,
+      "mean_public_equivalence_class_nll": 0.09389542788267136,
+      "mean_public_equivalence_class_probability": 0.9184571504592896,
+      "mean_public_equivalence_class_size": 1.375,
+      "mean_true_door_probability": 0.8041775226593018,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.8125,
+      "public_symmetry_axis_identified_rate": 0.8125,
+      "selected_probe_kinds": {
+        "neutral-large-change": 528,
+        "partial": 248,
+        "strong": 248
+      },
+      "simulator_axis_identified_rate": 0.8125,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.875,
+      "uniform_equivalence_class_exact_door_ceiling": 0.875
+    },
+    {
+      "axis": "collision",
+      "budget": 6,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.9674268960952759,
+      "mean_door_entropy": 0.11609656363725662,
+      "mean_public_equivalence_class_nll": 0.03795788809657097,
+      "mean_public_equivalence_class_probability": 0.9674268960952759,
+      "mean_public_equivalence_class_size": 1.0,
+      "mean_true_door_probability": 0.9674268960952759,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 1.0,
+      "public_symmetry_axis_identified_rate": 1.0,
+      "selected_probe_kinds": {
+        "neutral-large-change": 756,
+        "partial": 372,
+        "strong": 408
+      },
+      "simulator_axis_identified_rate": 1.0,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 1.0,
+      "uniform_equivalence_class_exact_door_ceiling": 1.0
+    },
+    {
+      "axis": "collision",
+      "budget": 8,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.9929143190383911,
+      "mean_door_entropy": 0.037240467965602875,
+      "mean_public_equivalence_class_nll": 0.007232503034174442,
+      "mean_public_equivalence_class_probability": 0.9929143190383911,
+      "mean_public_equivalence_class_size": 1.0,
+      "mean_true_door_probability": 0.9929143190383911,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 1.0,
+      "public_symmetry_axis_identified_rate": 1.0,
+      "selected_probe_kinds": {
+        "neutral-large-change": 1024,
+        "partial": 512,
+        "strong": 512
+      },
+      "simulator_axis_identified_rate": 1.0,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 1.0,
+      "uniform_equivalence_class_exact_door_ceiling": 1.0
+    },
+    {
+      "axis": "trigger",
+      "budget": 0,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.25001490116119385,
+      "mean_door_entropy": 1.3862944841384888,
+      "mean_public_equivalence_class_nll": 3.725290298461914e-09,
+      "mean_public_equivalence_class_probability": 1.0,
+      "mean_public_equivalence_class_size": 4.0,
+      "mean_true_door_probability": 0.25,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.0,
+      "public_symmetry_axis_identified_rate": 0.0,
+      "selected_probe_kinds": {},
+      "simulator_axis_identified_rate": 0.0,
+      "singleton_only_exact_win_rate": null,
+      "tasks": 256,
+      "terminal_win_rate": 0.25,
+      "uniform_equivalence_class_exact_door_ceiling": 0.25
+    },
+    {
+      "axis": "trigger",
+      "budget": 1,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.38833004236221313,
+      "mean_door_entropy": 1.175309419631958,
+      "mean_public_equivalence_class_nll": 0.09563697129487991,
+      "mean_public_equivalence_class_probability": 0.9288248419761658,
+      "mean_public_equivalence_class_size": 3.140625,
+      "mean_true_door_probability": 0.36610087752342224,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.953125,
+      "public_identified_and_correct_rate": 0.15625,
+      "public_symmetry_axis_identified_rate": 0.203125,
+      "selected_probe_kinds": {
+        "neutral-large-change": 112,
+        "partial": 80,
+        "strong": 64
+      },
+      "simulator_axis_identified_rate": 0.328125,
+      "singleton_only_exact_win_rate": 0.7692307829856873,
+      "tasks": 256,
+      "terminal_win_rate": 0.40625,
+      "uniform_equivalence_class_exact_door_ceiling": 0.43359375
+    },
+    {
+      "axis": "trigger",
+      "budget": 2,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.47709721326828003,
+      "mean_door_entropy": 1.025116205215454,
+      "mean_public_equivalence_class_nll": 0.15455926954746246,
+      "mean_public_equivalence_class_probability": 0.8897925615310669,
+      "mean_public_equivalence_class_size": 2.671875,
+      "mean_true_door_probability": 0.43668320775032043,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.91015625,
+      "public_identified_and_correct_rate": 0.23828125,
+      "public_symmetry_axis_identified_rate": 0.328125,
+      "selected_probe_kinds": {
+        "neutral-large-change": 240,
+        "partial": 152,
+        "strong": 120
+      },
+      "simulator_axis_identified_rate": 0.5,
+      "singleton_only_exact_win_rate": 0.726190447807312,
+      "tasks": 256,
+      "terminal_win_rate": 0.48828125,
+      "uniform_equivalence_class_exact_door_ceiling": 0.5390625
+    },
+    {
+      "axis": "trigger",
+      "budget": 4,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.658786952495575,
+      "mean_door_entropy": 0.7139156460762024,
+      "mean_public_equivalence_class_nll": 0.2738652229309082,
+      "mean_public_equivalence_class_probability": 0.8253379464149475,
+      "mean_public_equivalence_class_size": 1.85546875,
+      "mean_true_door_probability": 0.5772314667701721,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.8125,
+      "public_identified_and_correct_rate": 0.37890625,
+      "public_symmetry_axis_identified_rate": 0.56640625,
+      "selected_probe_kinds": {
+        "neutral-large-change": 512,
+        "partial": 260,
+        "strong": 252
+      },
+      "simulator_axis_identified_rate": 0.7890625,
+      "singleton_only_exact_win_rate": 0.6689655184745789,
+      "tasks": 256,
+      "terminal_win_rate": 0.62890625,
+      "uniform_equivalence_class_exact_door_ceiling": 0.73046875
+    },
+    {
+      "axis": "trigger",
+      "budget": 6,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.780610203742981,
+      "mean_door_entropy": 0.4835999608039856,
+      "mean_public_equivalence_class_nll": 0.3491820991039276,
+      "mean_public_equivalence_class_probability": 0.7970759272575378,
+      "mean_public_equivalence_class_size": 1.41796875,
+      "mean_true_door_probability": 0.6699991226196289,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.76171875,
+      "public_identified_and_correct_rate": 0.4609375,
+      "public_symmetry_axis_identified_rate": 0.69921875,
+      "selected_probe_kinds": {
+        "neutral-large-change": 768,
+        "partial": 396,
+        "strong": 372
+      },
+      "simulator_axis_identified_rate": 0.94140625,
+      "singleton_only_exact_win_rate": 0.659217894077301,
+      "tasks": 256,
+      "terminal_win_rate": 0.7109375,
+      "uniform_equivalence_class_exact_door_ceiling": 0.8349609375
+    },
+    {
+      "axis": "trigger",
+      "budget": 8,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.8734725713729858,
+      "mean_door_entropy": 0.2795868217945099,
+      "mean_public_equivalence_class_nll": 0.3917035758495331,
+      "mean_public_equivalence_class_probability": 0.8030799627304077,
+      "mean_public_equivalence_class_size": 1.25,
+      "mean_true_door_probability": 0.7298332452774048,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.75,
+      "public_identified_and_correct_rate": 0.5,
+      "public_symmetry_axis_identified_rate": 0.75,
+      "selected_probe_kinds": {
+        "neutral-large-change": 1024,
+        "partial": 512,
+        "strong": 512
+      },
+      "simulator_axis_identified_rate": 1.0,
+      "singleton_only_exact_win_rate": 0.6666666865348816,
+      "tasks": 256,
+      "terminal_win_rate": 0.75,
+      "uniform_equivalence_class_exact_door_ceiling": 0.875
+    },
+    {
+      "axis": "trigger",
+      "budget": 0,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.25001490116119385,
+      "mean_door_entropy": 1.3862944841384888,
+      "mean_public_equivalence_class_nll": 3.725290298461914e-09,
+      "mean_public_equivalence_class_probability": 1.0,
+      "mean_public_equivalence_class_size": 4.0,
+      "mean_true_door_probability": 0.25,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.0,
+      "public_symmetry_axis_identified_rate": 0.0,
+      "selected_probe_kinds": {},
+      "simulator_axis_identified_rate": 0.0,
+      "singleton_only_exact_win_rate": null,
+      "tasks": 256,
+      "terminal_win_rate": 0.25,
+      "uniform_equivalence_class_exact_door_ceiling": 0.25
+    },
+    {
+      "axis": "trigger",
+      "budget": 1,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.42541372776031494,
+      "mean_door_entropy": 1.1016629934310913,
+      "mean_public_equivalence_class_nll": 0.030719326809048653,
+      "mean_public_equivalence_class_probability": 0.9733555316925049,
+      "mean_public_equivalence_class_size": 3.140625,
+      "mean_true_door_probability": 0.4088621437549591,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.203125,
+      "public_symmetry_axis_identified_rate": 0.203125,
+      "selected_probe_kinds": {
+        "neutral-large-change": 112,
+        "partial": 80,
+        "strong": 64
+      },
+      "simulator_axis_identified_rate": 0.328125,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.453125,
+      "uniform_equivalence_class_exact_door_ceiling": 0.43359375
+    },
+    {
+      "axis": "trigger",
+      "budget": 2,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.5367894172668457,
+      "mean_door_entropy": 0.911632239818573,
+      "mean_public_equivalence_class_nll": 0.035498373210430145,
+      "mean_public_equivalence_class_probability": 0.9683878421783447,
+      "mean_public_equivalence_class_size": 2.671875,
+      "mean_true_door_probability": 0.5066343545913696,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.328125,
+      "public_symmetry_axis_identified_rate": 0.328125,
+      "selected_probe_kinds": {
+        "neutral-large-change": 240,
+        "partial": 152,
+        "strong": 120
+      },
+      "simulator_axis_identified_rate": 0.5,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.546875,
+      "uniform_equivalence_class_exact_door_ceiling": 0.5390625
+    },
+    {
+      "axis": "trigger",
+      "budget": 4,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.7303038835525513,
+      "mean_door_entropy": 0.5845141410827637,
+      "mean_public_equivalence_class_nll": 0.05114764720201492,
+      "mean_public_equivalence_class_probability": 0.953876793384552,
+      "mean_public_equivalence_class_size": 1.85546875,
+      "mean_true_door_probability": 0.6662112474441528,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.56640625,
+      "public_symmetry_axis_identified_rate": 0.56640625,
+      "selected_probe_kinds": {
+        "neutral-large-change": 512,
+        "partial": 260,
+        "strong": 252
+      },
+      "simulator_axis_identified_rate": 0.7890625,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.671875,
+      "uniform_equivalence_class_exact_door_ceiling": 0.73046875
+    },
+    {
+      "axis": "trigger",
+      "budget": 6,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.8624074459075928,
+      "mean_door_entropy": 0.33158695697784424,
+      "mean_public_equivalence_class_nll": 0.029423685744404793,
+      "mean_public_equivalence_class_probability": 0.9721893668174744,
+      "mean_public_equivalence_class_size": 1.41796875,
+      "mean_true_door_probability": 0.7651848196983337,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.69921875,
+      "public_symmetry_axis_identified_rate": 0.69921875,
+      "selected_probe_kinds": {
+        "neutral-large-change": 768,
+        "partial": 396,
+        "strong": 372
+      },
+      "simulator_axis_identified_rate": 0.94140625,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.73046875,
+      "uniform_equivalence_class_exact_door_ceiling": 0.8349609375
+    },
+    {
+      "axis": "trigger",
+      "budget": 8,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.942867636680603,
+      "mean_door_entropy": 0.1378132700920105,
+      "mean_public_equivalence_class_nll": 0.0009270076989196241,
+      "mean_public_equivalence_class_probability": 0.9990751147270203,
+      "mean_public_equivalence_class_size": 1.25,
+      "mean_true_door_probability": 0.8053253293037415,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.75,
+      "public_symmetry_axis_identified_rate": 0.75,
+      "selected_probe_kinds": {
+        "neutral-large-change": 1024,
+        "partial": 512,
+        "strong": 512
+      },
+      "simulator_axis_identified_rate": 1.0,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.75,
+      "uniform_equivalence_class_exact_door_ceiling": 0.875
+    },
+    {
+      "axis": "relation",
+      "budget": 0,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.2500021457672119,
+      "mean_door_entropy": 1.3862946033477783,
+      "mean_public_equivalence_class_nll": 7.450580596923828e-09,
+      "mean_public_equivalence_class_probability": 1.0,
+      "mean_public_equivalence_class_size": 4.0,
+      "mean_true_door_probability": 0.25,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.0,
+      "public_symmetry_axis_identified_rate": 0.0,
+      "selected_probe_kinds": {},
+      "simulator_axis_identified_rate": 0.0,
+      "singleton_only_exact_win_rate": null,
+      "tasks": 256,
+      "terminal_win_rate": 0.25,
+      "uniform_equivalence_class_exact_door_ceiling": 0.25
+    },
+    {
+      "axis": "relation",
+      "budget": 1,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.5410045981407166,
+      "mean_door_entropy": 0.966761589050293,
+      "mean_public_equivalence_class_nll": 0.04262746497988701,
+      "mean_public_equivalence_class_probability": 0.9619038105010986,
+      "mean_public_equivalence_class_size": 2.9453125,
+      "mean_true_door_probability": 0.44547176361083984,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.28515625,
+      "public_symmetry_axis_identified_rate": 0.28515625,
+      "selected_probe_kinds": {
+        "neutral-large-change": 132,
+        "partial": 68,
+        "strong": 56
+      },
+      "simulator_axis_identified_rate": 0.28515625,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.48046875,
+      "uniform_equivalence_class_exact_door_ceiling": 0.4804688096046448
+    },
+    {
+      "axis": "relation",
+      "budget": 2,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.7803359031677246,
+      "mean_door_entropy": 0.5608572363853455,
+      "mean_public_equivalence_class_nll": 0.08575576543807983,
+      "mean_public_equivalence_class_probability": 0.93093341588974,
+      "mean_public_equivalence_class_size": 1.984375,
+      "mean_true_door_probability": 0.6454922556877136,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.984375,
+      "public_identified_and_correct_rate": 0.5703125,
+      "public_symmetry_axis_identified_rate": 0.5859375,
+      "selected_probe_kinds": {
+        "neutral-large-change": 252,
+        "partial": 128,
+        "strong": 132
+      },
+      "simulator_axis_identified_rate": 0.5859375,
+      "singleton_only_exact_win_rate": 0.9733333587646484,
+      "tasks": 256,
+      "terminal_win_rate": 0.6953125,
+      "uniform_equivalence_class_exact_door_ceiling": 0.7109374403953552
+    },
+    {
+      "axis": "relation",
+      "budget": 4,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.9304163455963135,
+      "mean_door_entropy": 0.19511374831199646,
+      "mean_public_equivalence_class_nll": 0.29914531111717224,
+      "mean_public_equivalence_class_probability": 0.8696913719177246,
+      "mean_public_equivalence_class_size": 1.328125,
+      "mean_true_door_probability": 0.7609860897064209,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.8828125,
+      "public_identified_and_correct_rate": 0.71875,
+      "public_symmetry_axis_identified_rate": 0.8359375,
+      "selected_probe_kinds": {
+        "neutral-large-change": 496,
+        "partial": 276,
+        "strong": 252
+      },
+      "simulator_axis_identified_rate": 0.8359375,
+      "singleton_only_exact_win_rate": 0.8598130941390991,
+      "tasks": 256,
+      "terminal_win_rate": 0.7734375,
+      "uniform_equivalence_class_exact_door_ceiling": 0.890625
+    },
+    {
+      "axis": "relation",
+      "budget": 6,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.9404274225234985,
+      "mean_door_entropy": 0.13911652565002441,
+      "mean_public_equivalence_class_nll": 0.5754603743553162,
+      "mean_public_equivalence_class_probability": 0.7923043966293335,
+      "mean_public_equivalence_class_size": 1.046875,
+      "mean_true_door_probability": 0.7766796350479126,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.78515625,
+      "public_identified_and_correct_rate": 0.76171875,
+      "public_symmetry_axis_identified_rate": 0.9765625,
+      "selected_probe_kinds": {
+        "neutral-large-change": 752,
+        "partial": 412,
+        "strong": 372
+      },
+      "simulator_axis_identified_rate": 0.9765625,
+      "singleton_only_exact_win_rate": 0.7799999713897705,
+      "tasks": 256,
+      "terminal_win_rate": 0.76953125,
+      "uniform_equivalence_class_exact_door_ceiling": 0.984375
+    },
+    {
+      "axis": "relation",
+      "budget": 8,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.9392552375793457,
+      "mean_door_entropy": 0.13508214056491852,
+      "mean_public_equivalence_class_nll": 0.40172430872917175,
+      "mean_public_equivalence_class_probability": 0.8143709897994995,
+      "mean_public_equivalence_class_size": 1.0,
+      "mean_true_door_probability": 0.8143709897994995,
+      "probe_context": "unmarked",
+      "public_equivalence_class_win_rate": 0.77734375,
+      "public_identified_and_correct_rate": 0.77734375,
+      "public_symmetry_axis_identified_rate": 1.0,
+      "selected_probe_kinds": {
+        "neutral-large-change": 1024,
+        "partial": 512,
+        "strong": 512
+      },
+      "simulator_axis_identified_rate": 1.0,
+      "singleton_only_exact_win_rate": 0.77734375,
+      "tasks": 256,
+      "terminal_win_rate": 0.77734375,
+      "uniform_equivalence_class_exact_door_ceiling": 1.0
+    },
+    {
+      "axis": "relation",
+      "budget": 0,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.2500021457672119,
+      "mean_door_entropy": 1.3862946033477783,
+      "mean_public_equivalence_class_nll": 7.450580596923828e-09,
+      "mean_public_equivalence_class_probability": 1.0,
+      "mean_public_equivalence_class_size": 4.0,
+      "mean_true_door_probability": 0.25,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.0,
+      "public_symmetry_axis_identified_rate": 0.0,
+      "selected_probe_kinds": {},
+      "simulator_axis_identified_rate": 0.0,
+      "singleton_only_exact_win_rate": null,
+      "tasks": 256,
+      "terminal_win_rate": 0.25,
+      "uniform_equivalence_class_exact_door_ceiling": 0.25
+    },
+    {
+      "axis": "relation",
+      "budget": 1,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.443574458360672,
+      "mean_door_entropy": 1.1153596639633179,
+      "mean_public_equivalence_class_nll": 0.0705919861793518,
+      "mean_public_equivalence_class_probability": 0.9389065504074097,
+      "mean_public_equivalence_class_size": 2.9453125,
+      "mean_true_door_probability": 0.43085938692092896,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.28515625,
+      "public_symmetry_axis_identified_rate": 0.28515625,
+      "selected_probe_kinds": {
+        "neutral-large-change": 132,
+        "partial": 68,
+        "strong": 56
+      },
+      "simulator_axis_identified_rate": 0.28515625,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.48046875,
+      "uniform_equivalence_class_exact_door_ceiling": 0.4804688096046448
+    },
+    {
+      "axis": "relation",
+      "budget": 2,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.6563077569007874,
+      "mean_door_entropy": 0.7688394784927368,
+      "mean_public_equivalence_class_nll": 0.09748048335313797,
+      "mean_public_equivalence_class_probability": 0.9145440459251404,
+      "mean_public_equivalence_class_size": 1.984375,
+      "mean_true_door_probability": 0.6396735906600952,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.5859375,
+      "public_symmetry_axis_identified_rate": 0.5859375,
+      "selected_probe_kinds": {
+        "neutral-large-change": 252,
+        "partial": 128,
+        "strong": 132
+      },
+      "simulator_axis_identified_rate": 0.5859375,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.7109375,
+      "uniform_equivalence_class_exact_door_ceiling": 0.7109374403953552
+    },
+    {
+      "axis": "relation",
+      "budget": 4,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.8646492958068848,
+      "mean_door_entropy": 0.324035108089447,
+      "mean_public_equivalence_class_nll": 0.0498170331120491,
+      "mean_public_equivalence_class_probability": 0.9558174014091492,
+      "mean_public_equivalence_class_size": 1.328125,
+      "mean_true_door_probability": 0.8517002463340759,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.8359375,
+      "public_symmetry_axis_identified_rate": 0.8359375,
+      "selected_probe_kinds": {
+        "neutral-large-change": 496,
+        "partial": 276,
+        "strong": 252
+      },
+      "simulator_axis_identified_rate": 0.8359375,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.890625,
+      "uniform_equivalence_class_exact_door_ceiling": 0.890625
+    },
+    {
+      "axis": "relation",
+      "budget": 6,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.9653565883636475,
+      "mean_door_entropy": 0.10375706851482391,
+      "mean_public_equivalence_class_nll": 0.02320520021021366,
+      "mean_public_equivalence_class_probability": 0.9787934422492981,
+      "mean_public_equivalence_class_size": 1.046875,
+      "mean_true_door_probability": 0.9643797874450684,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 0.9765625,
+      "public_symmetry_axis_identified_rate": 0.9765625,
+      "selected_probe_kinds": {
+        "neutral-large-change": 752,
+        "partial": 412,
+        "strong": 372
+      },
+      "simulator_axis_identified_rate": 0.9765625,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 0.984375,
+      "uniform_equivalence_class_exact_door_ceiling": 0.984375
+    },
+    {
+      "axis": "relation",
+      "budget": 8,
+      "controller_reads_candidate_kind": false,
+      "controller_reads_true_program_or_target": false,
+      "mean_confidence": 0.9975346922874451,
+      "mean_door_entropy": 0.013928934931755066,
+      "mean_public_equivalence_class_nll": 0.0025114631280303,
+      "mean_public_equivalence_class_probability": 0.9975346922874451,
+      "mean_public_equivalence_class_size": 1.0,
+      "mean_true_door_probability": 0.9975346922874451,
+      "probe_context": "marked",
+      "public_equivalence_class_win_rate": 1.0,
+      "public_identified_and_correct_rate": 1.0,
+      "public_symmetry_axis_identified_rate": 1.0,
+      "selected_probe_kinds": {
+        "neutral-large-change": 1024,
+        "partial": 512,
+        "strong": 512
+      },
+      "simulator_axis_identified_rate": 1.0,
+      "singleton_only_exact_win_rate": 1.0,
+      "tasks": 256,
+      "terminal_win_rate": 1.0,
+      "uniform_equivalence_class_exact_door_ceiling": 1.0
+    }
+  ],
+  "experiment": "public_rule_belief_probe_then_door_game",
+  "groups_per_axis": 64,
+  "result_schema_version": "prp-wm.public-belief-rulegrid-door-game.v1",
+  "seed": 20260870,
+  "source_sha256": {
+    "prp_wm/public_version_k4.py": "5881699c1d38b7a9f24320a79e1633bf9776d15b79f51eadf2bc2a82acea9461",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_public_belief_door_game.py": "5835a5846665de359644e1e89bfba6bf12044671236d96aadcb621c13b71faa8",
+    "scripts/run_public_version_space_k4.py": "21485094ae7b80c5ee3ff52bb810b3b0c180259af6570834e6e642b9f488d13d"
+  },
+  "split": "public-belief-door-validation",
+  "status": "complete",
+  "tasks_per_axis": 256,
+  "terminal_action": "argmax held-out factor door",
+  "terminal_reward": "one iff selected door equals simulator hidden factor"
+}

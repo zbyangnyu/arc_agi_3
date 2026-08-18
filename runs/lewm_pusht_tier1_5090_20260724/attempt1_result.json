@@ -1,0 +1,7 @@
+{
+  "exit_code": 1,
+  "failed_stage": "install",
+  "schema_version": "lewm-pusht-tier1-5090-v1",
+  "status": "error",
+  "timestamp_utc": "2026-07-24T04:18:38.183524+00:00"
+}

@@ -1,0 +1,2 @@
+{"gradient_norm": 37.134735107421875, "loss_assignment": 1.056581735610962, "loss_joint": 1.0600075721740723, "loss_support": 1.0175641775131226, "loss_total": 2.605862617492676, "step": 1, "tasks_seen": 4}
+{"gradient_norm": 3.1320383548736572, "loss_assignment": 0.274782657623291, "loss_joint": 0.2630745768547058, "loss_support": 0.37812909483909607, "loss_total": 0.778594970703125, "step": 2, "tasks_seen": 8}

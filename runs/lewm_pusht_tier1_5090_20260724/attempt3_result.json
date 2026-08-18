@@ -1,0 +1,7 @@
+{
+  "exit_code": 1,
+  "failed_stage": "checkpoint_convert_and_load",
+  "schema_version": "lewm-pusht-tier1-5090-v1",
+  "status": "error",
+  "timestamp_utc": "2026-07-24T04:24:26.031571+00:00"
+}

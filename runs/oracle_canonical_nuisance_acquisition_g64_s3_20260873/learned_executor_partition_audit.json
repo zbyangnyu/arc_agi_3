@@ -1,0 +1,270 @@
+{
+  "active_executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/active_support_calibrated_executor_cont300_seed20260731/checkpoint_last.pt",
+  "active_executor_checkpoint_schema": "prp-wm.active-support-calibrated-factor-executor.v1",
+  "active_executor_checkpoint_sha256": "b0227834cbcc2e3fd30c513d6dc2234446a5ae851a00608ca001ac2344a72483",
+  "active_executor_original_gate_passed": true,
+  "aggregate": {
+    "candidate_panels": 1536,
+    "exact_grid_rate": 0.83203125,
+    "exact_partition_rate": 0.5,
+    "exact_to_predicted_class_count": {
+      "1->2": 192,
+      "1->3": 192,
+      "4->4": 768,
+      "4->6": 192,
+      "4->7": 192
+    },
+    "predicted_grids": 98304
+  },
+  "audit_schema_version": "prp-wm.nuisance-active-executor-audit.v1",
+  "audit_source": "/Users/yangzhenbang/Developer/project/arc-agi-3/scripts/audit_nuisance_active_executor.py",
+  "audit_source_sha256": "898a23ea542ad8f8ed3f53510999dc7bd974cef93faff0921ba03b2c75efb127",
+  "by_query_axis": {
+    "collision": {
+      "candidate_panels": 512,
+      "exact_grid_rate": 0.83203125,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "1->2": 64,
+        "1->3": 64,
+        "4->4": 256,
+        "4->6": 64,
+        "4->7": 64
+      },
+      "predicted_grids": 32768
+    },
+    "relation": {
+      "candidate_panels": 512,
+      "exact_grid_rate": 0.83203125,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "1->2": 64,
+        "1->3": 64,
+        "4->4": 256,
+        "4->6": 64,
+        "4->7": 64
+      },
+      "predicted_grids": 32768
+    },
+    "trigger": {
+      "candidate_panels": 512,
+      "exact_grid_rate": 0.83203125,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "1->2": 64,
+        "1->3": 64,
+        "4->4": 256,
+        "4->6": 64,
+        "4->7": 64
+      },
+      "predicted_grids": 32768
+    }
+  },
+  "by_query_axis_and_candidate_category": {
+    "collision/neutral": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.90625,
+      "exact_partition_rate": 0.0,
+      "exact_to_predicted_class_count": {
+        "1->2": 64,
+        "1->3": 64
+      },
+      "predicted_grids": 8192
+    },
+    "collision/nuisance-axis-0": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.796875,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "4->4": 64,
+        "4->6": 64
+      },
+      "predicted_grids": 8192
+    },
+    "collision/nuisance-axis-1": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 1.0,
+      "exact_partition_rate": 1.0,
+      "exact_to_predicted_class_count": {
+        "4->4": 128
+      },
+      "predicted_grids": 8192
+    },
+    "collision/query-atomic": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.625,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "4->4": 64,
+        "4->7": 64
+      },
+      "predicted_grids": 8192
+    },
+    "relation/neutral": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.90625,
+      "exact_partition_rate": 0.0,
+      "exact_to_predicted_class_count": {
+        "1->2": 64,
+        "1->3": 64
+      },
+      "predicted_grids": 8192
+    },
+    "relation/nuisance-axis-0": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.625,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "4->4": 64,
+        "4->7": 64
+      },
+      "predicted_grids": 8192
+    },
+    "relation/nuisance-axis-1": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.796875,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "4->4": 64,
+        "4->6": 64
+      },
+      "predicted_grids": 8192
+    },
+    "relation/query-atomic": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 1.0,
+      "exact_partition_rate": 1.0,
+      "exact_to_predicted_class_count": {
+        "4->4": 128
+      },
+      "predicted_grids": 8192
+    },
+    "trigger/neutral": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.90625,
+      "exact_partition_rate": 0.0,
+      "exact_to_predicted_class_count": {
+        "1->2": 64,
+        "1->3": 64
+      },
+      "predicted_grids": 8192
+    },
+    "trigger/nuisance-axis-0": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.625,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "4->4": 64,
+        "4->7": 64
+      },
+      "predicted_grids": 8192
+    },
+    "trigger/nuisance-axis-1": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 1.0,
+      "exact_partition_rate": 1.0,
+      "exact_to_predicted_class_count": {
+        "4->4": 128
+      },
+      "predicted_grids": 8192
+    },
+    "trigger/query-atomic": {
+      "candidate_panels": 128,
+      "exact_grid_rate": 0.796875,
+      "exact_partition_rate": 0.5,
+      "exact_to_predicted_class_count": {
+        "4->4": 64,
+        "4->6": 64
+      },
+      "predicted_grids": 8192
+    }
+  },
+  "candidate_seed": 20260873,
+  "data_master_seed": 2026071601,
+  "device": "cpu",
+  "factor_codes": 64,
+  "groups_per_query": 64,
+  "interpretation": "Oracle-canonical learned-executor bridge audit; the primary nuisance result remains an exact symbolic ceiling.",
+  "query_axes": 3,
+  "selector_bridge_audit": {
+    "aggregate": {
+      "global-information-gain": {
+        "environments": 192,
+        "learned_selected_category_counts": {
+          "nuisance-axis-0": 64,
+          "nuisance-axis-1": 64,
+          "query-atomic": 64
+        },
+        "top1_category_match_rate": 0.3541666666666667,
+        "top1_index_match_rate": 0.17708333333333334
+      },
+      "query-conditioned": {
+        "environments": 192,
+        "learned_selected_category_counts": {
+          "query-atomic": 192
+        },
+        "top1_category_match_rate": 1.0,
+        "top1_index_match_rate": 0.6302083333333334
+      }
+    },
+    "by_query_axis": {
+      "collision": {
+        "global-information-gain": {
+          "environments": 64,
+          "learned_selected_category_counts": {
+            "nuisance-axis-0": 64
+          },
+          "top1_category_match_rate": 0.5,
+          "top1_index_match_rate": 0.21875
+        },
+        "query-conditioned": {
+          "environments": 64,
+          "learned_selected_category_counts": {
+            "query-atomic": 64
+          },
+          "top1_category_match_rate": 1.0,
+          "top1_index_match_rate": 0.4375
+        }
+      },
+      "relation": {
+        "global-information-gain": {
+          "environments": 64,
+          "learned_selected_category_counts": {
+            "nuisance-axis-1": 64
+          },
+          "top1_category_match_rate": 0.5625,
+          "top1_index_match_rate": 0.3125
+        },
+        "query-conditioned": {
+          "environments": 64,
+          "learned_selected_category_counts": {
+            "query-atomic": 64
+          },
+          "top1_category_match_rate": 1.0,
+          "top1_index_match_rate": 1.0
+        }
+      },
+      "trigger": {
+        "global-information-gain": {
+          "environments": 64,
+          "learned_selected_category_counts": {
+            "query-atomic": 64
+          },
+          "top1_category_match_rate": 0.0,
+          "top1_index_match_rate": 0.0
+        },
+        "query-conditioned": {
+          "environments": 64,
+          "learned_selected_category_counts": {
+            "query-atomic": 64
+          },
+          "top1_category_match_rate": 1.0,
+          "top1_index_match_rate": 0.453125
+        }
+      }
+    },
+    "comparison": "learned MAP partitions versus exact simulator partitions under the same exact 48-code posterior"
+  },
+  "split": "oracle-canonical-nuisance-acquisition-ceiling",
+  "status": "complete"
+}

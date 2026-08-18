@@ -1,0 +1,9 @@
+{
+  "error": "ARPredictor.__init__() got an unexpected keyword argument '_target_'",
+  "error_type": "TypeError",
+  "failed_stage": "checkpoint_convert_and_load",
+  "schema_version": "lewm-pusht-tier1-5090-v1",
+  "status": "error",
+  "timestamp_utc": "2026-07-24T04:25:25.987070+00:00",
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 75, in <module>\nTypeError: ARPredictor.__init__() got an unexpected keyword argument '_target_'\n"
+}

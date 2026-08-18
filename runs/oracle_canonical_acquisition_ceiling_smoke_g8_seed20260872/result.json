@@ -1,0 +1,1272 @@
+{
+  "active_executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/active_support_calibrated_executor_cont300_seed20260731/checkpoint_last.pt",
+  "active_executor_checkpoint_schema": "prp-wm.active-support-calibrated-factor-executor.v1",
+  "active_executor_checkpoint_sha256": "b0227834cbcc2e3fd30c513d6dc2234446a5ae851a00608ca001ac2344a72483",
+  "active_executor_gate_passed": true,
+  "belief_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/public_belief_mixed_sequence_ft1000_fold0_seed20260872/checkpoint_last.pt",
+  "belief_checkpoint_model_type": "PaletteInvariantAtomMatchedCompositeEventHistoryProbeFactorBeliefCausalK4",
+  "belief_checkpoint_sha256": "97ef7ce92d049c52f7c37b5b50788cb4eb0fb7e848cdb46a47cda1cf78505b58",
+  "budgets": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "candidate_outcome_model": "MAP partitions from active-support-calibrated oracle-canonical OracleFactorExecutor",
+  "candidate_selection_reads_candidate_kind": false,
+  "candidate_selection_reads_task_or_probe_id": false,
+  "candidate_selection_reads_true_program_or_feedback": false,
+  "controller_infers_axis_from_task_id": false,
+  "controller_reads_door_axis": true,
+  "data_master_seed": 2026071601,
+  "device": "cpu",
+  "episode_traces": {
+    "collision": {
+      "expected-door-gain": [
+        {
+          "door_axis": "collision",
+          "first_symbolic_identification_step": 1,
+          "global_task_index": 0,
+          "selected_candidate_indices": [
+            2,
+            4,
+            0,
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "step_scores": [
+            {
+              "candidate_index": 2,
+              "expected_door_gain": 0.7499997019767761,
+              "outcome_information_gain_nats": 1.3862943649291992,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 4,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 1.3452067237906817e-09,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 0,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 1.860584769632389e-23,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 1,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 0.0,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 3,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 5,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 6,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 7,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            }
+          ]
+        }
+      ],
+      "uniform": [
+        {
+          "door_axis": "collision",
+          "first_symbolic_identification_step": 2,
+          "global_task_index": 0,
+          "selected_candidate_indices": [
+            6,
+            4,
+            5,
+            1,
+            7,
+            0,
+            2,
+            3
+          ],
+          "step_scores": [
+            {
+              "candidate_index": 6,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 4,
+              "expected_door_gain": 0.7499997019767761,
+              "outcome_information_gain_nats": 1.3862943649291992,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 5,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 1,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 0.0,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 7,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 0,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 7.056095548086824e-20,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 2,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 3.322067230679404e-12,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 3,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            }
+          ]
+        }
+      ]
+    },
+    "relation": {
+      "expected-door-gain": [
+        {
+          "door_axis": "relation",
+          "first_symbolic_identification_step": 1,
+          "global_task_index": 0,
+          "selected_candidate_indices": [
+            0,
+            1,
+            4,
+            2,
+            5,
+            3,
+            6,
+            7
+          ],
+          "step_scores": [
+            {
+              "candidate_index": 0,
+              "expected_door_gain": 0.749998927116394,
+              "outcome_information_gain_nats": 1.3862943649291992,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 1,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 4,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 8.211138019520448e-11,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 2,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 5.9604641222676946e-08,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 5,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 2.255225408662746e-31,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 3,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 5.9604641222676946e-08,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 6,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 1.1920927533992653e-07,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 7,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 1.7881392011531716e-07,
+              "predicted_outcome_classes": 1
+            }
+          ]
+        }
+      ],
+      "uniform": [
+        {
+          "door_axis": "relation",
+          "first_symbolic_identification_step": 2,
+          "global_task_index": 0,
+          "selected_candidate_indices": [
+            6,
+            5,
+            4,
+            3,
+            0,
+            2,
+            1,
+            7
+          ],
+          "step_scores": [
+            {
+              "candidate_index": 6,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 5,
+              "expected_door_gain": 0.2499997913837433,
+              "outcome_information_gain_nats": 0.5623350143432617,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 4,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 1.2609314126166282e-07,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 3,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 5.9604641222676946e-08,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 0,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 1.1920927533992653e-07,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 2,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 3.0658357335406383e-31,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 1,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 1.7881392011531716e-07,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 7,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 5.9604641222676946e-08,
+              "predicted_outcome_classes": 1
+            }
+          ]
+        }
+      ]
+    },
+    "trigger": {
+      "expected-door-gain": [
+        {
+          "door_axis": "trigger",
+          "first_symbolic_identification_step": 1,
+          "global_task_index": 0,
+          "selected_candidate_indices": [
+            4,
+            5,
+            1,
+            0,
+            6,
+            2,
+            3,
+            7
+          ],
+          "step_scores": [
+            {
+              "candidate_index": 4,
+              "expected_door_gain": 0.7499987483024597,
+              "outcome_information_gain_nats": 1.3862943649291992,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 5,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 4.6101251882646466e-07,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 1,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 5.960464477539063e-08,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 0,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 5.9604641222676946e-08,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 6,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 3.22927092519578e-18,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 2,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 3,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 7,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            }
+          ]
+        }
+      ],
+      "uniform": [
+        {
+          "door_axis": "trigger",
+          "first_symbolic_identification_step": 1,
+          "global_task_index": 0,
+          "selected_candidate_indices": [
+            1,
+            7,
+            2,
+            5,
+            4,
+            6,
+            3,
+            0
+          ],
+          "step_scores": [
+            {
+              "candidate_index": 1,
+              "expected_door_gain": 0.24999737739562988,
+              "outcome_information_gain_nats": 0.5623322129249573,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 7,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 2,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 5,
+              "expected_door_gain": 0.0005502700805664062,
+              "outcome_information_gain_nats": 0.0046836272813379765,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 4,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 8.577413779242704e-11,
+              "predicted_outcome_classes": 4
+            },
+            {
+              "candidate_index": 6,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": 5.9604641222676946e-08,
+              "predicted_outcome_classes": 2
+            },
+            {
+              "candidate_index": 3,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            },
+            {
+              "candidate_index": 0,
+              "expected_door_gain": 0.0,
+              "outcome_information_gain_nats": -0.0,
+              "predicted_outcome_classes": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "evaluations": {
+    "aggregate": {
+      "0": {
+        "expected-door-gain": {
+          "failure_penalized_mean_probes_to_identification": 1.0,
+          "mean_confidence": 0.25000183035929996,
+          "mean_cumulative_expected_door_gain": 0.0,
+          "mean_cumulative_outcome_information_gain_nats": 0.0,
+          "mean_door_entropy_nats": 1.3862943599621456,
+          "mean_joint_effective_hypotheses": 5.610215067863464,
+          "mean_observed_log_predictive_probability": null,
+          "mean_probes_to_symbolic_identification_among_identified": null,
+          "mean_true_door_probability": 0.24999999844779572,
+          "symbolic_door_identified_rate": 0.0,
+          "tasks": 96,
+          "terminal_win_rate": 0.25
+        },
+        "paired": {
+          "active_only_wins": 0,
+          "both_win": 24,
+          "neither_wins": 72,
+          "paired_failure_penalized_probe_delta_active_minus_uniform": 0.0,
+          "paired_terminal_win_rate_gain": 0.0,
+          "tasks": 96,
+          "uniform_only_wins": 0
+        },
+        "uniform": {
+          "failure_penalized_mean_probes_to_identification": 1.0,
+          "mean_confidence": 0.25000183035929996,
+          "mean_cumulative_expected_door_gain": 0.0,
+          "mean_cumulative_outcome_information_gain_nats": 0.0,
+          "mean_door_entropy_nats": 1.3862943599621456,
+          "mean_joint_effective_hypotheses": 5.610215067863464,
+          "mean_observed_log_predictive_probability": null,
+          "mean_probes_to_symbolic_identification_among_identified": null,
+          "mean_true_door_probability": 0.24999999844779572,
+          "symbolic_door_identified_rate": 0.0,
+          "tasks": 96,
+          "terminal_win_rate": 0.25
+        }
+      },
+      "1": {
+        "expected-door-gain": {
+          "failure_penalized_mean_probes_to_identification": 1.0,
+          "mean_confidence": 0.9999901813765367,
+          "mean_cumulative_expected_door_gain": 0.7499981746077538,
+          "mean_cumulative_outcome_information_gain_nats": 1.3862943599621456,
+          "mean_door_entropy_nats": 9.962388200538113e-05,
+          "mean_joint_effective_hypotheses": 1.4026598172883193,
+          "mean_observed_log_predictive_probability": -1.3870280385017395,
+          "mean_probes_to_symbolic_identification_among_identified": 1.0,
+          "mean_true_door_probability": 0.9999901813765367,
+          "symbolic_door_identified_rate": 1.0,
+          "tasks": 96,
+          "terminal_win_rate": 1.0
+        },
+        "paired": {
+          "active_only_wins": 51,
+          "both_win": 45,
+          "neither_wins": 0,
+          "paired_failure_penalized_probe_delta_active_minus_uniform": -0.7291666666666666,
+          "paired_terminal_win_rate_gain": 0.53125,
+          "tasks": 96,
+          "uniform_only_wins": 0
+        },
+        "uniform": {
+          "failure_penalized_mean_probes_to_identification": 1.7291666666666667,
+          "mean_confidence": 0.46877601463347673,
+          "mean_cumulative_expected_door_gain": 0.21874941761295,
+          "mean_cumulative_outcome_information_gain_nats": 0.42939477413892657,
+          "mean_door_entropy_nats": 0.9570304094413493,
+          "mean_joint_effective_hypotheses": 4.2351334902147455,
+          "mean_observed_log_predictive_probability": -0.42958519980311394,
+          "mean_probes_to_symbolic_identification_among_identified": 1.0,
+          "mean_true_door_probability": 0.46873596403747797,
+          "symbolic_door_identified_rate": 0.2708333333333333,
+          "tasks": 96,
+          "terminal_win_rate": 0.46875
+        }
+      },
+      "2": {
+        "expected-door-gain": {
+          "failure_penalized_mean_probes_to_identification": 1.0,
+          "mean_confidence": 1.000000004346172,
+          "mean_cumulative_expected_door_gain": 0.7500080006817976,
+          "mean_cumulative_outcome_information_gain_nats": 1.3863940048052967,
+          "mean_door_entropy_nats": -1.2021979517209032e-09,
+          "mean_joint_effective_hypotheses": 1.4025446387628715,
+          "mean_observed_log_predictive_probability": -0.6938138043187791,
+          "mean_probes_to_symbolic_identification_among_identified": 1.0,
+          "mean_true_door_probability": 1.000000004346172,
+          "symbolic_door_identified_rate": 1.0,
+          "tasks": 96,
+          "terminal_win_rate": 1.0
+        },
+        "paired": {
+          "active_only_wins": 37,
+          "both_win": 59,
+          "neither_wins": 0,
+          "paired_failure_penalized_probe_delta_active_minus_uniform": -1.2708333333333333,
+          "paired_terminal_win_rate_gain": 0.38541666666666663,
+          "tasks": 96,
+          "uniform_only_wins": 0
+        },
+        "uniform": {
+          "failure_penalized_mean_probes_to_identification": 2.2708333333333335,
+          "mean_confidence": 0.6146107728903493,
+          "mean_cumulative_expected_door_gain": 0.3645579020182292,
+          "mean_cumulative_outcome_information_gain_nats": 0.7073652786441594,
+          "mean_door_entropy_nats": 0.6790766104896461,
+          "mean_joint_effective_hypotheses": 3.1305517914394536,
+          "mean_observed_log_predictive_probability": -0.3539857477686989,
+          "mean_probes_to_symbolic_identification_among_identified": 1.4090909090909092,
+          "mean_true_door_probability": 0.6145749649343392,
+          "symbolic_door_identified_rate": 0.4583333333333333,
+          "tasks": 96,
+          "terminal_win_rate": 0.6145833333333334
+        }
+      },
+      "4": {
+        "expected-door-gain": {
+          "failure_penalized_mean_probes_to_identification": 1.0,
+          "mean_confidence": 1.000000002483527,
+          "mean_cumulative_expected_door_gain": 0.7500080006817976,
+          "mean_cumulative_outcome_information_gain_nats": 1.3863940481226582,
+          "mean_door_entropy_nats": -1.0573256710270929e-09,
+          "mean_joint_effective_hypotheses": 1.402543527384599,
+          "mean_observed_log_predictive_probability": -0.34719710298910894,
+          "mean_probes_to_symbolic_identification_among_identified": 1.0,
+          "mean_true_door_probability": 1.000000002483527,
+          "symbolic_door_identified_rate": 1.0,
+          "tasks": 96,
+          "terminal_win_rate": 1.0
+        },
+        "paired": {
+          "active_only_wins": 12,
+          "both_win": 84,
+          "neither_wins": 0,
+          "paired_failure_penalized_probe_delta_active_minus_uniform": -1.8541666666666667,
+          "paired_terminal_win_rate_gain": 0.125,
+          "tasks": 96,
+          "uniform_only_wins": 0
+        },
+        "uniform": {
+          "failure_penalized_mean_probes_to_identification": 2.8541666666666665,
+          "mean_confidence": 0.8750508408993483,
+          "mean_cumulative_expected_door_gain": 0.6249682307243347,
+          "mean_cumulative_outcome_information_gain_nats": 1.1804839916921972,
+          "mean_door_entropy_nats": 0.20603818833179655,
+          "mean_joint_effective_hypotheses": 1.9925756889084976,
+          "mean_observed_log_predictive_probability": -0.29542958547972376,
+          "mean_probes_to_symbolic_identification_among_identified": 2.358974358974359,
+          "mean_true_door_probability": 0.8749952514966329,
+          "symbolic_door_identified_rate": 0.8125,
+          "tasks": 96,
+          "terminal_win_rate": 0.875
+        }
+      },
+      "8": {
+        "expected-door-gain": {
+          "failure_penalized_mean_probes_to_identification": 1.0,
+          "mean_confidence": 0.9999999975164732,
+          "mean_cumulative_expected_door_gain": 0.7500080006817976,
+          "mean_cumulative_outcome_information_gain_nats": 1.386394133818117,
+          "mean_door_entropy_nats": 3.859006782816939e-09,
+          "mean_joint_effective_hypotheses": 1.4025444972018402,
+          "mean_observed_log_predictive_probability": -0.17366459831221923,
+          "mean_probes_to_symbolic_identification_among_identified": 1.0,
+          "mean_true_door_probability": 0.9999999975164732,
+          "symbolic_door_identified_rate": 1.0,
+          "tasks": 96,
+          "terminal_win_rate": 1.0
+        },
+        "paired": {
+          "active_only_wins": 0,
+          "both_win": 96,
+          "neither_wins": 0,
+          "paired_failure_penalized_probe_delta_active_minus_uniform": -1.9166666666666667,
+          "paired_terminal_win_rate_gain": 0.0,
+          "tasks": 96,
+          "uniform_only_wins": 0
+        },
+        "uniform": {
+          "failure_penalized_mean_probes_to_identification": 2.9166666666666665,
+          "mean_confidence": 0.999999995653828,
+          "mean_cumulative_expected_door_gain": 0.7499174525340399,
+          "mean_cumulative_outcome_information_gain_nats": 1.3865236274383312,
+          "mean_door_entropy_nats": 5.721652301327156e-09,
+          "mean_joint_effective_hypotheses": 1.4025445021688938,
+          "mean_observed_log_predictive_probability": -0.17366459787323643,
+          "mean_probes_to_symbolic_identification_among_identified": 2.9166666666666665,
+          "mean_true_door_probability": 0.999999995653828,
+          "symbolic_door_identified_rate": 1.0,
+          "tasks": 96,
+          "terminal_win_rate": 1.0
+        }
+      }
+    },
+    "by_axis": {
+      "collision": {
+        "0": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.25000082701444626,
+            "mean_cumulative_expected_door_gain": 0.0,
+            "mean_cumulative_outcome_information_gain_nats": 0.0,
+            "mean_door_entropy_nats": 1.3862943351268768,
+            "mean_joint_effective_hypotheses": 6.267548382282257,
+            "mean_observed_log_predictive_probability": null,
+            "mean_probes_to_symbolic_identification_among_identified": null,
+            "mean_true_door_probability": 0.2499999892897904,
+            "symbolic_door_identified_rate": 0.0,
+            "tasks": 32,
+            "terminal_win_rate": 0.25
+          },
+          "paired": {
+            "active_only_wins": 0,
+            "both_win": 8,
+            "neither_wins": 24,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": 0.0,
+            "paired_terminal_win_rate_gain": 0.0,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.25000082701444626,
+            "mean_cumulative_expected_door_gain": 0.0,
+            "mean_cumulative_outcome_information_gain_nats": 0.0,
+            "mean_door_entropy_nats": 1.3862943351268768,
+            "mean_joint_effective_hypotheses": 6.267548382282257,
+            "mean_observed_log_predictive_probability": null,
+            "mean_probes_to_symbolic_identification_among_identified": null,
+            "mean_true_door_probability": 0.2499999892897904,
+            "symbolic_door_identified_rate": 0.0,
+            "tasks": 32,
+            "terminal_win_rate": 0.25
+          }
+        },
+        "1": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.999999862164259,
+            "mean_cumulative_expected_door_gain": 0.7499991655349731,
+            "mean_cumulative_outcome_information_gain_nats": 1.386294350028038,
+            "mean_door_entropy_nats": 2.0441499226195488e-06,
+            "mean_joint_effective_hypotheses": 1.5669098906219006,
+            "mean_observed_log_predictive_probability": -1.3875967673957348,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.999999862164259,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 19,
+            "both_win": 13,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -0.8125,
+            "paired_terminal_win_rate_gain": 0.59375,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 1.8125,
+            "mean_confidence": 0.406271705403924,
+            "mean_cumulative_expected_door_gain": 0.15624981373548508,
+            "mean_cumulative_outcome_information_gain_nats": 0.3138704001903516,
+            "mean_door_entropy_nats": 1.0724237451553686,
+            "mean_joint_effective_hypotheses": 4.90908095240593,
+            "mean_observed_log_predictive_probability": -0.3139764964580536,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.40624999487772584,
+            "symbolic_door_identified_rate": 0.1875,
+            "tasks": 32,
+            "terminal_win_rate": 0.40625
+          }
+        },
+        "2": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 1.0000000167638063,
+            "mean_cumulative_expected_door_gain": 0.7499993089586496,
+            "mean_cumulative_outcome_information_gain_nats": 1.38629641804872,
+            "mean_door_entropy_nats": -1.639622161805042e-08,
+            "mean_joint_effective_hypotheses": 1.5668923817574978,
+            "mean_observed_log_predictive_probability": -0.6942170361435274,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 1.0000000167638063,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 11,
+            "both_win": 21,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -1.28125,
+            "paired_terminal_win_rate_gain": 0.34375,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 2.28125,
+            "mean_confidence": 0.6562703847885132,
+            "mean_cumulative_expected_door_gain": 0.40623024106025696,
+            "mean_cumulative_outcome_information_gain_nats": 0.7634388767432952,
+            "mean_door_entropy_nats": 0.6228572918855677,
+            "mean_joint_effective_hypotheses": 3.165640614926815,
+            "mean_observed_log_predictive_probability": -0.3819956854713382,
+            "mean_probes_to_symbolic_identification_among_identified": 1.6470588235294117,
+            "mean_true_door_probability": 0.6562498523853719,
+            "symbolic_door_identified_rate": 0.53125,
+            "tasks": 32,
+            "terminal_win_rate": 0.65625
+          }
+        },
+        "4": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.9999999925494194,
+            "mean_cumulative_expected_door_gain": 0.7499993089586496,
+            "mean_cumulative_outcome_information_gain_nats": 1.386296461023161,
+            "mean_door_entropy_nats": 7.686459267903026e-09,
+            "mean_joint_effective_hypotheses": 1.5668990015983582,
+            "mean_observed_log_predictive_probability": -0.3472590257151751,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.9999999925494194,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 4,
+            "both_win": 28,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -1.78125,
+            "paired_terminal_win_rate_gain": 0.125,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 2.78125,
+            "mean_confidence": 0.8750444911420345,
+            "mean_cumulative_expected_door_gain": 0.6249797474592924,
+            "mean_cumulative_outcome_information_gain_nats": 1.180305008915794,
+            "mean_door_entropy_nats": 0.20599174442597196,
+            "mean_joint_effective_hypotheses": 2.155693504959345,
+            "mean_observed_log_predictive_probability": -0.2953645204543136,
+            "mean_probes_to_symbolic_identification_among_identified": 2.269230769230769,
+            "mean_true_door_probability": 0.8749998761340976,
+            "symbolic_door_identified_rate": 0.8125,
+            "tasks": 32,
+            "terminal_win_rate": 0.875
+          }
+        },
+        "8": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.9999999962747097,
+            "mean_cumulative_expected_door_gain": 0.7499993089586496,
+            "mean_cumulative_outcome_information_gain_nats": 1.386296563509999,
+            "mean_door_entropy_nats": 3.808182084561948e-09,
+            "mean_joint_effective_hypotheses": 1.5669070109724998,
+            "mean_observed_log_predictive_probability": -0.17367451986137894,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.9999999962747097,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 0,
+            "both_win": 32,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -1.78125,
+            "paired_terminal_win_rate_gain": 0.0,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 2.78125,
+            "mean_confidence": 0.9999999981373549,
+            "mean_cumulative_expected_door_gain": 0.7499353401362896,
+            "mean_cumulative_outcome_information_gain_nats": 1.386297831878042,
+            "mean_door_entropy_nats": 1.9455365627991245e-09,
+            "mean_joint_effective_hypotheses": 1.5669070184230804,
+            "mean_observed_log_predictive_probability": -0.1736745212947426,
+            "mean_probes_to_symbolic_identification_among_identified": 2.78125,
+            "mean_true_door_probability": 0.9999999981373549,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          }
+        }
+      },
+      "relation": {
+        "0": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.2500033341348171,
+            "mean_cumulative_expected_door_gain": 0.0,
+            "mean_cumulative_outcome_information_gain_nats": 0.0,
+            "mean_door_entropy_nats": 1.3862943798303604,
+            "mean_joint_effective_hypotheses": 6.3323177099227905,
+            "mean_observed_log_predictive_probability": null,
+            "mean_probes_to_symbolic_identification_among_identified": null,
+            "mean_true_door_probability": 0.24999999813735485,
+            "symbolic_door_identified_rate": 0.0,
+            "tasks": 32,
+            "terminal_win_rate": 0.25
+          },
+          "paired": {
+            "active_only_wins": 0,
+            "both_win": 8,
+            "neither_wins": 24,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": 0.0,
+            "paired_terminal_win_rate_gain": 0.0,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.2500033341348171,
+            "mean_cumulative_expected_door_gain": 0.0,
+            "mean_cumulative_outcome_information_gain_nats": 0.0,
+            "mean_door_entropy_nats": 1.3862943798303604,
+            "mean_joint_effective_hypotheses": 6.3323177099227905,
+            "mean_observed_log_predictive_probability": null,
+            "mean_probes_to_symbolic_identification_among_identified": null,
+            "mean_true_door_probability": 0.24999999813735485,
+            "symbolic_door_identified_rate": 0.0,
+            "tasks": 32,
+            "terminal_win_rate": 0.25
+          }
+        },
+        "1": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 1.000000013038516,
+            "mean_cumulative_expected_door_gain": 0.7499966844916344,
+            "mean_cumulative_outcome_information_gain_nats": 1.3862943649291992,
+            "mean_door_entropy_nats": 9.879151811171237e-08,
+            "mean_joint_effective_hypotheses": 1.5830690935254097,
+            "mean_observed_log_predictive_probability": -1.3865615874528885,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 1.000000013038516,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 21,
+            "both_win": 11,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -0.90625,
+            "paired_terminal_win_rate_gain": 0.65625,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 1.90625,
+            "mean_confidence": 0.3438471481204033,
+            "mean_cumulative_expected_door_gain": 0.09374957159161568,
+            "mean_cumulative_outcome_information_gain_nats": 0.21087521314620883,
+            "mean_door_entropy_nats": 1.1754182706658705,
+            "mean_joint_effective_hypotheses": 5.350123655050993,
+            "mean_observed_log_predictive_probability": -0.21116862818598747,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.34375000512227416,
+            "symbolic_door_identified_rate": 0.09375,
+            "tasks": 32,
+            "terminal_win_rate": 0.34375
+          }
+        },
+        "2": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.9999999981373549,
+            "mean_cumulative_expected_door_gain": 0.7499966882169247,
+            "mean_cumulative_outcome_information_gain_nats": 1.3862944897206915,
+            "mean_door_entropy_nats": 1.9673775332375992e-09,
+            "mean_joint_effective_hypotheses": 1.583059422671795,
+            "mean_observed_log_predictive_probability": -0.6934231486957287,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.9999999981373549,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 16,
+            "both_win": 16,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -1.625,
+            "paired_terminal_win_rate_gain": 0.5,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 2.625,
+            "mean_confidence": 0.5000759856775403,
+            "mean_cumulative_expected_door_gain": 0.24992592632770538,
+            "mean_cumulative_outcome_information_gain_nats": 0.524745241299085,
+            "mean_door_entropy_nats": 0.8615480877054336,
+            "mean_joint_effective_hypotheses": 3.977566432207823,
+            "mean_observed_log_predictive_probability": -0.26263024120999034,
+            "mean_probes_to_symbolic_identification_among_identified": 1.6666666666666667,
+            "mean_true_door_probability": 0.5000000079162419,
+            "symbolic_door_identified_rate": 0.28125,
+            "tasks": 32,
+            "terminal_win_rate": 0.5
+          }
+        },
+        "4": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 1.0000000074505806,
+            "mean_cumulative_expected_door_gain": 0.7499966882169247,
+            "mean_cumulative_outcome_information_gain_nats": 1.3862945195259553,
+            "mean_door_entropy_nats": -7.3676872638841345e-09,
+            "mean_joint_effective_hypotheses": 1.5830536782741547,
+            "mean_observed_log_predictive_probability": -0.346887990112009,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 1.0000000074505806,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 6,
+            "both_win": 26,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -2.46875,
+            "paired_terminal_win_rate_gain": 0.1875,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 3.46875,
+            "mean_confidence": 0.8125388268381357,
+            "mean_cumulative_expected_door_gain": 0.5623703431338072,
+            "mean_cumulative_outcome_information_gain_nats": 1.077308035645656,
+            "mean_door_entropy_nats": 0.3089847813074228,
+            "mean_joint_effective_hypotheses": 2.566507298499346,
+            "mean_observed_log_predictive_probability": -0.2695099334450788,
+            "mean_probes_to_symbolic_identification_among_identified": 2.869565217391304,
+            "mean_true_door_probability": 0.8124999804422259,
+            "symbolic_door_identified_rate": 0.71875,
+            "tasks": 32,
+            "terminal_win_rate": 0.8125
+          }
+        },
+        "8": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.9999999925494194,
+            "mean_cumulative_expected_door_gain": 0.7499966882169247,
+            "mean_cumulative_outcome_information_gain_nats": 1.386294577267951,
+            "mean_door_entropy_nats": 7.533473636361573e-09,
+            "mean_joint_effective_hypotheses": 1.5830364748835564,
+            "mean_observed_log_predictive_probability": -0.17346428202290554,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.9999999925494194,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 0,
+            "both_win": 32,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -2.65625,
+            "paired_terminal_win_rate_gain": 0.0,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 3.65625,
+            "mean_confidence": 0.9999999832361937,
+            "mean_cumulative_expected_door_gain": 0.7498313579708338,
+            "mean_cumulative_outcome_information_gain_nats": 1.386292888959986,
+            "mean_door_entropy_nats": 1.6846697828204124e-08,
+            "mean_joint_effective_hypotheses": 1.5830364860594273,
+            "mean_observed_log_predictive_probability": -0.1734642777555564,
+            "mean_probes_to_symbolic_identification_among_identified": 3.65625,
+            "mean_true_door_probability": 0.9999999832361937,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          }
+        }
+      },
+      "trigger": {
+        "0": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.25000132992863655,
+            "mean_cumulative_expected_door_gain": 0.0,
+            "mean_cumulative_outcome_information_gain_nats": 0.0,
+            "mean_door_entropy_nats": 1.3862943649291992,
+            "mean_joint_effective_hypotheses": 4.2307791113853455,
+            "mean_observed_log_predictive_probability": null,
+            "mean_probes_to_symbolic_identification_among_identified": null,
+            "mean_true_door_probability": 0.2500000079162419,
+            "symbolic_door_identified_rate": 0.0,
+            "tasks": 32,
+            "terminal_win_rate": 0.25
+          },
+          "paired": {
+            "active_only_wins": 0,
+            "both_win": 8,
+            "neither_wins": 24,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": 0.0,
+            "paired_terminal_win_rate_gain": 0.0,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.25000132992863655,
+            "mean_cumulative_expected_door_gain": 0.0,
+            "mean_cumulative_outcome_information_gain_nats": 0.0,
+            "mean_door_entropy_nats": 1.3862943649291992,
+            "mean_joint_effective_hypotheses": 4.2307791113853455,
+            "mean_observed_log_predictive_probability": null,
+            "mean_probes_to_symbolic_identification_among_identified": null,
+            "mean_true_door_probability": 0.2500000079162419,
+            "symbolic_door_identified_rate": 0.0,
+            "tasks": 32,
+            "terminal_win_rate": 0.25
+          }
+        },
+        "1": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.9999706689268351,
+            "mean_cumulative_expected_door_gain": 0.7499986737966537,
+            "mean_cumulative_outcome_information_gain_nats": 1.3862943649291992,
+            "mean_door_entropy_nats": 0.00029672870457541213,
+            "mean_joint_effective_hypotheses": 1.0580004677176476,
+            "mean_observed_log_predictive_probability": -1.3869257606565952,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.9999706689268351,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 11,
+            "both_win": 21,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -0.46875,
+            "paired_terminal_win_rate_gain": 0.34375,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 1.46875,
+            "mean_confidence": 0.6562091903761029,
+            "mean_cumulative_expected_door_gain": 0.40624886751174927,
+            "mean_cumulative_outcome_information_gain_nats": 0.7634387090802193,
+            "mean_door_entropy_nats": 0.6232492125028086,
+            "mean_joint_effective_hypotheses": 2.446195863187313,
+            "mean_observed_log_predictive_probability": -0.7636104747653008,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.6562078921124339,
+            "symbolic_door_identified_rate": 0.53125,
+            "tasks": 32,
+            "terminal_win_rate": 0.65625
+          }
+        },
+        "2": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 0.9999999981373549,
+            "mean_cumulative_expected_door_gain": 0.7500280048698187,
+            "mean_cumulative_outcome_information_gain_nats": 1.3865911066464789,
+            "mean_door_entropy_nats": 1.082225022965011e-08,
+            "mean_joint_effective_hypotheses": 1.0576821118593216,
+            "mean_observed_log_predictive_probability": -0.6938012281170813,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 0.9999999981373549,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 10,
+            "both_win": 22,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -0.90625,
+            "paired_terminal_win_rate_gain": 0.3125,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 1.90625,
+            "mean_confidence": 0.6874859482049942,
+            "mean_cumulative_expected_door_gain": 0.43751753866672516,
+            "mean_cumulative_outcome_information_gain_nats": 0.8339117178900979,
+            "mean_door_entropy_nats": 0.5528244518779369,
+            "mean_joint_effective_hypotheses": 2.2484483271837234,
+            "mean_observed_log_predictive_probability": -0.4173313166247681,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0555555555555556,
+            "mean_true_door_probability": 0.6874750345014036,
+            "symbolic_door_identified_rate": 0.5625,
+            "tasks": 32,
+            "terminal_win_rate": 0.6875
+          }
+        },
+        "4": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 1.0000000074505806,
+            "mean_cumulative_expected_door_gain": 0.7500280048698187,
+            "mean_cumulative_outcome_information_gain_nats": 1.3865911638188586,
+            "mean_door_entropy_nats": -3.49074901710017e-09,
+            "mean_joint_effective_hypotheses": 1.0576779022812843,
+            "mean_observed_log_predictive_probability": -0.3474442931401427,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 1.0000000074505806,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 2,
+            "both_win": 30,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -1.3125,
+            "paired_terminal_win_rate_gain": 0.0625,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 2.3125,
+            "mean_confidence": 0.9375692047178745,
+            "mean_cumulative_expected_door_gain": 0.6875546015799046,
+            "mean_cumulative_outcome_information_gain_nats": 1.2838389305151416,
+            "mean_door_entropy_nats": 0.10313803926199491,
+            "mean_joint_effective_hypotheses": 1.2555262632668018,
+            "mean_observed_log_predictive_probability": -0.3214143025397789,
+            "mean_probes_to_symbolic_identification_among_identified": 2.0344827586206895,
+            "mean_true_door_probability": 0.9374858979135752,
+            "symbolic_door_identified_rate": 0.90625,
+            "tasks": 32,
+            "terminal_win_rate": 0.9375
+          }
+        },
+        "8": {
+          "expected-door-gain": {
+            "failure_penalized_mean_probes_to_identification": 1.0,
+            "mean_confidence": 1.0000000037252903,
+            "mean_cumulative_expected_door_gain": 0.7500280048698187,
+            "mean_cumulative_outcome_information_gain_nats": 1.3865912606764008,
+            "mean_door_entropy_nats": 2.353646275272958e-10,
+            "mean_joint_effective_hypotheses": 1.057690005749464,
+            "mean_observed_log_predictive_probability": -0.17385499305237317,
+            "mean_probes_to_symbolic_identification_among_identified": 1.0,
+            "mean_true_door_probability": 1.0000000037252903,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          },
+          "paired": {
+            "active_only_wins": 0,
+            "both_win": 32,
+            "neither_wins": 0,
+            "paired_failure_penalized_probe_delta_active_minus_uniform": -1.3125,
+            "paired_terminal_win_rate_gain": 0.0,
+            "tasks": 32,
+            "uniform_only_wins": 0
+          },
+          "uniform": {
+            "failure_penalized_mean_probes_to_identification": 2.3125,
+            "mean_confidence": 1.0000000055879354,
+            "mean_cumulative_expected_door_gain": 0.7499856594949961,
+            "mean_cumulative_outcome_information_gain_nats": 1.386980161476966,
+            "mean_door_entropy_nats": -1.6272774870217804e-09,
+            "mean_joint_effective_hypotheses": 1.0576900020241737,
+            "mean_observed_log_predictive_probability": -0.17385499456941034,
+            "mean_probes_to_symbolic_identification_among_identified": 2.3125,
+            "mean_true_door_probability": 1.0000000055879354,
+            "symbolic_door_identified_rate": 1.0,
+            "tasks": 32,
+            "terminal_win_rate": 1.0
+          }
+        }
+      }
+    }
+  },
+  "experiment": "oracle_canonical_model_directed_acquisition_ceiling",
+  "feedback_read_only_after_candidate_selection": true,
+  "groups_per_axis": 8,
+  "interpretation": "Privileged ceiling only: public t0 belief proposal, known 3x4 codebook, explicit door axis, oracle palette binding, and an active-prefix-calibrated frozen factor executor.",
+  "paired_uniform_protocol": "same tasks, t0 posterior, executor, candidates, and feedback; one nuisance-seeded order per four-task group",
+  "posterior_initialization": "product of public belief factor_probabilities over the recorded 64-code factor_bank; no executor support-likelihood rescore",
+  "posterior_update": "explicit Bayes update with selected candidate's frozen-executor full-grid OutcomePrediction.log_prob",
+  "result_schema_version": "prp-wm.oracle-canonical-acquisition-ceiling.v1",
+  "seed": 20260872,
+  "selection_objective": "expected terminal door-success gain; deterministic outcome information gain in nats as secondary key; public bank position as final tie breaker",
+  "selector_boundary_audit": {
+    "checks": {
+      "forbidden_names_absent": true,
+      "tensor_only_signature": true
+    },
+    "forbidden_names": [
+      "task_id",
+      "probe_id",
+      "candidate_kind",
+      "active_target",
+      "true_program"
+    ],
+    "parameters": [
+      "torch",
+      "log_weights",
+      "door_values",
+      "candidate_outcomes",
+      "available"
+    ],
+    "passed": true
+  },
+  "source_sha256": {
+    "prp_wm/causal_filter.py": "13363f6d9d0b253439c8c4bb90e9c9c8003bbf7c8151176b7bb645716f682e09",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/public_version_k4.py": "5881699c1d38b7a9f24320a79e1633bf9776d15b79f51eadf2bc2a82acea9461",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_active_support_calibrated_executor.py": "0459c228a670eb6d1fd973ac2ee1ec31ec97906ff64e50978d38d093e4af6db9",
+    "scripts/run_gram_public_coverage_finetune.py": "7a99275b77f3353953be436b60d356e0ba6b9db433eff5f31f709f859cefb916",
+    "scripts/run_oracle_canonical_acquisition_ceiling.py": "3b1a1f8941f92723546f1bbf82ad6c5f43d591c9388e6f7a05849b044d481233",
+    "scripts/run_public_version_space_k4.py": "21485094ae7b80c5ee3ff52bb810b3b0c180259af6570834e6e642b9f488d13d"
+  },
+  "split": "oracle-canonical-acquisition-ceiling",
+  "status": "complete",
+  "tasks_per_axis": 32,
+  "total_tasks": 96
+}

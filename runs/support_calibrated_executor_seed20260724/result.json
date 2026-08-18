@@ -1,0 +1,188 @@
+{
+  "balanced_weight": 1.0,
+  "batch_size": 8,
+  "causal_filter_executor_gate": {
+    "all_four_support_exact_task_rate_required": 0.99,
+    "diagnostic_exact_task_accuracy_required": 1.0,
+    "passed": true,
+    "top4_exact_version_space_task_rate_required": 0.99
+  },
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.support-calibrated-factor-executor.v1",
+  "checkpoint_sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254",
+  "data_master_seed": 2026071601,
+  "domain_loss_weights": {
+    "calibration_support_first_two": 0.25,
+    "diagnostic": 0.5,
+    "neutral_support_last_four": 0.25
+  },
+  "eval_batch_size": 16,
+  "eval_split": "support-executor-composition",
+  "eval_tasks": 192,
+  "experiment": "support_calibrated_oracle_factor_executor_ceiling",
+  "heldout_support_evaluation": {
+    "all_four_compatible_six_frame_exact_task_rate": 1.0,
+    "compatible_six_frame_exact_particle_rate": 1.0,
+    "compatible_support_exact_frame_rate": 1.0,
+    "compatible_support_proper_nll_per_cell": 7.057412580656495e-06,
+    "mean_compatible_likelihood_spread_nats_per_cell": 1.2145071802175758e-05,
+    "mean_neural_map_exact_bank_size": 4.0,
+    "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 1.0,
+    "tasks": 192,
+    "top4_selection": {
+      "balanced_nll": {
+        "compatible_factor_coverage_at_4": 1.0,
+        "exact_version_space_task_rate": 1.0,
+        "true_rule_top4_rate": 1.0
+      },
+      "map_then_balanced_nll": {
+        "compatible_factor_coverage_at_4": 1.0,
+        "exact_version_space_task_rate": 1.0,
+        "true_rule_top4_rate": 1.0
+      },
+      "proper_nll": {
+        "compatible_factor_coverage_at_4": 1.0,
+        "exact_version_space_task_rate": 1.0,
+        "true_rule_top4_rate": 1.0
+      }
+    }
+  },
+  "heldout_triple_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 36864,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.0703125,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 576,
+    "proper_nll_per_cell": 9.730358093899365e-05,
+    "tasks": 192,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "heldout_triple_indices": [
+    21,
+    22,
+    23
+  ],
+  "interpretation": "A pass only establishes a privileged world-model interface for latent hypothesize-and-test inference. It does not establish autonomous discovery of the factor axes or palette roles.",
+  "latest_training_metrics": {
+    "gradient_norm": 0.0023989786859601736,
+    "loss_calibration_support": 3.2483887480339035e-05,
+    "loss_diagnostic": 0.00011894847557414323,
+    "loss_neutral_support": 2.1627420210279524e-05,
+    "loss_total": 7.300206925719976e-05
+  },
+  "learning_rate": 0.001,
+  "model_config": {
+    "action_embedding": 16,
+    "attention_ffn": 64,
+    "attention_heads": 4,
+    "beta": 1.0,
+    "color_embedding": 16,
+    "decoder_resblocks": 1,
+    "encoder_channels": 16,
+    "encoder_resblocks": 1,
+    "grid_size": 8,
+    "lambda_assign": 0.5,
+    "lambda_joint": 1.0,
+    "normalization_groups": 4,
+    "num_action_kinds": 4,
+    "num_colors": 16,
+    "num_directions": 5,
+    "particles": 4,
+    "position_embedding": 16,
+    "rule_dim": 32
+  },
+  "model_parameters": 17177,
+  "model_profile": "smoke",
+  "model_seed": 20260724,
+  "model_type": "OracleFactorExecutor",
+  "pair_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 110592,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.046875,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 1728,
+    "proper_nll_per_cell": 2.6290955348587078e-05,
+    "tasks": 192,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "palette_input": "oracle-canonical",
+  "privileged_palette_canonicalization": true,
+  "privileged_support_version_space_factors_are_training_inputs": true,
+  "privileged_true_rule_factors_are_diagnostic_inputs": true,
+  "result_kind": "privileged_support_version_space_executor_ceiling",
+  "runtime_identity": {
+    "cuda_available": false,
+    "device": "cpu",
+    "python_version": "3.12.7",
+    "torch_version": "2.13.0"
+  },
+  "single_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 147456,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.0234375,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 2304,
+    "proper_nll_per_cell": 6.736272431832428e-05,
+    "tasks": 192,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "source_sha256": {
+    "prp_wm/causal_filter.py": "13363f6d9d0b253439c8c4bb90e9c9c8003bbf7c8151176b7bb645716f682e09",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_rulegrid_executor_ceiling.py": "bfbc269d3140ed28cbe5a8d0d7ceeed900103382ec5f1f0356aad2d2dee4a011",
+    "scripts/run_support_calibrated_executor.py": "fcfd7f6b2134033bf2731b3183f02260c510cc63f9c197b824bab73762d6f567"
+  },
+  "steps": 500,
+  "support_factor_replication": "all-four-symbolically-compatible-tuples",
+  "tasks_seen": 4000,
+  "train_diagnostic_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "train_split": "support-executor-train",
+  "training_seconds": 40.833285,
+  "weight_decay": 0.0001
+}

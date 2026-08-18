@@ -1,0 +1,28 @@
+{
+  "amortized_speedup_over_cached_exhaustive": 23.680214784097387,
+  "batch_size": 16,
+  "device": "cpu",
+  "exact_version_space_task_rate": {
+    "amortized": 1.0,
+    "exhaustive_64": 1.0
+  },
+  "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+  "executor_checkpoint_sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254",
+  "experiment": "causal_inference_runtime_benchmark",
+  "milliseconds_per_task": {
+    "amortized": 0.23738459270437792,
+    "exhaustive_64": 5.621318141675147
+  },
+  "model_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/expected_discrete_context_holdout_ft100_seed20260726/checkpoint_last.pt",
+  "model_checkpoint_sha256": "96900700b046be4b11221dd7e1a4c2436f1aadc97936297c399ea403792093a4",
+  "note": "This compares current CPU implementations with cached state/action encoding for exhaustive scoring; it is not a hardware-independent complexity claim.",
+  "repeats": 20,
+  "source_sha256": {
+    "prp_wm/discrete_causal_rules.py": "0093d34353777b56a01f6e3453b2a33dc5151df6c48b66d8ecd5f307e0528716",
+    "scripts/benchmark_causal_inference_speed.py": "1cbdec4dd6c57dbd59d7017bcc0478d010f16501e08ca06d4280fba9c08415be"
+  },
+  "tasks": 48,
+  "torch_threads": 4,
+  "torch_version": "2.13.0",
+  "warmup": 3
+}

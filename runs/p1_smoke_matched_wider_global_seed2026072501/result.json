@@ -1,0 +1,330 @@
+{
+  "active_prefix_executor_gate": {
+    "diagnostic_exact": true,
+    "passed": true,
+    "requirements": {
+      "each_stage_neural_symbolic_set_equality_task_rate_gte": 0.99,
+      "each_stage_true_rule_map_exact_task_rate_eq": 1.0,
+      "single_pair_heldout_triple_diagnostic_exact_task_accuracy_eq": 1.0
+    },
+    "stage_checks": {
+      "t0_support": {
+        "set_equality_gte_0_99": true,
+        "true_rule_exact_eq_1": true
+      },
+      "t1_partial": {
+        "set_equality_gte_0_99": true,
+        "true_rule_exact_eq_1": true
+      },
+      "t2_neutral": {
+        "set_equality_gte_0_99": true,
+        "true_rule_exact_eq_1": true
+      },
+      "t3_strong": {
+        "set_equality_gte_0_99": true,
+        "true_rule_exact_eq_1": true
+      }
+    }
+  },
+  "active_replay_loss_weights": {
+    "diagnostic_nontriple": 0.4,
+    "t0_support": 0.1,
+    "t1_partial": 0.15,
+    "t2_neutral": 0.1,
+    "t3_strong": 0.25
+  },
+  "active_replay_tasks_seen": 4,
+  "active_task_start_offset": 0,
+  "balanced_weight": 1.0,
+  "batch_size": 2,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/p1_smoke_matched_wider_global_seed2026072501/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.counterfactual-locality-finetune.v3",
+  "checkpoint_sha256": "66639da867ee59ec7071d1eeb42cf860554de8c5a06f1ccc43f2e52526cc2d7b",
+  "codes_per_task": 2,
+  "data_master_seed": 2026071601,
+  "eval_batch_size": 2,
+  "eval_split": "counterfactual-locality-active-prefix-heldout",
+  "eval_tasks": 4,
+  "executor_architecture": "matched-wider-global",
+  "experiment": "counterfactual_singleton_locality_finetune",
+  "geometry_axis_scope": "singleton-pair",
+  "geometry_factor_examples_seen": 768,
+  "geometry_panels_seen": 12,
+  "geometry_seed_streams_disjoint": true,
+  "geometry_train_seed_stream": {
+    "base": 100000,
+    "completed_cycles": 1,
+    "count": 2,
+    "end_exclusive": 100002,
+    "partial_cycle_steps": 0,
+    "schedule": [
+      100001,
+      100000
+    ]
+  },
+  "geometry_weight": 0.1,
+  "heldout_active_prefix_evaluation": {
+    "all_64_factor_codes_scored_per_task": true,
+    "stages": {
+      "t0_support": {
+        "mean_false_negative_codes": 0.0,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 1.0,
+        "neural_map_exact_bank_size_histogram": {
+          "4": 4
+        },
+        "observed_transitions": 6,
+        "symbolic_version_space_size_histogram": {
+          "4": 4
+        },
+        "tasks": 4,
+        "true_rule_map_exact_task_rate": 1.0
+      },
+      "t1_partial": {
+        "mean_false_negative_codes": 0.0,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 1.0,
+        "neural_map_exact_bank_size_histogram": {
+          "3": 4
+        },
+        "observed_transitions": 7,
+        "symbolic_version_space_size_histogram": {
+          "3": 4
+        },
+        "tasks": 4,
+        "true_rule_map_exact_task_rate": 1.0
+      },
+      "t2_neutral": {
+        "mean_false_negative_codes": 0.0,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 1.0,
+        "neural_map_exact_bank_size_histogram": {
+          "3": 4
+        },
+        "observed_transitions": 8,
+        "symbolic_version_space_size_histogram": {
+          "3": 4
+        },
+        "tasks": 4,
+        "true_rule_map_exact_task_rate": 1.0
+      },
+      "t3_strong": {
+        "mean_false_negative_codes": 0.0,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 1.0,
+        "neural_map_exact_bank_size_histogram": {
+          "1": 4
+        },
+        "observed_transitions": 9,
+        "symbolic_version_space_size_histogram": {
+          "1": 4
+        },
+        "tasks": 4,
+        "true_rule_map_exact_task_rate": 1.0
+      }
+    },
+    "tasks": 4
+  },
+  "heldout_singleton_evaluation": {
+    "all_64_codes_exact_panel_rate": 0.0,
+    "all_64_factor_codes_per_panel": true,
+    "exact_map_grid_accuracy": 0.3177083333333333,
+    "examples": 192,
+    "fiber_dispersion": {
+      "definition": "full-grid true-target log likelihood centered within each same-acted-axis-value 16-code nuisance fiber",
+      "fiber_count": 12,
+      "huber_beta": 1.0,
+      "max_within_fiber_range": 35.34736251831055,
+      "mean_absolute_deviation": 4.222970644632976,
+      "mean_huber": 3.7810538609822593,
+      "mean_within_fiber_range": 15.978847458958626,
+      "root_mean_square_deviation": 6.195233890119707,
+      "scores_per_fiber": 16
+    },
+    "geometry_scope": "heldout-randomized-singletons",
+    "geometry_seed_base": 200000,
+    "geometry_seed_count": 1,
+    "panels": 3,
+    "per_axis": {
+      "collision": {
+        "all_64_codes_exact_panel_rate": 0.0,
+        "exact_map_grid_accuracy": 0.125,
+        "examples": 64,
+        "panels": 1
+      },
+      "relation": {
+        "all_64_codes_exact_panel_rate": 0.0,
+        "exact_map_grid_accuracy": 0.234375,
+        "examples": 64,
+        "panels": 1
+      },
+      "trigger": {
+        "all_64_codes_exact_panel_rate": 0.0,
+        "exact_map_grid_accuracy": 0.59375,
+        "examples": 64,
+        "panels": 1
+      }
+    },
+    "proper_nll_per_cell": 0.33545716603597003
+  },
+  "heldout_singleton_seed_stream": {
+    "base": 200000,
+    "count": 1,
+    "end_exclusive": 200001
+  },
+  "heldout_triple_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 768,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.0625,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 12,
+    "proper_nll_per_cell": 1.728579718474066e-05,
+    "tasks": 4,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "initial_checkpoint_provenance": {
+    "path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/active_support_calibrated_executor_cont300_seed20260731/checkpoint_last.pt",
+    "schema_version": "prp-wm.active-support-calibrated-factor-executor.v1",
+    "sha256": "b0227834cbcc2e3fd30c513d6dc2234446a5ae851a00608ca001ac2344a72483"
+  },
+  "interpretation": "Compare executor conditions under the same replay, geometry, locality, and teacher-distillation continuation. The matched four-branch wider-global and factor-local conditions have identical parameters, public canonical router/masks, branch compute, and initialization; only their factor-conditioning graph differs. This remains an oracle-code, oracle-palette executor diagnostic.",
+  "latest_training_metrics": {
+    "effective_locality_weight": 0.004,
+    "gradient_norm": 23.129972457885742,
+    "loss_active_prefix_replay": 7.0791262999136965e-06,
+    "loss_geometry_balanced_nll": 11.440591812133789,
+    "loss_geometry_proper_nll": 1.2647398710250854,
+    "loss_geometry_supervision": 12.705331802368164,
+    "loss_locality_fiber_huber": 7.706085205078125,
+    "loss_replay_diagnostic_nontriple": 1.1289046597084962e-05,
+    "loss_replay_t0_support": 2.9141392587916926e-07,
+    "loss_replay_t1_partial": 1.7748519667293294e-06,
+    "loss_replay_t2_neutral": 1.5743455605843337e-06,
+    "loss_replay_t3_strong": 8.442815669695847e-06,
+    "loss_total": 1.3312266751580026,
+    "teacher_categorical_kl_replay": 2.9862074974573714e-06,
+    "teacher_kl_diagnostic_nontriple": 4.352298219600925e-06,
+    "teacher_kl_t0_support": 1.1903225782816662e-07,
+    "teacher_kl_t1_partial": 9.62474928201118e-07,
+    "teacher_kl_t2_neutral": 8.423742201557616e-07,
+    "teacher_kl_t3_strong": 4.019105290353764e-06
+  },
+  "learning_rate": 0.0001,
+  "locality_huber_beta": 1.0,
+  "locality_ramp_steps": 50,
+  "locality_weight": 0.1,
+  "max_grad_norm": 1.0,
+  "model_config": {
+    "action_embedding": 16,
+    "attention_ffn": 64,
+    "attention_heads": 4,
+    "beta": 1.0,
+    "color_embedding": 16,
+    "decoder_resblocks": 1,
+    "encoder_channels": 16,
+    "encoder_resblocks": 1,
+    "grid_size": 8,
+    "lambda_assign": 0.5,
+    "lambda_joint": 1.0,
+    "normalization_groups": 4,
+    "num_action_kinds": 4,
+    "num_colors": 16,
+    "num_directions": 5,
+    "particles": 4,
+    "position_embedding": 16,
+    "rule_dim": 32
+  },
+  "model_parameters": 41564,
+  "model_seed": 2026072501,
+  "model_type": "MatchedWiderGlobalOracleFactorExecutor",
+  "objective": {
+    "active_prefix_replay_domains": [
+      "diagnostic_nontriple",
+      "t0_support",
+      "t1_partial",
+      "t2_neutral",
+      "t3_strong"
+    ],
+    "formula": "active_prefix_replay + geometry_weight * (proper_nll + balanced_weight * balanced_nll) + ramped_locality_weight * fiber_huber + teacher_distillation_weight * replay_teacher_categorical_kl",
+    "geometry_factor_codes_per_panel": 64,
+    "geometry_scope": "six randomized panels per step: all three singleton and all three pair axis sets",
+    "locality_scope": "full-grid true-target log-likelihood dispersion after holding the complete active-axis tuple fixed",
+    "teacher_distillation_scope": "frozen initial executor categorical next-cell distribution on the five original active replay domains only",
+    "teacher_reads_new_geometry": false,
+    "teacher_used_at_inference": false
+  },
+  "pair_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 2304,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.041666666666666664,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 36,
+    "proper_nll_per_cell": 4.350708170224809e-06,
+    "tasks": 4,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "pair_factor_examples_seen": 384,
+  "pair_panels_seen": 6,
+  "palette_input": "oracle-canonical",
+  "privileged_palette_canonicalization": true,
+  "privileged_true_rule_factors_are_model_inputs": true,
+  "random_geometry_protocol_version": "prp-wm-random-geometry-executor-v1",
+  "result_kind": "privileged_geometry_supervision_and_locality_ablation",
+  "runtime_identity": {
+    "cuda_available": false,
+    "device": "cpu",
+    "python_version": "3.12.7",
+    "torch_version": "2.13.0"
+  },
+  "single_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 3072,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.020833333333333332,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 48,
+    "proper_nll_per_cell": 1.5798918563329305e-05,
+    "tasks": 4,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "singleton_factor_examples_seen": 384,
+  "singleton_panels_seen": 6,
+  "source_sha256": {
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/matched_executor.py": "fd4f104e2778e1ae4b233e8cc2c79318ea642ac3ceaedb1800ba4ad4178f78b8",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/random_geometry_protocol.py": "ac80ebc5b554e7c59aee4fc5c60ad41fa4a3905d504eb91068b3d90bd481f5bf",
+    "prp_wm/routed_executor.py": "a209b723e0c607b897fdf8cf652861621373f126a20a5a5c077fdfee5194056e",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_active_support_calibrated_executor.py": "0459c228a670eb6d1fd973ac2ee1ec31ec97906ff64e50978d38d093e4af6db9",
+    "scripts/run_causal_mechanism_coverage.py": "9e3bf49ef76deacab418abb3c01accfeadb2f881273b29fba524c59b7b9bbb40",
+    "scripts/run_counterfactual_locality_finetune.py": "61eaa3673a477cfc2cf7c54d8ca0de0b78191af75bbda2638f713127220272f2",
+    "scripts/run_rulegrid_executor_ceiling.py": "bfbc269d3140ed28cbe5a8d0d7ceeed900103382ec5f1f0356aad2d2dee4a011"
+  },
+  "steps": 2,
+  "teacher_distillation_weight": 10000.0,
+  "train_split": "counterfactual-locality-active-replay-train",
+  "training_seconds": 0.95971,
+  "weight_decay": 0.0001
+}

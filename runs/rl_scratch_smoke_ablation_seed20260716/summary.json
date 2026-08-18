@@ -1,0 +1,39 @@
+{
+  "algorithm": "monte_carlo_actor_critic",
+  "batch_size": 32,
+  "budget": 4,
+  "calibration_ablated_validation": {
+    "mean_actions": 1.0,
+    "success_rate": 1.0,
+    "tasks": 192
+  },
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/rl_scratch_smoke_ablation_seed20260716/checkpoint_last.pt",
+  "final_train_batch": {
+    "actor_loss": 0.12372080981731415,
+    "entropy": 0.16334618628025055,
+    "loss": 0.12214729934930801,
+    "mean_actions": 1.0,
+    "success_rate": 1.0,
+    "value_loss": 0.00011990604980383068
+  },
+  "model_parameters": 378682,
+  "random_validation": {
+    "mean_actions": 2.3645833333333335,
+    "success_rate": 0.828125,
+    "tasks": 192
+  },
+  "reward": "sparse_behavior_identification_success",
+  "seed": 20260716,
+  "steps": 100,
+  "tasks_seen": 3200,
+  "uses_diagnostic_targets": false,
+  "uses_oracle_eig": false,
+  "uses_reconstruction_loss": false,
+  "uses_rule_id_as_input": false,
+  "uses_version_space_as_input": false,
+  "validation": {
+    "mean_actions": 1.0,
+    "success_rate": 1.0,
+    "tasks": 192
+  }
+}

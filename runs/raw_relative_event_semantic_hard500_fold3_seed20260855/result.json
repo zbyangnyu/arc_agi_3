@@ -1,0 +1,1121 @@
+{
+  "active_innovation_teacher": "each controller-marked probe result is supervised by the factor-set reduction from its preceding public history to the updated public history",
+  "active_prefix_audit_after": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": true,
+        "factor_set_precision_gte_0_95": true,
+        "factor_set_recall_gte_0_95": true,
+        "target_probability_mass_gte_0_90": true,
+        "worst_axis_precision_gte_0_90": true,
+        "worst_axis_recall_gte_0_90": true
+      },
+      "passed": true
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 1.0,
+      "factor_set_precision": 1.0,
+      "factor_set_recall": 1.0,
+      "mean_predicted_joint_hypotheses": 4.0,
+      "mean_target_joint_hypotheses": 4.0,
+      "precision_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 0,
+      "target_probability_mass": 0.994046131769816,
+      "tasks": 16,
+      "worst_axis_precision": 1.0,
+      "worst_axis_recall": 1.0
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "active_prefix_audit_before": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": false,
+        "factor_set_precision_gte_0_95": false,
+        "factor_set_recall_gte_0_95": false,
+        "target_probability_mass_gte_0_90": false,
+        "worst_axis_precision_gte_0_90": false,
+        "worst_axis_recall_gte_0_90": false
+      },
+      "passed": false
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 0.0,
+      "factor_set_precision": 0.5,
+      "factor_set_recall": 0.5416666666666666,
+      "mean_predicted_joint_hypotheses": 8.0,
+      "mean_target_joint_hypotheses": 4.0,
+      "precision_by_axis": [
+        0.6,
+        0.3076923076923077,
+        0.75
+      ],
+      "recall_by_axis": [
+        0.3,
+        1.0,
+        0.6
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 0,
+      "target_probability_mass": 0.4918573300043742,
+      "tasks": 16,
+      "worst_axis_precision": 0.3076923076923077,
+      "worst_axis_recall": 0.3
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "active_prefix_curriculum": true,
+  "active_prefix_eval_tasks": 16,
+  "canonical_assignment": null,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/raw_relative_event_semantic_hard500_fold3_seed20260855/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.public-version-space-causal-k4.v1",
+  "checkpoint_sha256": "09f8af115687bb66305d0a7556468ffb385f880b6d448eda0d9f52090c9d3109",
+  "cli_arguments": {
+    "active_prefix_curriculum": true,
+    "attention_layers": 2,
+    "batch_size": 8,
+    "color_permutation_augmentation": true,
+    "context_fold": 3,
+    "data_master_seed": 2026071601,
+    "device": "cpu",
+    "eval_batch_size": 16,
+    "eval_split": "gram-causal-composition",
+    "eval_tasks": 48,
+    "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+    "factor_temperature": 1.0,
+    "joint_margin": 1.0,
+    "learning_rate": 0.001,
+    "log_every": 100,
+    "margin_weight": 0.1,
+    "max_grad_norm": 1.0,
+    "neutral_probe_curriculum": true,
+    "output": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/raw_relative_event_semantic_hard500_fold3_seed20260855",
+    "seed": 20260855,
+    "semantic_composite_curriculum": true,
+    "steps": 500,
+    "student_support_encoders": true,
+    "support_input": "raw",
+    "tail_learning_rate": 0.0005,
+    "tail_steps": 60,
+    "task_consistency_weight": 0.5,
+    "train_pool_tasks": 144,
+    "train_split": "gram-causal-train",
+    "validity_weight": 0.0,
+    "varying_axis_weight": 1.0,
+    "version_head": "relative-event-history-probe-factor-belief",
+    "weight_decay": 0.0001
+  },
+  "color_permutation_augmentation": true,
+  "context_fold": 3,
+  "controller_context_schema": "agent-probe-result-bool.v1",
+  "controller_input_fields": "inference.support(state, action, observed next_state) plus controller-owned is_agent_probe_result bit",
+  "controller_input_reads_privileged_palette": false,
+  "controller_probe_mask_built_before_version_space_teacher": true,
+  "controller_probe_phase_signal": true,
+  "device": "cpu",
+  "environment_true_program_used_only_to_generate_observed_active_result": true,
+  "eval_public_version_space_audit": {
+    "axis_value_counts": [
+      [
+        48,
+        48,
+        48,
+        48
+      ],
+      [
+        48,
+        48,
+        48,
+        48
+      ],
+      [
+        48,
+        48,
+        48,
+        48
+      ]
+    ],
+    "axis_value_exactly_balanced": true,
+    "compatible_codes_per_task": 4,
+    "context_multiplicity_histogram": {
+      "4": 12
+    },
+    "contexts": [
+      [
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        1,
+        0,
+        3
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        3,
+        0
+      ]
+    ],
+    "joint_code_union_size": 36,
+    "joint_frequency_histogram": {
+      "4": 24,
+      "8": 12
+    },
+    "missing_joint_codes": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        3
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ],
+      [
+        3,
+        1,
+        1
+      ],
+      [
+        3,
+        1,
+        3
+      ],
+      [
+        3,
+        2,
+        2
+      ],
+      [
+        3,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        1
+      ],
+      [
+        3,
+        3,
+        2
+      ],
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    "tasks": 48,
+    "unique_public_contexts": 12
+  },
+  "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+  "executor_checkpoint_schema": "prp-wm.support-calibrated-factor-executor.v1",
+  "executor_checkpoint_sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254",
+  "executor_frozen": true,
+  "experiment": "raw_controller_input_persistent_k4_version_space_abstraction",
+  "fixed_k4_is_primary_representation": false,
+  "frozen_executor_pretrained_on_oracle_canonical_roles": true,
+  "hard_replay_audit_after": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": true,
+        "factor_set_precision_gte_0_95": true,
+        "factor_set_recall_gte_0_95": true,
+        "target_probability_mass_gte_0_90": true,
+        "worst_axis_precision_gte_0_90": true,
+        "worst_axis_recall_gte_0_90": true
+      },
+      "passed": true
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 1.0,
+      "factor_set_precision": 1.0,
+      "factor_set_recall": 1.0,
+      "mean_predicted_joint_hypotheses": 4.0,
+      "mean_target_joint_hypotheses": 4.0,
+      "precision_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 0,
+      "target_probability_mass": 0.9942598342895508,
+      "tasks": 16,
+      "worst_axis_precision": 1.0,
+      "worst_axis_recall": 1.0
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "hard_replay_audit_before": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": false,
+        "factor_set_precision_gte_0_95": false,
+        "factor_set_recall_gte_0_95": false,
+        "target_probability_mass_gte_0_90": false,
+        "worst_axis_precision_gte_0_90": false,
+        "worst_axis_recall_gte_0_90": false
+      },
+      "passed": false
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 0.0,
+      "factor_set_precision": 0.4583333333333333,
+      "factor_set_recall": 0.4583333333333333,
+      "mean_predicted_joint_hypotheses": 5.75,
+      "mean_target_joint_hypotheses": 4.0,
+      "precision_by_axis": [
+        0.6,
+        0.3076923076923077,
+        0.6666666666666666
+      ],
+      "recall_by_axis": [
+        0.3,
+        1.0,
+        0.4
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 0,
+      "target_probability_mass": 0.4925912618637085,
+      "tasks": 16,
+      "worst_axis_precision": 0.3076923076923077,
+      "worst_axis_recall": 0.3
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "heldout_geometry_composite_audit_after": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": true,
+        "factor_set_precision_gte_0_95": true,
+        "factor_set_recall_gte_0_95": true,
+        "target_probability_mass_gte_0_90": true,
+        "worst_axis_precision_gte_0_90": true,
+        "worst_axis_recall_gte_0_90": true
+      },
+      "passed": true
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 1.0,
+      "factor_set_precision": 1.0,
+      "factor_set_recall": 1.0,
+      "mean_predicted_joint_hypotheses": 8.0,
+      "mean_target_joint_hypotheses": 8.0,
+      "precision_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 16,
+      "target_probability_mass": 0.9955231348673502,
+      "tasks": 16,
+      "worst_axis_precision": 1.0,
+      "worst_axis_recall": 1.0
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "heldout_geometry_composite_audit_before": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": false,
+        "factor_set_precision_gte_0_95": false,
+        "factor_set_recall_gte_0_95": false,
+        "target_probability_mass_gte_0_90": false,
+        "worst_axis_precision_gte_0_90": false,
+        "worst_axis_recall_gte_0_90": false
+      },
+      "passed": false
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 0.0,
+      "factor_set_precision": 0.6923076923076923,
+      "factor_set_recall": 0.6428571428571429,
+      "mean_predicted_joint_hypotheses": 7.5,
+      "mean_target_joint_hypotheses": 8.0,
+      "precision_by_axis": [
+        0.5,
+        0.6666666666666666,
+        0.8
+      ],
+      "recall_by_axis": [
+        0.2,
+        1.0,
+        0.8
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 16,
+      "target_probability_mass": 0.5790404081344604,
+      "tasks": 16,
+      "worst_axis_precision": 0.5,
+      "worst_axis_recall": 0.2
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "heldout_geometry_composite_target_row": 6,
+  "heldout_geometry_composite_used_for_training": false,
+  "independent_support_encoders": true,
+  "latest_training_metrics": {
+    "evidence_axis_accuracy": 1.0,
+    "evidence_value_set_accuracy": 1.0,
+    "exact_task_factor_set_rate": 1.0,
+    "factor_set_precision": 1.0,
+    "factor_set_recall": 1.0,
+    "gradient_norm": 0.02515440806746483,
+    "learning_rate": 0.0005,
+    "loss_evidence_axis_nll": 0.002295805374160409,
+    "loss_evidence_value_set_nll": 0.3502401113510132,
+    "loss_task_factor_set_nll": 0.6967902183532715,
+    "loss_total": 0.7009310126304626,
+    "target_probability_mass": 0.9964062571525574,
+    "training_prefix": "t0_plus_semantic_composite_replay"
+  },
+  "neutral_probe_audit_after": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": true,
+        "factor_set_precision_gte_0_95": true,
+        "factor_set_recall_gte_0_95": true,
+        "target_probability_mass_gte_0_90": true,
+        "worst_axis_precision_gte_0_90": true,
+        "worst_axis_recall_gte_0_90": true
+      },
+      "passed": true
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 1.0,
+      "factor_set_precision": 1.0,
+      "factor_set_recall": 1.0,
+      "mean_predicted_joint_hypotheses": 8.0,
+      "mean_target_joint_hypotheses": 8.0,
+      "precision_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 16,
+      "target_probability_mass": 0.995209534962972,
+      "tasks": 16,
+      "worst_axis_precision": 1.0,
+      "worst_axis_recall": 1.0
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "neutral_probe_audit_before": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": false,
+        "factor_set_precision_gte_0_95": false,
+        "factor_set_recall_gte_0_95": false,
+        "target_probability_mass_gte_0_90": false,
+        "worst_axis_precision_gte_0_90": false,
+        "worst_axis_recall_gte_0_90": false
+      },
+      "passed": false
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 0.0,
+      "factor_set_precision": 0.6666666666666666,
+      "factor_set_recall": 0.6428571428571429,
+      "mean_predicted_joint_hypotheses": 9.5,
+      "mean_target_joint_hypotheses": 8.0,
+      "precision_by_axis": [
+        0.6,
+        0.6153846153846154,
+        0.7777777777777778
+      ],
+      "recall_by_axis": [
+        0.3,
+        1.0,
+        0.7
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 16,
+      "target_probability_mass": 0.5787545839945475,
+      "tasks": 16,
+      "worst_axis_precision": 0.6,
+      "worst_axis_recall": 0.3
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "neutral_probe_curriculum": true,
+  "neutral_probe_eval_tasks": 16,
+  "persistent_slot_count": 4,
+  "primary_belief_representation": "three categorical factor value sets; Cartesian expansion is deferred",
+  "probe_event_encoding": "nearest-action-relative-cell-set.v1",
+  "probe_evidence_history_conditioned": true,
+  "probe_relational_feature": "has_identical_prior_public_transition",
+  "public_version_space_teacher": "union of symbolic version spaces under payload_p1/payload_p2 role-name symmetry; labels only",
+  "query_behavior_or_true_program_used_for_training": false,
+  "result_schema_version": "prp-wm.public-version-space-causal-k4-run.v1",
+  "semantic_composite_audit_after": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": true,
+        "factor_set_precision_gte_0_95": true,
+        "factor_set_recall_gte_0_95": true,
+        "target_probability_mass_gte_0_90": true,
+        "worst_axis_precision_gte_0_90": true,
+        "worst_axis_recall_gte_0_90": true
+      },
+      "passed": true
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 1.0,
+      "factor_set_precision": 1.0,
+      "factor_set_recall": 1.0,
+      "mean_predicted_joint_hypotheses": 8.0,
+      "mean_target_joint_hypotheses": 8.0,
+      "precision_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 16,
+      "target_probability_mass": 0.9955231348673502,
+      "tasks": 16,
+      "worst_axis_precision": 1.0,
+      "worst_axis_recall": 1.0
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "semantic_composite_audit_before": {
+    "controller_supplies_agent_probe_result_mask": true,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": false,
+        "factor_set_precision_gte_0_95": false,
+        "factor_set_recall_gte_0_95": false,
+        "target_probability_mass_gte_0_90": false,
+        "worst_axis_precision_gte_0_90": false,
+        "worst_axis_recall_gte_0_90": false
+      },
+      "passed": false
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 0.0,
+      "factor_set_precision": 0.6923076923076923,
+      "factor_set_recall": 0.6428571428571429,
+      "mean_predicted_joint_hypotheses": 7.5,
+      "mean_target_joint_hypotheses": 8.0,
+      "precision_by_axis": [
+        0.5,
+        0.6666666666666666,
+        0.8
+      ],
+      "recall_by_axis": [
+        0.2,
+        1.0,
+        0.8
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 16,
+      "target_probability_mass": 0.5790404081344604,
+      "tasks": 16,
+      "worst_axis_precision": 0.5,
+      "worst_axis_recall": 0.2
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "semantic_composite_curriculum": true,
+  "semantic_composite_eval_tasks": 16,
+  "source_sha256": {
+    "prp_wm/causal_rules.py": "05d1bbf7962e6fc80e50809807598a20d041a97ca1aa12948caf6f6ccd00ba65",
+    "prp_wm/discrete_causal_rules.py": "0093d34353777b56a01f6e3453b2a33dc5151df6c48b66d8ecd5f307e0528716",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/public_version_k4.py": "fff89c5135d88a9cb38e47675761d0faa15632f76268a26ddf168f08fb79a733",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_expected_discrete_causal_coverage.py": "a8d1b811fdb9e58f1512e48bb07332c4686a78fee0d61592212af158c12eb63f",
+    "scripts/run_gram_public_coverage_finetune.py": "7a99275b77f3353953be436b60d356e0ba6b9db433eff5f31f709f859cefb916",
+    "scripts/run_public_version_space_k4.py": "0d6c0c9e13fcd419154e35eed5c3b39256835e8a24bc6e32f2ea02b8bf3ca9d9",
+    "scripts/run_stratified_gram_public_coverage.py": "ee058095c002775e4fc4878222f2c8dcc12daf9412fdb0acaa9c1baa2286b73c",
+    "scripts/run_support_calibrated_executor.py": "fcfd7f6b2134033bf2731b3183f02260c510cc63f9c197b824bab73762d6f567"
+  },
+  "static_audit_after": {
+    "controller_supplies_agent_probe_result_mask": false,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": true,
+        "factor_set_precision_gte_0_95": true,
+        "factor_set_recall_gte_0_95": true,
+        "target_probability_mass_gte_0_90": true,
+        "worst_axis_precision_gte_0_90": true,
+        "worst_axis_recall_gte_0_90": true
+      },
+      "passed": true
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 1.0,
+      "factor_set_precision": 1.0,
+      "factor_set_recall": 1.0,
+      "mean_predicted_joint_hypotheses": 5.333333333333333,
+      "mean_target_joint_hypotheses": 5.333333333333333,
+      "precision_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "recall_by_axis": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 16,
+      "target_probability_mass": 0.9896249506208632,
+      "tasks": 48,
+      "worst_axis_precision": 1.0,
+      "worst_axis_recall": 1.0
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "static_audit_before": {
+    "controller_supplies_agent_probe_result_mask": false,
+    "gate": {
+      "checks": {
+        "exact_task_factor_set_rate_gte_0_90": false,
+        "factor_set_precision_gte_0_95": false,
+        "factor_set_recall_gte_0_95": false,
+        "target_probability_mass_gte_0_90": false,
+        "worst_axis_precision_gte_0_90": false,
+        "worst_axis_recall_gte_0_90": false
+      },
+      "passed": false
+    },
+    "metrics": {
+      "exact_task_factor_set_rate": 0.0,
+      "factor_set_precision": 0.5822784810126582,
+      "factor_set_recall": 0.6052631578947368,
+      "mean_predicted_joint_hypotheses": 8.166666666666666,
+      "mean_target_joint_hypotheses": 5.333333333333333,
+      "precision_by_axis": [
+        0.5384615384615384,
+        0.5945945945945946,
+        0.5862068965517241
+      ],
+      "recall_by_axis": [
+        0.2916666666666667,
+        0.7857142857142857,
+        0.7083333333333334
+      ],
+      "selection_rule": "factor probability >= 0.20",
+      "symmetry_ambiguous_tasks": 16,
+      "target_probability_mass": 0.529957201745775,
+      "tasks": 48,
+      "worst_axis_precision": 0.5384615384615384,
+      "worst_axis_recall": 0.2916666666666667
+    },
+    "proposal_uses_privileged_palette_or_true_program": false,
+    "symmetry_ground_truth_materialized_after_inference": true
+  },
+  "status": "complete",
+  "support_coordinate_encoding": "learned_absolute_row_and_column_embeddings",
+  "support_encoder_trainable": true,
+  "support_input": "raw",
+  "train_public_version_space_audit": {
+    "axis_value_counts": [
+      [
+        144,
+        144,
+        144,
+        144
+      ],
+      [
+        144,
+        144,
+        144,
+        144
+      ],
+      [
+        144,
+        144,
+        144,
+        144
+      ]
+    ],
+    "axis_value_exactly_balanced": true,
+    "compatible_codes_per_task": 4,
+    "context_multiplicity_histogram": {
+      "4": 36
+    },
+    "contexts": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        1,
+        3,
+        2
+      ],
+      [
+        1,
+        3,
+        3
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        1
+      ],
+      [
+        2,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ]
+    ],
+    "joint_code_union_size": 64,
+    "joint_frequency_histogram": {
+      "12": 28,
+      "4": 12,
+      "8": 24
+    },
+    "missing_joint_codes": [],
+    "tasks": 144,
+    "unique_public_contexts": 36
+  },
+  "trainable_parameter_count": 31490,
+  "trainable_parameter_names": [
+    "agent_probe_result_embedding",
+    "repeated_transition_embedding",
+    "transition_project.0.weight",
+    "transition_project.0.bias",
+    "transition_project.1.weight",
+    "transition_project.1.bias",
+    "transition_project.3.weight",
+    "transition_project.3.bias",
+    "support_grid_encoder.color_embedding.weight",
+    "support_grid_encoder.row_embedding.weight",
+    "support_grid_encoder.column_embedding.weight",
+    "support_grid_encoder.stem.weight",
+    "support_grid_encoder.stem.bias",
+    "support_grid_encoder.blocks.0.norm1.weight",
+    "support_grid_encoder.blocks.0.norm1.bias",
+    "support_grid_encoder.blocks.0.conv1.weight",
+    "support_grid_encoder.blocks.0.conv1.bias",
+    "support_grid_encoder.blocks.0.norm2.weight",
+    "support_grid_encoder.blocks.0.norm2.bias",
+    "support_grid_encoder.blocks.0.conv2.weight",
+    "support_grid_encoder.blocks.0.conv2.bias",
+    "support_action_encoder.kind_embedding.weight",
+    "support_action_encoder.row_embedding.weight",
+    "support_action_encoder.column_embedding.weight",
+    "support_action_encoder.direction_embedding.weight",
+    "support_action_encoder.project.0.weight",
+    "support_action_encoder.project.0.bias",
+    "support_action_encoder.project.2.weight",
+    "support_action_encoder.project.2.bias",
+    "evidence_axis_head.0.weight",
+    "evidence_axis_head.0.bias",
+    "evidence_axis_head.1.weight",
+    "evidence_axis_head.1.bias",
+    "evidence_value_heads.0.0.weight",
+    "evidence_value_heads.0.0.bias",
+    "evidence_value_heads.0.1.weight",
+    "evidence_value_heads.0.1.bias",
+    "evidence_value_heads.1.0.weight",
+    "evidence_value_heads.1.0.bias",
+    "evidence_value_heads.1.1.weight",
+    "evidence_value_heads.1.1.bias",
+    "evidence_value_heads.2.0.weight",
+    "evidence_value_heads.2.0.bias",
+    "evidence_value_heads.2.1.weight",
+    "evidence_value_heads.2.1.bias",
+    "probe_history_attention.in_proj_weight",
+    "probe_history_attention.in_proj_bias",
+    "probe_history_attention.out_proj.weight",
+    "probe_history_attention.out_proj.bias",
+    "probe_history_norm.weight",
+    "probe_history_norm.bias",
+    "probe_history_ffn.0.weight",
+    "probe_history_ffn.0.bias",
+    "probe_history_ffn.1.weight",
+    "probe_history_ffn.1.bias",
+    "probe_history_ffn.3.weight",
+    "probe_history_ffn.3.bias",
+    "relative_event_encoder.row_offset_embedding.weight",
+    "relative_event_encoder.column_offset_embedding.weight",
+    "relative_event_encoder.pre_color_embedding.weight",
+    "relative_event_encoder.post_color_embedding.weight",
+    "relative_event_encoder.kind_embedding.weight",
+    "relative_event_encoder.direction_embedding.weight",
+    "relative_event_encoder.cell_mlp.0.weight",
+    "relative_event_encoder.cell_mlp.0.bias",
+    "relative_event_encoder.cell_mlp.2.weight",
+    "relative_event_encoder.cell_mlp.2.bias",
+    "relative_event_encoder.atom_meta_mlp.0.weight",
+    "relative_event_encoder.atom_meta_mlp.0.bias",
+    "relative_event_encoder.atom_meta_mlp.2.weight",
+    "relative_event_encoder.atom_meta_mlp.2.bias",
+    "relative_event_encoder.atom_norm.weight",
+    "relative_event_encoder.atom_norm.bias",
+    "relative_event_encoder.transition_mlp.0.weight",
+    "relative_event_encoder.transition_mlp.0.bias",
+    "relative_event_encoder.transition_mlp.1.weight",
+    "relative_event_encoder.transition_mlp.1.bias",
+    "relative_event_encoder.transition_mlp.3.weight",
+    "relative_event_encoder.transition_mlp.3.bias"
+  ],
+  "training_seconds": 16.584859,
+  "training_seed": 20260855,
+  "training_steps": 500,
+  "training_tasks_seen": 4000,
+  "training_teacher_reads_simulator_palette": true,
+  "training_teacher_reads_true_program": false,
+  "version_head": "relative-event-history-probe-factor-belief"
+}

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prp-wm"
+version = "0.1.0"
+description = "Falsification-first reproducibility scaffold for Persistent Rule Particle World Models"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+authors = [{name = "PRP-WM contributors"}]
+dependencies = []
+
+[project.optional-dependencies]
+# Stage 0 remains dependency-free.  The neural Stage-1 scaffold is explicitly
+# optional so a minimal verifier does not download a GPU runtime accidentally.
+neural = ["torch>=2.4"]
+
+[tool.setuptools.packages.find]
+include = ["prp_wm*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

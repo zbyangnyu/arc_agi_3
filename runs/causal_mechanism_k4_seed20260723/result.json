@@ -1,0 +1,247 @@
+{
+  "assignment_temperature_end": 0.0,
+  "assignment_temperature_start": 0.1,
+  "attention_layers": 2,
+  "balanced_weight": 1.0,
+  "batch_size": 8,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/causal_mechanism_k4_seed20260723/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.causal-mechanism-k4.v1",
+  "checkpoint_sha256": "f6c9aeb0cafd13acd17ff58d2fc9613976b0295bba10652f04fbaa3742c02d58",
+  "continuous_k4_comparison": {
+    "absolute_coverage_gain": -0.328125,
+    "baseline_coverage_at_4": 0.4375,
+    "baseline_model": "persistent-k4",
+    "baseline_result": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/canonical_latent_k4_seed20260722/result.json",
+    "baseline_result_sha256": "fc73066e75e7d0d1c08c2e59569df0bbebe794f9547dff531aae537e5fa8bafd",
+    "causal_coverage_at_4": 0.109375
+  },
+  "data_master_seed": 2026071601,
+  "device": "cpu",
+  "duplicate_weight": 0.05,
+  "eval_batch_size": 16,
+  "eval_split": "causal-mechanism-composition",
+  "eval_tasks": 192,
+  "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/executor_ceiling_pooled_canonical_seed20260721/checkpoint_last.pt",
+  "executor_checkpoint_model_type": "OracleFactorExecutor",
+  "executor_checkpoint_sha256": "e8b0df75d54f08ff6e9eb0b502c28af5418a0fe19db2b6676b0bb4770f6a43b0",
+  "executor_frozen": true,
+  "experiment": "axis_structured_causal_mechanism_k4_ceiling",
+  "factor_temperature_end": 0.25,
+  "factor_temperature_start": 1.0,
+  "full_panel_bijective_assignment": true,
+  "heldout_triple_coverage": {
+    "all_classes_covered_task_rate": 0.0,
+    "all_four_factor_tuples_recovered_task_rate": 0.0,
+    "all_particles_support_exact_task_rate": 0.0,
+    "behavior_classes": 768,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.15625,
+        "tasks": 64
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.109375,
+        "tasks": 64
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0625,
+        "tasks": 64
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.109375,
+    "coverage_at_4_unweighted": 0.109375,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 84,
+    "factor_tuple_coverage_at_4": 0.109375,
+    "factor_value_usage": [
+      [
+        0,
+        112,
+        0,
+        656
+      ],
+      [
+        352,
+        128,
+        80,
+        208
+      ],
+      [
+        48,
+        568,
+        144,
+        8
+      ]
+    ],
+    "map_exact_class_recall": 0.109375,
+    "mean_factor_logit_margin": 1.108621746301651,
+    "mean_unique_factor_tuples": 1.0208333333333333,
+    "mean_unique_map_signatures": 1.0208333333333333,
+    "mean_worst_particle_support_nll_per_cell": 1.3758057355880737,
+    "nll_threshold_class_recall": 0.109375,
+    "support_ablation": "none",
+    "support_exact_particle_rate": 0.0,
+    "tasks": 192,
+    "valid_particle_rate": 0.4166666666666667
+  },
+  "heldout_triple_indices": [
+    21,
+    22,
+    23
+  ],
+  "interpretation": "A pass shows that unordered behavior supervision can recover a pre-structured discrete mechanism set inside a frozen verified executor. It does not show autonomous discovery of axes or a public-input ARC result. Active intervention remains out of scope until static candidate coverage passes.",
+  "latest_training_metrics": {
+    "assignment_temperature": 0.0,
+    "factor_entropy_nats": 0.3434111773967743,
+    "factor_temperature": 0.25,
+    "gradient_norm": 5.006235122680664,
+    "loss_duplicate_probability": 0.4186161756515503,
+    "loss_set_nll": 1.8886568546295166,
+    "loss_support_nll": 14.92363166809082,
+    "loss_total": 3.4019508361816406,
+    "mean_unique_factor_tuples": 1.0
+  },
+  "learning_rate": 0.001,
+  "mechanism_axes_given": [
+    "collision",
+    "trigger",
+    "relation"
+  ],
+  "mechanism_value_labels_used_for_training": false,
+  "model_config": {
+    "action_embedding": 16,
+    "attention_ffn": 64,
+    "attention_heads": 4,
+    "beta": 1.0,
+    "color_embedding": 16,
+    "decoder_resblocks": 1,
+    "encoder_channels": 16,
+    "encoder_resblocks": 1,
+    "grid_size": 8,
+    "lambda_assign": 0.5,
+    "lambda_joint": 1.0,
+    "normalization_groups": 4,
+    "num_action_kinds": 4,
+    "num_colors": 16,
+    "num_directions": 5,
+    "particles": 4,
+    "position_embedding": 16,
+    "rule_dim": 32
+  },
+  "model_parameters": 52231,
+  "model_seed": 20260723,
+  "privileged_palette_canonicalization": true,
+  "program_labels_used_for_training": false,
+  "proper_weight": 1.0,
+  "result_kind": "privileged_axis_and_palette_causal_abstraction_ceiling",
+  "shuffled_support_target_control": {
+    "all_classes_covered_task_rate": 0.0,
+    "all_four_factor_tuples_recovered_task_rate": 0.0,
+    "all_particles_support_exact_task_rate": 0.0,
+    "behavior_classes": 768,
+    "by_heldout_axis": {
+      "collision": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.015625,
+        "tasks": 64
+      },
+      "relation": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.015625,
+        "tasks": 64
+      },
+      "trigger": {
+        "all_classes_covered_task_rate": 0.0,
+        "coverage": 0.0234375,
+        "tasks": 64
+      }
+    },
+    "coverage_at_4_mass_weighted": 0.018229166666666668,
+    "coverage_at_4_unweighted": 0.018229166666666668,
+    "coverage_nll_threshold_per_cell": 0.05,
+    "covered_behavior_classes": 14,
+    "factor_tuple_coverage_at_4": 0.018229166666666668,
+    "factor_value_usage": [
+      [
+        0,
+        64,
+        0,
+        704
+      ],
+      [
+        60,
+        196,
+        28,
+        484
+      ],
+      [
+        24,
+        648,
+        96,
+        0
+      ]
+    ],
+    "map_exact_class_recall": 0.018229166666666668,
+    "mean_factor_logit_margin": 0.978120744228363,
+    "mean_unique_factor_tuples": 1.0208333333333333,
+    "mean_unique_map_signatures": 1.0208333333333333,
+    "mean_worst_particle_support_nll_per_cell": 1.3808981776237488,
+    "nll_threshold_class_recall": 0.018229166666666668,
+    "support_ablation": "shuffle-targets",
+    "support_exact_particle_rate": 0.0,
+    "tasks": 192,
+    "valid_particle_rate": 0.06770833333333333
+  },
+  "source_sha256": {
+    "prp_wm/causal_rules.py": "05d1bbf7962e6fc80e50809807598a20d041a97ca1aa12948caf6f6ccd00ba65",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_causal_mechanism_coverage.py": "3c18d831583e9c562578d4feb5e21153daee91f319294b5f26498ac4989a6755",
+    "scripts/run_rulegrid_executor_ceiling.py": "bfbc269d3140ed28cbe5a8d0d7ceeed900103382ec5f1f0356aad2d2dee4a011"
+  },
+  "static_gate": {
+    "all_classes_covered_task_rate_gte": 0.9,
+    "coverage_at_4_gte": 0.9,
+    "factor_tuple_coverage_at_4_gte": 0.9,
+    "passed": false
+  },
+  "steps": 1000,
+  "straight_through_hard_factor_codes": true,
+  "support_derived_unordered_behavior_set_supervision": true,
+  "support_weight": 0.1,
+  "tasks_seen": 8000,
+  "torch_version": "2.13.0",
+  "train_diagnostic_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "train_split": "causal-mechanism-train",
+  "trainable_parameters": 35054,
+  "training_seconds": 70.501973,
+  "true_query_targets_used_for_training": false,
+  "weight_decay": 0.0001
+}

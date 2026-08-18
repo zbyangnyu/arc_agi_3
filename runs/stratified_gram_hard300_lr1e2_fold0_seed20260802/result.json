@@ -1,0 +1,3596 @@
+{
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/stratified_gram_hard300_lr1e2_fold0_seed20260802/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.persistent-stratified-gram-k4.v1",
+  "checkpoint_sha256": "96a18a229c078379b1053904713f4c2048063e751718d02e5532dbde8da8d503",
+  "cli_arguments": {
+    "ambiguity_weight": 0.1,
+    "batch_size": 8,
+    "context_fold": null,
+    "data_master_seed": 2026071601,
+    "deep_supervision_decay": 1.0,
+    "device": "cpu",
+    "eval_batch_size": 16,
+    "eval_split": "gram-causal-composition",
+    "eval_tasks": 48,
+    "executor_checkpoint": null,
+    "factor_temperature": 1.0,
+    "inference_widths": [
+      4,
+      8,
+      16,
+      32
+    ],
+    "initial_anchor_gain": 4.0,
+    "initial_gram_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/gram_causal_screen600_fold0_seed20260728/checkpoint_last.pt",
+    "joint_margin": 1.0,
+    "learning_rate": 0.01,
+    "log_every": 50,
+    "margin_weight": 0.1,
+    "max_grad_norm": 1.0,
+    "output": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/stratified_gram_hard300_lr1e2_fold0_seed20260802",
+    "seed": 20260802,
+    "steps": 300,
+    "tail_learning_rate": 0.003,
+    "tail_steps": 75,
+    "train_pool_tasks": 144,
+    "train_split": "gram-causal-train",
+    "validity_weight": 0.0,
+    "weight_decay": 0.0001
+  },
+  "context_fold": 0,
+  "device": "cpu",
+  "eval_public_version_space_audit": {
+    "axis_value_counts": [
+      [
+        48,
+        48,
+        48,
+        48
+      ],
+      [
+        48,
+        48,
+        48,
+        48
+      ],
+      [
+        48,
+        48,
+        48,
+        48
+      ]
+    ],
+    "axis_value_exactly_balanced": true,
+    "compatible_codes_per_task": 4,
+    "context_multiplicity_histogram": {
+      "4": 12
+    },
+    "contexts": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        2
+      ],
+      [
+        0,
+        3,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        3
+      ],
+      [
+        2,
+        2,
+        2
+      ],
+      [
+        2,
+        3,
+        1
+      ]
+    ],
+    "joint_code_union_size": 38,
+    "joint_frequency_histogram": {
+      "12": 2,
+      "4": 30,
+      "8": 6
+    },
+    "missing_joint_codes": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        3,
+        0
+      ],
+      [
+        2,
+        3,
+        3
+      ],
+      [
+        3,
+        0,
+        2
+      ],
+      [
+        3,
+        0,
+        3
+      ],
+      [
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        2,
+        3
+      ],
+      [
+        3,
+        3,
+        0
+      ],
+      [
+        3,
+        3,
+        2
+      ],
+      [
+        3,
+        3,
+        3
+      ]
+    ],
+    "tasks": 48,
+    "unique_public_contexts": 12
+  },
+  "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+  "executor_checkpoint_schema": "prp-wm.support-calibrated-factor-executor.v1",
+  "executor_checkpoint_sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254",
+  "executor_frozen": true,
+  "experiment": "persistent_stratified_gram_public_version_space",
+  "initial_gram_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/gram_causal_screen600_fold0_seed20260728/checkpoint_last.pt",
+  "initial_gram_checkpoint_schema": "prp-wm.gram-factorized-causal-k4.v1",
+  "initial_gram_checkpoint_sha256": "f2504860fe060ed7cc4700cde5f571a6df6f9d453fe391c1a037aec325fabc20",
+  "latest_training_metrics": {
+    "anchor_gain": [
+      5.403669834136963,
+      5.686704635620117,
+      5.289538860321045
+    ],
+    "gradient_norm": 2.056302785873413,
+    "hard_all_four_rate": 0.5,
+    "hard_mean_unique_codes": 3.875,
+    "hard_valid_particle_rate": 0.78125,
+    "hard_version_space_recall": 0.75,
+    "invalid_probability_mass": 0.3680921792984009,
+    "joint_entropy_nats": 0.9833238124847412,
+    "learning_rate": 0.003,
+    "loss_ambiguity_bce": 0.1615496724843979,
+    "loss_joint_margin": 0.8975751399993896,
+    "loss_joint_nll": 0.9724811315536499,
+    "loss_total": 1.0783936977386475,
+    "mean_ambiguity_probability": [
+      0.2468540370464325,
+      0.2889598608016968,
+      0.6228418350219727
+    ],
+    "mean_top_rule_probability": 0.6547583341598511
+  },
+  "legacy_gram_frozen": true,
+  "persistent_anchor_scope": "same anchors across recursion, tasks, and stages",
+  "posterior_or_behavior_supervision_used": false,
+  "proposal_sees_version_space_at_inference": false,
+  "public_version_space_teacher": "all-64 frozen-executor MAP exact equality",
+  "query_or_true_program_used_for_training": false,
+  "result_schema_version": "prp-wm.persistent-stratified-gram-public-coverage.v1",
+  "source_sha256": {
+    "prp_wm/causal_rules.py": "05d1bbf7962e6fc80e50809807598a20d041a97ca1aa12948caf6f6ccd00ba65",
+    "prp_wm/discrete_causal_rules.py": "0093d34353777b56a01f6e3453b2a33dc5151df6c48b66d8ecd5f307e0528716",
+    "prp_wm/gram_causal_rules.py": "ef12dcf070b8538c2d65a043cfcb90e888392050c1ea80b237a201adaec7722c",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "prp_wm/stratified_gram.py": "ad586736287e24a3645b0ce8207ddcc55d6d11d3ab399f3f193dd9eb9d0916da",
+    "scripts/run_expected_discrete_causal_coverage.py": "a8d1b811fdb9e58f1512e48bb07332c4686a78fee0d61592212af158c12eb63f",
+    "scripts/run_gram_public_coverage_finetune.py": "58682e74331349a005775c99f1a49280ec4d2e377c669cf6a29262d9a717b01f",
+    "scripts/run_stratified_gram_public_coverage.py": "7e85e2f767cb0dd48b1cd59185ef5d765ee2edee8f8e1c50711e57c10e3d3667",
+    "scripts/run_support_calibrated_executor.py": "fcfd7f6b2134033bf2731b3183f02260c510cc63f9c197b824bab73762d6f567"
+  },
+  "static_audit_after": {
+    "points": [
+      {
+        "all_four_task_rate": 0.25,
+        "any_empirical_zero_factor_value": false,
+        "context_records": [
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                2
+              ]
+            ],
+            "mean_recall": 0.75,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                0,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                3,
+                2
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                3,
+                0,
+                1
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                3
+              ]
+            ],
+            "mean_recall": 0.5,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.75,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          }
+        ],
+        "deterministic_persistent_anchors": true,
+        "factor_value_counts": [
+          [
+            48,
+            64,
+            36,
+            44
+          ],
+          [
+            48,
+            48,
+            48,
+            48
+          ],
+          [
+            20,
+            84,
+            52,
+            36
+          ]
+        ],
+        "mean_unique_joint_codes": 3.8333333333333335,
+        "recall_by_varying_axis": [
+          0.5,
+          0.5,
+          0.3125
+        ],
+        "tasks": 48,
+        "valid_particle_rate": 0.4583333333333333,
+        "version_space_recall": 0.4375,
+        "width": 4,
+        "worst_axis_recall": 0.3125
+      },
+      {
+        "all_four_task_rate": 0.3333333333333333,
+        "any_empirical_zero_factor_value": false,
+        "context_records": [
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.5,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                2
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                0,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                3,
+                2
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                3,
+                0,
+                1
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                3
+              ]
+            ],
+            "mean_recall": 0.5,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.75,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          }
+        ],
+        "deterministic_persistent_anchors": true,
+        "factor_value_counts": [
+          [
+            96,
+            128,
+            72,
+            88
+          ],
+          [
+            96,
+            96,
+            96,
+            96
+          ],
+          [
+            40,
+            168,
+            104,
+            72
+          ]
+        ],
+        "mean_unique_joint_codes": 4.333333333333333,
+        "recall_by_varying_axis": [
+          0.625,
+          0.5,
+          0.3125
+        ],
+        "tasks": 48,
+        "valid_particle_rate": 0.4583333333333333,
+        "version_space_recall": 0.4791666666666667,
+        "width": 8,
+        "worst_axis_recall": 0.3125
+      },
+      {
+        "all_four_task_rate": 0.3333333333333333,
+        "any_empirical_zero_factor_value": false,
+        "context_records": [
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.5,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                2
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                0,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                3,
+                2
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                3,
+                0,
+                1
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                3
+              ]
+            ],
+            "mean_recall": 0.75,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.75,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          }
+        ],
+        "deterministic_persistent_anchors": true,
+        "factor_value_counts": [
+          [
+            192,
+            256,
+            144,
+            176
+          ],
+          [
+            192,
+            192,
+            192,
+            192
+          ],
+          [
+            80,
+            336,
+            208,
+            144
+          ]
+        ],
+        "mean_unique_joint_codes": 4.916666666666667,
+        "recall_by_varying_axis": [
+          0.625,
+          0.5,
+          0.375
+        ],
+        "tasks": 48,
+        "valid_particle_rate": 0.4583333333333333,
+        "version_space_recall": 0.5,
+        "width": 16,
+        "worst_axis_recall": 0.375
+      },
+      {
+        "all_four_task_rate": 0.3333333333333333,
+        "any_empirical_zero_factor_value": false,
+        "context_records": [
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.5,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                2
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                0,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                3,
+                2
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 1.0,
+            "compatible_codes": [
+              [
+                3,
+                0,
+                1
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 1.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                3
+              ]
+            ],
+            "mean_recall": 0.75,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.75,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          }
+        ],
+        "deterministic_persistent_anchors": true,
+        "factor_value_counts": [
+          [
+            384,
+            512,
+            288,
+            352
+          ],
+          [
+            384,
+            384,
+            384,
+            384
+          ],
+          [
+            160,
+            672,
+            416,
+            288
+          ]
+        ],
+        "mean_unique_joint_codes": 4.916666666666667,
+        "recall_by_varying_axis": [
+          0.625,
+          0.5,
+          0.375
+        ],
+        "tasks": 48,
+        "valid_particle_rate": 0.4583333333333333,
+        "version_space_recall": 0.5,
+        "width": 32,
+        "worst_axis_recall": 0.375
+      }
+    ],
+    "primary_gate_width": 4,
+    "proposal_uses_true_code_or_version_space": false,
+    "version_space_used_after_proposal_for_metrics_only": true,
+    "w4_gate": {
+      "checks": {
+        "all_four_task_rate_gte_0_75": false,
+        "mean_unique_joint_codes_gte_3_8": true,
+        "no_empirical_zero_factor_value": true,
+        "valid_particle_rate_gte_0_90": false,
+        "version_space_recall_gte_0_90": false,
+        "worst_axis_recall_gte_0_85": false
+      },
+      "passed": false
+    }
+  },
+  "static_audit_before": {
+    "points": [
+      {
+        "all_four_task_rate": 0.0,
+        "any_empirical_zero_factor_value": true,
+        "context_records": [
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                2
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                3,
+                2
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                0,
+                1
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                3
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          }
+        ],
+        "deterministic_persistent_anchors": true,
+        "factor_value_counts": [
+          [
+            0,
+            4,
+            148,
+            40
+          ],
+          [
+            32,
+            48,
+            64,
+            48
+          ],
+          [
+            100,
+            16,
+            76,
+            0
+          ]
+        ],
+        "mean_unique_joint_codes": 1.6666666666666667,
+        "recall_by_varying_axis": [
+          0.125,
+          0.0625,
+          0.0625
+        ],
+        "tasks": 48,
+        "valid_particle_rate": 0.1875,
+        "version_space_recall": 0.08333333333333333,
+        "width": 4,
+        "worst_axis_recall": 0.0625
+      },
+      {
+        "all_four_task_rate": 0.0,
+        "any_empirical_zero_factor_value": true,
+        "context_records": [
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                2
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                3,
+                2
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                0,
+                1
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                3
+              ]
+            ],
+            "mean_recall": 0.5,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          }
+        ],
+        "deterministic_persistent_anchors": true,
+        "factor_value_counts": [
+          [
+            0,
+            8,
+            296,
+            80
+          ],
+          [
+            64,
+            96,
+            128,
+            96
+          ],
+          [
+            200,
+            32,
+            152,
+            0
+          ]
+        ],
+        "mean_unique_joint_codes": 1.8333333333333333,
+        "recall_by_varying_axis": [
+          0.125,
+          0.0625,
+          0.125
+        ],
+        "tasks": 48,
+        "valid_particle_rate": 0.1875,
+        "version_space_recall": 0.10416666666666667,
+        "width": 8,
+        "worst_axis_recall": 0.0625
+      },
+      {
+        "all_four_task_rate": 0.0,
+        "any_empirical_zero_factor_value": true,
+        "context_records": [
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                2
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                3,
+                2
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                0,
+                1
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                3
+              ]
+            ],
+            "mean_recall": 0.5,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          }
+        ],
+        "deterministic_persistent_anchors": true,
+        "factor_value_counts": [
+          [
+            0,
+            16,
+            592,
+            160
+          ],
+          [
+            128,
+            192,
+            256,
+            192
+          ],
+          [
+            400,
+            64,
+            304,
+            0
+          ]
+        ],
+        "mean_unique_joint_codes": 1.9166666666666667,
+        "recall_by_varying_axis": [
+          0.125,
+          0.0625,
+          0.125
+        ],
+        "tasks": 48,
+        "valid_particle_rate": 0.18229166666666666,
+        "version_space_recall": 0.10416666666666667,
+        "width": 16,
+        "worst_axis_recall": 0.0625
+      },
+      {
+        "all_four_task_rate": 0.0,
+        "any_empirical_zero_factor_value": true,
+        "context_records": [
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                2,
+                0,
+                0
+              ],
+              [
+                3,
+                0,
+                0
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                1,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                2,
+                1,
+                3
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                2,
+                2
+              ],
+              [
+                1,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                3,
+                2,
+                2
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                2,
+                3,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 0
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ],
+              [
+                0,
+                2,
+                0
+              ],
+              [
+                0,
+                3,
+                0
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                0,
+                3
+              ],
+              [
+                1,
+                1,
+                3
+              ],
+              [
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                0,
+                2
+              ],
+              [
+                2,
+                1,
+                2
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                3,
+                2
+              ]
+            ],
+            "mean_recall": 0.25,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                0,
+                1
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                2,
+                1
+              ],
+              [
+                3,
+                3,
+                1
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 1
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                0,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                1
+              ],
+              [
+                0,
+                0,
+                2
+              ],
+              [
+                0,
+                0,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                1,
+                3,
+                0
+              ],
+              [
+                1,
+                3,
+                1
+              ],
+              [
+                1,
+                3,
+                2
+              ],
+              [
+                1,
+                3,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                2,
+                2,
+                0
+              ],
+              [
+                2,
+                2,
+                1
+              ],
+              [
+                2,
+                2,
+                2
+              ],
+              [
+                2,
+                2,
+                3
+              ]
+            ],
+            "mean_recall": 0.5,
+            "tasks": 4,
+            "varying_axis": 2
+          },
+          {
+            "all_four_task_rate": 0.0,
+            "compatible_codes": [
+              [
+                3,
+                1,
+                0
+              ],
+              [
+                3,
+                1,
+                1
+              ],
+              [
+                3,
+                1,
+                2
+              ],
+              [
+                3,
+                1,
+                3
+              ]
+            ],
+            "mean_recall": 0.0,
+            "tasks": 4,
+            "varying_axis": 2
+          }
+        ],
+        "deterministic_persistent_anchors": true,
+        "factor_value_counts": [
+          [
+            0,
+            32,
+            1184,
+            320
+          ],
+          [
+            256,
+            384,
+            512,
+            384
+          ],
+          [
+            800,
+            128,
+            608,
+            0
+          ]
+        ],
+        "mean_unique_joint_codes": 1.9166666666666667,
+        "recall_by_varying_axis": [
+          0.125,
+          0.0625,
+          0.125
+        ],
+        "tasks": 48,
+        "valid_particle_rate": 0.18229166666666666,
+        "version_space_recall": 0.10416666666666667,
+        "width": 32,
+        "worst_axis_recall": 0.0625
+      }
+    ],
+    "primary_gate_width": 4,
+    "proposal_uses_true_code_or_version_space": false,
+    "version_space_used_after_proposal_for_metrics_only": true,
+    "w4_gate": {
+      "checks": {
+        "all_four_task_rate_gte_0_75": false,
+        "mean_unique_joint_codes_gte_3_8": false,
+        "no_empirical_zero_factor_value": false,
+        "valid_particle_rate_gte_0_90": false,
+        "version_space_recall_gte_0_90": false,
+        "worst_axis_recall_gte_0_85": false
+      },
+      "passed": false
+    }
+  },
+  "status": "complete",
+  "train_public_version_space_audit": {
+    "axis_value_counts": [
+      [
+        144,
+        144,
+        144,
+        144
+      ],
+      [
+        144,
+        144,
+        144,
+        144
+      ],
+      [
+        144,
+        144,
+        144,
+        144
+      ]
+    ],
+    "axis_value_exactly_balanced": true,
+    "compatible_codes_per_task": 4,
+    "context_multiplicity_histogram": {
+      "4": 36
+    },
+    "contexts": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        2,
+        1
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        0
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        3,
+        3
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        2
+      ],
+      [
+        1,
+        0,
+        3
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        1
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        0
+      ],
+      [
+        1,
+        3,
+        2
+      ],
+      [
+        1,
+        3,
+        3
+      ],
+      [
+        2,
+        0,
+        1
+      ],
+      [
+        2,
+        0,
+        2
+      ],
+      [
+        2,
+        0,
+        3
+      ],
+      [
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        1,
+        1
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        0
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        2,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        0
+      ],
+      [
+        2,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        3
+      ]
+    ],
+    "joint_code_union_size": 62,
+    "joint_frequency_histogram": {
+      "12": 26,
+      "4": 6,
+      "8": 30
+    },
+    "missing_joint_codes": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2,
+        2
+      ]
+    ],
+    "tasks": 144,
+    "unique_public_contexts": 36
+  },
+  "trainable_parameter_count": 1106,
+  "trainable_parameter_names": [
+    "anchor_log_gain",
+    "support_adapter.0.weight",
+    "support_adapter.0.bias",
+    "support_adapter.1.weight",
+    "support_adapter.1.bias"
+  ],
+  "training_sample_noise": false,
+  "training_seconds": 21.04134,
+  "training_seed": 20260802,
+  "training_steps": 300,
+  "training_tasks_seen": 2400
+}

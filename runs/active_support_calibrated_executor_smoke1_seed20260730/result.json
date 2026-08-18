@@ -1,0 +1,288 @@
+{
+  "active_candidate_selection": [
+    "first-partial",
+    "first-neutral-large-change",
+    "first-strong"
+  ],
+  "active_prefix_executor_gate": {
+    "diagnostic_exact": false,
+    "passed": false,
+    "requirements": {
+      "each_stage_neural_symbolic_set_equality_task_rate_gte": 0.99,
+      "each_stage_true_rule_map_exact_task_rate_eq": 1.0,
+      "single_pair_heldout_triple_diagnostic_exact_task_accuracy_eq": 1.0
+    },
+    "stage_checks": {
+      "t0_support": {
+        "set_equality_gte_0_99": true,
+        "true_rule_exact_eq_1": true
+      },
+      "t1_partial": {
+        "set_equality_gte_0_99": false,
+        "true_rule_exact_eq_1": false
+      },
+      "t2_neutral": {
+        "set_equality_gte_0_99": false,
+        "true_rule_exact_eq_1": false
+      },
+      "t3_strong": {
+        "set_equality_gte_0_99": false,
+        "true_rule_exact_eq_1": false
+      }
+    }
+  },
+  "active_prefix_lengths": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "active_prefix_sequence": [
+    "t0_support",
+    "t1_partial",
+    "t2_neutral",
+    "t3_strong"
+  ],
+  "all_64_factor_codes_available_for_supervision": true,
+  "balanced_weight": 1.0,
+  "batch_size": 2,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/active_support_calibrated_executor_smoke1_seed20260730/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.active-support-calibrated-factor-executor.v1",
+  "checkpoint_sha256": "40528be80c3ed240b4fdc2a2e54cd91201e806a61bccd80144afdfd661ad9cf4",
+  "data_master_seed": 2026071601,
+  "delta_training": {
+    "initial_checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+    "initial_checkpoint_schema_version": "prp-wm.support-calibrated-factor-executor.v1",
+    "initial_checkpoint_sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254",
+    "program_conditioned_transition_examples_per_step": 408,
+    "program_conditioned_transition_examples_total": 408,
+    "steps": 1,
+    "task_draws": 2
+  },
+  "domain_loss_weights": {
+    "diagnostic_nontriple": 0.4,
+    "t0_support": 0.1,
+    "t1_partial": 0.15,
+    "t2_neutral": 0.1,
+    "t3_strong": 0.25
+  },
+  "eval_batch_size": 2,
+  "eval_split": "active-executor-prefix-heldout",
+  "eval_tasks": 4,
+  "experiment": "active_prefix_support_calibrated_oracle_factor_executor",
+  "factor_code_is_fixed_per_transition_panel": true,
+  "heldout_active_prefix_evaluation": {
+    "all_64_factor_codes_scored_per_task": true,
+    "stages": {
+      "t0_support": {
+        "mean_false_negative_codes": 0.0,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 1.0,
+        "neural_map_exact_bank_size_histogram": {
+          "4": 4
+        },
+        "observed_transitions": 6,
+        "symbolic_version_space_size_histogram": {
+          "4": 4
+        },
+        "tasks": 4,
+        "true_rule_map_exact_task_rate": 1.0
+      },
+      "t1_partial": {
+        "mean_false_negative_codes": 1.5,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 0.0,
+        "neural_map_exact_bank_size_histogram": {
+          "0": 3,
+          "2": 1
+        },
+        "observed_transitions": 7,
+        "symbolic_version_space_size_histogram": {
+          "1": 2,
+          "3": 2
+        },
+        "tasks": 4,
+        "true_rule_map_exact_task_rate": 0.25
+      },
+      "t2_neutral": {
+        "mean_false_negative_codes": 1.5,
+        "mean_false_positive_codes": 0.0,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 0.0,
+        "neural_map_exact_bank_size_histogram": {
+          "0": 3,
+          "2": 1
+        },
+        "observed_transitions": 8,
+        "symbolic_version_space_size_histogram": {
+          "1": 2,
+          "3": 2
+        },
+        "tasks": 4,
+        "true_rule_map_exact_task_rate": 0.25
+      },
+      "t3_strong": {
+        "mean_false_negative_codes": 0.75,
+        "mean_false_positive_codes": 0.25,
+        "neural_map_exact_bank_equals_symbolic_version_space_task_rate": 0.0,
+        "neural_map_exact_bank_size_histogram": {
+          "0": 3,
+          "2": 1
+        },
+        "observed_transitions": 9,
+        "symbolic_version_space_size_histogram": {
+          "1": 4
+        },
+        "tasks": 4,
+        "true_rule_map_exact_task_rate": 0.25
+      }
+    },
+    "tasks": 4
+  },
+  "heldout_triple_evaluation": {
+    "cell_accuracy": 0.99609375,
+    "cells": 768,
+    "changed_cell_accuracy": 0.9333333333333333,
+    "changed_cell_fraction": 0.05859375,
+    "exact_grid_accuracy": 0.75,
+    "exact_task_accuracy": 0.75,
+    "exploratory_near_exact": false,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 12,
+    "proper_nll_per_cell": 0.008590597426518798,
+    "tasks": 4,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "heldout_triple_indices": [
+    21,
+    22,
+    23
+  ],
+  "interpretation": "A pass establishes only an oracle-code, oracle-palette neural verifier for the fixed support/partial/neutral/strong protocol. The new checkpoint is independent of the GRAM proposal checkpoint and does not establish autonomous rule discovery or active action selection.",
+  "latest_training_metrics": {
+    "gradient_norm": 0.886812150478363,
+    "loss_diagnostic_nontriple": 0.00010313560778740793,
+    "loss_t0_support": 1.385872110404307e-05,
+    "loss_t1_partial": 0.10807311534881592,
+    "loss_t2_neutral": 0.09625712037086487,
+    "loss_t3_strong": 0.08935916423797607,
+    "loss_total": 0.04821911051412826
+  },
+  "learning_rate": 0.0005,
+  "max_grad_norm": 1.0,
+  "model_config": {
+    "action_embedding": 16,
+    "attention_ffn": 64,
+    "attention_heads": 4,
+    "beta": 1.0,
+    "color_embedding": 16,
+    "decoder_resblocks": 1,
+    "encoder_channels": 16,
+    "encoder_resblocks": 1,
+    "grid_size": 8,
+    "lambda_assign": 0.5,
+    "lambda_joint": 1.0,
+    "normalization_groups": 4,
+    "num_action_kinds": 4,
+    "num_colors": 16,
+    "num_directions": 5,
+    "particles": 4,
+    "position_embedding": 16,
+    "rule_dim": 32
+  },
+  "model_parameters": 17177,
+  "model_seed": 20260730,
+  "model_type": "OracleFactorExecutor",
+  "pair_evaluation": {
+    "cell_accuracy": 1.0,
+    "cells": 2304,
+    "changed_cell_accuracy": 1.0,
+    "changed_cell_fraction": 0.0390625,
+    "exact_grid_accuracy": 1.0,
+    "exact_task_accuracy": 1.0,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 36,
+    "proper_nll_per_cell": 0.0007750503718852997,
+    "tasks": 4,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "palette_input": "oracle-canonical",
+  "privileged_palette_canonicalization": true,
+  "privileged_true_rule_factors_are_model_inputs": true,
+  "result_kind": "privileged_active_history_verifier_ceiling",
+  "runtime_identity": {
+    "cuda_available": false,
+    "device": "cpu",
+    "python_version": "3.12.7",
+    "torch_version": "2.13.0"
+  },
+  "single_evaluation": {
+    "cell_accuracy": 0.9996744791666666,
+    "cells": 3072,
+    "changed_cell_accuracy": 0.9833333333333333,
+    "changed_cell_fraction": 0.01953125,
+    "exact_grid_accuracy": 0.9791666666666666,
+    "exact_task_accuracy": 0.75,
+    "exploratory_near_exact": true,
+    "exploratory_near_exact_thresholds": {
+      "exact_grid_accuracy_gte": 0.9,
+      "proper_nll_per_cell_lte": 0.05
+    },
+    "frames": 48,
+    "proper_nll_per_cell": 0.0011416234774515033,
+    "tasks": 4,
+    "unchanged_cell_accuracy": 1.0
+  },
+  "source_sha256": {
+    "prp_wm/causal_filter.py": "13363f6d9d0b253439c8c4bb90e9c9c8003bbf7c8151176b7bb645716f682e09",
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/run_active_support_calibrated_executor.py": "c7665ffdd675423e63a3a69feec5b4236a219a22f606775754bd10c21622fd46",
+    "scripts/run_causal_mechanism_coverage.py": "3c18d831583e9c562578d4feb5e21153daee91f319294b5f26498ac4989a6755",
+    "scripts/run_gram_smc_active_screen.py": "ac34cfd65d9a0841f1cc626b7643120e6c2ea7e7c77593855f08dbba9d3cd32b",
+    "scripts/run_rulegrid_executor_ceiling.py": "bfbc269d3140ed28cbe5a8d0d7ceeed900103382ec5f1f0356aad2d2dee4a011",
+    "scripts/run_support_calibrated_executor.py": "fcfd7f6b2134033bf2731b3183f02260c510cc63f9c197b824bab73762d6f567"
+  },
+  "steps": 1,
+  "tasks_seen": 2,
+  "train_diagnostic_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "train_split": "active-executor-delta-train",
+  "training_code_schedule": {
+    "all_64_codes_covered_each_step": false,
+    "codes_per_step": 8,
+    "codes_per_task": 4,
+    "kind": "deterministic-coprime-rotated-contiguous-blocks"
+  },
+  "training_seconds": 0.140863,
+  "weight_decay": 0.0001
+}

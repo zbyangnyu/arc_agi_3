@@ -1,0 +1,1348 @@
+{
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/public_belief_active_sequence_ft800_fold0_seed20260871/checkpoint_last.pt",
+  "checkpoint_schema_version": "prp-wm.public-version-space-causal-k4.v1",
+  "checkpoint_sha256": "c044d2e7a35ccce5c316a8df9bf9c85ff3072ce27a7c9b5635e7ba6d0ffa2330",
+  "cli_arguments": {
+    "batch_size": 8,
+    "checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/raw_palette_invariant_atom_matched_hard600_fold0_seed20260863/checkpoint_last.pt",
+    "color_permutation_augmentation": null,
+    "data_master_seed": null,
+    "device": "cpu",
+    "eval_batch_size": 16,
+    "eval_split": null,
+    "eval_tasks_per_audit": 48,
+    "learning_rate": 0.0002,
+    "log_every": 40,
+    "max_grad_norm": 1.0,
+    "output": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/public_belief_active_sequence_ft800_fold0_seed20260871",
+    "seed": 20260871,
+    "steps": 800,
+    "tail_learning_rate": 0.0001,
+    "tail_steps": 80,
+    "task_consistency_weight": 0.5,
+    "train_split": null,
+    "weight_decay": 0.0001
+  },
+  "context_fold": 0,
+  "context_pool_audit": {
+    "context_fold": 0,
+    "heldout": {
+      "axis_value_counts": [
+        [
+          48,
+          48,
+          48,
+          48
+        ],
+        [
+          48,
+          48,
+          48,
+          48
+        ],
+        [
+          48,
+          48,
+          48,
+          48
+        ]
+      ],
+      "axis_value_exactly_balanced": true,
+      "compatible_codes_per_task": 4,
+      "context_multiplicity_histogram": {
+        "4": 12
+      },
+      "contexts": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          3
+        ],
+        [
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          2,
+          2
+        ],
+        [
+          1,
+          3,
+          1
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          1
+        ]
+      ],
+      "joint_code_union_size": 38,
+      "joint_frequency_histogram": {
+        "12": 2,
+        "4": 30,
+        "8": 6
+      },
+      "missing_joint_codes": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          3
+        ],
+        [
+          3,
+          0,
+          2
+        ],
+        [
+          3,
+          0,
+          3
+        ],
+        [
+          3,
+          2,
+          0
+        ],
+        [
+          3,
+          2,
+          3
+        ],
+        [
+          3,
+          3,
+          0
+        ],
+        [
+          3,
+          3,
+          2
+        ],
+        [
+          3,
+          3,
+          3
+        ]
+      ],
+      "tasks": 48,
+      "unique_public_contexts": 12
+    },
+    "train": {
+      "axis_value_counts": [
+        [
+          144,
+          144,
+          144,
+          144
+        ],
+        [
+          144,
+          144,
+          144,
+          144
+        ],
+        [
+          144,
+          144,
+          144,
+          144
+        ]
+      ],
+      "axis_value_exactly_balanced": true,
+      "compatible_codes_per_task": 4,
+      "context_multiplicity_histogram": {
+        "4": 36
+      },
+      "contexts": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          0,
+          3,
+          3
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          1,
+          0,
+          3
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          2,
+          1
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          3,
+          0
+        ],
+        [
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          3,
+          3
+        ],
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          2,
+          0,
+          3
+        ],
+        [
+          2,
+          1,
+          0
+        ],
+        [
+          2,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          2,
+          2,
+          0
+        ],
+        [
+          2,
+          2,
+          1
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          3
+        ]
+      ],
+      "joint_code_union_size": 62,
+      "joint_frequency_histogram": {
+        "12": 26,
+        "4": 6,
+        "8": 30
+      },
+      "missing_joint_codes": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          2
+        ]
+      ],
+      "tasks": 144,
+      "unique_public_contexts": 36
+    },
+    "train_heldout_contexts_disjoint": true
+  },
+  "device": "cpu",
+  "eval_tasks_per_sequence_audit": 48,
+  "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+  "executor_checkpoint_schema": "prp-wm.support-calibrated-factor-executor.v1",
+  "finetune": {
+    "batch_size": 8,
+    "candidate_kind_in_model_input": false,
+    "candidate_kind_used_for_training_sampling_only": true,
+    "color_permutation_augmentation": true,
+    "context_fold_inherited_from_source": 0,
+    "curriculum": [
+      "t0",
+      "single_strong",
+      "single_partial",
+      "single_neutral",
+      "random_length_2",
+      "random_length_4",
+      "random_length_8",
+      "strong_partial_neutral"
+    ],
+    "data_master_seed": 2026071601,
+    "environment_target_exposed_only_as_observed_next_state": true,
+    "eval_split": "gram-causal-composition",
+    "finetune_schema_version": "prp-wm.public-belief-active-sequence-finetune.v1",
+    "heldout_contexts": 12,
+    "heldout_pool_tasks": 48,
+    "model_input": "public transition history plus controller-owned is_agent_probe_result bit",
+    "phase_update_counts": {
+      "random_length_2": 100,
+      "random_length_4": 100,
+      "random_length_8": 100,
+      "single_neutral": 100,
+      "single_partial": 100,
+      "single_strong": 100,
+      "strong_partial_neutral": 100,
+      "t0": 100
+    },
+    "seed": 20260871,
+    "selected_candidate_kind_counts": {
+      "neutral-large-change": 7193,
+      "partial": 4359,
+      "strong": 4448
+    },
+    "source_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/raw_palette_invariant_atom_matched_hard600_fold0_seed20260863/checkpoint_last.pt",
+    "source_checkpoint_sha256": "145fb14ad533f890dd0600dd97c073eef5f62746bbd304160de790a59d3e05e1",
+    "steps": 800,
+    "train_contexts": 36,
+    "train_pool_tasks": 144,
+    "train_split": "gram-causal-train",
+    "training_seconds": 38.035475
+  },
+  "latest_training_metrics": {
+    "candidate_kind_in_model_input": false,
+    "candidate_kind_used_for_training_sampling_only": true,
+    "curriculum_phase": "strong_partial_neutral",
+    "evidence_axis_accuracy": 1.0,
+    "evidence_value_set_accuracy": 1.0,
+    "exact_task_factor_set_rate": 1.0,
+    "factor_set_precision": 1.0,
+    "factor_set_recall": 1.0,
+    "gradient_norm": 2.741370677947998,
+    "learning_rate": 0.0001,
+    "loss_evidence_axis_nll": 0.04966522008180618,
+    "loss_evidence_value_set_nll": 0.1588474065065384,
+    "loss_task_factor_set_nll": 0.16582857072353363,
+    "loss_total": 0.2914269268512726,
+    "mean_target_version_space_size": 1.625,
+    "online_probe_results": 3,
+    "sampled_candidate_kind_counts": {
+      "neutral-large-change": 8,
+      "partial": 8,
+      "strong": 8
+    },
+    "sampled_candidate_kind_sequences": [
+      [
+        "strong",
+        "partial",
+        "neutral-large-change"
+      ],
+      [
+        "strong",
+        "partial",
+        "neutral-large-change"
+      ],
+      [
+        "strong",
+        "partial",
+        "neutral-large-change"
+      ],
+      [
+        "strong",
+        "partial",
+        "neutral-large-change"
+      ],
+      [
+        "strong",
+        "partial",
+        "neutral-large-change"
+      ],
+      [
+        "strong",
+        "partial",
+        "neutral-large-change"
+      ],
+      [
+        "strong",
+        "partial",
+        "neutral-large-change"
+      ],
+      [
+        "strong",
+        "partial",
+        "neutral-large-change"
+      ]
+    ],
+    "target_probability_mass": 0.9803231358528137
+  },
+  "result_schema_version": "prp-wm.public-belief-active-sequence-finetune-run.v1",
+  "sequence_audits_after": {
+    "random_length_2": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.9791666666666666,
+        "factor_set_precision": 0.9952830188679245,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 2.7083333333333335,
+        "mean_target_joint_hypotheses": 2.6875,
+        "precision_by_axis": [
+          1.0,
+          0.9879518072289156,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 5,
+        "target_probability_mass": 0.975543393029107,
+        "tasks": 48,
+        "worst_axis_precision": 0.9879518072289156,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 51,
+        "partial": 17,
+        "strong": 28
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "random_length_4": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 1.0,
+        "factor_set_precision": 1.0,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 2.1041666666666665,
+        "mean_target_joint_hypotheses": 2.1041666666666665,
+        "precision_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 3,
+        "target_probability_mass": 0.9838752216762967,
+        "tasks": 48,
+        "worst_axis_precision": 1.0,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 100,
+        "partial": 48,
+        "strong": 44
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "random_length_8": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 1.0,
+        "factor_set_precision": 1.0,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 1.4166666666666667,
+        "mean_target_joint_hypotheses": 1.4166666666666667,
+        "precision_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 0,
+        "target_probability_mass": 0.9973972373538547,
+        "tasks": 48,
+        "worst_axis_precision": 1.0,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 192,
+        "partial": 96,
+        "strong": 96
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "single_neutral": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 1.0,
+        "factor_set_precision": 1.0,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 5.333333333333333,
+        "mean_target_joint_hypotheses": 5.333333333333333,
+        "precision_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 16,
+        "target_probability_mass": 0.9966462188296847,
+        "tasks": 48,
+        "worst_axis_precision": 1.0,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 48
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "single_partial": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": false,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": false
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.7916666666666666,
+        "factor_set_precision": 0.9834710743801653,
+        "factor_set_recall": 0.9754098360655737,
+        "mean_predicted_joint_hypotheses": 3.5833333333333335,
+        "mean_target_joint_hypotheses": 3.5833333333333335,
+        "precision_by_axis": [
+          1.0,
+          0.9803921568627451,
+          0.9705882352941176
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          0.9166666666666666
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 12,
+        "target_probability_mass": 0.9621986548105875,
+        "tasks": 48,
+        "worst_axis_precision": 0.9705882352941176,
+        "worst_axis_recall": 0.9166666666666666
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "partial": 48
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "single_strong": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 1.0,
+        "factor_set_precision": 1.0,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 1.5,
+        "mean_target_joint_hypotheses": 1.5,
+        "precision_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 0,
+        "target_probability_mass": 0.9744353294372559,
+        "tasks": 48,
+        "worst_axis_precision": 1.0,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "strong": 48
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "strong_partial_neutral": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.9791666666666666,
+        "factor_set_precision": 0.9939393939393939,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 1.4375,
+        "mean_target_joint_hypotheses": 1.4166666666666667,
+        "precision_by_axis": [
+          1.0,
+          0.9855072463768116,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 0,
+        "target_probability_mass": 0.9825627273983426,
+        "tasks": 48,
+        "worst_axis_precision": 0.9855072463768116,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 48,
+        "partial": 48,
+        "strong": 48
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "t0": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 1.0,
+        "factor_set_precision": 1.0,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 5.333333333333333,
+        "mean_target_joint_hypotheses": 5.333333333333333,
+        "precision_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 16,
+        "target_probability_mass": 0.9964511924319797,
+        "tasks": 48,
+        "worst_axis_precision": 1.0,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {},
+      "symmetry_ground_truth_materialized_after_inference": true
+    }
+  },
+  "sequence_audits_before": {
+    "random_length_2": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": false,
+          "factor_set_precision_gte_0_95": false,
+          "factor_set_recall_gte_0_95": false,
+          "target_probability_mass_gte_0_90": false,
+          "worst_axis_precision_gte_0_90": false,
+          "worst_axis_recall_gte_0_90": false
+        },
+        "passed": false
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.375,
+        "factor_set_precision": 0.7470355731225297,
+        "factor_set_recall": 0.8957345971563981,
+        "mean_predicted_joint_hypotheses": 3.9791666666666665,
+        "mean_target_joint_hypotheses": 2.6875,
+        "precision_by_axis": [
+          0.71875,
+          0.8714285714285714,
+          0.6781609195402298
+        ],
+        "recall_by_axis": [
+          1.0,
+          0.7439024390243902,
+          0.9833333333333333
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 5,
+        "target_probability_mass": 0.8477918571896024,
+        "tasks": 48,
+        "worst_axis_precision": 0.6781609195402298,
+        "worst_axis_recall": 0.7439024390243902
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 51,
+        "partial": 17,
+        "strong": 28
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "random_length_4": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": false,
+          "factor_set_precision_gte_0_95": false,
+          "factor_set_recall_gte_0_95": false,
+          "target_probability_mass_gte_0_90": false,
+          "worst_axis_precision_gte_0_90": false,
+          "worst_axis_recall_gte_0_90": false
+        },
+        "passed": false
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.14583333333333334,
+        "factor_set_precision": 0.6234309623430963,
+        "factor_set_recall": 0.7801047120418848,
+        "mean_predicted_joint_hypotheses": 3.3958333333333335,
+        "mean_target_joint_hypotheses": 2.1041666666666665,
+        "precision_by_axis": [
+          0.5625,
+          0.7931034482758621,
+          0.5764705882352941
+        ],
+        "recall_by_axis": [
+          1.0,
+          0.5287356321839081,
+          0.98
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 3,
+        "target_probability_mass": 0.7819251484341092,
+        "tasks": 48,
+        "worst_axis_precision": 0.5625,
+        "worst_axis_recall": 0.5287356321839081
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 100,
+        "partial": 48,
+        "strong": 44
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "random_length_8": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": false,
+          "factor_set_precision_gte_0_95": false,
+          "factor_set_recall_gte_0_95": false,
+          "target_probability_mass_gte_0_90": false,
+          "worst_axis_precision_gte_0_90": false,
+          "worst_axis_recall_gte_0_90": false
+        },
+        "passed": false
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.08333333333333333,
+        "factor_set_precision": 0.5545454545454546,
+        "factor_set_recall": 0.7439024390243902,
+        "mean_predicted_joint_hypotheses": 2.8333333333333335,
+        "mean_target_joint_hypotheses": 1.4166666666666667,
+        "precision_by_axis": [
+          0.5,
+          0.5471698113207547,
+          0.6338028169014085
+        ],
+        "recall_by_axis": [
+          1.0,
+          0.4264705882352941,
+          0.9375
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 0,
+        "target_probability_mass": 0.6975358062320285,
+        "tasks": 48,
+        "worst_axis_precision": 0.5,
+        "worst_axis_recall": 0.4264705882352941
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 192,
+        "partial": 96,
+        "strong": 96
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "single_neutral": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 1.0,
+        "factor_set_precision": 1.0,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 5.333333333333333,
+        "mean_target_joint_hypotheses": 5.333333333333333,
+        "precision_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 16,
+        "target_probability_mass": 0.9922468397352431,
+        "tasks": 48,
+        "worst_axis_precision": 1.0,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 48
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "single_partial": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": false,
+          "factor_set_precision_gte_0_95": false,
+          "factor_set_recall_gte_0_95": false,
+          "target_probability_mass_gte_0_90": false,
+          "worst_axis_precision_gte_0_90": false,
+          "worst_axis_recall_gte_0_90": false
+        },
+        "passed": false
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.08333333333333333,
+        "factor_set_precision": 0.7658730158730159,
+        "factor_set_recall": 0.7909836065573771,
+        "mean_predicted_joint_hypotheses": 4.0,
+        "mean_target_joint_hypotheses": 3.5833333333333335,
+        "precision_by_axis": [
+          0.75,
+          0.8166666666666667,
+          0.75
+        ],
+        "recall_by_axis": [
+          1.0,
+          0.49,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 12,
+        "target_probability_mass": 0.8573156992594401,
+        "tasks": 48,
+        "worst_axis_precision": 0.75,
+        "worst_axis_recall": 0.49
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "partial": 48
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "single_strong": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": false,
+          "factor_set_precision_gte_0_95": false,
+          "factor_set_recall_gte_0_95": false,
+          "target_probability_mass_gte_0_90": false,
+          "worst_axis_precision_gte_0_90": false,
+          "worst_axis_recall_gte_0_90": false
+        },
+        "passed": false
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.14583333333333334,
+        "factor_set_precision": 0.6104417670682731,
+        "factor_set_recall": 0.9047619047619048,
+        "mean_predicted_joint_hypotheses": 3.7916666666666665,
+        "mean_target_joint_hypotheses": 1.5,
+        "precision_by_axis": [
+          0.5,
+          0.8769230769230769,
+          0.5340909090909091
+        ],
+        "recall_by_axis": [
+          1.0,
+          0.7916666666666666,
+          0.9791666666666666
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 0,
+        "target_probability_mass": 0.7939239078097873,
+        "tasks": 48,
+        "worst_axis_precision": 0.5,
+        "worst_axis_recall": 0.7916666666666666
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "strong": 48
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "strong_partial_neutral": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": false,
+          "factor_set_precision_gte_0_95": false,
+          "factor_set_recall_gte_0_95": false,
+          "target_probability_mass_gte_0_90": false,
+          "worst_axis_precision_gte_0_90": false,
+          "worst_axis_recall_gte_0_90": false
+        },
+        "passed": false
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 0.08333333333333333,
+        "factor_set_precision": 0.5497835497835498,
+        "factor_set_recall": 0.774390243902439,
+        "mean_predicted_joint_hypotheses": 3.125,
+        "mean_target_joint_hypotheses": 1.4166666666666667,
+        "precision_by_axis": [
+          0.5,
+          0.6,
+          0.575
+        ],
+        "recall_by_axis": [
+          1.0,
+          0.4852941176470588,
+          0.9583333333333334
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 0,
+        "target_probability_mass": 0.7048340638478597,
+        "tasks": 48,
+        "worst_axis_precision": 0.5,
+        "worst_axis_recall": 0.4852941176470588
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {
+        "neutral-large-change": 48,
+        "partial": 48,
+        "strong": 48
+      },
+      "symmetry_ground_truth_materialized_after_inference": true
+    },
+    "t0": {
+      "candidate_kind_in_model_input": false,
+      "candidate_kind_used_for_evaluator_sampling_only": true,
+      "controller_supplies_agent_probe_result_mask": true,
+      "gate": {
+        "checks": {
+          "exact_task_factor_set_rate_gte_0_90": true,
+          "factor_set_precision_gte_0_95": true,
+          "factor_set_recall_gte_0_95": true,
+          "target_probability_mass_gte_0_90": true,
+          "worst_axis_precision_gte_0_90": true,
+          "worst_axis_recall_gte_0_90": true
+        },
+        "passed": true
+      },
+      "metrics": {
+        "exact_task_factor_set_rate": 1.0,
+        "factor_set_precision": 1.0,
+        "factor_set_recall": 1.0,
+        "mean_predicted_joint_hypotheses": 5.333333333333333,
+        "mean_target_joint_hypotheses": 5.333333333333333,
+        "precision_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "recall_by_axis": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "selection_rule": "factor probability >= 0.20",
+        "symmetry_ambiguous_tasks": 16,
+        "target_probability_mass": 0.9920718404981825,
+        "tasks": 48,
+        "worst_axis_precision": 1.0,
+        "worst_axis_recall": 1.0
+      },
+      "proposal_uses_privileged_palette_or_true_program": false,
+      "sampled_candidate_kind_counts": {},
+      "symmetry_ground_truth_materialized_after_inference": true
+    }
+  },
+  "source_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/raw_palette_invariant_atom_matched_hard600_fold0_seed20260863/checkpoint_last.pt",
+  "source_checkpoint_sha256": "145fb14ad533f890dd0600dd97c073eef5f62746bbd304160de790a59d3e05e1",
+  "source_sha256": {
+    "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+    "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+    "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+    "prp_wm/public_version_k4.py": "5881699c1d38b7a9f24320a79e1633bf9776d15b79f51eadf2bc2a82acea9461",
+    "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+    "scripts/finetune_public_belief_active_sequences.py": "657630fb68510063017510574ec36e0b3031fe7342b1c821180892df54b9dcce",
+    "scripts/run_expected_discrete_causal_coverage.py": "a8d1b811fdb9e58f1512e48bb07332c4686a78fee0d61592212af158c12eb63f",
+    "scripts/run_gram_public_coverage_finetune.py": "7a99275b77f3353953be436b60d356e0ba6b9db433eff5f31f709f859cefb916",
+    "scripts/run_public_version_space_k4.py": "21485094ae7b80c5ee3ff52bb810b3b0c180259af6570834e6e642b9f488d13d"
+  },
+  "status": "complete",
+  "strict_checkpoint_reload": {
+    "executor_checkpoint": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+    "model_type": "PaletteInvariantAtomMatchedCompositeEventHistoryProbeFactorBeliefCausalK4",
+    "passed": true,
+    "version_head": "palette-invariant-atom-matched-composite-event-history-probe-factor-belief"
+  },
+  "training_seconds": 38.035475
+}

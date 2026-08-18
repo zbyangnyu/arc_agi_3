@@ -1,0 +1,99 @@
+{
+  "gpu_after": "NVIDIA GeForce RTX 5090, 32607, 32110, 580.105.08",
+  "repo": {
+    "commit": "8edfeb336732b5f3ce7b8b210d0ba370a09e2cac",
+    "status_porcelain": [
+      "?? __pycache__/"
+    ]
+  },
+  "result": {
+    "path": "/root/autodl-tmp/lewm_pusht_tier1_5090_20260724/attempt7_result.json",
+    "sha256": "567e013a7cba975bb069a972c19e143004eb9fff8a2837af1ff3d5605a82f1ae",
+    "status": "ok"
+  },
+  "schema_version": "lewm-pusht-tier1-5090-verification-v1",
+  "scope_audit": {
+    "dataset_candidate_count": 0,
+    "dataset_candidate_directories": [],
+    "dataset_candidate_files": [],
+    "dataset_downloaded": false,
+    "mpc_process_count": 0,
+    "mpc_processes": [],
+    "mpc_run": false
+  },
+  "storage": {
+    "scoped_bytes_excluding_venv_and_git": 223372230,
+    "stablewm_bytes": 216986539,
+    "stablewm_files": [
+      {
+        "bytes": 72345781,
+        "path": "checkpoints/pusht/lewm_object.ckpt"
+      },
+      {
+        "bytes": 1,
+        "path": "hf_pusht/.cache/huggingface/.gitignore"
+      },
+      {
+        "bytes": 191,
+        "path": "hf_pusht/.cache/huggingface/CACHEDIR.TAG"
+      },
+      {
+        "bytes": 0,
+        "path": "hf_pusht/.cache/huggingface/download/.gitattributes.lock"
+      },
+      {
+        "bytes": 101,
+        "path": "hf_pusht/.cache/huggingface/download/.gitattributes.metadata"
+      },
+      {
+        "bytes": 0,
+        "path": "hf_pusht/.cache/huggingface/download/README.md.lock"
+      },
+      {
+        "bytes": 100,
+        "path": "hf_pusht/.cache/huggingface/download/README.md.metadata"
+      },
+      {
+        "bytes": 0,
+        "path": "hf_pusht/.cache/huggingface/download/config.json.lock"
+      },
+      {
+        "bytes": 101,
+        "path": "hf_pusht/.cache/huggingface/download/config.json.metadata"
+      },
+      {
+        "bytes": 0,
+        "path": "hf_pusht/.cache/huggingface/download/weights.pt.lock"
+      },
+      {
+        "bytes": 125,
+        "path": "hf_pusht/.cache/huggingface/download/weights.pt.metadata"
+      },
+      {
+        "bytes": 627,
+        "path": "hf_pusht/.cache/huggingface/trees/22b330c28c27ead4bfd1888615af1340e3fe9052.json"
+      },
+      {
+        "bytes": 1519,
+        "path": "hf_pusht/.gitattributes"
+      },
+      {
+        "bytes": 178,
+        "path": "hf_pusht/README.md"
+      },
+      {
+        "bytes": 1313,
+        "path": "hf_pusht/config.json"
+      },
+      {
+        "bytes": 72290721,
+        "path": "hf_pusht/weights.pt"
+      },
+      {
+        "bytes": 72345781,
+        "path": "pusht/lewm_object.ckpt"
+      }
+    ]
+  },
+  "timestamp_utc": "2026-07-24T04:29:35.701078+00:00"
+}

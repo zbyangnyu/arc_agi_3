@@ -1,0 +1,378 @@
+{
+  "capacity_table": {
+    "direct-linear": {
+      "capacity_label": "upper_capacity_direct_linear",
+      "excess_parameters": 1588,
+      "head_kind": "direct-linear",
+      "head_rank": null,
+      "relative_excess": 0.045301534774918696,
+      "relative_excess_percent_rounded_4dp": 4.5302,
+      "trainable_parameters": 36642
+    },
+    "factorized_reference_trainable_parameters": 35054,
+    "low-rank-r9": {
+      "capacity_label": "DOF9",
+      "excess_parameters": 413,
+      "head_kind": "low-rank",
+      "head_rank": 9,
+      "relative_excess": 0.011781822331260341,
+      "relative_excess_percent_rounded_4dp": 1.1782,
+      "trainable_parameters": 35467
+    }
+  },
+  "folds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "inherited_main_config": {
+    "context_folds": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "data_master_seed": 2026071601,
+    "executor_checkpoint": {
+      "path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/support_calibrated_executor_seed20260724/checkpoint_last.pt",
+      "sha256": "2b2d0e5f3380f6b45fef0b2c0892186fd53dc51a3eb6c4ebc6273ef2895f5254"
+    },
+    "latin_split": {
+      "eval_contexts_per_axis": 4,
+      "rule": "(observed_value_1 + observed_value_2) % 4 == context_fold",
+      "unique_eval_support_contexts": 12,
+      "unique_train_support_contexts": 36
+    },
+    "max_workers": 2,
+    "metric_paths": {
+      "heldout.all_classes_covered_task_rate": [
+        "heldout_triple_coverage",
+        "all_classes_covered_task_rate"
+      ],
+      "heldout.all_particles_support_exact_task_rate": [
+        "heldout_triple_coverage",
+        "all_particles_support_exact_task_rate"
+      ],
+      "heldout.coverage_at_4_mass_weighted": [
+        "heldout_triple_coverage",
+        "coverage_at_4_mass_weighted"
+      ],
+      "heldout.factor_tuple_coverage_at_4": [
+        "heldout_triple_coverage",
+        "factor_tuple_coverage_at_4"
+      ],
+      "heldout.map_exact_class_recall": [
+        "heldout_triple_coverage",
+        "map_exact_class_recall"
+      ],
+      "heldout.mean_unique_factor_tuples": [
+        "heldout_triple_coverage",
+        "mean_unique_factor_tuples"
+      ],
+      "heldout.mean_unique_map_signatures": [
+        "heldout_triple_coverage",
+        "mean_unique_map_signatures"
+      ],
+      "heldout.nll_threshold_class_recall": [
+        "heldout_triple_coverage",
+        "nll_threshold_class_recall"
+      ],
+      "heldout.support_exact_particle_rate": [
+        "heldout_triple_coverage",
+        "support_exact_particle_rate"
+      ],
+      "heldout.valid_particle_rate": [
+        "heldout_triple_coverage",
+        "valid_particle_rate"
+      ],
+      "seen.all_classes_covered_task_rate": [
+        "seen_context_triple_coverage",
+        "all_classes_covered_task_rate"
+      ],
+      "seen.all_particles_support_exact_task_rate": [
+        "seen_context_triple_coverage",
+        "all_particles_support_exact_task_rate"
+      ],
+      "seen.coverage_at_4_mass_weighted": [
+        "seen_context_triple_coverage",
+        "coverage_at_4_mass_weighted"
+      ],
+      "seen.factor_tuple_coverage_at_4": [
+        "seen_context_triple_coverage",
+        "factor_tuple_coverage_at_4"
+      ],
+      "shuffled.all_classes_covered_task_rate": [
+        "shuffled_support_target_control",
+        "all_classes_covered_task_rate"
+      ],
+      "shuffled.all_particles_support_exact_task_rate": [
+        "shuffled_support_target_control",
+        "all_particles_support_exact_task_rate"
+      ],
+      "shuffled.coverage_at_4_mass_weighted": [
+        "shuffled_support_target_control",
+        "coverage_at_4_mass_weighted"
+      ],
+      "shuffled.factor_tuple_coverage_at_4": [
+        "shuffled_support_target_control",
+        "factor_tuple_coverage_at_4"
+      ],
+      "training_seconds": [
+        "training_seconds"
+      ]
+    },
+    "model_seeds": [
+      20260727,
+      20260728,
+      20260729
+    ],
+    "models": [
+      "factorized-3x4",
+      "unstructured-64"
+    ],
+    "orchestrator": {
+      "path": "/Users/yangzhenbang/Developer/project/arc-agi-3/scripts/run_factorization_latin_suite.py",
+      "sha256": "6e4735a6271c77d3d22bf42f92aa12e7ec40874b196288484282eb45e9ae3592"
+    },
+    "parameter_matching": {
+      "denominator": "factorized_trainable_parameters",
+      "relative_tolerance_lte": 0.01
+    },
+    "planned_pairs": 12,
+    "planned_runs": 24,
+    "python": {
+      "path": "/Users/yangzhenbang/anaconda3/bin/python3.12",
+      "version": "Python 3.12.7"
+    },
+    "runner": {
+      "path": "/Users/yangzhenbang/Developer/project/arc-agi-3/scripts/run_expected_discrete_causal_coverage.py",
+      "sha256": "a8d1b811fdb9e58f1512e48bb07332c4686a78fee0d61592212af158c12eb63f"
+    },
+    "runner_args": {
+      "assignment_temperature": 0.0,
+      "attention_layers": 2,
+      "balanced_weight": 1.0,
+      "batch_size": 8,
+      "device": "cpu",
+      "diversity_weight": 0.1,
+      "eval_batch_size": 16,
+      "eval_split": "expected-discrete-causal-composition",
+      "eval_tasks": 48,
+      "factor_temperature_end": 1.0,
+      "factor_temperature_start": 1.0,
+      "learning_rate": 0.001,
+      "log_every": 100,
+      "max_grad_norm": 1.0,
+      "nll_threshold": 0.05,
+      "proper_weight": 1.0,
+      "sharpening_start_fraction": 0.8,
+      "sharpening_weight_end": 0.0,
+      "steps": 600,
+      "tail_learning_rate": 0.0005,
+      "tail_steps": 100,
+      "train_pool_tasks": 144,
+      "train_split": "expected-discrete-causal-train",
+      "unstructured_head_kind": "low-rank",
+      "unstructured_head_rank": null,
+      "validity_weight": 0.1,
+      "weight_decay": 0.0001
+    },
+    "runner_source_sha256": {
+      "prp_wm/causal_filter.py": "13363f6d9d0b253439c8c4bb90e9c9c8003bbf7c8151176b7bb645716f682e09",
+      "prp_wm/causal_rules.py": "05d1bbf7962e6fc80e50809807598a20d041a97ca1aa12948caf6f6ccd00ba65",
+      "prp_wm/discrete_causal_rules.py": "0093d34353777b56a01f6e3453b2a33dc5151df6c48b66d8ecd5f307e0528716",
+      "prp_wm/latent_rules.py": "3e21377ed789b43688801ed087ddeff37209dc1e86daa6f46db8db236a52b39c",
+      "prp_wm/neural.py": "e18a6d2052127516b15f0de3c365e315411442f2dc3b2fd2906ea808b1e40f03",
+      "prp_wm/pilot.py": "0afb728328a99d6bb2500dee4b58fc4a0504913ea04e2493d32856278d7dc19b",
+      "prp_wm/rulegrid.py": "2658a2a5d38d6f971bd68a45633a59923b4e2aed570530323c51966f1632582d",
+      "prp_wm/unstructured_causal_rules.py": "2c2e9507a93784dc19bae1e9122220e0944f48d93302ef5a04980dc8157fd3f0",
+      "scripts/run_expected_discrete_causal_coverage.py": "a8d1b811fdb9e58f1512e48bb07332c4686a78fee0d61592212af158c12eb63f",
+      "scripts/run_support_calibrated_executor.py": "fcfd7f6b2134033bf2731b3183f02260c510cc63f9c197b824bab73762d6f567"
+    },
+    "schema_version": "prp-wm.factorization-latin-suite.v1",
+    "static_gate": {
+      "metric_names": [
+        "heldout.coverage_at_4_mass_weighted",
+        "heldout.all_classes_covered_task_rate",
+        "heldout.factor_tuple_coverage_at_4",
+        "heldout.all_particles_support_exact_task_rate"
+      ],
+      "threshold_gte": 0.9
+    },
+    "statistics": {
+      "dependence_note": "Latin folds share the same 48-context universe and data generator; fold/seed summaries are correlated repetitions, not independent samples. No confidence interval or hypothesis-test claim is made.",
+      "failed_runs_count_as_gate_failures_in_planned_rate": true,
+      "inference_scope": "descriptive_only",
+      "metric_directions": {
+        "heldout.all_classes_covered_task_rate": "higher",
+        "heldout.all_particles_support_exact_task_rate": "higher",
+        "heldout.coverage_at_4_mass_weighted": "higher",
+        "heldout.factor_tuple_coverage_at_4": "higher",
+        "heldout.map_exact_class_recall": "higher",
+        "heldout.mean_unique_factor_tuples": "higher",
+        "heldout.mean_unique_map_signatures": "higher",
+        "heldout.nll_threshold_class_recall": "higher",
+        "heldout.support_exact_particle_rate": "higher",
+        "heldout.valid_particle_rate": "higher",
+        "seen.all_classes_covered_task_rate": "higher",
+        "seen.all_particles_support_exact_task_rate": "higher",
+        "seen.coverage_at_4_mass_weighted": "higher",
+        "seen.factor_tuple_coverage_at_4": "higher",
+        "shuffled.all_classes_covered_task_rate": "lower",
+        "shuffled.all_particles_support_exact_task_rate": "lower",
+        "shuffled.coverage_at_4_mass_weighted": "lower",
+        "shuffled.factor_tuple_coverage_at_4": "lower",
+        "training_seconds": "lower"
+      },
+      "paired_delta": "factorized-3x4 minus unstructured-64",
+      "std": "sample_ddof_1",
+      "tie_absolute_tolerance": 1e-12
+    },
+    "suite_id": "factorization_latin_4fold_3seed_v1"
+  },
+  "main_suite": {
+    "path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/factorization_latin_4fold_3seed_v1",
+    "primary_orchestrator_sha256": "6e4735a6271c77d3d22bf42f92aa12e7ec40874b196288484282eb45e9ae3592",
+    "suite_config_artifact_sha256": "3d96a6168179208b7b6472b2689bb9116a08ec0a3b6d59173b926c1bc52f1685",
+    "suite_config_payload_sha256": "bcb42fc9f7722760a2002991b51a7775f032df5db625450c00bc304db85b6fd5"
+  },
+  "max_workers": 2,
+  "metric_directions": {
+    "heldout.all_classes_covered_task_rate": "higher",
+    "heldout.all_particles_support_exact_task_rate": "higher",
+    "heldout.coverage_at_4_mass_weighted": "higher",
+    "heldout.factor_tuple_coverage_at_4": "higher",
+    "heldout.map_exact_class_recall": "higher",
+    "heldout.mean_unique_factor_tuples": "higher",
+    "heldout.mean_unique_map_signatures": "higher",
+    "heldout.nll_threshold_class_recall": "higher",
+    "heldout.support_exact_particle_rate": "higher",
+    "heldout.valid_particle_rate": "higher",
+    "seen.all_classes_covered_task_rate": "higher",
+    "seen.all_particles_support_exact_task_rate": "higher",
+    "seen.coverage_at_4_mass_weighted": "higher",
+    "seen.factor_tuple_coverage_at_4": "higher",
+    "shuffled.all_classes_covered_task_rate": "lower",
+    "shuffled.all_particles_support_exact_task_rate": "lower",
+    "shuffled.coverage_at_4_mass_weighted": "lower",
+    "shuffled.factor_tuple_coverage_at_4": "lower",
+    "training_seconds": "lower"
+  },
+  "metric_paths": {
+    "heldout.all_classes_covered_task_rate": [
+      "heldout_triple_coverage",
+      "all_classes_covered_task_rate"
+    ],
+    "heldout.all_particles_support_exact_task_rate": [
+      "heldout_triple_coverage",
+      "all_particles_support_exact_task_rate"
+    ],
+    "heldout.coverage_at_4_mass_weighted": [
+      "heldout_triple_coverage",
+      "coverage_at_4_mass_weighted"
+    ],
+    "heldout.factor_tuple_coverage_at_4": [
+      "heldout_triple_coverage",
+      "factor_tuple_coverage_at_4"
+    ],
+    "heldout.map_exact_class_recall": [
+      "heldout_triple_coverage",
+      "map_exact_class_recall"
+    ],
+    "heldout.mean_unique_factor_tuples": [
+      "heldout_triple_coverage",
+      "mean_unique_factor_tuples"
+    ],
+    "heldout.mean_unique_map_signatures": [
+      "heldout_triple_coverage",
+      "mean_unique_map_signatures"
+    ],
+    "heldout.nll_threshold_class_recall": [
+      "heldout_triple_coverage",
+      "nll_threshold_class_recall"
+    ],
+    "heldout.support_exact_particle_rate": [
+      "heldout_triple_coverage",
+      "support_exact_particle_rate"
+    ],
+    "heldout.valid_particle_rate": [
+      "heldout_triple_coverage",
+      "valid_particle_rate"
+    ],
+    "seen.all_classes_covered_task_rate": [
+      "seen_context_triple_coverage",
+      "all_classes_covered_task_rate"
+    ],
+    "seen.all_particles_support_exact_task_rate": [
+      "seen_context_triple_coverage",
+      "all_particles_support_exact_task_rate"
+    ],
+    "seen.coverage_at_4_mass_weighted": [
+      "seen_context_triple_coverage",
+      "coverage_at_4_mass_weighted"
+    ],
+    "seen.factor_tuple_coverage_at_4": [
+      "seen_context_triple_coverage",
+      "factor_tuple_coverage_at_4"
+    ],
+    "shuffled.all_classes_covered_task_rate": [
+      "shuffled_support_target_control",
+      "all_classes_covered_task_rate"
+    ],
+    "shuffled.all_particles_support_exact_task_rate": [
+      "shuffled_support_target_control",
+      "all_particles_support_exact_task_rate"
+    ],
+    "shuffled.coverage_at_4_mass_weighted": [
+      "shuffled_support_target_control",
+      "coverage_at_4_mass_weighted"
+    ],
+    "shuffled.factor_tuple_coverage_at_4": [
+      "shuffled_support_target_control",
+      "factor_tuple_coverage_at_4"
+    ],
+    "training_seconds": [
+      "training_seconds"
+    ]
+  },
+  "orchestrator": {
+    "path": "/Users/yangzhenbang/Developer/project/arc-agi-3/scripts/run_unstructured_capacity_sensitivity.py",
+    "sha256": "3028418a6aa9fe3ade08f0e929bceda04af365a98c7614f45253c67e6d50e761"
+  },
+  "planned_pairs": {
+    "direct-linear": 4,
+    "low-rank-r9": 8
+  },
+  "planned_runs": 12,
+  "schema_version": "prp-wm.unstructured-capacity-sensitivity.v1",
+  "statistics": {
+    "dependence_note": "Latin folds share the same 48-context universe and data generator; fold/seed summaries are correlated repetitions, not independent samples. No confidence interval or hypothesis-test claim is made.",
+    "inference_scope": "descriptive_only",
+    "no_confidence_intervals_or_hypothesis_tests": true,
+    "paired_raw_delta": "factorized-3x4 minus capacity-control",
+    "std": "sample_ddof_1"
+  },
+  "suite_id": "unstructured_capacity_sensitivity_v1",
+  "variants": {
+    "direct-linear": {
+      "capacity_label": "upper_capacity_direct_linear",
+      "expected_trainable_parameters": 36642,
+      "head_kind": "direct-linear",
+      "head_rank": null,
+      "seeds": [
+        20260727
+      ]
+    },
+    "low-rank-r9": {
+      "capacity_label": "DOF9",
+      "expected_trainable_parameters": 35467,
+      "head_kind": "low-rank",
+      "head_rank": 9,
+      "seeds": [
+        20260727,
+        20260728
+      ]
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "artifacts": {
+    "attempt": {
+      "path": "runs/factorized-3x4/fold_0/seed_20260728/attempts/001/attempt.json",
+      "sha256": "76c5a32cd15a928f118c7d8141716bddd554cc017b890dbfb9267cc8b4ffff76"
+    },
+    "checkpoint": {
+      "path": "runs/factorized-3x4/fold_0/seed_20260728/attempts/001/output/checkpoint_last.pt",
+      "sha256": "291ff0a0d2155f407a80712584a67e4292d9d84c5621d69844990bee5994bf17"
+    },
+    "progress": {
+      "path": "runs/factorized-3x4/fold_0/seed_20260728/attempts/001/output/progress.jsonl",
+      "sha256": "739ac2837e6c2ad3079009d6bdeca0a0223ef86bf3451cf4195752959ca99492"
+    },
+    "result": {
+      "path": "runs/factorized-3x4/fold_0/seed_20260728/attempts/001/output/result.json",
+      "sha256": "09c585ee89a8bdbc150fa9438240d51e5345886c5ca259700bce7a8ff98d3bd0"
+    },
+    "run_spec": {
+      "path": "runs/factorized-3x4/fold_0/seed_20260728/run_spec.json",
+      "sha256": "679bb5c272b351c532a087429fcb08f37c5fc0f54b85c0a5eaf70db944da9805"
+    },
+    "stderr": {
+      "path": "runs/factorized-3x4/fold_0/seed_20260728/attempts/001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "path": "runs/factorized-3x4/fold_0/seed_20260728/attempts/001/stdout.log",
+      "sha256": "4b7f46a00a8d6304d24f9ae6dabd8f6ab5592ee240adcd6d79f55d65f1739558"
+    }
+  },
+  "attempt_index": 1,
+  "last_action": "executed",
+  "run_id": "factorized-3x4__fold0__seed20260728",
+  "run_spec_sha256": "679bb5c272b351c532a087429fcb08f37c5fc0f54b85c0a5eaf70db944da9805",
+  "schema_version": "prp-wm.factorization-latin-run-status.v1",
+  "state": "succeeded",
+  "updated_at_utc": "2026-07-22T08:02:06.394921+00:00"
+}

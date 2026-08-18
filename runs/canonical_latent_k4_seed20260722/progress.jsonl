@@ -1,0 +1,11 @@
+{"gradient_norm": 28.998817443847656, "loss_balanced_assignment": 2.795262098312378, "loss_support": 0.6346736550331116, "loss_total": 2.858729362487793, "step": 1, "tasks_seen": 8}
+{"gradient_norm": 1.9176961183547974, "loss_balanced_assignment": 0.39538291096687317, "loss_support": 0.4091825485229492, "loss_total": 0.43630117177963257, "step": 100, "tasks_seen": 800}
+{"gradient_norm": 1.0080243349075317, "loss_balanced_assignment": 0.3527029752731323, "loss_support": 0.3934694826602936, "loss_total": 0.3920499086380005, "step": 200, "tasks_seen": 1600}
+{"gradient_norm": 2.3706297874450684, "loss_balanced_assignment": 0.27695733308792114, "loss_support": 0.3845391273498535, "loss_total": 0.315411239862442, "step": 300, "tasks_seen": 2400}
+{"gradient_norm": 2.4420549869537354, "loss_balanced_assignment": 0.22195833921432495, "loss_support": 0.35550618171691895, "loss_total": 0.2575089633464813, "step": 400, "tasks_seen": 3200}
+{"gradient_norm": 1.5173758268356323, "loss_balanced_assignment": 0.18181931972503662, "loss_support": 0.3347755968570709, "loss_total": 0.2152968794107437, "step": 500, "tasks_seen": 4000}
+{"gradient_norm": 1.9084782600402832, "loss_balanced_assignment": 0.12688550353050232, "loss_support": 0.34102511405944824, "loss_total": 0.16098801791667938, "step": 600, "tasks_seen": 4800}
+{"gradient_norm": 1.0650898218154907, "loss_balanced_assignment": 0.06868545711040497, "loss_support": 0.3476138412952423, "loss_total": 0.1034468412399292, "step": 700, "tasks_seen": 5600}
+{"gradient_norm": 1.0571156740188599, "loss_balanced_assignment": 0.04152495414018631, "loss_support": 0.3541451394557953, "loss_total": 0.07693946361541748, "step": 800, "tasks_seen": 6400}
+{"gradient_norm": 0.5631479024887085, "loss_balanced_assignment": 0.029290229082107544, "loss_support": 0.32340821623802185, "loss_total": 0.06163104996085167, "step": 900, "tasks_seen": 7200}
+{"gradient_norm": 1.0780137777328491, "loss_balanced_assignment": 0.022133570164442062, "loss_support": 0.2941407859325409, "loss_total": 0.05154764652252197, "step": 1000, "tasks_seen": 8000}

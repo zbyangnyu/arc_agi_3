@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "attempt": {
+      "path": "runs/low-rank-r9/fold_2/seed_20260727/attempts/001/attempt.json",
+      "sha256": "26bbbedc4f05ecddfc66026a57f18c36ac03f56a41f211b62fe957e508ef55f9"
+    },
+    "checkpoint": {
+      "path": "runs/low-rank-r9/fold_2/seed_20260727/attempts/001/output/checkpoint_last.pt",
+      "sha256": "a18008247ec6a60b289ed90ff7966831fc60d4f734caf0463e2f44271ffbaebb"
+    },
+    "progress": {
+      "path": "runs/low-rank-r9/fold_2/seed_20260727/attempts/001/output/progress.jsonl",
+      "sha256": "4e47c76082dedb67ffcf137023221017971f28478429f6c10c378fa8e8b777fd"
+    },
+    "result": {
+      "path": "runs/low-rank-r9/fold_2/seed_20260727/attempts/001/output/result.json",
+      "sha256": "ff45744dd6f2cfb2b66a28eaf076a4ca92514d1988fa9e92bcc4d3bb24797813"
+    },
+    "run_spec": {
+      "path": "runs/low-rank-r9/fold_2/seed_20260727/run_spec.json",
+      "sha256": "f28bf36483d0f5d779beb8f379a2479fbd6f50b5a89246ec5205e991ba3805ca"
+    },
+    "stderr": {
+      "path": "runs/low-rank-r9/fold_2/seed_20260727/attempts/001/stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stdout": {
+      "path": "runs/low-rank-r9/fold_2/seed_20260727/attempts/001/stdout.log",
+      "sha256": "4097ae688db2a9d4849afd59f10e3c8f80c55be7bdf1c8aeb113bdf99f0e5e2b"
+    }
+  },
+  "attempt_index": 1,
+  "run_id": "low-rank-r9__fold2__seed20260727",
+  "run_spec_sha256": "f28bf36483d0f5d779beb8f379a2479fbd6f50b5a89246ec5205e991ba3805ca",
+  "schema_version": "prp-wm.unstructured-capacity-status.v1",
+  "state": "succeeded",
+  "updated_at_utc": "2026-07-22T09:09:59.481669+00:00"
+}

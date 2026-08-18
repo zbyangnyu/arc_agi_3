@@ -1,0 +1,33 @@
+{
+  "algorithm": "grpo",
+  "base_tasks_seen": 9600,
+  "batch_size": 32,
+  "checkpoint_path": "/Users/yangzhenbang/Developer/project/arc-agi-3/runs/rulegame_grpo_smoke_seed20260716/checkpoint_last.pt",
+  "final_train_batch": {
+    "entropy": 0.004207506775856018,
+    "loss": -0.0007332370150834322,
+    "policy_loss": -0.0006911619566380978,
+    "probe_rate": 1.0,
+    "value_loss": 0.0,
+    "win_rate": 0.99609375
+  },
+  "group_size": 8,
+  "intermediate_reward": false,
+  "memory_reset_validation": {
+    "probe_rate": 1.0,
+    "tasks": 256,
+    "win_rate": 0.25
+  },
+  "model_parameters": 305047,
+  "reward": "terminal_win_only",
+  "steps": 300,
+  "trajectories_seen": 76800,
+  "uses_identification_reward": false,
+  "uses_reconstruction_loss": false,
+  "uses_rule_label": false,
+  "validation": {
+    "probe_rate": 1.0,
+    "tasks": 256,
+    "win_rate": 0.9140625
+  }
+}

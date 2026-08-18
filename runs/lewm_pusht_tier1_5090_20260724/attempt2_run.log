@@ -1,0 +1,702 @@
+Cloning into '/root/autodl-tmp/lewm_pusht_tier1_5090_20260724/le-wm'...
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Requirement already satisfied: pip in ./autodl-tmp/lewm_pusht_tier1_5090_20260724/venv/lib/python3.12/site-packages (24.0)
+Collecting pip
+  Downloading http://mirrors.aliyun.com/pypi/packages/5d/95/6b5cb3461ea5673ba0995989746db58eb18b91b54dbf331e72f569540946/pip-26.1.2-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 8.1 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed pip-26.1.2
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting huggingface_hub
+  Downloading huggingface_hub-1.24.0-py3-none-any.whl (771 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 771.9/771.9 kB 34.7 MB/s  0:00:00
+Collecting stable-worldmodel[env,train]
+  Downloading stable_worldmodel-0.1.1-py3-none-any.whl (305 kB)
+Requirement already satisfied: torch in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[env,train]) (2.8.0+cu128)
+Requirement already satisfied: torchvision in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[env,train]) (0.23.0+cu128)
+Requirement already satisfied: numpy in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[env,train]) (2.3.2)
+Collecting loguru (from stable-worldmodel[env,train])
+  Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
+Collecting tabulate (from stable-worldmodel[env,train])
+  Downloading tabulate-0.10.0-py3-none-any.whl (39 kB)
+Collecting gymnasium (from stable-worldmodel[env,train])
+  Downloading gymnasium-1.3.0-py3-none-any.whl (953 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 953.9/953.9 kB 58.5 MB/s  0:00:00
+Collecting einops (from stable-worldmodel[env,train])
+  Downloading einops-0.8.2-py3-none-any.whl (65 kB)
+Collecting lancedb>=0.30.0 (from stable-worldmodel[env,train])
+  Downloading lancedb-0.34.0-cp39-abi3-manylinux_2_28_x86_64.whl (58.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.7/58.7 MB 7.5 MB/s  0:00:07
+Collecting pylance>=4.0.0 (from stable-worldmodel[env,train])
+  Downloading pylance-8.0.0-cp39-abi3-manylinux_2_28_x86_64.whl (74.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.7/74.7 MB 7.4 MB/s  0:00:10
+Collecting pyarrow (from stable-worldmodel[env,train])
+  Downloading pyarrow-25.0.0-cp312-cp312-manylinux_2_28_x86_64.whl (50.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.1/50.1 MB 7.4 MB/s  0:00:06
+Requirement already satisfied: pillow in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[env,train]) (11.3.0)
+Requirement already satisfied: tqdm in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[env,train]) (4.66.2)
+Collecting typer (from stable-worldmodel[env,train])
+  Downloading typer-0.27.0-py3-none-any.whl (122 kB)
+Collecting rich (from stable-worldmodel[env,train])
+  Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting pygame (from stable-worldmodel[env,train])
+  Downloading pygame-2.6.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.0/14.0 MB 6.8 MB/s  0:00:02
+Collecting pymunk (from stable-worldmodel[env,train])
+  Downloading pymunk-7.3.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 182.5 MB/s  0:00:00
+Collecting shapely (from stable-worldmodel[env,train])
+  Downloading shapely-2.1.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 6.7 MB/s  0:00:00
+Collecting ogbench (from stable-worldmodel[env,train])
+  Downloading ogbench-1.2.1-py3-none-any.whl (8.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.9/8.9 MB 8.2 MB/s  0:00:01
+Collecting minigrid (from stable-worldmodel[env,train])
+  Downloading minigrid-3.1.0-py3-none-any.whl (140 kB)
+Collecting gymnasium-robotics (from stable-worldmodel[env,train])
+  Downloading gymnasium_robotics-1.4.2-py3-none-any.whl (26.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 26.2/26.2 MB 7.2 MB/s  0:00:03
+Collecting opencv-python-headless (from stable-worldmodel[env,train])
+  Downloading opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl (61.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 MB 7.6 MB/s  0:00:08
+Collecting stable-baselines3>=2.0.0 (from stable-worldmodel[env,train])
+  Downloading stable_baselines3-2.9.0-py3-none-any.whl (187 kB)
+Collecting craftax>=1.5.0 (from stable-worldmodel[env,train])
+  Downloading craftax-1.6.1-py3-none-any.whl (412 kB)
+Collecting ale-py (from stable-worldmodel[env,train])
+  Downloading ale_py-0.12.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 11.8 MB/s  0:00:00
+Collecting transformers>=4.50.0 (from stable-worldmodel[env,train])
+  Downloading transformers-5.14.1-py3-none-any.whl (11.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 7.7 MB/s  0:00:01
+Collecting stable-pretraining>=0.1.7 (from stable-worldmodel[env,train])
+  Downloading stable_pretraining-0.1.8-py3-none-any.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 69.3 MB/s  0:00:00
+Collecting hydra-core (from stable-worldmodel[env,train])
+  Downloading hydra_core-1.3.4-py3-none-any.whl (155 kB)
+Collecting hydra-submitit-launcher (from stable-worldmodel[env,train])
+  Downloading hydra_submitit_launcher-1.2.0-py3-none-any.whl (5.2 kB)
+Collecting wandb (from stable-worldmodel[env,train])
+  Downloading wandb-0.28.1-py3-none-manylinux_2_28_x86_64.whl (26.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 26.5/26.5 MB 7.4 MB/s  0:00:03
+Collecting click<9.0.0,>=8.4.2 (from huggingface_hub)
+  Downloading click-8.4.2-py3-none-any.whl (119 kB)
+Requirement already satisfied: filelock>=3.10.0 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (3.18.0)
+Requirement already satisfied: fsspec>=2023.5.0 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (2025.7.0)
+Collecting hf-xet<2.0.0,>=1.5.1 (from huggingface_hub)
+  Downloading hf_xet-1.5.2-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 9.4 MB/s  0:00:00
+Requirement already satisfied: httpx<1,>=0.23.0 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (0.28.1)
+Requirement already satisfied: packaging>=20.9 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (23.2)
+Requirement already satisfied: pyyaml>=5.1 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (6.0.2)
+Requirement already satisfied: typing-extensions>=4.1.0 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (4.14.1)
+Requirement already satisfied: anyio in ./miniconda3/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface_hub) (4.10.0)
+Requirement already satisfied: certifi in ./miniconda3/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface_hub) (2024.2.2)
+Requirement already satisfied: httpcore==1.* in ./miniconda3/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface_hub) (1.0.9)
+Requirement already satisfied: idna in ./miniconda3/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface_hub) (3.7)
+Requirement already satisfied: h11>=0.16 in ./miniconda3/lib/python3.12/site-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface_hub) (0.16.0)
+Collecting jax (from craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading jax-0.11.0-py3-none-any.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 6.9 MB/s  0:00:00
+Collecting flax (from craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading flax-0.12.8-py3-none-any.whl (531 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 531.3/531.3 kB 384.3 MB/s  0:00:00
+Requirement already satisfied: matplotlib in ./miniconda3/lib/python3.12/site-packages (from craftax>=1.5.0->stable-worldmodel[env,train]) (3.10.5)
+Collecting imageio (from craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading imageio-2.37.4-py3-none-any.whl (318 kB)
+Collecting deprecation>=2.1.0 (from lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading deprecation-2.1.0-py2.py3-none-any.whl (11 kB)
+Collecting pydantic>=1.10 (from lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading pydantic-2.13.4-py3-none-any.whl (472 kB)
+Collecting lance-namespace>=0.3.2 (from lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading lance_namespace-0.9.0-py3-none-any.whl (13 kB)
+Collecting lance-namespace-urllib3-client==0.9.0 (from lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading lance_namespace_urllib3_client-0.9.0-py3-none-any.whl (405 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./miniconda3/lib/python3.12/site-packages (from lance-namespace-urllib3-client==0.9.0->lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[env,train]) (2.9.0.post0)
+Requirement already satisfied: urllib3<3.0.0,>=1.25.3 in ./miniconda3/lib/python3.12/site-packages (from lance-namespace-urllib3-client==0.9.0->lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[env,train]) (2.1.0)
+Collecting annotated-types>=0.6.0 (from pydantic>=1.10->lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.46.4 (from pydantic>=1.10->lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading pydantic_core-2.46.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 8.8 MB/s  0:00:00
+Collecting typing-inspection>=0.4.2 (from pydantic>=1.10->lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Collecting lance-namespace>=0.3.2 (from lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading lance_namespace-0.8.6-py3-none-any.whl (13 kB)
+Collecting lance-namespace-urllib3-client==0.8.6 (from lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[env,train])
+  Downloading lance_namespace_urllib3_client-0.8.6-py3-none-any.whl (369 kB)
+Requirement already satisfied: six>=1.5 in ./miniconda3/lib/python3.12/site-packages (from python-dateutil>=2.8.2->lance-namespace-urllib3-client==0.9.0->lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[env,train]) (1.17.0)
+Collecting cloudpickle (from stable-baselines3>=2.0.0->stable-worldmodel[env,train])
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Collecting farama-notifications>=0.0.1 (from gymnasium->stable-worldmodel[env,train])
+  Downloading farama_notifications-0.0.6-py3-none-any.whl (2.9 kB)
+Requirement already satisfied: setuptools in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (69.5.1)
+Requirement already satisfied: sympy>=1.13.3 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (1.14.0)
+Requirement already satisfied: networkx in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (3.5)
+Requirement already satisfied: jinja2 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (3.1.6)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (12.8.93)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (12.8.90)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (12.8.90)
+Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (9.10.2.21)
+Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (12.8.4.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (11.3.3.83)
+Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (10.3.9.90)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (11.7.3.90)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (12.5.8.93)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (0.7.1)
+Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (2.27.3)
+Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (12.8.90)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (12.8.93)
+Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (1.13.1.3)
+Requirement already satisfied: triton==3.4.0 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[env,train]) (3.4.0)
+Collecting torchmetrics (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading torchmetrics-1.9.0-py3-none-any.whl (983 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 983.4/983.4 kB 199.4 MB/s  0:00:00
+Collecting lightning>=2.4 (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading lightning-2.6.5-py3-none-any.whl (848 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 848.6/848.6 kB 191.7 MB/s  0:00:00
+Collecting omegaconf (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading omegaconf-2.3.1-py3-none-any.whl (79 kB)
+Collecting pandas (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading pandas-3.0.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.0/11.0 MB 7.4 MB/s  0:00:01
+Collecting requests-cache (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading requests_cache-1.3.3-py3-none-any.whl (70 kB)
+Collecting prettytable (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading prettytable-3.18.0-py3-none-any.whl (37 kB)
+Collecting submitit (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading submitit-1.5.4-py3-none-any.whl (76 kB)
+Collecting timm (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading timm-1.0.28-py3-none-any.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 11.2 MB/s  0:00:00
+Requirement already satisfied: zstandard in ./miniconda3/lib/python3.12/site-packages (from stable-pretraining>=0.1.7->stable-worldmodel[env,train]) (0.22.0)
+Collecting datasets>=2.20.0 (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading datasets-5.0.0-py3-none-any.whl (555 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 555.1/555.1 kB 361.4 MB/s  0:00:00
+Collecting minari>=0.5.3 (from minari[hdf5]>=0.5.3->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading minari-0.5.3-py3-none-any.whl (56 kB)
+Collecting scikit-learn>=1.7.0 (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading scikit_learn-1.9.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.1/9.1 MB 8.5 MB/s  0:00:01
+Collecting richuru (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading richuru-0.1.1-py3-none-any.whl (4.4 kB)
+Collecting opt-einsum (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+Collecting kornia (from stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading kornia-0.8.3-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 209.2 MB/s  0:00:00
+Collecting dill<0.4.2,>=0.3.0 (from datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+Collecting requests>=2.32.2 (from datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Collecting tqdm (from stable-worldmodel[env,train])
+  Downloading tqdm-4.69.0-py3-none-any.whl (676 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 676.7/676.7 kB 228.0 MB/s  0:00:00
+Collecting xxhash (from datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading xxhash-3.8.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (220 kB)
+Collecting multiprocess<0.70.20 (from datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading multiprocess-0.70.19-py312-none-any.whl (150 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading aiohttp-3.14.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 7.5 MB/s  0:00:00
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Requirement already satisfied: attrs>=17.3.0 in ./miniconda3/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train]) (25.3.0)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (242 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading multidict-6.7.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (256 kB)
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading propcache-0.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (61 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading yarl-1.24.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (109 kB)
+Collecting lightning-utilities<2.0,>=0.10.0 (from lightning>=2.4->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading lightning_utilities-0.15.3-py3-none-any.whl (31 kB)
+Collecting pytorch-lightning (from lightning>=2.4->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading pytorch_lightning-2.6.5-py3-none-any.whl (852 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 852.4/852.4 kB 194.0 MB/s  0:00:00
+Collecting h5py>=3.8.0 (from minari[hdf5]>=0.5.3->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading h5py-3.16.0-cp312-cp312-manylinux_2_28_x86_64.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 8.3 MB/s  0:00:00
+Requirement already satisfied: charset_normalizer<4,>=2 in ./miniconda3/lib/python3.12/site-packages (from requests>=2.32.2->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train]) (2.0.4)
+Collecting scipy>=1.10.0 (from scikit-learn>=1.7.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading scipy-1.18.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 7.8 MB/s  0:00:04
+Collecting joblib>=1.4.0 (from scikit-learn>=1.7.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=1.7.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading narwhals-2.24.0-py3-none-any.whl (461 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=1.7.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./miniconda3/lib/python3.12/site-packages (from sympy>=1.13.3->torch->stable-worldmodel[env,train]) (1.3.0)
+Collecting regex>=2025.10.22 (from transformers>=4.50.0->stable-worldmodel[env,train])
+  Downloading regex-2026.7.19-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.8/801.8 kB 196.9 MB/s  0:00:00
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers>=4.50.0->stable-worldmodel[env,train])
+  Downloading tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 7.4 MB/s  0:00:00
+Collecting safetensors>=0.8.0 (from transformers>=4.50.0->stable-worldmodel[env,train])
+  Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Collecting shellingham>=1.3.0 (from typer->stable-worldmodel[env,train])
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting annotated-doc>=0.0.2 (from typer->stable-worldmodel[env,train])
+  Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Collecting markdown-it-py>=2.2.0 (from rich->stable-worldmodel[env,train])
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./miniconda3/lib/python3.12/site-packages (from rich->stable-worldmodel[env,train]) (2.19.2)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->stable-worldmodel[env,train])
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+WARNING: typer 0.27.0 does not provide the extra 'all'
+Requirement already satisfied: sniffio>=1.1 in ./miniconda3/lib/python3.12/site-packages (from anyio->httpx<1,>=0.23.0->huggingface_hub) (1.3.1)
+Collecting msgpack (from flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading msgpack-1.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (419 kB)
+Collecting optax (from flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading optax-0.2.8-py3-none-any.whl (402 kB)
+Collecting orbax-checkpoint (from flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading orbax_checkpoint-0.12.1-py3-none-any.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 38.7 MB/s  0:00:00
+Collecting tensorstore (from flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading tensorstore-0.1.84-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (21.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.0/21.0 MB 7.6 MB/s  0:00:02
+Collecting treescope>=0.1.7 (from flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading treescope-0.1.10-py3-none-any.whl (182 kB)
+Collecting jaxlib<=0.11.0,>=0.11.0 (from jax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading jaxlib-0.11.0-cp312-cp312-manylinux_2_27_x86_64.whl (87.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.3/87.3 MB 7.8 MB/s  0:00:11
+Collecting ml_dtypes>=0.5.0 (from jax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading ml_dtypes-0.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (5.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.0/5.0 MB 7.7 MB/s  0:00:00
+Collecting mujoco>=2.2.0 (from gymnasium-robotics->stable-worldmodel[env,train])
+  Downloading mujoco-3.10.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (20.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.9/20.9 MB 7.9 MB/s  0:00:02
+Collecting PettingZoo>=1.23.0 (from gymnasium-robotics->stable-worldmodel[env,train])
+  Downloading pettingzoo-1.26.1-py3-none-any.whl (805 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 805.5/805.5 kB 56.7 MB/s  0:00:00
+Requirement already satisfied: MarkupSafe>=2.0 in ./miniconda3/lib/python3.12/site-packages (from jinja2->torch->stable-worldmodel[env,train]) (3.0.2)
+Requirement already satisfied: absl-py in ./miniconda3/lib/python3.12/site-packages (from mujoco>=2.2.0->gymnasium-robotics->stable-worldmodel[env,train]) (2.3.1)
+Collecting etils[epath] (from mujoco>=2.2.0->gymnasium-robotics->stable-worldmodel[env,train])
+  Downloading etils-1.14.0-py3-none-any.whl (172 kB)
+Collecting glfw (from mujoco>=2.2.0->gymnasium-robotics->stable-worldmodel[env,train])
+  Downloading glfw-2.10.2-py2.py3-none-manylinux_2_28_x86_64.whl (248 kB)
+Collecting pyopengl (from mujoco>=2.2.0->gymnasium-robotics->stable-worldmodel[env,train])
+  Downloading pyopengl-3.1.10-py3-none-any.whl (3.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 12.0 MB/s  0:00:00
+Collecting zipp (from etils[epath]->mujoco>=2.2.0->gymnasium-robotics->stable-worldmodel[env,train])
+  Downloading zipp-4.1.0-py3-none-any.whl (10 kB)
+Collecting box2d-py==2.3.5 (from gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading box2d-py-2.3.5.tar.gz (374 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pygame-ce>=2.1.3 (from gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading pygame_ce-2.5.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (12.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.8/12.8 MB 8.4 MB/s  0:00:01
+Collecting swig==4.* (from gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading swig-4.4.1-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 4.0 MB/s  0:00:00
+Collecting array-api-compat>=1.11.0 (from gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading array_api_compat-1.15.0-py3-none-any.whl (79 kB)
+Collecting opencv-python>=3.0 (from gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading opencv_python-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl (73.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.8/73.8 MB 8.0 MB/s  0:00:09
+Collecting moviepy>=1.0.0 (from gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading moviepy-2.2.1-py3-none-any.whl (129 kB)
+Requirement already satisfied: contourpy>=1.0.1 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->craftax>=1.5.0->stable-worldmodel[env,train]) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->craftax>=1.5.0->stable-worldmodel[env,train]) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->craftax>=1.5.0->stable-worldmodel[env,train]) (4.59.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->craftax>=1.5.0->stable-worldmodel[env,train]) (1.4.8)
+Requirement already satisfied: pyparsing>=2.3.1 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->craftax>=1.5.0->stable-worldmodel[env,train]) (3.2.3)
+Requirement already satisfied: decorator<6.0,>=4.0.2 in ./miniconda3/lib/python3.12/site-packages (from moviepy>=1.0.0->gymnasium[all]; extra == "env"->stable-worldmodel[env,train]) (5.2.1)
+Collecting imageio_ffmpeg>=0.2.0 (from moviepy>=1.0.0->gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading imageio_ffmpeg-0.6.0-py3-none-manylinux2014_x86_64.whl (29.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 29.5/29.5 MB 8.8 MB/s  0:00:03
+Collecting proglog<=1.0.0 (from moviepy>=1.0.0->gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading proglog-0.1.12-py3-none-any.whl (6.3 kB)
+Collecting python-dotenv>=0.10 (from moviepy>=1.0.0->gymnasium[all]; extra == "env"->stable-worldmodel[env,train])
+  Downloading python_dotenv-1.2.2-py3-none-any.whl (22 kB)
+Collecting antlr4-python3-runtime==4.9.* (from hydra-core->stable-worldmodel[env,train])
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting hydra-core (from stable-worldmodel[env,train])
+  Downloading hydra_core-1.4.0.dev6-py3-none-any.whl (163 kB)
+Collecting kornia-rs>=0.1.9 (from kornia->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading kornia_rs-0.1.14-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 8.0 MB/s  0:00:00
+Collecting dm_control>=1.0.20 (from ogbench->stable-worldmodel[env,train])
+  Downloading dm_control-1.0.43-py3-none-any.whl (56.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.4/56.4 MB 8.4 MB/s  0:00:06
+Collecting dm-env (from dm_control>=1.0.20->ogbench->stable-worldmodel[env,train])
+  Downloading dm_env-1.6-py3-none-any.whl (26 kB)
+Collecting dm-tree!=0.1.2 (from dm_control>=1.0.20->ogbench->stable-worldmodel[env,train])
+  Downloading dm_tree-0.1.10-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (186 kB)
+Collecting labmaze (from dm_control>=1.0.20->ogbench->stable-worldmodel[env,train])
+  Downloading labmaze-1.0.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 10.6 MB/s  0:00:00
+Collecting lxml (from dm_control>=1.0.20->ogbench->stable-worldmodel[env,train])
+  Downloading lxml-6.1.1-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 11.6 MB/s  0:00:00
+Requirement already satisfied: protobuf>=3.19.4 in ./miniconda3/lib/python3.12/site-packages (from dm_control>=1.0.20->ogbench->stable-worldmodel[env,train]) (6.31.1)
+Collecting wrapt>=1.11.2 (from dm-tree!=0.1.2->dm_control>=1.0.20->ogbench->stable-worldmodel[env,train])
+  Downloading wrapt-2.2.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (169 kB)
+Requirement already satisfied: prometheus-client>=0.20.0 in ./miniconda3/lib/python3.12/site-packages (from orbax-checkpoint->flax->craftax>=1.5.0->stable-worldmodel[env,train]) (0.22.1)
+Collecting aiofiles (from orbax-checkpoint->flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading aiofiles-25.1.0-py3-none-any.whl (14 kB)
+Collecting humanize (from orbax-checkpoint->flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading humanize-4.16.0-py3-none-any.whl (137 kB)
+Collecting simplejson>=3.16.0 (from orbax-checkpoint->flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading simplejson-4.1.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (190 kB)
+Requirement already satisfied: psutil in ./miniconda3/lib/python3.12/site-packages (from orbax-checkpoint->flax->craftax>=1.5.0->stable-worldmodel[env,train]) (7.0.0)
+Collecting uvloop (from orbax-checkpoint->flax->craftax>=1.5.0->stable-worldmodel[env,train])
+  Downloading uvloop-0.22.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (4.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 10.1 MB/s  0:00:00
+Collecting wcwidth>=0.3.5 (from prettytable->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading wcwidth-0.8.2-py3-none-any.whl (323 kB)
+Collecting cffi>=1.17.1 (from pymunk->stable-worldmodel[env,train])
+  Downloading cffi-2.1.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+Requirement already satisfied: pycparser in ./miniconda3/lib/python3.12/site-packages (from cffi>=1.17.1->pymunk->stable-worldmodel[env,train]) (2.21)
+Collecting cattrs>=22.2 (from requests-cache->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading cattrs-26.1.0-py3-none-any.whl (73 kB)
+Requirement already satisfied: platformdirs>=2.5 in ./miniconda3/lib/python3.12/site-packages (from requests-cache->stable-pretraining>=0.1.7->stable-worldmodel[env,train]) (3.10.0)
+Collecting url-normalize>=2.0 (from requests-cache->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading url_normalize-3.0.0-py3-none-any.whl (16 kB)
+Collecting attrs>=17.3.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[env,train])
+  Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Collecting sentry-sdk>=2.0.0 (from wandb->stable-worldmodel[env,train])
+  Downloading sentry_sdk-2.66.1-py3-none-any.whl (505 kB)
+Building wheels for collected packages: box2d-py, antlr4-python3-runtime
+  Building wheel for box2d-py (pyproject.toml): started
+  Building wheel for box2d-py (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Building wheel for box2d-py (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [29 lines of output]
+      /tmp/pip-build-env-j_kxl6fi/overlay/lib/python3.12/site-packages/setuptools/_distutils/dist.py:288: UserWarning: Unknown distribution option: 'test_suite'
+        warnings.warn(msg)
+      /tmp/pip-build-env-j_kxl6fi/overlay/lib/python3.12/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: OSI Approved :: zlib/libpng License
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        self._finalize_license_expression()
+      Using setuptools (version 83.0.0).
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-312/Box2D
+      copying library/Box2D/__init__.py -> build/lib.linux-x86_64-cpython-312/Box2D
+      copying library/Box2D/Box2D.py -> build/lib.linux-x86_64-cpython-312/Box2D
+      creating build/lib.linux-x86_64-cpython-312/Box2D/b2
+      copying library/Box2D/b2/__init__.py -> build/lib.linux-x86_64-cpython-312/Box2D/b2
+      running build_ext
+      building 'Box2D._Box2D' extension
+      swigging Box2D/Box2D.i to Box2D/Box2D_wrap.cpp
+      swig -python -c++ -IBox2D -small -O -includeall -ignoremissing -w201 -globals b2Globals -outdir library/Box2D -keyword -w511 -D_SWIG_KWARGS -o Box2D/Box2D_wrap.cpp Box2D/Box2D.i
+      error: command 'swig' failed: No such file or directory
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for box2d-py
+  Building wheel for antlr4-python3-runtime (pyproject.toml): started
+  Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144589 sha256=172dcaeeb91fe17b6d5c8726bc408e01f61b090a6af0d4d777c842ef1ee0807b
+  Stored in directory: /tmp/pip-ephem-wheel-cache-kn_f2qu6/wheels/99/68/fb/e62a541a4072fdbe337a511b3b0a20ff7d544e38607891a59c
+Successfully built antlr4-python3-runtime
+Failed to build box2d-py
+error: failed-wheel-build-for-install
+
+× Failed to build installable wheels for some pyproject.toml based projects
+╰─> box2d-py
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Requirement already satisfied: pip in ./autodl-tmp/lewm_pusht_tier1_5090_20260724/venv/lib/python3.12/site-packages (26.1.2)
+Looking in indexes: http://mirrors.aliyun.com/pypi/simple
+Collecting huggingface_hub
+  Downloading huggingface_hub-1.24.0-py3-none-any.whl (771 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 771.9/771.9 kB 35.8 MB/s  0:00:00
+Collecting stable-worldmodel[train]
+  Downloading stable_worldmodel-0.1.1-py3-none-any.whl (305 kB)
+Requirement already satisfied: torch in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[train]) (2.8.0+cu128)
+Requirement already satisfied: torchvision in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[train]) (0.23.0+cu128)
+Requirement already satisfied: numpy in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[train]) (2.3.2)
+Collecting loguru (from stable-worldmodel[train])
+  Downloading loguru-0.7.3-py3-none-any.whl (61 kB)
+Collecting tabulate (from stable-worldmodel[train])
+  Downloading tabulate-0.10.0-py3-none-any.whl (39 kB)
+Collecting gymnasium (from stable-worldmodel[train])
+  Downloading gymnasium-1.3.0-py3-none-any.whl (953 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 953.9/953.9 kB 72.7 MB/s  0:00:00
+Collecting einops (from stable-worldmodel[train])
+  Downloading einops-0.8.2-py3-none-any.whl (65 kB)
+Collecting lancedb>=0.30.0 (from stable-worldmodel[train])
+  Downloading lancedb-0.34.0-cp39-abi3-manylinux_2_28_x86_64.whl (58.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.7/58.7 MB 9.5 MB/s  0:00:06
+Collecting pylance>=4.0.0 (from stable-worldmodel[train])
+  Downloading pylance-8.0.0-cp39-abi3-manylinux_2_28_x86_64.whl (74.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.7/74.7 MB 8.6 MB/s  0:00:08
+Collecting pyarrow (from stable-worldmodel[train])
+  Downloading pyarrow-25.0.0-cp312-cp312-manylinux_2_28_x86_64.whl (50.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.1/50.1 MB 8.2 MB/s  0:00:06
+Requirement already satisfied: pillow in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[train]) (11.3.0)
+Requirement already satisfied: tqdm in ./miniconda3/lib/python3.12/site-packages (from stable-worldmodel[train]) (4.66.2)
+Collecting typer (from stable-worldmodel[train])
+  Downloading typer-0.27.0-py3-none-any.whl (122 kB)
+Collecting rich (from stable-worldmodel[train])
+  Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Collecting transformers>=4.50.0 (from stable-worldmodel[train])
+  Downloading transformers-5.14.1-py3-none-any.whl (11.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 8.9 MB/s  0:00:01
+Collecting stable-pretraining>=0.1.7 (from stable-worldmodel[train])
+  Downloading stable_pretraining-0.1.8-py3-none-any.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 188.6 MB/s  0:00:00
+Collecting hydra-core (from stable-worldmodel[train])
+  Downloading hydra_core-1.3.4-py3-none-any.whl (155 kB)
+Collecting hydra-submitit-launcher (from stable-worldmodel[train])
+  Downloading hydra_submitit_launcher-1.2.0-py3-none-any.whl (5.2 kB)
+Collecting wandb (from stable-worldmodel[train])
+  Downloading wandb-0.28.1-py3-none-manylinux_2_28_x86_64.whl (26.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 26.5/26.5 MB 8.4 MB/s  0:00:03
+Collecting click<9.0.0,>=8.4.2 (from huggingface_hub)
+  Downloading click-8.4.2-py3-none-any.whl (119 kB)
+Requirement already satisfied: filelock>=3.10.0 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (3.18.0)
+Requirement already satisfied: fsspec>=2023.5.0 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (2025.7.0)
+Collecting hf-xet<2.0.0,>=1.5.1 (from huggingface_hub)
+  Downloading hf_xet-1.5.2-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 6.7 MB/s  0:00:00
+Requirement already satisfied: httpx<1,>=0.23.0 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (0.28.1)
+Requirement already satisfied: packaging>=20.9 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (23.2)
+Requirement already satisfied: pyyaml>=5.1 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (6.0.2)
+Requirement already satisfied: typing-extensions>=4.1.0 in ./miniconda3/lib/python3.12/site-packages (from huggingface_hub) (4.14.1)
+Requirement already satisfied: anyio in ./miniconda3/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface_hub) (4.10.0)
+Requirement already satisfied: certifi in ./miniconda3/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface_hub) (2024.2.2)
+Requirement already satisfied: httpcore==1.* in ./miniconda3/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface_hub) (1.0.9)
+Requirement already satisfied: idna in ./miniconda3/lib/python3.12/site-packages (from httpx<1,>=0.23.0->huggingface_hub) (3.7)
+Requirement already satisfied: h11>=0.16 in ./miniconda3/lib/python3.12/site-packages (from httpcore==1.*->httpx<1,>=0.23.0->huggingface_hub) (0.16.0)
+Collecting deprecation>=2.1.0 (from lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading deprecation-2.1.0-py2.py3-none-any.whl (11 kB)
+Collecting pydantic>=1.10 (from lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading pydantic-2.13.4-py3-none-any.whl (472 kB)
+Collecting lance-namespace>=0.3.2 (from lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading lance_namespace-0.9.0-py3-none-any.whl (13 kB)
+Collecting lance-namespace-urllib3-client==0.9.0 (from lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading lance_namespace_urllib3_client-0.9.0-py3-none-any.whl (405 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in ./miniconda3/lib/python3.12/site-packages (from lance-namespace-urllib3-client==0.9.0->lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[train]) (2.9.0.post0)
+Requirement already satisfied: urllib3<3.0.0,>=1.25.3 in ./miniconda3/lib/python3.12/site-packages (from lance-namespace-urllib3-client==0.9.0->lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[train]) (2.1.0)
+Collecting annotated-types>=0.6.0 (from pydantic>=1.10->lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+Collecting pydantic-core==2.46.4 (from pydantic>=1.10->lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading pydantic_core-2.46.4-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 8.9 MB/s  0:00:00
+Collecting typing-inspection>=0.4.2 (from pydantic>=1.10->lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Collecting lance-namespace>=0.3.2 (from lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading lance_namespace-0.8.6-py3-none-any.whl (13 kB)
+Collecting lance-namespace-urllib3-client==0.8.6 (from lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[train])
+  Downloading lance_namespace_urllib3_client-0.8.6-py3-none-any.whl (369 kB)
+Requirement already satisfied: six>=1.5 in ./miniconda3/lib/python3.12/site-packages (from python-dateutil>=2.8.2->lance-namespace-urllib3-client==0.9.0->lance-namespace>=0.3.2->lancedb>=0.30.0->stable-worldmodel[train]) (1.17.0)
+Collecting torchmetrics (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading torchmetrics-1.9.0-py3-none-any.whl (983 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 983.4/983.4 kB 105.7 MB/s  0:00:00
+Collecting lightning>=2.4 (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading lightning-2.6.5-py3-none-any.whl (848 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 848.6/848.6 kB 142.4 MB/s  0:00:00
+Collecting omegaconf (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading omegaconf-2.3.1-py3-none-any.whl (79 kB)
+Collecting pandas (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading pandas-3.0.5-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.0/11.0 MB 7.4 MB/s  0:00:01
+Collecting requests-cache (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading requests_cache-1.3.3-py3-none-any.whl (70 kB)
+Collecting prettytable (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading prettytable-3.18.0-py3-none-any.whl (37 kB)
+Collecting submitit (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading submitit-1.5.4-py3-none-any.whl (76 kB)
+Collecting timm (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading timm-1.0.28-py3-none-any.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 11.2 MB/s  0:00:00
+Requirement already satisfied: zstandard in ./miniconda3/lib/python3.12/site-packages (from stable-pretraining>=0.1.7->stable-worldmodel[train]) (0.22.0)
+Requirement already satisfied: matplotlib in ./miniconda3/lib/python3.12/site-packages (from stable-pretraining>=0.1.7->stable-worldmodel[train]) (3.10.5)
+Collecting datasets>=2.20.0 (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading datasets-5.0.0-py3-none-any.whl (555 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 555.1/555.1 kB 60.5 MB/s  0:00:00
+Collecting minari>=0.5.3 (from minari[hdf5]>=0.5.3->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading minari-0.5.3-py3-none-any.whl (56 kB)
+Collecting scikit-learn>=1.7.0 (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading scikit_learn-1.9.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.1/9.1 MB 7.1 MB/s  0:00:01
+Collecting richuru (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading richuru-0.1.1-py3-none-any.whl (4.4 kB)
+Collecting opt-einsum (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+Collecting opencv-python-headless (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading opencv_python_headless-5.0.0.93-cp37-abi3-manylinux_2_28_x86_64.whl (61.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 MB 6.9 MB/s  0:00:08
+Collecting kornia (from stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading kornia-0.8.3-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 192.7 MB/s  0:00:00
+Collecting dill<0.4.2,>=0.3.0 (from datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading dill-0.4.1-py3-none-any.whl (120 kB)
+Collecting requests>=2.32.2 (from datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Collecting tqdm (from stable-worldmodel[train])
+  Downloading tqdm-4.69.0-py3-none-any.whl (676 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 676.7/676.7 kB 207.3 MB/s  0:00:00
+Collecting xxhash (from datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading xxhash-3.8.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (220 kB)
+Collecting multiprocess<0.70.20 (from datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading multiprocess-0.70.19-py312-none-any.whl (150 kB)
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1 (from fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading aiohttp-3.14.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 7.4 MB/s  0:00:00
+Collecting aiohappyeyeballs>=2.5.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+Collecting aiosignal>=1.4.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Requirement already satisfied: attrs>=17.3.0 in ./miniconda3/lib/python3.12/site-packages (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train]) (25.3.0)
+Collecting frozenlist>=1.1.1 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (242 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading multidict-6.7.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (256 kB)
+Collecting propcache>=0.2.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading propcache-0.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (61 kB)
+Collecting yarl<2.0,>=1.17.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading yarl-1.24.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (109 kB)
+Collecting lightning-utilities<2.0,>=0.10.0 (from lightning>=2.4->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading lightning_utilities-0.15.3-py3-none-any.whl (31 kB)
+Collecting pytorch-lightning (from lightning>=2.4->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading pytorch_lightning-2.6.5-py3-none-any.whl (852 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 852.4/852.4 kB 203.9 MB/s  0:00:00
+Requirement already satisfied: setuptools in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (69.5.1)
+Requirement already satisfied: sympy>=1.13.3 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (1.14.0)
+Requirement already satisfied: networkx in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (3.5)
+Requirement already satisfied: jinja2 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (3.1.6)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (12.8.93)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (12.8.90)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (12.8.90)
+Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (9.10.2.21)
+Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (12.8.4.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (11.3.3.83)
+Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (10.3.9.90)
+Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (11.7.3.90)
+Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (12.5.8.93)
+Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (0.7.1)
+Requirement already satisfied: nvidia-nccl-cu12==2.27.3 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (2.27.3)
+Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (12.8.90)
+Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (12.8.93)
+Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (1.13.1.3)
+Requirement already satisfied: triton==3.4.0 in ./miniconda3/lib/python3.12/site-packages (from torch->stable-worldmodel[train]) (3.4.0)
+Collecting cloudpickle>=1.2.0 (from gymnasium->stable-worldmodel[train])
+  Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Collecting farama-notifications>=0.0.1 (from gymnasium->stable-worldmodel[train])
+  Downloading farama_notifications-0.0.6-py3-none-any.whl (2.9 kB)
+Collecting h5py>=3.8.0 (from minari[hdf5]>=0.5.3->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading h5py-3.16.0-cp312-cp312-manylinux_2_28_x86_64.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 8.2 MB/s  0:00:00
+Requirement already satisfied: charset_normalizer<4,>=2 in ./miniconda3/lib/python3.12/site-packages (from requests>=2.32.2->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train]) (2.0.4)
+Collecting scipy>=1.10.0 (from scikit-learn>=1.7.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading scipy-1.18.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 5.5 MB/s  0:00:06
+Collecting joblib>=1.4.0 (from scikit-learn>=1.7.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+Collecting narwhals>=2.0.1 (from scikit-learn>=1.7.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading narwhals-2.24.0-py3-none-any.whl (461 kB)
+Collecting threadpoolctl>=3.5.0 (from scikit-learn>=1.7.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./miniconda3/lib/python3.12/site-packages (from sympy>=1.13.3->torch->stable-worldmodel[train]) (1.3.0)
+Collecting regex>=2025.10.22 (from transformers>=4.50.0->stable-worldmodel[train])
+  Downloading regex-2026.7.19-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.8/801.8 kB 183.2 MB/s  0:00:00
+Collecting tokenizers<=0.23.0,>=0.22.0 (from transformers>=4.50.0->stable-worldmodel[train])
+  Downloading tokenizers-0.22.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 4.9 MB/s  0:00:00
+Collecting safetensors>=0.8.0 (from transformers>=4.50.0->stable-worldmodel[train])
+  Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+Collecting shellingham>=1.3.0 (from typer->stable-worldmodel[train])
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Collecting annotated-doc>=0.0.2 (from typer->stable-worldmodel[train])
+  Downloading annotated_doc-0.0.4-py3-none-any.whl (5.3 kB)
+Collecting markdown-it-py>=2.2.0 (from rich->stable-worldmodel[train])
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in ./miniconda3/lib/python3.12/site-packages (from rich->stable-worldmodel[train]) (2.19.2)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->stable-worldmodel[train])
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+WARNING: typer 0.27.0 does not provide the extra 'all'
+Requirement already satisfied: sniffio>=1.1 in ./miniconda3/lib/python3.12/site-packages (from anyio->httpx<1,>=0.23.0->huggingface_hub) (1.3.1)
+Collecting antlr4-python3-runtime==4.9.* (from hydra-core->stable-worldmodel[train])
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting hydra-core (from stable-worldmodel[train])
+  Downloading hydra_core-1.4.0.dev6-py3-none-any.whl (163 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in ./miniconda3/lib/python3.12/site-packages (from jinja2->torch->stable-worldmodel[train]) (3.0.2)
+Collecting kornia-rs>=0.1.9 (from kornia->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading kornia_rs-0.1.14-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.7/3.7 MB 5.5 MB/s  0:00:00
+Requirement already satisfied: contourpy>=1.0.1 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->stable-pretraining>=0.1.7->stable-worldmodel[train]) (1.3.3)
+Requirement already satisfied: cycler>=0.10 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->stable-pretraining>=0.1.7->stable-worldmodel[train]) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->stable-pretraining>=0.1.7->stable-worldmodel[train]) (4.59.0)
+Requirement already satisfied: kiwisolver>=1.3.1 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->stable-pretraining>=0.1.7->stable-worldmodel[train]) (1.4.8)
+Requirement already satisfied: pyparsing>=2.3.1 in ./miniconda3/lib/python3.12/site-packages (from matplotlib->stable-pretraining>=0.1.7->stable-worldmodel[train]) (3.2.3)
+Collecting wcwidth>=0.3.5 (from prettytable->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading wcwidth-0.8.2-py3-none-any.whl (323 kB)
+Collecting cattrs>=22.2 (from requests-cache->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading cattrs-26.1.0-py3-none-any.whl (73 kB)
+Requirement already satisfied: platformdirs>=2.5 in ./miniconda3/lib/python3.12/site-packages (from requests-cache->stable-pretraining>=0.1.7->stable-worldmodel[train]) (3.10.0)
+Collecting url-normalize>=2.0 (from requests-cache->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading url_normalize-3.0.0-py3-none-any.whl (16 kB)
+Collecting attrs>=17.3.0 (from aiohttp!=4.0.0a0,!=4.0.0a1->fsspec[http]<=2026.4.0,>=2023.1.0->datasets>=2.20.0->stable-pretraining>=0.1.7->stable-worldmodel[train])
+  Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Requirement already satisfied: protobuf!=5.28.0,!=5.29.0,<8,>=5 in ./miniconda3/lib/python3.12/site-packages (from wandb->stable-worldmodel[train]) (6.31.1)
+Collecting sentry-sdk>=2.0.0 (from wandb->stable-worldmodel[train])
+  Downloading sentry_sdk-2.66.1-py3-none-any.whl (505 kB)
+Building wheels for collected packages: antlr4-python3-runtime
+  Building wheel for antlr4-python3-runtime (pyproject.toml): started
+  Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144589 sha256=a2a3ebac985bb00a26321e25c4f76e395b495f51d56db9b5aebff67de7b33e25
+  Stored in directory: /tmp/pip-ephem-wheel-cache-6hysuwky/wheels/99/68/fb/e62a541a4072fdbe337a511b3b0a20ff7d544e38607891a59c
+Successfully built antlr4-python3-runtime
+Installing collected packages: farama-notifications, antlr4-python3-runtime, xxhash, wcwidth, url-normalize, typing-inspection, tqdm, threadpoolctl, tabulate, shellingham, sentry-sdk, scipy, safetensors, requests, regex, pydantic-core, pyarrow, propcache, opt-einsum, opencv-python-headless, omegaconf, narwhals, multidict, mdurl, loguru, lightning-utilities, kornia-rs, joblib, hf-xet, h5py, frozenlist, einops, dill, deprecation, cloudpickle, click, attrs, annotated-types, annotated-doc, aiohappyeyeballs, yarl, submitit, scikit-learn, pydantic, prettytable, pandas, multiprocess, markdown-it-py, hydra-core, gymnasium, cattrs, aiosignal, wandb, rich, requests-cache, lance-namespace-urllib3-client, hydra-submitit-launcher, huggingface_hub, aiohttp, typer, torchmetrics, tokenizers, richuru, lance-namespace, kornia, transformers, timm, pytorch-lightning, pylance, lancedb, datasets, stable-worldmodel, minari, lightning, stable-pretraining
+  Attempting uninstall: wcwidth
+    Found existing installation: wcwidth 0.2.13
+    Not uninstalling wcwidth at /root/miniconda3/lib/python3.12/site-packages, outside environment /root/autodl-tmp/lewm_pusht_tier1_5090_20260724/venv
+    Can't uninstall 'wcwidth'. No files were found to uninstall.
+  Attempting uninstall: tqdm
+    Found existing installation: tqdm 4.66.2
+    Not uninstalling tqdm at /root/miniconda3/lib/python3.12/site-packages, outside environment /root/autodl-tmp/lewm_pusht_tier1_5090_20260724/venv
+    Can't uninstall 'tqdm'. No files were found to uninstall.
+  Attempting uninstall: requests
+    Found existing installation: requests 2.31.0
+    Not uninstalling requests at /root/miniconda3/lib/python3.12/site-packages, outside environment /root/autodl-tmp/lewm_pusht_tier1_5090_20260724/venv
+    Can't uninstall 'requests'. No files were found to uninstall.
+  Attempting uninstall: attrs
+    Found existing installation: attrs 25.3.0
+    Not uninstalling attrs at /root/miniconda3/lib/python3.12/site-packages, outside environment /root/autodl-tmp/lewm_pusht_tier1_5090_20260724/venv
+    Can't uninstall 'attrs'. No files were found to uninstall.
+
+Successfully installed aiohappyeyeballs-2.7.1 aiohttp-3.14.3 aiosignal-1.4.0 annotated-doc-0.0.4 annotated-types-0.8.0 antlr4-python3-runtime-4.9.3 attrs-26.1.0 cattrs-26.1.0 click-8.4.2 cloudpickle-3.1.2 datasets-5.0.0 deprecation-2.1.0 dill-0.4.1 einops-0.8.2 farama-notifications-0.0.6 frozenlist-1.8.0 gymnasium-1.3.0 h5py-3.16.0 hf-xet-1.5.2 huggingface_hub-1.24.0 hydra-core-1.3.4 hydra-submitit-launcher-1.2.0 joblib-1.5.3 kornia-0.8.3 kornia-rs-0.1.14 lance-namespace-0.8.6 lance-namespace-urllib3-client-0.8.6 lancedb-0.34.0 lightning-2.6.5 lightning-utilities-0.15.3 loguru-0.7.3 markdown-it-py-4.2.0 mdurl-0.1.2 minari-0.5.3 multidict-6.7.1 multiprocess-0.70.19 narwhals-2.24.0 omegaconf-2.3.1 opencv-python-headless-5.0.0.93 opt-einsum-3.4.0 pandas-3.0.5 prettytable-3.18.0 propcache-0.5.2 pyarrow-25.0.0 pydantic-2.13.4 pydantic-core-2.46.4 pylance-8.0.0 pytorch-lightning-2.6.5 regex-2026.7.19 requests-2.34.2 requests-cache-1.3.3 rich-15.0.0 richuru-0.1.1 safetensors-0.8.0 scikit-learn-1.9.0 scipy-1.18.0 sentry-sdk-2.66.1 shellingham-1.5.4 stable-pretraining-0.1.8 stable-worldmodel-0.1.1 submitit-1.5.4 tabulate-0.10.0 threadpoolctl-3.6.0 timm-1.0.28 tokenizers-0.22.2 torchmetrics-1.9.0 tqdm-4.69.0 transformers-5.14.1 typer-0.27.0 typing-inspection-0.4.2 url-normalize-3.0.0 wandb-0.28.1 wcwidth-0.8.2 xxhash-3.8.1 yarl-1.24.5
+[1m[31mError: Local entry not found. [Errno 101] Network is unreachable[0m
+[90mHint: set HF_DEBUG=1 as environment variable for full traceback.[0m
